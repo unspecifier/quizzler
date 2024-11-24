@@ -2,16 +2,25 @@
   import { onMount } from "svelte";
   import Question from "./lib/Question.svelte";
 
+  const IS_DEBUG = false;
+  const DO_SHUFFLE = true;
+
   let quiz_template: HTMLDivElement;
 
   let num_questions: number;
-  $: num_questions = quiz_template?.childElementCount;
-
   let questions: Element[];
-  let current_question: number = 1;
-  let results: boolean[] = [];
+
+  let current_question: number = 0;
+  let results: (boolean | undefined)[] = [];
   let quiz_start: Date;
+  let elapsed_timer: number;
   let time_elapsed = "00:00:00";
+  let is_finished = false;
+
+  $: {
+    is_finished = results.every((val) => typeof val === "boolean");
+    if (is_finished) clearInterval(elapsed_timer);
+  }
 
   function shuffle(array: unknown[]) {
     let currentIndex = array.length;
@@ -28,6 +37,10 @@
         array[currentIndex],
       ];
     }
+  }
+
+  function next_question() {
+    if (current_question <= questions.length) current_question++;
   }
 
   function getElapsedTime(date: Date): string {
@@ -59,19 +72,25 @@
 
   onMount(() => {
     if (!quiz_template) throw new Error("no template");
-    questions = Array.from(quiz_template.children);
-    results = new Array(num_questions);
+    questions = Array.from(quiz_template.children).slice(0, num_questions);
+    num_questions = questions.length;
+    results = new Array(num_questions).fill(undefined);
+    if (IS_DEBUG) {
+      results = [true, true, true, true, false];
+      current_question = 6;
+    }
     quiz_start = new Date();
-    setInterval(() => {
+    elapsed_timer = setInterval(() => {
       time_elapsed = getElapsedTime(quiz_start);
     }, 1000);
-    // shuffle(questions);
+    if (DO_SHUFFLE) shuffle(questions);
   });
 
   function handle_question_submit(is_correct: boolean) {
     results[current_question] = is_correct;
 
     if (is_correct) {
+      // setTimeout(next_question, 1000);
       return;
     }
   }
@@ -79,10 +98,11 @@
 
 <article>
   <h1>NHA Baseline Test</h1>
+
   <nav>
     <button
       type="button"
-      disabled={current_question === 1}
+      disabled={current_question === 0}
       on:click={() => current_question--}
     >
       Previous
@@ -95,25 +115,53 @@
 
     <button
       type="button"
-      disabled={current_question === num_questions}
-      on:click={() => current_question++}
+      disabled={current_question === num_questions ||
+        typeof results[current_question] !== "boolean"}
+      on:click={next_question}
     >
       Next
     </button>
   </nav>
-  <fieldset disabled={typeof results[current_question] === "boolean"}>
-    <legend>Question: {current_question} of {num_questions}</legend>
-    {#each questions as question, i}
-      <div class:hidden={current_question !== i + 1}>
-        <Question
-          onSubmit={handle_question_submit}
-          answered={typeof results[current_question] === "boolean"}
-        >
-          {@html question.outerHTML}
-        </Question>
-      </div>
-    {/each}
-  </fieldset>
+  {#if current_question < num_questions}
+    <fieldset disabled={typeof results[current_question] === "boolean"}>
+      <legend>Question: {current_question + 1} of {num_questions}</legend>
+      {#each questions as question, i}
+        <div class:hidden={current_question !== i}>
+          <Question
+            onSubmit={handle_question_submit}
+            answered={typeof results[current_question] === "boolean"}
+          >
+            {@html question.outerHTML}
+          </Question>
+        </div>
+      {/each}
+    </fieldset>
+  {:else}
+    <h2 style="font-size: 1.5rem; font-weight: medium; margin: 0">
+      Final Score
+    </h2>
+
+    <div
+      style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 1rem"
+      class="score"
+      class:failed={(results.filter(Boolean).length / num_questions) * 100 < 70}
+    >
+      {((results.filter(Boolean).length / num_questions) * 100).toFixed(2)}%
+    </div>
+
+    <table style="margin: auto">
+      <tbody>
+        <tr>
+          <th>Correct</th>
+          <td>{results.filter(Boolean).length} out of {num_questions}</td>
+        </tr>
+        <tr>
+          <th>Incorrect</th>
+          <td>{results.filter((r) => !r).length} out of {num_questions}</td>
+        </tr>
+      </tbody>
+    </table>
+  {/if}
 </article>
 
 <div id="baseline-test" bind:this={quiz_template} style="display: none">
@@ -4456,6 +4504,9 @@
 </div>
 
 <style>
+  button {
+    min-width: 100px;
+  }
   h1 {
     font-size: 2rem;
     margin-top: 0;
@@ -4482,5 +4533,13 @@
   }
   .hidden {
     display: none;
+  }
+
+  .score {
+    color: #22c55e;
+
+    &.failed {
+      color: #ef4444;
+    }
   }
 </style>
