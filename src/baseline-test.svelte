@@ -10,6 +10,8 @@
   let questions: Element[];
   let current_question: number = 1;
   let results: boolean[] = [];
+  let quiz_start: Date;
+  let time_elapsed = "00:00:00";
 
   function shuffle(array: unknown[]) {
     let currentIndex = array.length;
@@ -28,10 +30,41 @@
     }
   }
 
+  function getElapsedTime(date: Date): string {
+    // Get the current date and time
+    const now = new Date();
+
+    // Calculate the difference in milliseconds
+    const diff = now.getTime() - date.getTime();
+
+    // Ensure the difference is not negative
+    if (diff < 0) {
+      throw new Error("The provided date is in the future.");
+    }
+
+    // Calculate hours, minutes, and seconds
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    // Format as HH:mm:ss
+    const formattedTime = [
+      hours.toString().padStart(2, "0"),
+      minutes.toString().padStart(2, "0"),
+      seconds.toString().padStart(2, "0"),
+    ].join(":");
+
+    return formattedTime;
+  }
+
   onMount(() => {
     if (!quiz_template) throw new Error("no template");
     questions = Array.from(quiz_template.children);
     results = new Array(num_questions);
+    quiz_start = new Date();
+    setInterval(() => {
+      time_elapsed = getElapsedTime(quiz_start);
+    }, 1000);
     // shuffle(questions);
   });
 
@@ -54,6 +87,12 @@
     >
       Previous
     </button>
+
+    <div class="timer">
+      Timer
+      <time>{time_elapsed}</time>
+    </div>
+
     <button
       type="button"
       disabled={current_question === num_questions}
@@ -4428,7 +4467,18 @@
   nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 1rem;
+  }
+  .timer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1;
+    time {
+      display: block;
+      font-size: 1.5rem;
+    }
   }
   .hidden {
     display: none;
