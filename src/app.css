@@ -30,9 +30,25 @@ body {
   min-height: 100vh;
 }
 
+div:has(> label) {
+  margin-bottom: 0.5rem;
+}
+
+p + div:has(> label):first-of-type {
+  border-top: thin solid rgb(229, 231, 235, 0.3);
+  padding-top: 1rem;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+p {
+  /* font-size: 1.05rem; */
+  letter-spacing: 0.01ch;
+  line-height: 1.7;
+  /* font-weight: 500; */
 }
 
 .card {
@@ -62,6 +78,17 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  :is(th, td) {
+    text-align: left;
+    padding: 0.25rem 0.5rem;
+    vertical-align: top;
+    border: thin solid rgb(229, 231, 235, 0.3);
+  }
 }
 
 @media (prefers-color-scheme: light) {

@@ -1,6 +1,4 @@
 <script lang="ts">
-  import type { FormEventHandler } from "svelte/elements";
-
   export let onSubmit: (is_correct: boolean) => void;
   export let answered = false;
 
@@ -30,21 +28,37 @@
     display: flex;
     justify-content: end;
   }
+
+  :global(small) {
+    display: none;
+  }
+
   form[data-answered="true"] {
-    :global(input[value="correct"]) {
-      appearance: none;
-      margin-left: 2px;
-      &::before {
+    :global(input) {
+      &:is(&:checked, &[value="correct"]) {
+        appearance: none;
+        margin-left: 2px;
+        margin-right: 1px;
+      }
+      &[value="correct"]::before {
         content: "✔️";
+      }
+      &:checked:not([value="correct"])::before {
+        content: "❌";
       }
     }
 
-    :global(input:checked) {
-      appearance: none;
-      margin-left: 2px;
-      &:not([value="correct"])::before {
-        content: "❌";
-      }
+    :global(small) {
+      display: block;
+      padding-left: 1.75rem;
+    }
+
+    :global(label:has([value="correct"]) + small) {
+      color: #22c55e;
+    }
+
+    :global(label:not(:has([value="correct"])) + small) {
+      color: #ef4444;
     }
   }
 </style>

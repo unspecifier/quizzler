@@ -39,12 +39,8 @@
     results[current_question] = is_correct;
 
     if (is_correct) {
-      alert("Correct!");
-      current_question++;
       return;
     }
-
-    alert("Incorrect!");
   }
 </script>
 
@@ -171,7 +167,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Aging report
       </label>
     </div>
@@ -196,7 +192,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Part C
       </label>
     </div>
@@ -255,7 +251,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         -80
       </label>
     </div>
@@ -280,7 +276,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Life insurance policy
       </label>
     </div>
@@ -312,7 +308,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Any coinsurance, copayments, or deductibles should be collected from the
         patient.
       </label>
@@ -345,7 +341,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Review the operative report.
       </label>
     </div>
@@ -378,7 +374,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Fraud
       </label>
     </div>
@@ -410,7 +406,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         NCD
       </label>
     </div>
@@ -448,7 +444,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Copayment
       </label>
     </div>
@@ -476,7 +472,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Professional courtesy
       </label>
     </div>
@@ -515,7 +511,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Denied
       </label>
     </div>
@@ -576,7 +572,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Upcoding
       </label>
     </div>
@@ -598,7 +594,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Send an appeal letter to the third-party payer.
       </label>
     </div>
@@ -640,7 +636,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Recovery Audit Contractors (RACs)
       </label>
     </div>
@@ -661,7 +657,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The provider&#39;s individual NPI for the group practice is the same as the
         one from the private practice.
       </label>
@@ -737,7 +733,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         E10.22
       </label>
     </div>
@@ -774,7 +770,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The referring provider&#39;s national provider identifier (NPI)
       </label>
     </div>
@@ -825,7 +821,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         O24.410
       </label>
     </div>
@@ -846,7 +842,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Coinsurance
       </label>
     </div>
@@ -897,7 +893,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The patient&#39;s policy
       </label>
     </div>
@@ -912,7 +908,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         $30
       </label>
     </div>
@@ -989,7 +985,7 @@
     </table>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         -P1
       </label>
     </div>
@@ -1027,7 +1023,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Charged amount - Payment amount - Adjustment amount = Patient responsibility
       </label>
     </div>
@@ -1055,7 +1051,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Primary diagnosis
       </label>
     </div>
@@ -1093,7 +1089,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Review the scrubber report.
       </label>
     </div>
@@ -1124,7 +1120,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The reason Medicare may not pay
       </label>
     </div>
@@ -1157,7 +1153,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Date of birth
       </label>
     </div>
@@ -1188,7 +1184,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The number is needed to identify the provider.
       </label>
     </div>
@@ -1213,7 +1209,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Release of protected health information (PHI)
       </label>
     </div>
@@ -1255,7 +1251,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Nephrolithotomy
       </label>
     </div>
@@ -1276,7 +1272,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         An account that has a balance of $600 and is 135 days old
       </label>
     </div>
@@ -1313,8 +1309,8 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
-        28000 Necropsy (autopsy), gross examination only; without central nervous
+        <input type="radio" required name="answer" value="correct" />
+        88000 Necropsy (autopsy), gross examination only; without central nervous
         system
       </label>
     </div>
@@ -1349,7 +1345,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Advance Beneficiary Notice
       </label>
     </div>
@@ -1386,7 +1382,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Billing for services not provided to obtain higher reimbursement
       </label>
     </div>
@@ -1423,7 +1419,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Electronic remittance advice (ERA)
       </label>
     </div>
@@ -1442,7 +1438,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Assignment of benefits statement
       </label>
     </div>
@@ -1468,7 +1464,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Claims adjustment reason code
       </label>
     </div>
@@ -1505,7 +1501,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The filing limit varies from state to state.
       </label>
     </div>
@@ -1544,7 +1540,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Cough, chest congestion, and low-grade fever
       </label>
     </div>
@@ -1577,7 +1573,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Review of systems
       </label>
     </div>
@@ -1609,7 +1605,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Deductible
       </label>
     </div>
@@ -1640,7 +1636,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Removal
       </label>
     </div>
@@ -1678,7 +1674,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Part D
       </label>
     </div>
@@ -1705,7 +1701,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         They are responsible for any charges that are incurred.
       </label>
     </div>
@@ -1731,7 +1727,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Precertification
       </label>
     </div>
@@ -1775,7 +1771,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         99203 Office or other outpatient visit for the evaluation and management
         of a new patient, which requires a medically appropriate history and/or examination
         and low level of medical decision making.
@@ -1801,7 +1797,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         National correct Coding initiative (NCCI)
       </label>
     </div>
@@ -1844,7 +1840,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Endocrine system
       </label>
     </div>
@@ -1863,7 +1859,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Office of inspector General (OIG)
       </label>
     </div>
@@ -1929,7 +1925,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         58558
       </label>
     </div>
@@ -1955,7 +1951,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Remove all information other than what pertains to the patient.
       </label>
     </div>
@@ -1987,7 +1983,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Within 1 year from the date of service
       </label>
     </div>
@@ -2018,7 +2014,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Discussing patient information in a public space
       </label>
     </div>
@@ -2059,7 +2055,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Greater than 120 days
       </label>
     </div>
@@ -2087,7 +2083,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Bad debts
       </label>
     </div>
@@ -2115,7 +2111,7 @@
     <p>Which of the following is the purpose of coordination of benefits?</p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         To prevent multiple third-party payers from paying benefits covered by other
         policies
       </label>
@@ -2149,7 +2145,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Attach the remittance advice from the primary insurance along with the Medicaid
         claim.
       </label>
@@ -2195,7 +2191,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Third-party payer
       </label>
     </div>
@@ -2220,7 +2216,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Dermatology
       </label>
     </div>
@@ -2289,7 +2285,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         E11.319, Z79.4
       </label>
     </div>
@@ -2329,7 +2325,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         $85.00
       </label>
     </div>
@@ -2348,7 +2344,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Operative report
       </label>
     </div>
@@ -2374,7 +2370,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Notice of Privacy Practices (NPP)
       </label>
     </div>
@@ -2418,7 +2414,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Consolidated Omnibus Budget Reconciliation Act of 1985 (COBRA)
       </label>
     </div>
@@ -2438,7 +2434,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Include an attachment to the claim.
       </label>
     </div>
@@ -2477,7 +2473,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         A modifier
       </label>
     </div>
@@ -2509,7 +2505,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Allograft
       </label>
     </div>
@@ -2535,7 +2531,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Medicaid
       </label>
     </div>
@@ -2568,7 +2564,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Upcoding
       </label>
     </div>
@@ -2602,40 +2598,32 @@
     <div>
       <label>
         <input type="radio" required name="answer" />
-        <p>
-          99253 Inpatient or observation consultation for a new or established
-          patient, which requires a medically appropriate history and/or
-          examination and low level of medical decision making.
-        </p>
+        99253 Inpatient or observation consultation for a new or established patient,
+        which requires a medically appropriate history and/or examination and low
+        level of medical decision making.
       </label>
     </div>
     <div>
       <label>
         <input type="radio" required name="answer" />
-        <p>
-          99284 Emergency department visit for the evaluation and management of
-          a patient, which requires a medically appropriate history and/or
-          examination and moderate level of medical decision making.
-        </p>
+        99284 Emergency department visit for the evaluation and management of a patient,
+        which requires a medically appropriate history and/or examination and moderate
+        level of medical decision making.
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="radio" required name="answer" value="correct" />
+        99243 Office or other outpatient consultation for a new or established patient,
+        which requires a medically appropriate history and/or examination and low
+        level of medical decision making.
       </label>
     </div>
     <div>
       <label>
         <input type="radio" required name="answer" />
-        <p>
-          99243 Office or other outpatient consultation for a new or established
-          patient, which requires a medically appropriate history and/or
-          examination and low level of medical decision making.
-        </p>
-      </label>
-    </div>
-    <div>
-      <label>
-        <input type="radio" required name="answer" />
-        <p>
-          99291 Critical care, evaluation and management of the critically ill
-          or critically injured patient; first 30-74 minutes.
-        </p>
+        99291 Critical care, evaluation and management of the critically ill or critically
+        injured patient; first 30-74 minutes.
       </label>
     </div>
   </div>
@@ -2682,7 +2670,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         -53
       </label>
     </div>
@@ -2713,7 +2701,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Place of service codes
       </label>
     </div>
@@ -2753,7 +2741,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         NDC
       </label>
     </div>
@@ -2777,7 +2765,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         ICD-10-CM
       </label>
     </div>
@@ -2809,7 +2797,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Aging report
       </label>
     </div>
@@ -2849,7 +2837,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Title II: Administrative Simplification
       </label>
     </div>
@@ -2859,7 +2847,7 @@
     <p>HCPCS codes are used in which of the following health care settings?</p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Hospital inpatient services
       </label>
     </div>
@@ -2908,7 +2896,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         <em>Subpoena duces tecum</em>
       </label>
     </div>
@@ -2939,7 +2927,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Encryption
       </label>
     </div>
@@ -2972,7 +2960,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Obtain the patient&#39;s updated insurance and submit the claim to the new
         third-party payer.
       </label>
@@ -3007,7 +2995,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Fraud
       </label>
     </div>
@@ -3057,7 +3045,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The modifier is not valid with the procedure.
       </label>
     </div>
@@ -3097,7 +3085,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Checking claims against payer edits for missing, incomplete, or invalid information
       </label>
     </div>
@@ -3122,7 +3110,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         -GA Waiver of liability statement issued as required by payer policy
       </label>
     </div>
@@ -3141,7 +3129,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Claims adjustment reason codes
       </label>
     </div>
@@ -3173,7 +3161,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Check the local and national coverage determination policies for diagnosis
         requirements.
       </label>
@@ -3226,7 +3214,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Send the patient an itemized statement to collect the outstanding balance.
       </label>
     </div>
@@ -3254,7 +3242,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         99213 Office or other outpatient visit for the evaluation and management
         of an established patient
       </label>
@@ -3292,7 +3280,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         CPT® codes
       </label>
     </div>
@@ -3325,7 +3313,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         TRICARE
       </label>
     </div>
@@ -3347,7 +3335,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Indicates that an alteration to a service or procedure has occurred
       </label>
     </div>
@@ -3379,7 +3367,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Remark code
       </label>
     </div>
@@ -3416,7 +3404,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         A health care clearinghouse
       </label>
     </div>
@@ -3447,7 +3435,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         To ensure the patient understands how much they are responsible to pay
       </label>
     </div>
@@ -3473,7 +3461,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Z51.11 Chemotherapy
       </label>
     </div>
@@ -3501,7 +3489,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         $570
       </label>
     </div>
@@ -3528,7 +3516,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Crossover
       </label>
     </div>
@@ -3573,7 +3561,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         As an annual percentage rate
       </label>
     </div>
@@ -3613,7 +3601,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The patient&#39;s third-party payer should be contacted to obtain a new preauthorization.
       </label>
     </div>
@@ -3626,7 +3614,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         When a third-party payer transfers data to allow coordination of benefits
         for a claim
       </label>
@@ -3656,7 +3644,7 @@
     <p>Which of the following is the structure used for ICD-10-CM codes?</p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         3 to 7 alpha-numeric characters
       </label>
     </div>
@@ -3693,7 +3681,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Common access card
       </label>
     </div>
@@ -3736,7 +3724,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Status
       </label>
     </div>
@@ -3768,7 +3756,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Evaluation and Management
       </label>
     </div>
@@ -3784,7 +3772,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Medicare Part A
       </label>
     </div>
@@ -3851,7 +3839,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Add modifier -25 to the claim.
       </label>
     </div>
@@ -3895,7 +3883,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Query the provider.
       </label>
     </div>
@@ -3928,7 +3916,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Complex (Layered closure requiring additional corrections)
       </label>
     </div>
@@ -3941,24 +3929,44 @@
         <input type="radio" required name="answer" />
         Edits
       </label>
+      <small>
+        This choice could refer to changes or modifications made to coding
+        manuals, but it does not represent a convention used in coding manuals
+        themselves.
+      </small>
     </div>
     <div>
       <label>
         <input type="radio" required name="answer" />
         Icons
       </label>
+      <small>
+        This option suggests visual symbols used for guidance or representation
+        in coding manuals. While icons may be present, they are not a primary
+        convention of coding manuals.
+      </small>
     </div>
     <div>
       <label>
         <input type="radio" required name="answer" />
         Laws
       </label>
+      <small>
+        This choice implies legal regulations or guidelines. While coding
+        practices may be influenced by laws, they are not a convention used in
+        coding manuals.
+      </small>
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Fee schedules
       </label>
+      <small>
+        This refers to the established rates for medical services and
+        procedures. Fee schedules are often included in coding manuals, as they
+        provide necessary information for billing and reimbursement.
+      </small>
     </div>
   </div>
   <div>
@@ -3982,7 +3990,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         CMS
       </label>
     </div>
@@ -4019,7 +4027,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Redetermination
       </label>
     </div>
@@ -4046,7 +4054,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The ICD-10-CM code for tonsillitis was listed with the CPT® code for an
         appendectomy.
       </label>
@@ -4075,7 +4083,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Revenue
       </label>
     </div>
@@ -4091,7 +4099,7 @@
     <p>Which of the following is an example of an informational modifier?</p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         -24 Unrelated Evaluation and Management service by the same provider during
         a postoperative period
       </label>
@@ -4124,7 +4132,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Documentation from patient encounters
       </label>
     </div>
@@ -4169,7 +4177,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         The electronic transmission and code set standards require every provider
         to use the health care transactions, code sets, and identifiers.
       </label>
@@ -4196,7 +4204,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Privacy officer
       </label>
     </div>
@@ -4222,7 +4230,7 @@
     </p>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Incidental disclosure
       </label>
     </div>
@@ -4261,7 +4269,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Garnishment
       </label>
     </div>
@@ -4306,7 +4314,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Scrubbing claims, translating them to a standard format, then sending them
         to various third-party payers
       </label>
@@ -4325,7 +4333,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Clearinghouse
       </label>
     </div>
@@ -4363,7 +4371,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Audit
       </label>
     </div>
@@ -4401,7 +4409,7 @@
     </div>
     <div>
       <label>
-        <input type="radio" required name="answer" />
+        <input type="radio" required name="answer" value="correct" />
         Stark Law
       </label>
     </div>
