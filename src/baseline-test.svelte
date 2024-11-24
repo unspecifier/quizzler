@@ -2,12 +2,13 @@
   import { onMount } from "svelte";
   import Question from "./lib/Question.svelte";
 
+  export let num_questions: number;
+
   const IS_DEBUG = false;
   const DO_SHUFFLE = true;
 
   let quiz_template: HTMLDivElement;
 
-  let num_questions: number;
   let questions: Element[];
 
   let current_question: number = 0;
@@ -97,7 +98,7 @@
 </script>
 
 <article>
-  <h1>NHA Baseline Test</h1>
+  <h1 class="font-bold mb-6">NHA Baseline Test</h1>
 
   <nav>
     <button

@@ -37,8 +37,8 @@
     :global(input) {
       &:is(&:checked, &[value="correct"]) {
         appearance: none;
-        margin-left: 2px;
-        margin-right: 1px;
+        margin-left: -4px;
+        margin-right: 0;
       }
       &[value="correct"]::before {
         content: "✔️";

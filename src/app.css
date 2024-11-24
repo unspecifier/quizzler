@@ -17,6 +17,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+fieldset {
+  @apply border border-neutral-500 rounded p-4;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -57,6 +61,7 @@ p {
   /* font-size: 1.05rem; */
   letter-spacing: 0.01ch;
   line-height: 1.7;
+  margin-bottom: 1rem;
   /* font-weight: 500; */
 }
 
