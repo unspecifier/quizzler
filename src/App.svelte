@@ -1,5 +1,5 @@
 <script lang="ts">
-  import BaselineTest from "./baseline-test.svelte";
+  import Quiz from "./quiz.svelte";
 
   let num_questions: number = 125;
   let is_started = false;
@@ -24,7 +24,7 @@
       <button class="mt-4" on:click={() => (is_started = true)}>Start</button>
     </fieldset>
   {:else}
-    <BaselineTest {num_questions} />
+    <Quiz {num_questions} />
   {/if}
 </main>
 

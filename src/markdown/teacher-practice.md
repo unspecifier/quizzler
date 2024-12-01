@@ -3,13 +3,9 @@
 Which of the following actions should a billing and coding specialist take to assign a diagnosis code to the highest level of specificity?
 
 - Apply only the three-character code to a claim.
-
 - Check for exclusion or inclusion notes.
-
-✅ Apply characters four through seven to a claim.
-
+- ✅ Apply characters four through seven to a claim.
 > In order to code to the highest level of specificity, a code may require more than three characters. Therefore, the specialist should apply characters four through seven to a diagnosis code to assign it to the highest level of specificity.
-
 - Check for code first or code also notes.
 
 ## Question: 2 of 100
@@ -17,14 +13,10 @@ Which of the following actions should a billing and coding specialist take to as
 When reviewing an established patient's insurance card, a billing and coding specialist notices a minor change from the existing card on file.
 Which of the following actions should the specialist take?
 
-✅ Photocopy both sides of the new card.
-
+- ✅ Photocopy both sides of the new card.
 > Any changes to the insurance card should be photocopied or scanned and added to the patient record.
-
 - Describe the change on the patient registration form.
-
 > A description of the new card is not sufficient. Any changes to the insurance card should be photocopied and added to the patient record.
-
 - Instruct the patient to contact the third-party payer to verify coverage.
 - Confirm with the patient that the insurance coverage is the same.
 
@@ -48,7 +40,7 @@ abdominal hernia?
 
 - 49491
 
-✅ 49591
+- ✅ 49591
 
 - 49613
 

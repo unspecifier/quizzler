@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import Question from "./lib/Question.svelte";
-  import baseline_test_md_string from "./baseline-test.md?raw";
+  import baseline_test_md_string from "./markdown/nha-baseline.md?raw";
   import { marked } from "marked";
   import { shuffle } from "./lib/helpers";
 
