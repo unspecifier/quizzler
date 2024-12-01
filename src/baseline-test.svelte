@@ -1,16 +1,15 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import Question from "./lib/Question.svelte";
-  import baseline_test_string from "./baseline-test.html?raw";
+  import baseline_test_md_string from "./baseline-test.md?raw";
+  import { marked } from "marked";
+  import { shuffle } from "./lib/helpers";
 
-  export let num_questions: number;
+  export let num_questions: number = 5;
 
-  const IS_DEBUG = false;
   const DO_SHUFFLE = true;
 
-  let quiz_template: HTMLDivElement;
-
-  let questions: Element[];
+  let questions: string[];
 
   let current_question: number = 0;
   let results: (boolean | undefined)[] = [];
@@ -19,45 +18,9 @@
   let time_elapsed = "00:00:00";
   let is_finished = false;
 
-  const quiz_template_element = document.createElement("div");
-  quiz_template_element.innerHTML = baseline_test_string;
-  const question_elements = Array.from(quiz_template_element.children).slice(
-    0,
-    num_questions,
-  );
-
-  // Shuffle answers
-  for (const question of question_elements) {
-    const answer_elements = question.querySelectorAll("div");
-    const answers = Array.from(answer_elements).map(
-      (answer) => answer.outerHTML,
-    );
-    shuffle(answers);
-    for (const answer_el of answer_elements) {
-      answer_el.outerHTML = answers.pop()!;
-    }
-  }
-
   $: {
     is_finished = results.every((val) => typeof val === "boolean");
     if (is_finished) clearInterval(elapsed_timer);
-  }
-
-  function shuffle(array: unknown[]) {
-    let currentIndex = array.length;
-
-    // While there remain elements to shuffle...
-    while (currentIndex != 0) {
-      // Pick a remaining element...
-      let randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-
-      // And swap it with the current element.
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex],
-        array[currentIndex],
-      ];
-    }
   }
 
   function next_question() {
@@ -92,19 +55,17 @@
   }
 
   onMount(() => {
-    if (!quiz_template) throw new Error("no template");
-    questions = Array.from(quiz_template.children).slice(0, num_questions);
+    questions = marked(baseline_test_md_string, { async: false })
+      .split(/^<h2>.+<\/h2>\n/gm)
+      .filter(Boolean);
+    if (DO_SHUFFLE) shuffle(questions);
+    questions = questions.slice(0, num_questions);
     num_questions = questions.length;
     results = new Array(num_questions).fill(undefined);
-    if (IS_DEBUG) {
-      results = [true, true, true, true, false];
-      current_question = 6;
-    }
     quiz_start = new Date();
     elapsed_timer = setInterval(() => {
       time_elapsed = getElapsedTime(quiz_start);
     }, 1000);
-    if (DO_SHUFFLE) shuffle(questions);
   });
 
   function handle_question_submit(is_correct: boolean) {
@@ -144,16 +105,18 @@
     </button>
   </nav>
   {#if current_question < num_questions}
-    <fieldset disabled={typeof results[current_question] === "boolean"}>
+    <fieldset
+      class="fancy"
+      disabled={typeof results[current_question] === "boolean"}
+    >
       <legend>Question: {current_question + 1} of {num_questions}</legend>
       {#each questions as question, i}
         <div class:hidden={current_question !== i}>
           <Question
+            src={question}
             onSubmit={handle_question_submit}
             answered={typeof results[current_question] === "boolean"}
-          >
-            {@html question.outerHTML}
-          </Question>
+          ></Question>
         </div>
       {/each}
     </fieldset>
@@ -184,10 +147,6 @@
     </table>
   {/if}
 </article>
-
-<div id="baseline-test" bind:this={quiz_template} style="display: none">
-  {@html quiz_template_element.innerHTML}
-</div>
 
 <style>
   button {

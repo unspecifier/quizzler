@@ -11,7 +11,7 @@
       <h1 class="mb-2 text-5xl font-bold">The Quizzler</h1>
       <p class="text-center text-xl">Medical Coding Edition</p>
     </header>
-    <fieldset class="flex flex-col items-center justify-center gap-2">
+    <fieldset class="fancy flex flex-col items-center justify-center gap-2">
       <label for="numquestions" class="">How many questions?</label>
       <input
         type="number"

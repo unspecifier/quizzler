@@ -17,7 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-fieldset {
+fieldset.fancy {
   @apply border border-neutral-500 rounded p-4;
 }
 
@@ -104,4 +104,8 @@ table {
     vertical-align: top;
     border: thin solid rgb(229, 231, 235, 0.3);
   }
+}
+
+blockquote {
+  @apply text-sm col-start-2;
 }
