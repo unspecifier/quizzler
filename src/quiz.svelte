@@ -2,8 +2,9 @@
   import { onMount } from "svelte";
   import Question from "./lib/Question.svelte";
   import baseline_test_md_string from "./markdown/nha-baseline.md?raw";
+  import nha_practice_1_md_string from "./markdown/nha-practice-1.md?raw";
   import { marked } from "marked";
-  import { shuffle } from "./lib/helpers";
+  import { get_elapsed_time, shuffle } from "./lib/helpers";
 
   export let num_questions: number = 5;
 
@@ -27,44 +28,26 @@
     if (current_question <= questions.length) current_question++;
   }
 
-  function getElapsedTime(date: Date): string {
-    // Get the current date and time
-    const now = new Date();
-
-    // Calculate the difference in milliseconds
-    const diff = now.getTime() - date.getTime();
-
-    // Ensure the difference is not negative
-    if (diff < 0) {
-      throw new Error("The provided date is in the future.");
-    }
-
-    // Calculate hours, minutes, and seconds
-    const hours = Math.floor(diff / (1000 * 60 * 60));
-    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-    // Format as HH:mm:ss
-    const formattedTime = [
-      hours.toString().padStart(2, "0"),
-      minutes.toString().padStart(2, "0"),
-      seconds.toString().padStart(2, "0"),
-    ].join(":");
-
-    return formattedTime;
-  }
-
-  onMount(() => {
-    questions = marked(baseline_test_md_string, { async: false })
+  function markdown_to_questions(md: string) {
+    return marked(md, { async: false })
       .split(/^<h2>.+<\/h2>\n/gm)
       .filter(Boolean);
+  }
+
+  // nha_practice_1_md_string
+
+  onMount(() => {
+    questions = [
+      ...markdown_to_questions(baseline_test_md_string),
+      ...markdown_to_questions(nha_practice_1_md_string),
+    ];
     if (DO_SHUFFLE) shuffle(questions);
     questions = questions.slice(0, num_questions);
     num_questions = questions.length;
     results = new Array(num_questions).fill(undefined);
     quiz_start = new Date();
     elapsed_timer = setInterval(() => {
-      time_elapsed = getElapsedTime(quiz_start);
+      time_elapsed = get_elapsed_time(quiz_start);
     }, 1000);
   });
 

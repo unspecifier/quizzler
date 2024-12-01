@@ -43,7 +43,7 @@ A billing and coding specialist is billing for services provided by an assistant
 Which of the following modifiers should the specialist use?
 
 | Modifier | Description           |
-| -------- | --------------------- |
+|----------|-----------------------|
 | -47      | Anesthesia by Surgeon |
 | -62      | Two Surgeons          |
 | -66      | surgical Team         |
@@ -70,7 +70,7 @@ Which of the following statements is true when determining patient financial res
 - Any services denied for erroneous claim data are the responsibility of the patient.
 - ✅ Any coinsurance, copayments, or deductibles should be collected from the patient.
 - The difference between the billed amount and the allowed amount should be collected from the patient.
-- Claims not billed to a third-party payer within the correct time period should be collected from the patient.name="answer" />
+- Claims not billed to a third-party payer within the correct time period should be collected from the patient.
 
 ## Question: 8 of 125
 
@@ -140,7 +140,7 @@ A provider documents a simple repair of a superficial wound that is 2.5 cm long 
 #### CPT® Code Set
 
 | Code  | Description                                                                                                                                          |
-| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 12001 | Simple repair of superficial wounds of scalp, neck, axillae, external genitalia, trunk and/or extremities (including hands and feet); 2.5 cm or less |
 | 12002 | Simple repair of superficial wounds of scalp, neck, axillae, external genitalia, trunk and/or extremities (including hands and feet); 2.6 to 7.5cm   |
 
@@ -174,7 +174,7 @@ Which of the following identifies improper payments made for CMS claims?
 A billing and coding specialist is completing a claim to be submitted for Blue Cross Blue Shield by a provider who used to be in private practice
 but was recently hired by a group practice. Which of the following is true regarding the provider's national provider identifier (NPI)?
 
-- The provider's individual NPI for the group practice is the same as the one from the private practice.va✅ lue="correct" />
+- ✅ The provider's individual NPI for the group practice is the same as the one from the private practice.
 - The claim has to wait to be submitted until a new NPI is assigned to the provider.
 - Since the provider has joined a group, only the group's NPI is listed on the claim.
 - The provider's Social Security number can be substituted for the NPI temporarily.
@@ -189,7 +189,7 @@ A billing and coding specialist is reviewing the encounter form for a patient wh
 #### ICD-10-CM Code Set
 
 | Code   | Description                                                   |
-| ------ | ------------------------------------------------------------- |
+|--------|---------------------------------------------------------------|
 | E10.22 | Type 1 diabetes mellitus with diabetic chronic kidney disease |
 | E11.9  | Type 2 diabetes mellitus without complications                |
 | N18.2  | Chronic kidney disease, stage 2                               |
@@ -219,7 +219,7 @@ ICD-10-CM codes should a billing and coding specialist assign to this patient?
 #### ICD-10-CM Code Set
 
 | Code    | Description                                                 |
-| ------- | ----------------------------------------------------------- |
+|---------|-------------------------------------------------------------|
 | O24.410 | Gestational diabetes mellitus in pregnancy. diet controlled |
 | Z79.84  | Long term (current) use of oral hypoglycemic                |
 | Z79.4   | Long term (current) use of insulin                          |
@@ -269,7 +269,7 @@ year-old patient?
 #### CPT® Physical Status Modifiers
 
 | Modifier | Description                                                                    |
-| -------- | ------------------------------------------------------------------------------ |
+|----------|--------------------------------------------------------------------------------|
 | -P1      | A normal, healthy patient                                                      |
 | -P2      | A patient with mild systemic disease                                           |
 | -P3      | A patient with severe systemic disease                                         |
@@ -515,15 +515,10 @@ Which of the following processes is used to verify patient benefits and insuranc
 A billing and coding specialist is processing a claim for a new patient who came to the office for a sore throat. The provider diagnosed the
 patient with tonsilitis and wrote a prescription for antibiotics. Which of the following codes should the specialist use?
 
-- 99213 Office or other outpatient visit for the evaluation and management of an
-  established patient, which requires a medically appropriate history and/or examination and low level of medical decision making.
-- 99393 Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate
-  history, exam, counseling/guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures; established
-  patient: late childhood (age 5 through 11 years)
-- 99203 Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history <input ty✅ pe="radio" required name="answer" value="correct" />
-  and/or examination and low level of medical decision making.
-- 99282 Emergency department visit for the evaluation and management of a patient, which requires a medically appropriate history and/or
-  examination and straightforward level of medical decision making.
+- 99213 Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making.
+- 99393 Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, exam, counseling/guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures; established patient: late childhood (age 5 through 11 years)
+- ✅ 99203 Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and low level of medical decision making.
+- 99282 Emergency department visit for the evaluation and management of a patient, which requires a medically appropriate history and/or examination and straightforward level of medical decision making.
 
 ## Question: 49 of 125
 
@@ -563,7 +558,7 @@ cervical biopsy. Which of the following CPT® codes should the specialist use?
 #### CPT® Code Set
 
 | Code / Modifier | Description                                                                                           |
-| --------------- | ----------------------------------------------------------------------------------------------------- |
+|-----------------|-------------------------------------------------------------------------------------------------------|
 | 58555           | Hysteroscopy, diagnostic (separate procedure)                                                         |
 | 58558           | Hysteroscopy, surgical: with sampling (biopsy) of endometrium and/or polypectomy, with or without D&C |
 | -59             | Distinct Procedural Service                                                                           |
@@ -598,7 +593,7 @@ Which of the following is an example of a breach of patient confidentiality?
 
 - ✅ Discussing patient information in a public space
 - Sharing patient information with the patient's health care team
-- Releasing patient information to someone listed on the protected health information (PHI) disclosure formname="answer" />
+- Releasing patient information to someone listed on the protected health information (PHI) disclosure form
 - Giving patient information to an employer for a workers' compensation claim
 
 ## Question: 56 of 125
@@ -626,7 +621,7 @@ be "uncollectable"?
 
 Which of the following is the purpose of coordination of benefits?
 
-- ✅ To prevent multiple third-party payers from paying benefits covered by other policiesvalue="correct" />
+- ✅ To prevent multiple third-party payers from paying benefits covered by other policies
 - To compare payer edits and the patient's health plan
 - To collect and verify information about the patient and provider by sorting claims upon submission
 - To reduce the number of paper claims submitted
@@ -636,7 +631,7 @@ Which of the following is the purpose of coordination of benefits?
 Which of the following actions should a billing and coding specialist take when
 submitting a claim to Medicaid for a patient who has primary and secondary insurance coverage?
 
-- ✅ Attach the remittance advice from the primary insurance along with the Medicaid claim.value="correct" />
+- ✅ Attach the remittance advice from the primary insurance along with the Medicaid claim.
 - Submit the claim and Medicaid remittance advice to the secondary insurance.
 - Attach the remittance advice from the patient's most recent visit to confirm Medicaid eligibility.
 - Submit both claims simultaneously and then review the remittance advice from both to determine which one provided more coverage.
@@ -669,7 +664,7 @@ orders should the codes be reported on the claim form?
 #### ICD-10-CM Code Set
 
 | Code    | Description                                                                                                                                         |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | E10.319 | Type 1 diabetes mellitus with unspecified diabetic retinopathy without macular edema                                                                |
 | E11.319 | Type 2 diabetes mellitus with unspecified diabetic retinopathy without macular edema (Use additional code to identify control using insulin Z79.4.) |
 | Z79.4   | Long term (current) use of insulin                                                                                                                  |
@@ -772,15 +767,9 @@ A surgeon performed a cholecystectomy for a patient. The billing and coding spec
 A billing and coding specialist is coding a consultation in the provider's office. The provider documented the appropriate history and exam,
 with low-level medical decision making. Which of the following Evaluation and Management (E/M) codes should the specialist report?
 
-- 99253 Inpatient or observation consultation for a new or established patient, which requires a medically appropriate history and/or
-  examination and low level of medical decision making.
-
-- 99284 Emergency department visit for the evaluation and management of a patient, which requires a medically appropriate history and/or
-  examination and moderate level of medical decision making.
-
-- 99243 Office or other outpatient consultation for a new or established patient, which requires a medically appropriate history and/or <input ty✅ pe="radio" required name="answer" value="correct" />
-  examination and low level of medical decision making.
-
+- 99253 Inpatient or observation consultation for a new or established patient, which requires a medically appropriate history and/or examination and low level of medical decision making.
+- 99284 Emergency department visit for the evaluation and management of a patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making.
+- ✅ 99243 Office or other outpatient consultation for a new or established patient, which requires a medically appropriate history and/or examination and low level of medical decision making.
 - 99291 Critical care, evaluation and management of the critically ill or critically injured patient; first 30-74 minutes.
 
 ## Question: 73 of 125
@@ -790,7 +779,7 @@ Complete the following question by referencing the coding exhibit.
 A billing and coding specialist is preparing a claim for a colonoscopy. At the start of the procedure, the provider determined that the patient had not properly prepared for the procedure, so the procedure was immediately stopped. Which of the following modifiers should the specialist use?
 
 | Modifier | Description                   |
-| -------- | ----------------------------- |
+|----------|-------------------------------|
 | -22      | Increased procedural services |
 | -23      | Unusual anesthesia            |
 | -52      | Reduced services              |
@@ -891,7 +880,7 @@ A claim was denied due to termination of coverage. The patient had recently obta
 - Ask the patient to pay in full and submit the claim to the new third-party payer.
 - Appeal the denial.
 - Resubmit the claim to the original third-party payer.
-- Obtain the patient's updated insurance and submit the claim to the new third-party payer.lue="correct" />
+- ✅ Obtain the patient's updated insurance and submit the claim to the new third-party payer.
 
 ## Question: 83 of 125
 
@@ -914,7 +903,7 @@ the following is the reason for the denial?
 #### CPT® Code Set
 
 | Code / Modifier | Description                                                                                                               |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------- |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------|
 | 58150           | Total abdominal hysterectomy (corpus and cervix), with or without removal of tube(s), with or without removal of ovary(s) |
 | -26             | Professional component                                                                                                    |
 
@@ -956,7 +945,7 @@ Which of the following is used to communicate why a claim line item was denied o
 A billing and coding specialist is reviewing a Medicare remittance advice (RA) and discovers a denial due to medical necessity. Which of the
 following actions should the specialist take?
 
-- Check the local and national coverage determination policies for diagnosis requirements.lue="correct" />
+- ✅ Check the local and national coverage determination policies for diagnosis requirements.
 - Verify if secondary insurance is available to cover the charges.
 - Use the electronic data interchange (EDI) to verify eligibility of the patient's benefits.
 - Use a modifier to report the medical necessity.
@@ -978,7 +967,7 @@ following Evaluation and Management (E/M) codes should the specialist use?
 
 - 99383 Initial comprehensive preventive medicine evaluation and management
 - 99347 Home or residence visit for the evaluation and management of an established patient
-- 99213 Office or other outpatient visit for the evaluation and management of an established patientlue="correct" />
+- ✅ 99213 Office or other outpatient visit for the evaluation and management of an established patient
 - 99203 Office or other outpatient visit for the evaluation and management of a new patient
 
 ## Question: 91 of 125
@@ -1086,13 +1075,13 @@ months of injections. In order for the patient to continue with coverage of care
 - The patient should stop receiving the injections because the authorization has lapsed.
 - The patient should stop receiving the injections and find a new provider.
 - The provider should go ahead with the injections due to medical necessity.
-- ✅ The patient's third-party payer should be contacted to obtain a new preauthorization.value="correct" />
+- ✅ The patient's third-party payer should be contacted to obtain a new preauthorization.
 
 ## Question: 102 of 125
 
 Which of the following describes the term "crossover" as it relates to Medicare?
 
-- ✅ When a third-party payer transfers data to allow coordination of benefits for a claimvalue="correct" />
+- ✅ When a third-party payer transfers data to allow coordination of benefits for a claim
 - When more than one third-party payer pays for the same service
 - When a third-party payer pays for a service twice
 - When a third-party payer processes data to allow adjudication of a claim to occur
@@ -1154,7 +1143,7 @@ benign lesion removed. The codes listed on the claim were 99213 and 17000. Which
 resubmitting the claim?
 
 | Modifier | Description                                                                                                                                                                                       |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 25       | Significant, separately identifiable evaluation and management (E/M) service by the same physician or other qualified health care professional on the same day of the procedure or other service. |
 | 32       | Mandated services                                                                                                                                                                                 |
 | 81       | Minimum assistant surgeon                                                                                                                                                                         |
@@ -1220,7 +1209,7 @@ Which of the following is an example of this type of error?
 
 - The preauthorization for an appendectomy was not obtained.
 - The patient's current demographic information was not entered correctly on the claim form.
-- ✅ The ICD-10-CM code for tonsillitis was listed with the CPT® code for an appendectomy.value="correct" />
+- ✅ The ICD-10-CM code for tonsillitis was listed with the CPT® code for an appendectomy.
 - Appendectomies are not covered by the patient's insurance plan.
 
 ## Question: 115 of 125
@@ -1236,7 +1225,7 @@ CPT® codes are used for which of the following concepts?
 
 Which of the following is an example of an informational modifier?
 
-- -24 Unrelated Evaluation and Management service by the same provider during a postoperative periodlue="correct" />
+- ✅ -24 Unrelated Evaluation and Management service by the same provider during a postoperative period
 - -AA Anesthesia services performed personally by anesthesiologist
 - -TC Technical component
 - -82 Assistant surgeon (when qualified resident surgeon not available)
@@ -1257,7 +1246,7 @@ Which of the following is a HIPAA compliance guideline affecting electronic heal
 
 - The privacy requirements cover facilities' health information, whether paper or electronic.
 - Electronic health records should be sent to the third-party payer on a claim form.
-- The electronic transmission and code set standards require every provider to use the health care transactions, code sets, and identifiers. <input ty✅ pe="radio" required name="answer" value="correct" />
+- ✅ The electronic transmission and code set standards require every provider to use the health care transactions, code sets, and identifiers.
 - The Health Information Technology for Economic and Clinical Health (HITECH) Act encrypts provider-protected health information.
 
 ## Question: 119 of 125
@@ -1294,10 +1283,10 @@ of the following is a court order that allows payments on unsecured debt to be m
 A billing and coding specialist is submitting claims through a clearinghouse. The specialist should identify that which of the following actions is
 performed by the clearinghouse?
 
-- Filing for reimbursement, reconciling payments of paid claims, and resubmitting denied claims to the providername="answer" />
+- Filing for reimbursement, reconciling payments of paid claims, and resubmitting denied claims to the provider
 - Overseeing the federal Medicare and Medicaid programs
 - Helping to develop U.S. standards for electronic data exchange
-- Scrubbing claims, translating them to a standard format, then sending them to various third-party payersme="answer" value="correct" />
+- ✅ Scrubbing claims, translating them to a standard format, then sending them to various third-party payers
 
 ## Question: 123 of 125
 

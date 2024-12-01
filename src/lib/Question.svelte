@@ -45,7 +45,7 @@
       const answer_label = document.createElement("label");
       answer_label.className =
         "grid grid-cols-[1.5rem,1fr] gap-x-2 items-baseline";
-      answer_label.innerHTML = answer_content.replace("✅ ", "");
+      answer_label.innerHTML = answer_content.replace(/[✅❌] /g, "");
 
       // Now, create a new <input> element and add the "correct" value to it (if the answer is correct)
       const answer_input = document.createElement("input");
@@ -59,6 +59,7 @@
 
       // Add the answer label to the answer li
       answer_li.replaceChildren(answer_label);
+      answer_li.className = "mb-4";
 
       // Add the answer li to the answer set
       answer_set.appendChild(answer_li);
