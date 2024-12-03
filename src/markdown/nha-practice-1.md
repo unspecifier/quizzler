@@ -265,7 +265,7 @@ A billing and coding specialist should identify that which of the following is u
 ## Question 24 of 100
 A billing and coding specialist should add a modifier in which of the following scenarios?
 
-- ✅ Abilateral procedure was performed.
+- ✅ A bilateral procedure was performed.
 > Bilateral procedures are indicated with modifiers.
 - ❌ The procedure was cancelled.
 > Cancelled procedures are not coded, so they do not require modifiers.
@@ -274,7 +274,7 @@ A billing and coding specialist should add a modifier in which of the following 
 - ❌ An unspecified code is used.
 > Unspecified codes are not indicated with modifiers.
 ## Question 25 of 100
-Anew patient presents for an urgent care encounter. Which of the following code sets should be used to report this encounter?
+A new patient presents for an urgent care encounter. Which of the following code sets should be used to report this encounter?
 
 - ❌ Hospital observation services
 > Hospital observation service code sets (99221 to 99239) are only used for patients that have been admitted for observation.
@@ -358,11 +358,11 @@ In an outpatient setting, which of the following forms is used as a financial re
 > The CMS-1500 is used to submit charges to the third-party payer for services rendered to the patient.
 - ❌ Accounts receivable journal
 > The accounts receivable journal, or day sheet, is a chronological summary of all transactions posted on a specific day.
-Complete the following question by referencing the coding exhibit.
-A billing and coding specialist is working on a claim in which reimbursement was reduced due to two surgical services performed during the same
 
 ## Question 33 of 100
-encounter being bundled together. Which of the following modifiers should be assigned to indicate the procedures were independent to prevent bundling?
+Complete the following question by referencing the coding exhibit.
+
+A billing and coding specialist is working on a claim in which reimbursement was reduced due to two surgical services performed during the same encounter being bundled together. Which of the following modifiers should be assigned to indicate the procedures were independent to prevent bundling?
 | Modifier | Description                                                                                                                                                                                      |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | -22      | Increased procedural services                                                                                                                                                                    |
@@ -863,7 +863,7 @@ An explanation of benefits states the amount billed was $80. The allowed amount 
 > The allowed amount is $60 and the patient is required to pay a $20 copayment. The difference in cost is $40, which is the insurance check amount to be posted.
 - ❌ $80
 > The check amount is the allowed amount minus any copay requirements
-- ❌ 60
+- ❌ $60
 > The check amount is the allowed amount minus any copay requirements
 - ❌ $20
 > The check amount is the allowed amount minus any copay requirements
@@ -1088,7 +1088,7 @@ A billing and coding specialist is filing a CMS-1500 claim form for a patient wh
 > Accepting the payer's reimbursement as payment in full is "accepting assignment."
 - ✅ The payer should send reimbursement directly to the provider with the exception of copays and deductibles.
 > If block 13, which indicates approval of assignment of benefits, is signed, the payer has permission from the patient to send the reimbursement directly to the provider.
-- ❌ The provider should bill the patient for any difference between the amount billed and the amount reimbursed by the paye
+- ❌ The provider should bill the patient for any difference between the amount billed and the amount reimbursed by the payer.
 > This outcome will occur if "No" is checked in block 27 on the CMS-1500, indicating that the provider does not accept assignment. This is not the same as assignment of benefits.
 ## Question 98 of 100
 Which of the following is a federal government health insurance program?

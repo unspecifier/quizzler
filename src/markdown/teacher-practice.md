@@ -30,7 +30,7 @@ abdominal hernia?
 ###### CPT® Code Set
 
 | Code  | Description                                                                                                                                                                                                                                                                             |
-| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 49491 | Repair, initial inguinal hernia, preterm infant (younger than 37 weeks gestation at birth), performed from birth up to 50 weeks post conception age, with or without hydrocelectomy; reducible.                                                                                         |
 | 49521 | Repair recurrent inguinal hernia, any age: incarcerated or strangulated.                                                                                                                                                                                                                |
 | 49591 | Repair of anterior abdominal hernia(s) (i.e., epigastric, incisional, ventral, umbilical, spigelian), any approach (i.e., open, laparoscopic, robotic), initial, including implantation of mesh or other prosthesis en performed, total length of defect(s); less than 3 cm, reducible. |
@@ -2467,7 +2467,7 @@ INCORRECT « MyAnswer
 
 ## Question: 73 of 100
 
-Anew patient presents for an urgent care encounter. Which of the following code sets should be used to report this encounter?
+A new patient presents for an urgent care encounter. Which of the following code sets should be used to report this encounter?
 
 - Hospital observation services
 
@@ -2476,7 +2476,7 @@ Anew patient presents for an urgent care encounter. Which of the following code 
 - office or other outpatient services
 
 - Office or other outpatient consultations
-  Anew patient presents for an urgent care encounter. Which of the following code sets should be used to report this encounter?
+  A new patient presents for an urgent care encounter. Which of the following code sets should be used to report this encounter?
 
 - Hospital observation services
 
@@ -2658,7 +2658,7 @@ ing and coding speci:
 
 ist should add a modifier in which of the following scenarios?
 
-Abilateral procedure was performed.
+A bilateral procedure was performed.
 
 The procedure was cancelled.
 
