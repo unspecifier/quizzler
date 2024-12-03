@@ -70,7 +70,7 @@
 <form on:submit={onSubmitInternal} data-answered={answered}>
   <fieldset bind:this={fieldset_element}></fieldset>
   <footer>
-    <button type="submit">Submit</button>
+    <button type="submit" class="disabled:hidden">Submit</button>
   </footer>
 </form>
 

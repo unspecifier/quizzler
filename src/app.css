@@ -7,27 +7,20 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: light dark;
 
+  @apply dark:bg-neutral-800;
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+  /* 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 fieldset.fancy {
-  @apply border border-neutral-500 rounded p-4;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  @apply rounded border p-4 dark:border-neutral-500;
 }
 
 body {
@@ -43,8 +36,7 @@ div:has(> label) {
 }
 
 p + div:has(> label):first-of-type {
-  border-top: thin solid rgb(229, 231, 235, 0.3);
-  padding-top: 1rem;
+  @apply /* border-top: thin solid rgb(229, 231, 235, 0.3); */ pt-4 dark:border-t-neutral-500;
 }
 
 h1 {
@@ -77,22 +69,7 @@ p {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  @apply cursor-pointer rounded border border-transparent bg-blue-400 px-4 py-2 text-sm font-medium text-neutral-900 transition-colors hover:bg-blue-600 disabled:cursor-not-allowed disabled:bg-neutral-500 disabled:opacity-50 disabled:hover:bg-neutral-500 dark:bg-blue-800 dark:text-neutral-200 dark:hover:bg-blue-900 disabled:dark:text-neutral-400;
 }
 
 table {
@@ -102,10 +79,11 @@ table {
     text-align: left;
     padding: 0.25rem 0.5rem;
     vertical-align: top;
-    border: thin solid rgb(229, 231, 235, 0.3);
+    /* border: thin solid rgb(229, 231, 235, 0.3); */
+    @apply border border-neutral-300 dark:border-neutral-600;
   }
 }
 
 blockquote {
-  @apply text-sm col-start-2;
+  @apply col-start-2 text-sm;
 }

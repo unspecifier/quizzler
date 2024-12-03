@@ -17,7 +17,7 @@
         type="number"
         id="numquestions"
         min="1"
-        class="pl-2 py-1 rounded"
+        class="pl-2 py-1 rounded border border-neutral-300 dark:border-neutral-600"
         bind:value={num_questions}
       />
 
@@ -27,6 +27,3 @@
     <Quiz {num_questions} />
   {/if}
 </main>
-
-<style>
-</style>
