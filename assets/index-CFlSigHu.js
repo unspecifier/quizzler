@@ -1316,1128 +1316,1128 @@ financial interest?\r
 - Health Insurance Portability and Accountability Act (HIPAA)\r
 - Consolidated Omnibus Budget Reconciliation Act (COBRA)\r
 - ✅ Stark Law\r
-`,kr=`## Question 1 of 100
-On a remittance advice form, which of the following is responsible for writing off the difference between the amount billed and the amount allowed by the agreement?
-- ✅ Provider
-> The provider is responsible for writing off the difference between the amount billed and the amount allowed
-- ❌ Guarantor
-> The guarantor is not responsible for writing off the difference between the amount billed and the amount allowed.
-- ❌ Patient
-> The patient is not responsible for writing off the difference between the amount billed and the amount allowed.
-- ❌ Third-party payer
-> The third-party payer sets the allowed amount and is not responsible for writing off the difference between the amount billed and the amount allowed.
-
-## Question 2 of 100
-Which of the following codes are included in the ICD-10-CM code set?
-- ❌ Prosthetics
-> The ICD-10-CM code set includes a code for acquired absence of limb. Prosthetics codes are found in the CPT code set.
-- ❌ Fracture care
-> The ICD-10-CM code set includes a code for acquired absence of limb. Fracture care codes are found in the CPT code set.
-- ✅ Acquired absence of limb
-> The ICD-10-CM code set includes a code for acquired absence of limb.
-- ❌ Immunization administration
-> The ICD-10-CM code set includes a code for acquired absence of limb. Immunization administration codes are found in the CPT code set.
-## Question 3 of 100
-A patient has a resection of the intestines with anastomosis through the abdominal walls. Which of the following is a type of anastomosis?
-- ✅ Colostomy
-> A colostomy is a type of anastomosis, which is a surgical procedure that involves creating an opening through the abdominal wall.
-- ❌ Laparotomy
-> A laparotomy is a type of surgical opening
-- ❌ Ileectomy
-> An ileectomy is the removal of the ileum.
-- ❌ Endoscopy
-> An endoscopy is an explorative procedure.
-## Question 4 of 100
-Which of the following is the purpose of an internal review in a provider's office?
-- ✅ To verify that the medical records and the billing record match
-> The purpose of an internal review in a provider's office is to verify that the medical records and the billing record match, which protects the provider from sanctions or fines.
-- ❌ To increase revenue for the provider
-> Increasing revenue for providers is not the purpose of an internal review.
-- ❌ To improve communication between the coding supervisors and coding professionals
-> Improving communication between coding supervisors and coding professionals is not the purpose of an internal review.
-- ❌ To protect patients from sanctions or fines
-> Protecting patients from sanctions or fines is not the purpose of an internal review.
-## Question 5 of 100
-Which of the following is a valid ICD-10-CM principle?
-- ❌ Assign codes to the lowest level of specificity.
-> This is not a valid ICD-10-CM principle. Codes should be assigned to the highest level of specificity.
-- ❌ Diagnoses should first be found in the tabular list and confirmed in the index.
-> This is not a valid ICD-10-CM principle. Diagnoses should first be found in the index and confirmed in the tabular list.
-- ❌ Late effect codes should be reported as secondary.
-> This is not a valid ICD-10-CM principle. Late effect codes should be reported as primary.
-- ✅ Code signs and symptoms in the absence of a definitive diagnosis.
-> Signs and symptoms should be coded in the absence of a definitive diagnosis. Therefore, this is a valid ICD-10-CM principle.
-## Question 6 of 100
-Which of the following editing systems should a billing and coding specialist reference to determine if a supplies and materials code should be assigned to report a surgical tray used during an ambulatory procedure?
-
-- ❌ Medically unlikely edits (MUEs)
-> An MUE for a HCPCS and/or CPT® code is the maximum units of service that a provider can report under most circumstances for a single beneficiary on a single date of service.
-- ✅ National Correct Coding Initiative (NCCI)
-> NCCI is used to promote national correct coding methodologies and to control improper coding leading to inappropriate payment of claims. The specialist should reference NCCI to determine if a supplies and materials code should be assigned to report a surgical tray used during an ambulatory procedure.
-- ❌ Local Coverage Determination (LCD)
-> LCDs are guidelines for certain services and procedures that are developed to decide whether to cover a particular service in accordance with services that are defined as medically necessary by the Centers for Medicare and Medicaid Services (CMS).
-- ❌ National Coverage Determination (NCD)
-> NCDs are guidelines for certain services and procedures that are developed to decide whether to cover a particular service in accordance with services that are defined as medically necessary by the Centers for Medicare and Medicaid Services (CMS).
-## Question 7 of 100
-When should a billing and coding specialist initiate the collection of the information needed to process a patient's insurance claim form?
-- ❌ When the patient signs the HIPAA form at check-in
-> The specialist should collect information prior to the patient signing the HIPAA form at check-in.
-- ✅ When the patient contacts the provider's office and schedules an appointment
-> The specialist should initiate the collection of information needed to process a patient's insurance claim when the patient contacts the office and schedules an appointment.
-- ❌ When the patient pays the copay or deductible
-> The specialist should collect the information prior to the patient paying the copay or deductible.
-- ❌ When the patient checks out of the provider's office
-> The specialist should collect the information prior to the patient checking out of the provider's office.
-## Question 8 of 100
-A patient wants to see an endocrinologist for a consultation about their diabetes mellitus, but they must see their primary care provider (PCP) for a referral to an in-network specialist first. Which of the following types of insurance does the patient have?
-- ❌ Preferred provider organization (PPO)
-> PPO insurance plans are a network of care, but they do not require a PCP or referral
-- ✅ Health Mainenance organization (HMO)
-> HMO insurance plans require a referral from the PCP for a specialist consultation.
-- ❌ Indemnity
-> Indemnity plans are traditional plans and do not require a PCP or referral.
-- ❌ Point of service (POS)
-> POS plans do not require a referral. Patients are allowed to self-refer to out-of-network providers.
-## Question 9 of 100
-A billing and coding specialist is reviewing the procedure notes from a provider who selected a code indicating an incisional biopsy when the entirety of the patient's lesion was removed. The specialist should verify with the provider that which of the following types of procedures was performed?
-
-- ❌ Core procedure
-> The specialist should recognize that a core procedure involves removal of a core sample of tissue from the patient's lesion, not removal of the entire lesion.
-Removal of the entire lesion is classified as an excisional procedure.
-- ❌ Needle procedure
-> The specialist should recognize that a needle procedure involves aspiration of fluid from within the lesion using a needle and syringe or using a specialized biopsy needle. Removal of the entire lesion is classified as an excisional procedure.
-- ✅ Excisional procedure
-> The specialist should clarify the procedure type with the provider to ensure that an excisional procedure was performed when the entirety of the patient's lesion was removed.
-- ❌ Punch procedure
-> The specialist should recognize that a punch procedure involves the removal of a small section of the lesion using a punch instrument. Removal of the entire lesion is classified as an excisional procedure.
-## Question 10 of 100
-A billing and coding specialist is reviewing a report from the clearinghouse after submitting electronic claims and notices that one claim was rejected due to missing demographic information. Which of the following actions should the specialist take?
-
-- ❌ Resubmit the original claim by mail.
-> It is not necessary to send the claim by mail, which would delay reimbursement. Also, the claim should be corrected prior to resubmission to the clearinghouse to avoid a repeated rejection.
-- ❌ Alert the third-party payer of the incomplete claim.
-> If the clearinghouse rejects the claim, it will not be sent to the third-party payer. The claim should be corrected and resubmitted to the clearinghouse for repeat claim scrubbing before going on to the third-party payer.
-- ❌ Notify the patient of the rejection.
-> It is not necessary to notify the patient about the rejection by the clearinghouse due to missing information. The claim should be corrected and resubmitted to the clearinghouse for repeat claim scrubbing before going on to the third-party payer.
-- ✅ Resubmit an updated claim
-> The claim should be updated with the correct demographic information and resubmitted through the clearinghouse for repeat claim scrubbing before going on to the third party-payer.
-
-## Question 11 of 100
-Complete the following question by referencing the coding exhibit.
-A billing and coding specialist is reviewing a claim for a patient who presented to the provider's office for an upper respiratory infection. During the encounter, the patient also received the influenza vaccine. Which of the following modifiers should be attached to the Evaluation and Management (E/M) code?
-| Modifier | Description                                                                                                                                                                                      |
-|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| -24      | Unrelated Evaluation and Management service by the same physician or other qualified health care professional during a postoperative period                                                      |
-| -25      | Significant, separately identifiable evaluation and management (E/M) service by the same physician or other qualified health care professional on the same day of the procedure or other service |
-| -50      | Bilateral procedure                                                                                                                                                                              |
-| -51      | Multiple procedures                                                                                                                                                                              |
-- ❌ -24
-> Modifier -24 is used for an unrelated E/M service by the same provider during the postoperative period.
-- ❌ -51
-> Modifier -51 is used to report multiple procedures other than E/M services.
-- ✅ -25
-> Modifier -25 is used for separately significant E/M services by the same provider on the same day of service.
-- ❌ -50
-> Modifier -50 is used for bilateral procedures.
-
-## Question 12 of 100
-A patient is upset about a bill they received because their third-party payer denied the claim. Which of the following actions should a billing and coding specialist take?
-
-- ❌ Tell the patient to resubmit the claim to the third-party payer.
-> The specialist should not tell the patient to resubmit the claim.
-- ✅ Inform the patient of the reason for the denial.
-> The specialist should inform the patient of the reason for the denial.
-- ❌ Tell the patient to speak with the provider.
-> The specialist should not tell the patient to speak with the provider.
-- ❌ Inform the patient that the third-party payer will follow up.
-> The specialist should not inform the patient that the third-party payer will follow up.
-
-## Question 13 of 100
-A billing and coding specialist is assisting a patient who has a capitated health maintenance organization (HMO) and presents to the office with a sinus infection. The specialist should identify that which of the following statements is true regarding a capitated HMO?
-
-- ✅ Payment for the encounter is based on a flat rate.
-> The specialist should recognize that, for a capitated HMO, the payment system is based on a flat rate per patient, per month, regardless of how many times the provider sees the patient.
-- ❌ A claim should be submitted to the third-party payer for the encounter.
-> The specialist should recognize that a claim does not need to be submitted to the third-party payer because the payment system for a capitated HMO is based on a flat rate per patient, per month, regardless of how many times the provider sees the patient.
-- ❌ Patients are billed directly for the encounter.
-> The specialist should recognize that, for a capitated HMO, the payment system is based on a flat rate per patient, per month, regardless of how many times the provider sees the patient. Therefore, the specialist should not bill the patient directly for the encounter.
-- ❌ A claim should be provided to the patient following the encounter.
-> The specialist should recognize that, for a capitated HMO, the payment system is based on a flat rate per patient, per month, regardless of how many times the provider sees the patient. Therefore, the specialist should not provide the patient with a claim following the encounter.
-## Question 14 of 100
-When a patient has a condition that is both acute and chronic, how should it be coded?
-- ❌ Code only the acute condition.
-> Both acute and chronic conditions should be coded. The acute condition should be coded first.
-- ✅ Code both the acute and chronic conditions, sequencing the acute condition first.
-> If the same condition is described as both acute and chronic, the ICD-10-CM manual states to code both and sequence the acute condition first.
-- ❌ Code only the chronic condition.
-> Both acute and chronic conditions should be coded. The acute condition should be coded first.
-- ❌ Code both the acute and chronic conditions, sequencing the chronic condition first.
-> While both conditions should be coded, the acute condition should be coded first.
-## Question 15 of 100
-A billing and coding specialist is preparing an appeal letter in response to a denial by a third-party payer for lack of medical necessity. Which of the following should the specialist include with the letter to indicate medical necessity?
-
-- ❌ Patient employer information
-> Patient employer information might be included on the original claim, but it is not necessary to send the information with an appeal after denial for medical necessity. An appeal due to denial for medical necessity often requires a copy of medical record documentation to prove the service was needed to treat the condition documented in the record.
-- ✅ Medical record documentation
-> An appeal due to denial for medical necessity often requires a copy of medical record documentation to prove the service was needed to treat the condition documented in the record.
-
-- ❌ Release of information authorization
-> Although authorization to release information is necessary for the chart. this is not something that needs to be included with the appeal letter. An appeal due to denial for medical necessity often requires a copy of medical record documentation to prove the service was needed to treat the condition documented in the record.
-- ❌ Retrospective review request
-> A retrospective review can be requested if the office fails to obtain preauthorization for a procedure. An appeal due to denial for medical necessity often requires a copy of medical record documentation to prove the service was needed to treat the condition documented in the record.
-## Question 16 of 100
-HIPAA transaction standards apply to which of the following entities?
-- ❌ Employers who provide workers' compensation plans
-> Employers who provide workers’ compensation plans are not required to conform to HIPAA regulations.
-- ❌ Automobile insurance providers
-> Automobile insurance providers are not required to conform to HIPAA regulations.
-- ✅ Health care clearinghouses
-> Entities covered by HIPAA regulations include health care clearinghouses, providers of health care services, and health care third-party payers who submit transactions electronically.
-- ❌ Educational facilities
-> Educational facilities are not required to conform to HIPAA regulations.
-## Question 17 of 100
-In the ICD-10-CM code set, which of the following characters is the placeholder?
-- ❌ S
-> The character S is a 7th character extension, not the placeholder.
-- ❌ A
-> The character A is a 7th character extension, not the placeholder.
-- ✅ X
-> The character X is the placeholder.
-- ❌ D
-> The character D is a 7th character extension, not the placeholder.
-## Question 18 of 100
-Which of the following are included in surgery service codes?
-- ❌ Postoperative complications
-> Surgical services include a preoperative history and physical. Postoperative complications are coded separately.
-- ❌ Exacerbations
-> Surgical services include a preoperative history and physical. Treating exacerbations is not included.
-- ❌ Implants and devices
-> Surgical services include a preoperative history and physical. Implants and devices are coded separately.
-- ✅ Preoperative history and physical
-> Surgical services include a preoperative history and physical.
-
-## Question 19 of 100
-A billing and coding specialist is reviewing a remittance advice and encounters a denial of payment for CPT® code 44950 (appendectomy). The specialist discovers the ICD-10-CM code assigned to the claim was J32.1 (chronic frontal sinusitis). Which of the following is the reason for this claim denial?
-
-- ✅ Incorrectly linked codes were reported on the claim
-> The procedure performed (appendectomy) is not correctly linked because the reported ICD-10-CM code indicated chronic frontal sinusitis. A correctly linked code would indicate the patient had a condition that would justify removing the appendix.
-- ❌ A lower level of care could have been provided
-> A lower level of care denial indicates that a procedure performed in one location, such as a hospital, could have been performed in a different place, such as an office
-- ❌ Bundled service
-> A bundled service denial is one where multiple CPT® codes are assigned when one code covers all the work done for the CPT® assignment.
-- ❌ Pre-existing condition
-> Although the patient may have had a pre-existing sinus condition, the CPT® code assigned indicates that the procedure was an appendectomy, and the patient is not likely to have the condition of appendicitis prior to the procedure being performed.
-
-## Question 20 of 100
-A billing and coding specialist discovers suspicious billing activity that may be fraudulent in the workplace. Which of the following actions should the specialist take?
-
-- ❌ Contact the Office of Inspector General (OIG).
-> The specialist should avoid contacting the OIG. The OIG provides guidance for compliance plans.
-- ✅ Call the U.S. Department of Health and Human Services' (DHHS) anonymous hotline.
-> The specialist should call the U.S. DHHS anonymous hotline to discuss the fraudulent activity. The hotline allows the specialist to report suspicious activity, fraud,
-or abuse anonymously.
-- ❌ Address it with the provider.
-> The specialist should avoid addressing it with the provider.
-- ❌ Notify the patient.
-> The specialist should avoid notifying the patient.
-## Question 21 of 100
-Which of the following should a billing and coding specialist complete to be reimbursed for a provider's outpatient services?
-- ✅ CMS-1500 claim form
-> The specialist should complete a CMS-1500 to be reimbursed for a provider's outpatient services.
-- ❌ UB-04 claim form
-> UB-04 claim forms are used for inpatient hospital services.
-- ❌ Encounter form
-> An encounter form, or a superbill, is a tool that is used to communicate the services rendered by the provider to the third-party payer.
-- ❌ Itemized statement
-> An itemized statement is a financial document that is part of the accounts receivable for services rendered.
-Complete the following question by referencing the coding exhibit.
-
-## Question 22 of 100
-A billing and coding specialist is determining the level of service for an office visit for a new patient. Which of the following codes represents a moderate level of medical decision-making?
-### CPT® Code Set
-| Code  | Description                                                                                                                                                                                                                                                 |
-|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 99213 | Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making.                                                   |
-| 99204 | Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making.                                                       |
-| 99235 | Hospital inpatient or observation care, for the evaluation and management of a patient including admission and discharge on the same date, which requires a medically appropriate history and/or examination and moderate level of medical decision making. |
-| 99305 | Initial nursing facility care, per day, for the evaluation and management of a patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making.                                                    |
-- ✅ 99204
-> Code 99204 represents moderate complexity medical decision-making for a new patient.
-- ❌ 99235
-> Code 99235 represents moderate complexity medical decision-making for an established patient.
-- ❌ 99305
-> Code 99305 represents moderate complexity medical decision-making in a nursing facility.
-- ❌ 99213
-> Code 99213 represents low complexity medical decision-making for an established patient.
-## Question 23 of 100
-A billing and coding specialist should identify that which of the following is used to improve the efficiency and effectiveness of the health care system as mandated by HIPAA for providers?
-
-- ❌ CMS-1500 claim form
-> The CMS 1500 form refers to a paper claim and does not improve the efficiency and effectiveness of health care systems.
-- ❌ Electronic remittance advice
-> Electronic remittance advice documents are responses from third-party payers and do not improve the efficiency and effectiveness of health care systems.
-- ✅ ANSIASC X12N 837P format
-> The electronic ANSI ASC X12N 837P format improves the efficiency and effectiveness of health care systems.
-- ❌ Health information management
-> Health information management is an administrative process.
-## Question 24 of 100
-A billing and coding specialist should add a modifier in which of the following scenarios?
-
-- ✅ A bilateral procedure was performed.
-> Bilateral procedures are indicated with modifiers.
-- ❌ The procedure was cancelled.
-> Cancelled procedures are not coded, so they do not require modifiers.
-- ❌ The service was an initial service.
-> Initial services are not indicated with modifiers.
-- ❌ An unspecified code is used.
-> Unspecified codes are not indicated with modifiers.
-## Question 25 of 100
-A new patient presents for an urgent care encounter. Which of the following code sets should be used to report this encounter?
-
-- ❌ Hospital observation services
-> Hospital observation service code sets (99221 to 99239) are only used for patients that have been admitted for observation.
-- ❌ Emergency department services
-> Emergency department service code sets (99281 to 99285) can only be used for qualified emergency department services, not for urgent care services.
-- ✅ Office or other outpatient services
-> Office or other outpatient code sets (99202 to 99215) should be used to report urgent care encounters.
-- ❌ Office or other outpatient consultations
-> Office or other outpatient consultation codes (99242 to 99245) are used to report services that qualify as consultations.
-## Question 26 of 100
-CPT® Evaluation and management codes are used for which of the following?
-- ❌ Physical therapy modalities
-> Evaluation and management codes are used for critical care services, not physical therapy modalities.
-- ❌ Outpatient hemodialysis
-> Evaluation and management codes are used for critical care services, not outpatient hemodialysis.
-- ❌ Medical nutrition therapy
-> Evaluation and management codes are used for critical care services, not nutrition therapy.
-- ✅ Critical care services
-> Evaluation and management codes are used for critical care services.
-## Question 27 of 100
-Outstanding patient balances will appear on which of the following?
-
-- ✅ Accounts receivable
-> Accounts receivable includes any outstanding balances owed, including patient balances.
-- ❌ Accounts payable
-> Accounts payable are amounts owed to others that have not been paid. Outstanding patient balances are not found here.
-- ❌ Tracer
-> A tracer is a written request made to a third-party payer to locate the status of a claim. This does not involve outstanding patient balances.
-- ❌ Rejected claim
-> A rejected claim contains incorrect information and must be reprocessed within a specified time limit.
-## Question 28 of 100
-Which of the following statements is true regarding the release of patient records?
-- ❌ Verbal requests for records from life insurance companies are appropriate.
-> All requests for patient records must be in writing and have signed authorization from the patient, parent, or legal guardian.
-- ❌ Identification is not required when requesting access to patient records.
-> Identification is required to maintain patient confidentiality and privacy.
-- ❌ Providers cannot share a patient's medical information with other health care professionals if the patient is mentally unstable.
-> Based on the provider's best judgment, information may be shared with other providers if deemed in the patient's best interest.
-- ✅ Patient access to psychotherapy notes is restricted
-> Patients cannot access psychotherapy notes or information compiled for lawsuits.
-## Question 29 of 100
-A billing and coding specialist is posting a Medicare remittance advice and identifies an overpayment of $15. Which of the following actions should the specialist take?
-
-- ✅ Notify Medicare about the overpayment within 60 days.
-> The specialist has 60 days to report and return overpayments of less than $25.
-- ❌ Contact Medicare about the overpayment within 72 hr
-> The specialist has 60 days to report and return overpayments of less than $25.
-- ❌ Keep the overpayment on the account as a credit.
-> The specialist should not keep the overpayment as a credit. This is an example of fraud.
-- ❌ Keep the overpayment by adjusting the patient's balance to $0.
-> The specialist should not adjust the patient's balance to $0. This is an example of fraud.
-## Question 30 of 100
-Which of the following terms describes the removal of the eye, adnexa, and bony structure?
-- ❌ Evisceration
-> Evisceration is removal of the contents of the globe leaving the extraocular muscles and sclera intact.
-- ❌ Enucleation
-> Enucleation is removal of the eye leaving the orbital structures intact.
-- ✅ Exenteration
-> Exenteration is removal of the eye, adnexa, and bony structure.
-- ❌ Exploration
-> Exploration is used with wounds for exploring the injury site.
-## Question 31 of 100
-A billing and coding specialist is preparing an accounts receivable aging report. The specialist should expect the report to include which of the following?
-
-- ❌ Rejected claims organized by payer
-> Information about rejected claims organized by payer is not included in an accounts receivable aging report.
-- ❌ Lost claims organized by payer
-> Information about lost claims organized by payer is not included in an accounts receivable aging report.
-- ❌ Paid balances organized by date
-> Information about paid balances organized by date is not included in an accounts receivable aging report.
-- ✅ Outstanding balances organized by date
-> An accounts receivable aging report provides information about any outstanding balances and is organized by date range.
-## Question 32 of 100
-In an outpatient setting, which of the following forms is used as a financial report of all services provided to patients?
-
-- ❌ Encounter form
-> An encounter form is a record of diagnoses and services for a particular encounter with the provider.
-- ✅ Patient account record
-> The patient account record, or patient ledger, is a financial report that contains all the transactions between a patient and the practice.
-- ❌ CMS-1500 claim form
-> The CMS-1500 is used to submit charges to the third-party payer for services rendered to the patient.
-- ❌ Accounts receivable journal
-> The accounts receivable journal, or day sheet, is a chronological summary of all transactions posted on a specific day.
-
-## Question 33 of 100
-Complete the following question by referencing the coding exhibit.
-
-A billing and coding specialist is working on a claim in which reimbursement was reduced due to two surgical services performed during the same encounter being bundled together. Which of the following modifiers should be assigned to indicate the procedures were independent to prevent bundling?
-| Modifier | Description                                                                                                                                                                                      |
-|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| -22      | Increased procedural services                                                                                                                                                                    |
-| -25      | Significant, separately identifiable evaluation and management (E/M) service by the same physician or other qualified health care professional on the same day of the procedure or other service |
-| -58      | Staged or related procedure by the same physician or other qualified health care professional during the postoperative period                                                                    |
-| -59      | Distinct procedural service                                                                                                                                                                      |
-- ❌ -58
-> Modifier -59 is used to indicate multiple procedures were independent of each other, which prevents them from being bundled, not -58.
-- ❌ -25
-> Modifier -59 is used to indicate multiple procedures were independent of each other, which prevents them from being bundled, not -25.
-- ❌ -22
-> Modifier -59 is used to indicate multiple procedures were independent of each other, which prevents them from being bundled, not -22.
-- ✅ -59
-> Modifier -59 is used to indicate multiple procedures were independent of each other, which prevents them from being bundled.
-## Question 34 of 100
-Which of the following entities are required to follow HIPAA rules and regulations?
-- ❌ Government insurance agencies, banks, and long-term care facilities
-> Health care organizations that transmit protected health information (PHI) are required to follow HIPAA rules and regulations. These can include government insurance agencies and long-term care facilities, but not banks.
-- ✅ Clearinghouses, health insurance companies, and billing services
-> Health care organizations that transmit protected health information (PHI) are required to follow HIPAA rules and regulations. These can include clearinghouses, health insurance companies, and billing services.
-- ❌ Dentists, providers, and retail stores
-> Health care organizations that transmit protected health information (PHI) are required to follow HIPAA rules and regulations. These can include dentists and providers, but not retail stores.
-- ❌ Pharmacies, chiropractors, and service stations
-> Health care organizations that transmit protected health information (PHI) are required to follow HIPAA rules and regulations. These can include pharmacies and chiropractors, but not service stations.
-## Question 35 of 100
-A provider's office fee is $100, and the Medicare Part B allowed amount is $85. Assuming the beneficiary has not met any deductible amount, the patient should be billed for which of the following amounts?
-- ❌ $15
-> If the patient has not met their annual deductible, they will pay the Medicare allowed amount.
-- ✅ $85
-> If the patient has not met their annual deductible, they will pay the Medicare allowed amount, which is $85.
-- ❌ $100
-> If the patient has not met their annual deductible, they will pay the Medicare allowed amount.
-- ❌ $0
-> If the patient has not met their annual deductible, they will pay the Medicare allowed amount.
-## Question 36 of 100
-A billing and coding specialist is reviewing delinquent claims and discovers that a third-party payer paid a claim but applied it to the incorrect provider. The third-party payer will reimburse the payment once the improperly paid funds are recouped. Which of the following terms is used to describe this claim?
-- ❌ Payment error
-> A payment error involves a payment for a claim that was sent directly to the patient.
-- ❌ Rejected
-> A rejected claim, or soft denial, is often in response to a technical error.
-- ❌ Denied
-> A denied claim has been adjudicated and the third-party payer has determined that no payment will be made.
-- ✅ Suspended
-> A claim that is pending due to recovery of benefits from a third party is a suspended claim. Since payment to the correct provider has been withheld until the third-party payer has recouped its payment from the incorrect provider, this claim is suspended.
-## Question 37 of 100
-A child is brought into a facility by their mother. The child is covered under both parents’ insurance policies. The child's father was born on 10/1/1980 and their mother was born on 10/2/1981. Which of the following statements is true regarding the primary policy holder for the child?
-- ❌ The father is the primary policy holder because he is a year younger
-> According to the birthday rule, the policyholder whose birthday month and day comes first in the calendar year is the primary policy holder for dependents. The year is not a factor.
-- ✅ The father is the primary policy holder because his birthday falls first in the calendar year.
-> According to the birthday rule, the policyholder whose birthday month and day comes first in the calendar year is the primary policy holder for dependents. Therefore, the father is the primary policy holder for the child.
-- ❌ The mother is the primary policy holder because she is t
-> According to the birthday rule, the policyholder whose birthday month and day comes first in the calendar year is the primary policy holder for dependents. The year is not a factor.
-- ❌ The mother is the primary policy holder because she brought the child in for the ap
-> According to the birthday rule, the policyholder whose birthday month and day that comes first in the calendar year is the primary policy holder for dependents.
-## Question 38 of 100
-A billing and coding specialist is preparing a claim for a procedure with a prolonged operative time that has modifier -22 attached. Which of the following actions should the specialist take?
-- ✅ Include an attachment to the claim.
-> The specialist should include an attachment to the claim to support the increased procedural services, which is indicated by modifier -22
-- ❌ Contact the third-party payer
-> There is no reason to contact the third-party payer. The specialist should attach documentation to support the increased procedural services.
-- ❌ Inform the patient that the service is noncovered.
-> There is no reason to inform the patient that the service is noncovered. The specialist should attach documentation to support the increased procedural services.
-- ❌ Remove modifier -22 and submit the claim.
-> There is no reason to remove modifier -22 prior to submitting the claim. The specialist should attach documentation to support the increased procedural services.
-## Question 39 of 100
-A billing and coding specialist is reviewing an encounter note that indicates a biopsy was performed. The specialist requires which of the following additional details to fully code this procedure?
-- ❌ Proximal vs. distal location
-> The specialist requires a status of benign or malignant from the biopsy report to fully code this procedure.
-- ✅ Benign vs. malignant status
-> The specialist requires a status of benign or malignant from the biopsy report to fully code this procedure.
-- ❌ Chronic vs. acute status
-> The specialist requires a status of benign or malignant from the biopsy report to fully code this procedure.
-- ❌ Multiple vs. singular count
-> The specialist requires a status of benign or malignant from the biopsy report to fully code this procedure.
-## Question 40 of 100
-Which of the following information is required on a patient account record?
-- ✅ Name and address of guarantor
-> The guarantor’s name and address are required on the patient account record.
-- ❌ Procedures performed
-> The procedures performed are not required on the patient account record.
-- ❌ Family history of the guarantor
-> The guarantor's family history is not required on the patient account record.
-- ❌ Diagnosis
-> The diagnosis is not required on the patient account record.
-## Question 41 of 100
-A billing and coding specialist is preparing to appeal a partially paid claim due to an incorrect procedure code. Which of the following steps of the appeal process includes the review of the claim adjustment reason code?
-- ✅ Identification
-> During the identification step, the reason for the denial or rejection is identified by interpreting claim adjustment reason codes.
-- ❌ Management
-> The management step involves the process of resolving denied or rejected claims, such as sorting.
-- ❌ Monitoring
-> The monitoring step involves keeping a record of denied or rejected claims that can be reviewed routinely as a reference for samples or for prevention.
-- ❌ Prevention
-> The prevention step involves teaching and educating those involved in the claims management and appeals process and involving them when necessary.
-## Question 42 of 100
-Which of the following actions by a billing and coding specialist ensures a patient's health information is protected?
-- ❌ Confirming test results with the patient over the phone at the reception area
-> The specialist should confirm test results in private.
-- ❌ Asking patients the reason for their visit during check-in
-> The specialist should ask patients their reason for visiting in a private area where it cannot be overheard.
-- ✅ Using data encryption software on office workstations
-> Encryption software ensures that electronically transmitted health information cannot be read by third parties; therefore, this action ensures a patient's health information is protected.
-- ❌ Leaving the workstation unlocked while stepping away to assist another patient
-> The specialist should avoid leaving the workstation unlocked while helping another patient to ensure the patient's health information is protected.
-## Question 43 of 100
-A billing and coding specialist receives a denial for payment from TRICARE for services provided in the emergency department while a provider was on call. The provider is not a participating TRICARE provider. Which of the following actions must the specialist take to process an appeal for payment?
-
-- ❌ File a nonavailability request form
-> A nonavailability request form is filled out by out-of-network providers who wish to treat obstetric patients when a TRICARE provider is not available. Out-of-network providers have no access to TRICARE information for subscribers. All requests for information must go through the subscriber or patient.
-- ❌ Request reconsideration.
-> Only participating providers can request reconsideration for a denial of payment from TRICARE. Out-of-network providers have no access to TRICARE information for patients. All requests must go through the subscriber or patient.
-- ✅ Contact the patient for assistance
-> Out-of-network providers have no access to TRICARE information for patients. All requests must go through the subscriber or patient.
-- ❌ Inquire through the online TRICARE portal.
-> Only participating providers have access to the online TRICARE portal. Out-of-network providers have no access to TRICARE information for patients. All requests must go through the subscriber or patient.
-## Question 44 of 100
-A billing and coding specialist is reviewing a remittance advice from Medicare and notices that the amount paid for a procedure is less than the contracted amount. Which of the following is a potential reason for the reduced amount of payment?
-
-- ✅ The claim indicated an incorrect place of service.
-> Medicare requires specific services to be provided in specific care locations. If this is not possible, the amount of payment provided is reduced. This is called a site-of-service limitation.
-- ❌ The claim is missing demographic information.
-> A claim that is missing demographic information will be denied by the payer, rather than have a reduced payment applied to it.
-- ❌ The coordination of benefits was not updated.
-> If the coordination of benefits is not updated by the patient, it will result in the claim being denied, rather than a reduction in the amount of payment.
-- ❌ The claim was for a work-related injury.
-> A claim for a work-related injury would need to be filed through workers’ compensation, not Medicare. If a work-related claim is filed through Medicare, the claim would be denied, rather than the payment be reduced.
-## Question 45 of 100
-A billing and coding specialist is collecting demographic information from a patient. Which of the following pieces of information should the specialist expect the Medicaid eligibility verification system (MEVS) to provide?
-
-- ❌ Preauthorization for services
-> Preauthorization for services is based on coverage and is not provided through MEVS.
-- ❌ Medicare eligibility
-> Medicare and Medicaid are separate entities. The specialist should not expect to collect information about Medicare eligibility from MEVS.
-- ✅ Dates of coverage
-> MEVS provides information about Medicaid eligibility, including the patient's dates of coverage.
-- ❌ List of pre-existing conditions
-> MEVS does not provide a list of a patient's pre-existing conditions. Insurers are prohibited from disclosing information about a patient's pre-existing conditions; therefore, this information would need to be collected directly from the patient.
-## Question 46 of 100
-A billing and coding specialist observes a colleague perform an unethical act. Which of the following actions should the specialist take?
-- ❌ File a complaint with the provider.
-> Filing a complaint with the provider is not an appropriate action.
-- ❌ Confront the employee
-> Confronting the employee is not an appropriate action.
-- ✅ Report the incident to a supervisor.
-> The specialist should report the incident to a supervisor.
-- ❌ Disregard the incident.
-> Disregarding the incident is not an appropriate action.
-## Question 47 of 100
-When a patient signs an Acknowledgement of Notice of Privacy Practice, it indicates which of the following?
-- ❌ The patient allows information to be used for treatment, payment, and health care operations (TPO).
-> Allowing information to be used for TPO does not apply to the Acknowledgement of Notice of Privacy Practice.
-- ❌ The patient is billed for services provided that are not paid for by The Centers for Medicare and Medicaid Services (CMS).
-> Being billed for services that are not paid for by CMS does not apply to the Acknowledgement of Notice of Privacy Practice.
-- ❌ The patient allows information to be maintained in an electronic health record (EHR) environment.
-> Allowing information to be maintained in an EHR environment does not apply to the Acknowledgement of Notice of Privacy Practice.
-- ✅ The patient accepts the policies and procedures regarding how protected health information (PHI) is handled.
-> Accepting the policies and procedures regarding how PHI is handled ensures that the patient has reviewed and signed off on how their PHI is handled.
-## Question 48 of 100
-A billing and coding specialist is processing a claim for a patient who broke their arm while repairing cars at their workplace. There is no nerve damage, the arm is placed in a cast for 6 weeks, and the patient is cleared to return to work in 6 weeks. Which of the following types of workers’ compensation applies to this patient?
-- ✅ Temporary disability
-> Temporary disability is provided when a worker is injured on the job and their wages are lost on a temporary basis.
-- ❌ Third-party subrogation
-> Third-party subrogation is legally pursuing an individual that caused an insurance loss to the insured to recover the amount of the claim paid.
-- ❌ Permanent disability
-> Permanent disability is provided when it is determined that the patient is permanently impaired and unable to return to the job they held prior to the injury.
-- ❌ Nondisability
-> Nondisablity is provided when a worker has a minor injury on the job and is able to continue regular duties.
-## Question 49 of 100
-Medigap coverage is offered to Medicare beneficiaries by which of the following?
-- ❌ Medicaid
-> Medicaid's supplemental coverage, Medi-Medi, picks up Medicare's premiums for qualified applicants.
-- ❌ Federal health plans
-> Federal health plans are not private; therefore, they do not offer supplemental coverage.
-- ❌ Managed care plans
-> Managed care plans are eligible as primary or secondary care plans; therefore, they do not provide supplemental coverage.
-- ✅ Private third-party payers
-> Medigap coverage is supplemental coverage that private third-party payers offer to Medicare beneficiaries who pay their Medicare premium.
-## Question 50 of 100
-Which of the following qualifies a patient for eligibility under Medicare as the primary third-party payer?
-- ❌ Individuals who have worked 9 years in Medicare-covered employment
-> Individuals must work for at least 10 years in Medicare-covered employment to be eligible.
-- ❌ Individuals who are below the federal poverty level
-> Individuals who are below the federal poverty level are eligible for Medicaid, not Medicare.
-- ❌ Individuals who are 50 years or younger
-> Individuals who are 65 years or older qualify for Medicare.
-- ✅ Individuals who are under age 65 and have a disability
-> Individuals who are under age 65 and have a disability are eligible for Medicare.
-
-## Question 51 of 100
-An employer's workers' compensation payer requires bloodwork for an employee who experienced a work-related injury. Which of the following modifiers should a billing and coding specialist use?
-| Modifier | Description                                                                                                                   |
-|----------|-------------------------------------------------------------------------------------------------------------------------------|
-| -26      | Professional component                                                                                                        |
-| -32      | Mandated services                                                                                                             |
-| -52      | Reduced services                                                                                                              |
-| -58      | Staged or related procedure by the same physician or other qualified health care professional during the postoperative period |
-- ❌ -52
-> Modifier 32 is used when a service is required by a payer or agency not -52.
-- ❌ -58
-> Modifier 32 is used when a service is required by a payer or agency not -58.
-- ✅ -32
-> Modifier 32 is used when a service is required by a payer or agency.
-- ❌ -26
-> Modifier 32 is used when a service is required by a payer or agency, not -26.
-## Question 52 of 100
-A patient has met an in-network PPO deductible of $150. The patient's coinsurance is 20%, and the allowed amount is $600. Which of the following is the patient's out-of-pocket expense?
-- ❌ $450
-> Since the patient's deductible has been met, the patient's responsibility is 20% of the allowed amount. (0.20 x 600 = 120)
-- ❌ $300
-> Since the patient's deductible has been met, the patient's responsibility is 20% of the allowed amount. (0.20 x 600 = 120)
-- ✅ $120
-> Since the patient's deductible has been met, the patient's responsibility is 20% of the allowed amount. (0.20 x 600 = 120)
-- ❌ $150
-> Since the patient's deductible has been met, the patient's responsibility is 20% of the allowed amount. (0.20 x 600 = 120)
-## Question 53 of 100
-Which of the following is a correct rule when using CPT® add-on codes?
-- ❌ They are automatically reduced in value.
-> CPT® add-on codes are not automatically reduced in value.
-- ❌ They should be sequenced first.
-> CPT® add-on codes should not be sequenced first.
-- ❌ They are used for unspecified codes
-> CPT® add-on codes are not used for unspecified codes.
-- ✅ They are exempt from the multiple procedure concept.
-> CPT® add-on codes are exempt from the multiple procedure concept.
-
-## Question 54 of 100
-Complete the following question by referencing the coding exhibit
-Which of the following CPT® codes should a billing and coding specialist use to bill for a 5-year-old child who had an initial repair of a 2.5 cm abdominal hernia?
-### CPT® Code Set
-| Code  | Description                                                                                                                                                                                                                                                                               |
-|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 49491 | Repair, initial inguinal hernia, preterm infant (younger than 37 weeks gestation at birth), performed from birth up to 50 weeks post conception age, with or without hydrocelectomy; reducible.                                                                                           |
-| 49521 | Repair recurrent inguinal hernia, any age; incarcerated or strangulated.                                                                                                                                                                                                                  |
-| 49591 | Repair of anterior abdominal hernia(s) (i.e., epigastric, incisional, ventral, umbilical, spigelian), any approach (i.e., open, laparoscopic, robotic), initial, including implantation of mesh or other prosthesis when performed, total length of defect(s); less than 3 cm, reducible. |
-| 49613 | Repair of anterior abdominal hernia(s) (i.e., epigastric, incisional, ventral, umbilical, spigelian) any approach (open, laparoscopic, robotic), recurrent, including implantation of mesh or other prosthesis when performed, total length of defect(s); less than 3 cm, reducible.      |
-- ❌ 49521
-> This CPT® code indicates repair of a recurrent, incarcerated, or strangulated inguinal hernia at any age.
-- ❌ 49491
-> This CPT® code indicates an inguinal hernia repair for a child from birth up to 50 weeks of age.
-- ✅ 49591
-> is CPT® code indicates an initial abdominal hernia repair less than 3 cm.
-- ❌ 49613
-> This CPT® code indicates a recurrent abdominal hernia repair less than 3 cm.
-
-## Question 55 of 100
-Complete the following question by referencing the coding exhibit.
-A billing and coding specialist is reviewing a claim for an established patient who arrived at the office with an upper respiratory infection. Which of the following codes should the specialist use for this encounter?
-### CPT® Code Set
-| Code  | Description                                                                                                                                                                                               |
-|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 99213 | Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. |
-| 99203 | Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and low level of medical decision making.          |
-| 99252 | Inpatient or observation consultation for a new or established patient, which requires a medically appropriate history and/or examination and straightforward level of medical decision making.           |
-| 99283 | Emergency department visit for the evaluation and management of a patient, which requires a medically appropriate history and/or examination and low level of medical decision making.                    |
-- ❌ 99252
-> This code is used for an inpatient or observation consultation visit, regardless of whether the patient is new or established.
-- ✅ 99213
-> This code is used for an established patient office Evaluation and Management (E/M) service.
-- ❌ 99203
-> This code is used for a new patient office Evaluation and Management (E/M) service.
-- ❌ 99283
-> This code is used for an emergency department visit, regardless of whether the patient is new or established.
-## Question 56 of 100
-A billing and coding specialist discovers that one private payer has not reimbursed the provider for any claims submitted in the past year. Clean claims have been submitted to the payer and have been acknowledged. Which of the following entities should the specialist contact to report the payer's failure to submit timely reimbursement?
-- ❌ Department of Health and Human Services (HHS)
-> The HHS does not set standards for processing and payment times by third-party payers. This is a standard set by individual states' insurance commissioners.
-- ❌ Bureau of Health Workforce (BHW)
-> The BHW does not set standards for processing and payment times by third-party payers. This is a standard set by individual states’ insurance commissioners.
-- ✅ State Insurance Commissioner's office
-> Each state has an insurance commission that sets standards for processing and payment times that third-party payers must follow. The specialist should contact their state's Insurance Commissioner's office to file a complaint.
-- ❌ Federal Insurance Office (FIO)
-> The FIO oversees non-health insurance products.
-## Question 57 of 100
-Which of the following code sets is used to report inpatient procedures?
-- ❌ HCPCS
-> HCPCS codes report services and supplies for outpatient services.
-- ❌ CPT®
-> CPT® codes report the professional charges for procedures.
-- ✅ ICD-10-PCS
-> ICD-10-PCS codes report inpatient procedures.
-- ❌ ICD-10-CM
-> ICD-10-CM codes report patient illnesses, injuries and conditions.
-## Question 58 of 100
-Which of the following is used by Medicare to determine if an item or service is covered?
-- ✅ National Coverage Determination (NCD)
-> NCD is a Medicare policy stating whether and under what circumstances a particular item or service is covered by Medicare.
-- ❌ Prospective payment system (PPS)
-> PPS is a method of reimbursement in which Medicare payment is made based on a predetermined, fixed amount.
-- ❌ Advance Beneficiary Notice (ABN)
-> ABN is a form provided to a patient to indicate a service may not be covered by Medicare and the patient may be responsible for the charges.
-- ❌ Resource-based relative value scale (RBRVS)
-> RBRVS is used to establish Medicare fees.
-## Question 59 of 100
-Complete the following question by referencing the coding exhibit.
-A patient presents to a provider's office with difficulty speaking, facial drooping, and an inability to close their left eye. They are diagnosed with Bell's palsy. A billing and coding specialist should report which of the following ICD-10-CM codes?
-### CPT® Code Set
-| Code    | Description                  |
-|---------|------------------------------|
-| R29.810 | Facial weakness              |
-| R47.81  | Slurred speech               |
-| G51.0   | Bell's palsy                 |
-| P11.3   | Birth injury to facial nerve |
-- ❌ R29.810, R47.81
-> The specialist should not report signs and symptoms with a confirmed diagnosis.
-- ✅ G51.0
-> Common signs and symptoms of Bell's palsy include facial drooping and difficulty speaking. These codes are not reported separately with a confirmed or definitive diagnosis. Correct coding for Bell's palsy is reporting only code G51.0.
-- ❌ G51.0, R29.810, R47.81
-> The specialist should not report signs and symptoms with a confirmed diagnosis.
-- ❌ P11.3
-> The diagnosis does not indicate it is due to a birth injury. P codes refer to newborns.
-## Question 60 of 100
-A billing and coding specialist is submitting a claim for a school-age child who was brought to the clinic by their maternal grandmother. The child's parents are divorced and remarried, and the child's mother has legal custody of the child. The specialist should recognize that the child's primary insurance coverage is provided through which of the following insured individuals?
-
-- ✅ Biological mother
-> In instances where a child's parents are divorced and one of the parents retains custody, the custodial parent who is insured is the primary insurer for the child.  The custodial stepparent, when applicable, is the secondary insurer with the noncustodial biological parent being tertiary.
-- ❌ Stepmother
-> In instances where a child's parents are divorced and one of the parents retains custody, the custodial parent who is insured is the primary insurer for the child.  The custodial stepparent, when applicable, is the secondary insurer with the noncustodial biological parent being tertiary.
-- ❌ Biological father
-> In instances where a child's parents are divorced and one of the parents retains custody, the custodial parent who is insured is the primary insurer for the child.  The custodial stepparent, when applicable, is the secondary insurer with the noncustodial biological parent being tertiary.
-- ❌ Maternal grandmother
-> In instances where a child's parents are divorced and one of the parents retains custody, the custodial parent who is insured is the primary insurer for the child.  The custodial stepparent, when applicable, is the secondary insurer with the noncustodial biological parent being tertiary.
-
-## Question 61 of 100
-A billing and coding specialist is reviewing a delinquent claim. Which of the following actions should the specialst take first?
-- ✅ Verify the age of the account.
-> Verifying the age of the account is the first action the specialist should take when reviewing a delinquent claim.
-- ❌ Query the third-party payer.
-> Querying the third-party payer is the third step the specialist should take when reviewing a delinquent claim.
-- ❌ Obtain the claim status.
-> Obtaining the claim status is the second step the specialist should take when reviewing a delinquent claim.
-- ❌ Resubmit the claim.
-> Resubmitting the claim is the last step the specialist should take when reviewing a delinquent claim.
-## Question 62 of 100
-Which of the following parts of Medicare is managed by private third-party payers that have been approved by Medicare?
-- ❌ Medicare Part A
-> Medicare Part A provides coverage for hospital services.
-- ❌ Medicare Part B
-> Medicare Part B provides coverage for outpatient and provider services.
-- ✅ Medicare Part C
-> Medicare Part C, or Medicare Advantage Plans, allows the patient to choose a managed care plan and a private, fee-for-service health care plan that has been approved by Medicare.
-- ❌ Medicare Part D
-> Medicare Part D provides prescription medication coverage.
-## Question 63 of 100
-Which of the following is true regarding Medicaid eligibility?
-- ❌ Eligibility of dependents is automatic.
-> Dependent eligibility is income-based and is not automatic.
-- ❌ Providers who accept Medicare must also accept Medicaid.
-> Medicare and Medicaid are separate entities and providers are not required to accept both.
-- ✅ Patient eligibility is determined at each visit.
-> Patient eligibility for Medicaid is determined at each visit and depends upon the patient's financial status.
-- ❌ Patient eligibility begins at 65 years of age.
-> Patient eligibility for Medicare begins at 65 years of age.
-## Question 64 of 100
-For which of the following reasons should a billing and coding specialist follow the guidelines in the CPT® manual?
-- ✅ The guidelines define items that are necessary to accurately code.
-> The CPT® coding manual contains guidelines required for accurate coding.
-- ❌ The guidelines assist with coding proper diagnoses.
-> The ICD-10-CM coding manual assists with the coding of proper diagnoses.
-- ❌ The guidelines indicate medical necessity.
-> The CPT® guidelines do not contain any indications for medical necessity.
-- ❌ The guidelines negate the need for documentation.
-> Proper documentation is still required outside of the CPT® guidelines.
-## Question 65 of 100
-Which of the following provisions ensures that an insured patient's benefits from third-party payers do not exceed 100% of allowable medical expenses?
-
-- ❌ Source document
-> A source document is a communication tool used between the provider and third-party payer to submit a claim.
-- ❌ Assignment of benefits
-> Assignment of benefits does not ensure that patient benefits from a third-party payer do not exceed allowable medical expenses.
-- ❌ Coinsurance
-> Coinsurance is the percentage a patient pays for covered services after the deductible is met.
-- ✅ Coordination of benefits
-> Coordination of benefits is used between multiple third-party payers to determine which payer pays primary and which payer pays secondary. The coordination of benefits third-party payer does not exceed allowable medical expenses.
-## Question 66 of 100
-A billing and coding specialist is preparing a claim for a provider. The operative note indicates the surgeon performed a CABG. The specialist should identify that CABG stands for which of the following?
-- ✅ Coronary artery bypass graft
-> CABG stands for coronary artery bypass graft.
-- ❌ Cardiac arterial blood gas
-> CABG stands for coronary artery bypass graft.
-- ❌ Coronal aortic basilar graph
-> CABG stands for coronary artery bypass graft.
-- ❌ Cardio axillary brachial gram
-> CABG stands for coronary artery bypass graft.
-## Question 67 of 100
-A patient is diagnosed with pneumonia during a follow-up encounter for a knee joint replacement surgery performed 2 weeks previously. Which of the following CPT® modifiers should the specialist add to the claim prior to resubmitting?
-
-- ❌ -55 Postoperative management only
-> Modifier -55 is used for postoperative management care.
-- ❌ -25 Significant, separately identifiable evaluation and management service by the same physician or other qualified health care professional on the same day of the procedure or other service
-> Modifier -25 is used for separately significant Evaluation and Management (E/M) services by the same provider on the same day of service.
-- ❌ -79 Unrelated procedure or service by the same physician or other qualified health care professional during the postoperative period
-> Modifier -79 is used for unrelated procedures or services by the same provider during the postoperative period.
-- ✅ -24 Unrelated evaluation and management service by the same physician or other qualified health care professional during a postoperative period
-> Modifier -24 is used for unrelated Evaluation and Management (E/M) services by the same provider during the postoperative period. The specialist should add this modifier and resubmit the claim.
-
-## Question 68 of 100
-Anesthesia codes from the CPT® manual require which of the following on the claim form?
-- ❌ Special reports
-> Anesthesia codes require physical status modifiers for billing, not special reports.
-- ❌ Add-on codes
-> Anesthesia codes require physical status modifiers for billing, not add-on codes.
-- ❌ Category Il supplemental codes
-> Anesthesia codes require physical status modifiers for billing, not category II supplemental codes.
-- ✅ Physical status modifiers
-> Anesthesia codes require physical status modifiers for billing.
-
-## Question 69 of 100
-Complete the following question by referencing the coding exhibit.
-A billing and coding specialist is reviewing a patient's encounter progress note. Which of the following modifiers indicates the patient received general anesthesia from a surgeon?
-| Modifier | Description                   |
-|----------|-------------------------------|
-| -22      | Increased procedural services |
-| -23      | Unusual anesthesia            |
-| -47      | Anesthesia by surgeon         |
-| -52      | Reduced services              |
-- ✅ -47
-> Modifier -47 indicates general anesthesia was administered by the surgeon.
-- ❌ -23
-> Modifier -23 indicates local or regional anesthesia was administered.
-- ❌ -52
-> Modifier -52 indicates services rendered were reduced from the originally planned full services.
-- ❌ -22
-> Modifier -22 indicates services rendered were increased from the originally planned services due to severity of the patient's condition.
-## Question 70 of 100
-A billing and coding specialist is training a new employee on a claim for a consultation. The new employee asks, "What is a consultation?" Which of the following responses should the specialist make?
-
-- ❌ "It's when a provider requests medical advice from the nursing staff."
-> A consultation is when a provider requests medical advice about treating a condition from a specialist, such as a cardiologist.
-- ❌ "It's a meeting between the provider and the patient's family.
-> A consultation is when a provider requests medical advice about treating a condition from a specialist, such as a cardiologist.
-- ✅ "It's when a provider requests medical advice from a specialist."
-> A consultation is when a provider requests medical advice about treating a condition from a specialist, such as a cardiologist.
-- ❌ "It's a meeting between the provider and the third-party payer."
-> A consultation is when a provider requests medical advice about treating a condition from a specialist, such as a cardiologist.
-## Question 71 of 100
-Which of the following is a ICD-10-CM category code?
-- ✅ A 3-character code
-> ICD-10-CM category codes have 3 characters.
-- ❌ A 5-character code
-> ICD-10-CM category codes have 3 characters, not 5.
-- ❌ A 7-character code
-> ICD-10-CM category codes have 3 characters, not 7.
-- ❌ A 6-character code
-> ICD-10-CM category codes have 3 characters, not 6.
-## Question 72 of 100
-A billing and coding specialist is preparing a claim for a patient who had a procedure performed on their left index finger. Which of the following CPT® modifiers indicates the correct digit?
-- ❌ -F4 Left hand, fifth digit
-> Modifier -F4 is used for the left pinky.
-- ❌ -F6 Right hand, second digit
-> Modifier -F6 is used for the right index finger.
-- ❌ -FA Left hand, thumb
-> Modifier -FA is used for the left thumb.
-- ✅ -F1 Left hand, second digit
-> Modifier -F1 is used for the left index finger.
-## Question 73 of 100
-Which of the following is an example of a violation of an adult patient's confidentiality?
-- ❌ While reviewing a claim, a billing and coding specialist reads the diagnosis before realizing that the patient is a neighbor.
-> Proofing a claim, including the ICD-10-CM code, is not a violation of patient confidentiality.
-- ❌ A billing and coding specialist queries the provider about a diagnosis in a patient's medical record.
-> Unclear documentation should be clarified prior to code assignment and billing, This is not a violation of patient confidentiality.
-- ❌ The provider uses their home phone to discuss the patient's care with nursing staff.
-> Using a home phone is not a violation of patient confidentiality.
-- ✅ Patient information was disclosed to the patient's parent without consent.
-> Disclosing information to anyone without the patient's consent is a violation of patient confidentiality.
-## Question 74 of 100
-Which of the following links the ICD-10-CM and CPT® codes for claims processing?
-- ✅ Diagnosis pointer
-> The diagnosis pointer links the ICD-10-CM and CPT® codes to support medical necessity.
-- ❌ Place of service
-> Place of service identifies where a service was performed.
-- ❌ Modifier
-> A modifier provides additional detail for CPT® codes.
-- ❌ Days or units
-> The days identify the number of days a patient was hospitalized. Units are measurements that identify the quantity of injections or procedures.
-## Question 75 of 100
-Which of the following is the provision of health insurance policies that specifies which coverage is primary or secondary?
-- ❌ Eligibility verification
-> Eligibility verification is the process of checking and confirming that a patient is covered under an insurance plan.
-- ❌ Explanation of benefits
-> Explanation of benefits is a summary of all benefits processed.
-- ❌ Assignment of benefits
-> Assignment of benefits is when a patient authorizes the third-party payer to pay the provider directly.
-- ✅ Coordination of benefits
-> Coordination of benefits is the provision of health insurance policies that specifies which coverage is primary or secondary.
-## Question 76 of 100
-Which of the following is the purpose of running an insurance aging report each month?
-- ❌ To determine the balances the patients owe the provider
-> The aging report does not indicate the balances owed the provider by patients.
-- ❌ To determine which patients have upcoming or missed appointments
-> The aging report does not indicate patient appointment status.
-- ✅ To determine which claims are outstanding from third-party payers
-> An aging report indicates the status of outstanding claims that need to be paid.
-- ❌ To determine what the third-party payer has paid for the provider's services to a patient
-> The aging report does not indicate the amount a third-party payer has paid the provider.
-## Question 77 of 100
-An explanation of benefits states the amount billed was $80. The allowed amount is $60, and the patient is required to pay a $20 copayment. Which of the following describes the insurance check amount to be posted?
-- ✅ $40
-> The allowed amount is $60 and the patient is required to pay a $20 copayment. The difference in cost is $40, which is the insurance check amount to be posted.
-- ❌ $80
-> The check amount is the allowed amount minus any copay requirements
-- ❌ $60
-> The check amount is the allowed amount minus any copay requirements
-- ❌ $20
-> The check amount is the allowed amount minus any copay requirements
-
-## Question 78 of 100
-Complete the following question by referencing the coding exhibit.
-A patient has a breast biopsy with the placement of a clip. After the biopsy is determined to be malignant, the patient elects for a mastectomy during the global period of the biopsy. Which of the following modifiers should a billing and coding specialist use to report the mastectomy?
-| Modifier | Description                                                                                                                                                                                       |
-|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| -25      | Significant, separately identifiable evaluation and management (E/M) service by the same physician or other qualified health care professional on the same day of the procedure or other service. |
-| -58      | Staged or related procedure by the same physician or other qualified health care professional during the postoperative period.                                                                    |
-| -59      | Distinct procedural service                                                                                                                                                                       |
-| -78      | Unplanned return to the operating/procedure room by the same physician or other qualified health care professional following procedure for a related procedure during the postoperative period.   |
-- ✅ -58
-> Modifier -58 indicates a procedure that is performed by the same provider or other qualified health care professional during the postoperative period. This is the modifier the specialist should use to report the mastectomy because it was performed during the global period of the biopsy.
-- ❌ -59
-> Modifier -59 indicates a distinct procedural service.
-- ❌ -25
-> Modifier -25 indicates a significant, separately identifiable Evaluation and Management (E/M) service by the same provider or other qualified health care professional on the same day of the procedure or other service.
-- ❌ -78
-> Modifier -78 indicates an unplanned return to the operating or procedure room by the same provider or other qualified health professional following the initial procedure for a related procedure during the postoperative period.
-## Question 79 of 100
-Which of the following is part of a provider's practice compliance program?
-- ❌ HIPAA compliance audit
-> AHIPAA compliance audit is not part of a provider's practice compliance program.
-- ❌ Provider recruitment
-> Provider recruitment is not part of a provider's practice compliance program.
-- ✅ Internal monitoring and auditing
-> Internal monitoring and auditing is part of a provider's practice compliance program. Conducting internal monitoring and auditing provides a solid basis upon which a provider practice can create a voluntary compliance program.
-- ❌ Notice of privacy practices
-> Notice of privacy practices is not part of a provider's practice compliance program.
-## Question 80 of 100
-A billing and coding specialist is preparing a claim for an established patient who arrived for an annual exam. During the examination, the provider treated the patient's sinus infection and prescribed medication for it. Which of the following Evaluation and Management (E/M) codes requires modifier -25?
-### CPT® Code Set
-| Code / Modifier | Description                                                                                                                                                                                                                                                                                                         |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 99213           | Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making.                                                                                                           |
-| 99202           | Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward level of medical decision making.                                                                                                        |
-| 99385           | Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient, 18-39 years.            |
-| 99395           | Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient, 18-39 years. |
-| -25             | Significant, separately identifiable evaluation and management (E/M) service by the same physician or other qualified health care professional on the same day of the procedure or other service.                                                                                                                   |
-- ❌ 99395
-> This code is used for the annual examination of an established patient.
-- ❌ 99385
-> This code is used for the annual examination of a new patient.
-- ✅ 99213
-> Modifier -25 is used when a separately significant service is provided on the same day as another documented Evaluation and Management (E/M) service.
-- ❌ 99202
-> This code is used for the Evaluation and Management (E/M) service of a new patient.
-## Question 81 of 100
-A billing and coding specialist is determining coordination of benefits for a patient who has health insurance coverage from both parents. The patient's father's birthday is May 18, 1982 and their mother's birthday is May 18, 1984. Which of the following statements is correct for determining coverage?
-
-- ❌ The parent whose birth month comes first in the calendar year will be the primary insurer.
-> According to the birthday rule, the parent whose birth month and day comes first in the calendar year will be the primary insurer. If the parents have the same birth month and day, the policy that has been active the longest will be the primary.
-- ❌ The parent whose birth year comes first will be the primary insurer.
-> According to the birthday rule, the parent whose birth month and day comes first in the calendar year will be the primary insurer. If the parents have the same birth month and day, the policy that has been active the longest will be the primary.
-- ❌ The parent whose insurance policy went into effect most recently will be the primary insurer.
-> According to the birthday rule, the parent whose birth month and day comes first in the calendar year will be the primary insurer. If the parents have the same birth month and day, the policy that has been active the longest will be the primary.
-- ✅ The parent whose insurance policy has been active the longest will be the primary insurer.
-> According to the birthday rule, the parent whose birth month and day comes first in the calendar year will be the primary insurer. If the parents have the same birth month and day, the policy that has been active the longest will be the primary.
-
-## Question 82 of 100
-When reviewing an established patient's insurance card, a billing and coding specialist notices a minor change from the existing card on file. Which of the following actions should the specialist take?
-
-- ✅ Photocopy both sides of the new card.
-> Any changes to the insurance card should be photocopied or scanned and added to the patient record.
-- ❌ Describe the change on the patient registration form.
-> A description of the new card is not sufficient. Any changes to the insurance card should be photocopied and added to the patient record.
-- ❌ Instruct the patient to contact the third-party payer to verify coverage.
-> The office staff are responsible for confirming coverage.
-- ❌ Confirm with the patient that the insurance coverage is the same.
-> The patient may not be aware of the changes; therefore, the specialist should not confirm coverage with the patient.
-## Question 83 of 100
-In ICD-10-CM, Z codes are used to identify which of the following?
-- ❌ Behavior disorders
-> Behavior disorders are identified with F codes.
-- ❌ Digestive diseases
-> Digestive diseases are identified with K codes.
-- ❌ Infectious diseases
-> Infectious diseases are identified with A and B codes.
-- ✅ Immunizations
-> Z codes identify encounters for reasons other than illness and injury, such as immunizations.
-
-## Question 84 of 100
-Which of the following pieces of guarantor information is required when establishing a patient's financial record?
-- ❌ Procedural codes used
-> The procedural codes used are not required on the patient's financial record.
-- ❌ Provider name
-> The provider name is not required on the patient's financial record.
-- ✅ Phone number
-> The guarantor's phone number is required on the patient's financial record.
-- ❌ Diagnosis
-> The diagnosis is not required on the patient's financial record.
-## Question 85 of 100
-A billing and coding specialist is determining third-party payer responsibilities for a 70-year-old patient who has Medicare coverage. The patient's spouse has insurance with Blue Cross Blue Shield through their employer. Which of the following actions should the specialist take?
-- ❌ Use Blue Cross Blue Shield as the primary insurance.
-> Since the patient is 70 years old, Medicare would be their primary insurance.
-- ❌ Ask the patient which insurance is primary.
-> It is the specialist's responsibility to determine primary and secondary insurance.
-- ✅ Establish coordination of benefits
-> The specialist should establish coordination of benefits. Coordination of benefits is the process that determines third-party payer responsibilities.
-- ❌ Apply the birthday rule.
-> The birthday rule is used to determine primary insurance for a child when two parents have insurance coverage for the child.
-## Question 86 of 100
-Which of the following is the third stage of a claim's life cycle?
-- ❌ Processing
-> Processing is the second stage of a claim's life cycle.
-- ❌ Payment
-> Payment is the fourth stage of a claim's life cycle.
-- ✅ Adjudication
-> Adjudication is the third stage of a claim's life cycle.
-- ❌ Submission
-> Submission and electronic data interchange is the first stage of a claim's life cycle.
-## Question 87 of 100
-Which of the following is an advantage of electronic claim submission?
-- ✅ Claims are expedited.
-> Submitting claims electronically is faster than submitting paper claims.
-- ❌ Claims are scrubbed.
-> Both electronic and paper claims can be scrubbed.
-- ❌ Claims are clean.
-> Both electronic and paper claims can be clean.
-- ❌ Claims are paid.
-> Both electronic and paper claims can be paid.
-## Question 88 of 100
-A patient who recently received care from an endocrinologist is being referred to an infectious disease specialist. Which of the following types of referral does the patient need from the endocrinologist?
-- ❌ Formal referral
-> A formal referral is required by the managed care organization to determine medical necessity.
-- ❌ Direct referral
-> A direct referral is completed and signed by the provider and given to the patient.
-- ✅ Tertiary care referral
-> The patient needs a tertiary care referral from the endocrinologist. A tertiary care referral is a referral from one specialist to another specialist.
-- ❌ Self referral
-> A self referral is when the patient refers themselves to a specialist.
-## Question 89 of 100
-A claim is submitted with a transposed insurance member ID number and returned to the provider. Which of the following describes the status that will be assigned to the claim by the third-party payer?
-- ❌ Suspended
-> A suspended claim is held for additional information.
-- ❌ Pending
-> A pending claim is held for pending review.
-- ❌ Denied
-> A denied claim is returned to the provider after it has been processed.
-- ✅ Invalid
-> The third-party payer will assign an invalid status to the claim. An invalid claim contains illogical or incorrect information and is returned to the provider unprocessed.
-## Question 90 of 100
-For which of the following reasons should a claim be resubmitted?
-- ❌ The software claims review process indicates the claim is not complete.
-> The claims review process is used to correct errors. Claims are submitted electronically once the corrections have been made.
-- ❌ The claim needs authorization.
-> The authorization number needs to be included on both paper and electronic claims to be adjudicated; however, it does not require the claim to be resubmitted.
-- ✅ The claim requires an attachment to support medical necessity.
-> A claim that requires an attachment to support medical necessity should be resubmitted.
-- ❌ The claim has been adjudicated.
-> A claim that has been adjudicated by the third-party payer has completed the claims review process and does not need to be resubmitted.
-## Question 91 of 100
-A provider's office receives a subpoena requesting medical documentation from a patient's medical record. After confirming the correct authorization, which of the following actions should a billing and coding specialist take?
-
-- ❌ Send the patient's demographic information from the dates of service requested.
-> The demographic information from the dates of service requested is not what the subpoena requested
-- ✅ Send the medical information pertaining to the dates of service requested.
-> The specialist should send only the medical information for the dates of service requested in the subpoena.
-- ❌ Send the patient's financial record ledger from the dates of service requested.
-> The financial record ledger from the dates of service requested is not what the subpoena requested.
-- ❌ Send the claims pertaining to the dates of service requested.
-> The claims from the dates of service requested is not what the subpoena requested.
-## Question 92 of 100
-A billing and coding specialist is arranging a payment plan with a patient who wants to leave postdated checks with the office. The patient proposes leaving one check postdated for 3 months, one for 4 months, and another one for 5 months in the future. According to federal collection law, which of the following actions should the specialist take?
-
-- ❌ Send all checks to the bank immediately for the bank to deposit on the dates indicated.
-> Checks deposited with dates that are this far in advance will not be honored by the bank. Therefore, the checks should be held and deposited no earlier than the date indicated on each check. At least 3 days, and no more than 10 days, prior to depositing each check, the patient must be notified of the deposit.
-- ✅ Notify the patient between 3 and 10 days prior to depositing each check on the indicated date.
-> According to federal collection law, the checks should be held by the provider's office and deposited no earlier than the date indicated on each check. At least 3 days, and no more than 10 days, prior to depositing each check, the patient must be notified of the deposit.
-- ❌ Hold all checks until the final deposit date and deposit the checks together
-> The checks should be held by the provider's office and deposited no earlier than the date indicated on each check. At least 3 days, and no longer than 10 days, prior to depositing each check, the patient must be notified of the deposit.
-- ❌ Inform the patient that it is illegal to accept postdated checks.
-> The specialist should recognize that it is not illegal to accept postdated checks. If the office decides to accept postdated checks, they should be held by the office and deposited no earlier than the date indicated on each check. At least 3 days, and no longer than 10 days, prior to depositing each check, the patient must be notified of the deposit.
-
-## Question 93 of 100
-A billing and coding specialist identifies a CPT® code that is routinely being denied by a third-party payer. Which of the following types of review should the specialist perform?
-- ❌ Prospective review
-> A prospective review focuses on medical necessity for care prior to provision of care.
-- ✅ Retrospective review
-> The specialist should perform a retrospective review. This type of review focuses on medical necessity for care after care has been concluded.
-- ❌ Preadmission review
-> A preadmission review focuses on medical necessity for care before the patient is admitted to receive care.
-- ❌ Concurrent review
-> A concurrent review focuses on medical necessity for care while care is ongoing.
-## Question 94 of 100
-A billing and coding specialist is reviewing modifier use with a new employee. Which of the following scenarios warrants the use of a modifier?
-- ❌ Fracture of the left femur
-> This is a diagnosis and does not warrant a modifier.
-- ✅ Splinting of the fourth digit on the left foot
-> Procedures performed on the digits of the foot warrant the use of a modifier to specify on which digit the procedure was performed.
-- ❌ Recurrent inguinal hernia
-> This is a diagnosis and does not warrant a modifier.
-- ❌ Insertion of a drug delivery implant
-> Insertion codes for a drug delivery implant do not require modifiers.
-## Question 95 of 100
-A patient presents to a primary care provider for a closed right index finger fracture. The provider is a non-participating provider for a private payer and does not accept assignment of benefits. The provider's charge for the service is $135. The third-party payer's usual customary reasonable (UCR) amount is $120 with a 20% coinsurance fee. Which of the following is the patient's financial responsibility?
-- ✅ $39
-> Because the provider is a non-participating provider, the entire amount is recoverable. The insurance deems $120 to be usual, customary, and reasonable, and bases their 80% payment on that amount ($96). The patient is responsible for the other 20% of the amount ($24) plus the remainder of the difference between the fee and the payer's UCR amount ($15). Therefore, the patient is responsible for $39.
-- ❌ $24
-> Because the provider is a non-participating provider, the entire amount is recoverable. The insurance deems $120 to be usual, customary, and reasonable, and bases their 80% payment on that amount ($96). The patient is responsible for the other 20% of the amount ($24) plus the remainder of the difference between the fee and the payer's UCR amount ($15). Therefore, the patient is responsible for $39. An amount of $24 does not add the difference between the charged amount and the UCR amount ($15).
-- ❌ $27
-> Because the provider is a non-participating provider, the entire amount is recoverable. The insurance deems $120 to be usual, customary, and reasonable, and bases their 80% payment on that amount ($96). The patient is responsible for the other 20% of the amount ($24) plus the remainder of the difference between the fee and the payer's UCR amount ($15). Therefore, the patient is responsible for $39, An amount of $27 would be 20% of the charged amount, not the UCR.
-- ❌ $42
-> Because the provider is a non-participating provider, the entire amount is recoverable. The insurance deems $120 to be usual, customary, and reasonable, and bases their 80% payment on that amount ($96). The patient is responsible for the other 20% of the amount ($24) plus the remainder of the difference between the fee and the payer's UCR amount ($15). Therefore, the patient is responsible for $39, An amount of $42 would be 20% of the charged amount ($27) plus the difference between the charged amount and the UCR ($15).
-## Question 96 of 100
-Which of the following actions should a billing and coding specialist take to assign a diagnosis code to the highest level of specificity?
-- ❌ Apply only the three-character code to a claim.
-> Not all codes are only three characters in length. A code can require additional specificity and be up to seven characters long.
-- ❌ Check for exclusion or inclusion notes.
-> This does not apply when assigning a diagnosis code to the highest level of specificity.
-- ✅ Apply characters four through seven to a claim.
-> In order to code to the highest level of specificity, a code may require more than three characters. Therefore, the specialist should apply characters four through seven to a diagnosis code to assign it to the highest level of specificity.
-- ❌ Check for code first or code also notes.
-> This does not apply when assigning a diagnosis code to the highest level of specificity.
-## Question 97 of 100
-A billing and coding specialist is filing a CMS-1500 claim form for a patient who has private insurance. The specialist should recognize that a signature approving assignment of benefits indicates which of the following?
-- ❌ The payer should send reimbursement for the claim to the patient, with the exception of copays and deductibles.
-> If the patient does not sign the statement in block 13 to approve assignment of benefits to the provider, the reimbursement will go to the patient. However, if the block is signed, the payer has permission to send the reimbursement to the provider.
-- ❌ The provider will accept the payer's reimbursement as payment in full with the exception of copays and deductibles.
-> Accepting the payer's reimbursement as payment in full is "accepting assignment."
-- ✅ The payer should send reimbursement directly to the provider with the exception of copays and deductibles.
-> If block 13, which indicates approval of assignment of benefits, is signed, the payer has permission from the patient to send the reimbursement directly to the provider.
-- ❌ The provider should bill the patient for any difference between the amount billed and the amount reimbursed by the payer.
-> This outcome will occur if "No" is checked in block 27 on the CMS-1500, indicating that the provider does not accept assignment. This is not the same as assignment of benefits.
-## Question 98 of 100
-Which of the following is a federal government health insurance program?
-- ❌ Blue Cross Blue Shield
-> Blue Cross Blue Shield is not a government health insurance program. It is a group or individual private insurance company.
-- ❌ Workers’ compensation
-> The federal government requires each state to have workers’ compensation; however, workers’ compensation is not a federal government health insurance program.
-- ❌ Cigna
-> Cigna is a private health insurance company.
-- ✅ TRICARE
-> TRICARE is a federal government health insurance program that is provided for active military personnel and their families.
-
-## Question 99 of 100
-A billing and coding specialist is preparing a claim for an appendectomy and reports it with two units. The claim is then denied. Which of the following coding edits should the specialist have reviewed prior to submitting the claim?
-- ✅ Medically unlikely edits
-> Medically unlikely edits (MUEs) are the maximum units of service that a provider will report under most circumstances for a single beneficiary on a single date of service.
-- ❌ National Coverage Determination
-> National Coverage Determination (NCD) determines coverage limitations for items or services that are reasonable and necessary for diagnosis or treatment.
-- ❌ Outpatient code editor
-> Outpatient code editor (OCE) is used by Medicare and hospitals.
-- ❌ Procedure-to-procedure
-> Procedure-to-procedure (PTP) is an automatic, prepayment edit that prevents improper payments when submitted with Medicare Part B.
-## Question 100 of 100
-In which of the following sections of a SOAP note does a provider indicate a patient's reported level of pain?
-- ✅ Subjective
-> The subjective section is where the patient describes the chief complaint, which can include the patient's reported level of pain.
-- ❌ Objective
-> The objective section includes the results of the patient's physical examination.
-- ❌ Assessment
-> The assessment section includes the provider's diagnosis.
-- ❌ Plan
+`,kr=`## Question 1 of 100\r
+On a remittance advice form, which of the following is responsible for writing off the difference between the amount billed and the amount allowed by the agreement?\r
+- ✅ Provider\r
+> The provider is responsible for writing off the difference between the amount billed and the amount allowed\r
+- ❌ Guarantor\r
+> The guarantor is not responsible for writing off the difference between the amount billed and the amount allowed.\r
+- ❌ Patient\r
+> The patient is not responsible for writing off the difference between the amount billed and the amount allowed.\r
+- ❌ Third-party payer\r
+> The third-party payer sets the allowed amount and is not responsible for writing off the difference between the amount billed and the amount allowed.\r
+\r
+## Question 2 of 100\r
+Which of the following codes are included in the ICD-10-CM code set?\r
+- ❌ Prosthetics\r
+> The ICD-10-CM code set includes a code for acquired absence of limb. Prosthetics codes are found in the CPT code set.\r
+- ❌ Fracture care\r
+> The ICD-10-CM code set includes a code for acquired absence of limb. Fracture care codes are found in the CPT code set.\r
+- ✅ Acquired absence of limb\r
+> The ICD-10-CM code set includes a code for acquired absence of limb.\r
+- ❌ Immunization administration\r
+> The ICD-10-CM code set includes a code for acquired absence of limb. Immunization administration codes are found in the CPT code set.\r
+## Question 3 of 100\r
+A patient has a resection of the intestines with anastomosis through the abdominal walls. Which of the following is a type of anastomosis?\r
+- ✅ Colostomy\r
+> A colostomy is a type of anastomosis, which is a surgical procedure that involves creating an opening through the abdominal wall.\r
+- ❌ Laparotomy\r
+> A laparotomy is a type of surgical opening\r
+- ❌ Ileectomy\r
+> An ileectomy is the removal of the ileum.\r
+- ❌ Endoscopy\r
+> An endoscopy is an explorative procedure.\r
+## Question 4 of 100\r
+Which of the following is the purpose of an internal review in a provider's office?\r
+- ✅ To verify that the medical records and the billing record match\r
+> The purpose of an internal review in a provider's office is to verify that the medical records and the billing record match, which protects the provider from sanctions or fines.\r
+- ❌ To increase revenue for the provider\r
+> Increasing revenue for providers is not the purpose of an internal review.\r
+- ❌ To improve communication between the coding supervisors and coding professionals\r
+> Improving communication between coding supervisors and coding professionals is not the purpose of an internal review.\r
+- ❌ To protect patients from sanctions or fines\r
+> Protecting patients from sanctions or fines is not the purpose of an internal review.\r
+## Question 5 of 100\r
+Which of the following is a valid ICD-10-CM principle?\r
+- ❌ Assign codes to the lowest level of specificity.\r
+> This is not a valid ICD-10-CM principle. Codes should be assigned to the highest level of specificity.\r
+- ❌ Diagnoses should first be found in the tabular list and confirmed in the index.\r
+> This is not a valid ICD-10-CM principle. Diagnoses should first be found in the index and confirmed in the tabular list.\r
+- ❌ Late effect codes should be reported as secondary.\r
+> This is not a valid ICD-10-CM principle. Late effect codes should be reported as primary.\r
+- ✅ Code signs and symptoms in the absence of a definitive diagnosis.\r
+> Signs and symptoms should be coded in the absence of a definitive diagnosis. Therefore, this is a valid ICD-10-CM principle.\r
+## Question 6 of 100\r
+Which of the following editing systems should a billing and coding specialist reference to determine if a supplies and materials code should be assigned to report a surgical tray used during an ambulatory procedure?\r
+\r
+- ❌ Medically unlikely edits (MUEs)\r
+> An MUE for a HCPCS and/or CPT® code is the maximum units of service that a provider can report under most circumstances for a single beneficiary on a single date of service.\r
+- ✅ National Correct Coding Initiative (NCCI)\r
+> NCCI is used to promote national correct coding methodologies and to control improper coding leading to inappropriate payment of claims. The specialist should reference NCCI to determine if a supplies and materials code should be assigned to report a surgical tray used during an ambulatory procedure.\r
+- ❌ Local Coverage Determination (LCD)\r
+> LCDs are guidelines for certain services and procedures that are developed to decide whether to cover a particular service in accordance with services that are defined as medically necessary by the Centers for Medicare and Medicaid Services (CMS).\r
+- ❌ National Coverage Determination (NCD)\r
+> NCDs are guidelines for certain services and procedures that are developed to decide whether to cover a particular service in accordance with services that are defined as medically necessary by the Centers for Medicare and Medicaid Services (CMS).\r
+## Question 7 of 100\r
+When should a billing and coding specialist initiate the collection of the information needed to process a patient's insurance claim form?\r
+- ❌ When the patient signs the HIPAA form at check-in\r
+> The specialist should collect information prior to the patient signing the HIPAA form at check-in.\r
+- ✅ When the patient contacts the provider's office and schedules an appointment\r
+> The specialist should initiate the collection of information needed to process a patient's insurance claim when the patient contacts the office and schedules an appointment.\r
+- ❌ When the patient pays the copay or deductible\r
+> The specialist should collect the information prior to the patient paying the copay or deductible.\r
+- ❌ When the patient checks out of the provider's office\r
+> The specialist should collect the information prior to the patient checking out of the provider's office.\r
+## Question 8 of 100\r
+A patient wants to see an endocrinologist for a consultation about their diabetes mellitus, but they must see their primary care provider (PCP) for a referral to an in-network specialist first. Which of the following types of insurance does the patient have?\r
+- ❌ Preferred provider organization (PPO)\r
+> PPO insurance plans are a network of care, but they do not require a PCP or referral\r
+- ✅ Health Mainenance organization (HMO)\r
+> HMO insurance plans require a referral from the PCP for a specialist consultation.\r
+- ❌ Indemnity\r
+> Indemnity plans are traditional plans and do not require a PCP or referral.\r
+- ❌ Point of service (POS)\r
+> POS plans do not require a referral. Patients are allowed to self-refer to out-of-network providers.\r
+## Question 9 of 100\r
+A billing and coding specialist is reviewing the procedure notes from a provider who selected a code indicating an incisional biopsy when the entirety of the patient's lesion was removed. The specialist should verify with the provider that which of the following types of procedures was performed?\r
+\r
+- ❌ Core procedure\r
+> The specialist should recognize that a core procedure involves removal of a core sample of tissue from the patient's lesion, not removal of the entire lesion.\r
+Removal of the entire lesion is classified as an excisional procedure.\r
+- ❌ Needle procedure\r
+> The specialist should recognize that a needle procedure involves aspiration of fluid from within the lesion using a needle and syringe or using a specialized biopsy needle. Removal of the entire lesion is classified as an excisional procedure.\r
+- ✅ Excisional procedure\r
+> The specialist should clarify the procedure type with the provider to ensure that an excisional procedure was performed when the entirety of the patient's lesion was removed.\r
+- ❌ Punch procedure\r
+> The specialist should recognize that a punch procedure involves the removal of a small section of the lesion using a punch instrument. Removal of the entire lesion is classified as an excisional procedure.\r
+## Question 10 of 100\r
+A billing and coding specialist is reviewing a report from the clearinghouse after submitting electronic claims and notices that one claim was rejected due to missing demographic information. Which of the following actions should the specialist take?\r
+\r
+- ❌ Resubmit the original claim by mail.\r
+> It is not necessary to send the claim by mail, which would delay reimbursement. Also, the claim should be corrected prior to resubmission to the clearinghouse to avoid a repeated rejection.\r
+- ❌ Alert the third-party payer of the incomplete claim.\r
+> If the clearinghouse rejects the claim, it will not be sent to the third-party payer. The claim should be corrected and resubmitted to the clearinghouse for repeat claim scrubbing before going on to the third-party payer.\r
+- ❌ Notify the patient of the rejection.\r
+> It is not necessary to notify the patient about the rejection by the clearinghouse due to missing information. The claim should be corrected and resubmitted to the clearinghouse for repeat claim scrubbing before going on to the third-party payer.\r
+- ✅ Resubmit an updated claim\r
+> The claim should be updated with the correct demographic information and resubmitted through the clearinghouse for repeat claim scrubbing before going on to the third party-payer.\r
+\r
+## Question 11 of 100\r
+Complete the following question by referencing the coding exhibit.\r
+A billing and coding specialist is reviewing a claim for a patient who presented to the provider's office for an upper respiratory infection. During the encounter, the patient also received the influenza vaccine. Which of the following modifiers should be attached to the Evaluation and Management (E/M) code?\r
+| Modifier | Description                                                                                                                                                                                      |\r
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| -24      | Unrelated Evaluation and Management service by the same physician or other qualified health care professional during a postoperative period                                                      |\r
+| -25      | Significant, separately identifiable evaluation and management (E/M) service by the same physician or other qualified health care professional on the same day of the procedure or other service |\r
+| -50      | Bilateral procedure                                                                                                                                                                              |\r
+| -51      | Multiple procedures                                                                                                                                                                              |\r
+- ❌ -24\r
+> Modifier -24 is used for an unrelated E/M service by the same provider during the postoperative period.\r
+- ❌ -51\r
+> Modifier -51 is used to report multiple procedures other than E/M services.\r
+- ✅ -25\r
+> Modifier -25 is used for separately significant E/M services by the same provider on the same day of service.\r
+- ❌ -50\r
+> Modifier -50 is used for bilateral procedures.\r
+\r
+## Question 12 of 100\r
+A patient is upset about a bill they received because their third-party payer denied the claim. Which of the following actions should a billing and coding specialist take?\r
+\r
+- ❌ Tell the patient to resubmit the claim to the third-party payer.\r
+> The specialist should not tell the patient to resubmit the claim.\r
+- ✅ Inform the patient of the reason for the denial.\r
+> The specialist should inform the patient of the reason for the denial.\r
+- ❌ Tell the patient to speak with the provider.\r
+> The specialist should not tell the patient to speak with the provider.\r
+- ❌ Inform the patient that the third-party payer will follow up.\r
+> The specialist should not inform the patient that the third-party payer will follow up.\r
+\r
+## Question 13 of 100\r
+A billing and coding specialist is assisting a patient who has a capitated health maintenance organization (HMO) and presents to the office with a sinus infection. The specialist should identify that which of the following statements is true regarding a capitated HMO?\r
+\r
+- ✅ Payment for the encounter is based on a flat rate.\r
+> The specialist should recognize that, for a capitated HMO, the payment system is based on a flat rate per patient, per month, regardless of how many times the provider sees the patient.\r
+- ❌ A claim should be submitted to the third-party payer for the encounter.\r
+> The specialist should recognize that a claim does not need to be submitted to the third-party payer because the payment system for a capitated HMO is based on a flat rate per patient, per month, regardless of how many times the provider sees the patient.\r
+- ❌ Patients are billed directly for the encounter.\r
+> The specialist should recognize that, for a capitated HMO, the payment system is based on a flat rate per patient, per month, regardless of how many times the provider sees the patient. Therefore, the specialist should not bill the patient directly for the encounter.\r
+- ❌ A claim should be provided to the patient following the encounter.\r
+> The specialist should recognize that, for a capitated HMO, the payment system is based on a flat rate per patient, per month, regardless of how many times the provider sees the patient. Therefore, the specialist should not provide the patient with a claim following the encounter.\r
+## Question 14 of 100\r
+When a patient has a condition that is both acute and chronic, how should it be coded?\r
+- ❌ Code only the acute condition.\r
+> Both acute and chronic conditions should be coded. The acute condition should be coded first.\r
+- ✅ Code both the acute and chronic conditions, sequencing the acute condition first.\r
+> If the same condition is described as both acute and chronic, the ICD-10-CM manual states to code both and sequence the acute condition first.\r
+- ❌ Code only the chronic condition.\r
+> Both acute and chronic conditions should be coded. The acute condition should be coded first.\r
+- ❌ Code both the acute and chronic conditions, sequencing the chronic condition first.\r
+> While both conditions should be coded, the acute condition should be coded first.\r
+## Question 15 of 100\r
+A billing and coding specialist is preparing an appeal letter in response to a denial by a third-party payer for lack of medical necessity. Which of the following should the specialist include with the letter to indicate medical necessity?\r
+\r
+- ❌ Patient employer information\r
+> Patient employer information might be included on the original claim, but it is not necessary to send the information with an appeal after denial for medical necessity. An appeal due to denial for medical necessity often requires a copy of medical record documentation to prove the service was needed to treat the condition documented in the record.\r
+- ✅ Medical record documentation\r
+> An appeal due to denial for medical necessity often requires a copy of medical record documentation to prove the service was needed to treat the condition documented in the record.\r
+\r
+- ❌ Release of information authorization\r
+> Although authorization to release information is necessary for the chart. this is not something that needs to be included with the appeal letter. An appeal due to denial for medical necessity often requires a copy of medical record documentation to prove the service was needed to treat the condition documented in the record.\r
+- ❌ Retrospective review request\r
+> A retrospective review can be requested if the office fails to obtain preauthorization for a procedure. An appeal due to denial for medical necessity often requires a copy of medical record documentation to prove the service was needed to treat the condition documented in the record.\r
+## Question 16 of 100\r
+HIPAA transaction standards apply to which of the following entities?\r
+- ❌ Employers who provide workers' compensation plans\r
+> Employers who provide workers’ compensation plans are not required to conform to HIPAA regulations.\r
+- ❌ Automobile insurance providers\r
+> Automobile insurance providers are not required to conform to HIPAA regulations.\r
+- ✅ Health care clearinghouses\r
+> Entities covered by HIPAA regulations include health care clearinghouses, providers of health care services, and health care third-party payers who submit transactions electronically.\r
+- ❌ Educational facilities\r
+> Educational facilities are not required to conform to HIPAA regulations.\r
+## Question 17 of 100\r
+In the ICD-10-CM code set, which of the following characters is the placeholder?\r
+- ❌ S\r
+> The character S is a 7th character extension, not the placeholder.\r
+- ❌ A\r
+> The character A is a 7th character extension, not the placeholder.\r
+- ✅ X\r
+> The character X is the placeholder.\r
+- ❌ D\r
+> The character D is a 7th character extension, not the placeholder.\r
+## Question 18 of 100\r
+Which of the following are included in surgery service codes?\r
+- ❌ Postoperative complications\r
+> Surgical services include a preoperative history and physical. Postoperative complications are coded separately.\r
+- ❌ Exacerbations\r
+> Surgical services include a preoperative history and physical. Treating exacerbations is not included.\r
+- ❌ Implants and devices\r
+> Surgical services include a preoperative history and physical. Implants and devices are coded separately.\r
+- ✅ Preoperative history and physical\r
+> Surgical services include a preoperative history and physical.\r
+\r
+## Question 19 of 100\r
+A billing and coding specialist is reviewing a remittance advice and encounters a denial of payment for CPT® code 44950 (appendectomy). The specialist discovers the ICD-10-CM code assigned to the claim was J32.1 (chronic frontal sinusitis). Which of the following is the reason for this claim denial?\r
+\r
+- ✅ Incorrectly linked codes were reported on the claim\r
+> The procedure performed (appendectomy) is not correctly linked because the reported ICD-10-CM code indicated chronic frontal sinusitis. A correctly linked code would indicate the patient had a condition that would justify removing the appendix.\r
+- ❌ A lower level of care could have been provided\r
+> A lower level of care denial indicates that a procedure performed in one location, such as a hospital, could have been performed in a different place, such as an office\r
+- ❌ Bundled service\r
+> A bundled service denial is one where multiple CPT® codes are assigned when one code covers all the work done for the CPT® assignment.\r
+- ❌ Pre-existing condition\r
+> Although the patient may have had a pre-existing sinus condition, the CPT® code assigned indicates that the procedure was an appendectomy, and the patient is not likely to have the condition of appendicitis prior to the procedure being performed.\r
+\r
+## Question 20 of 100\r
+A billing and coding specialist discovers suspicious billing activity that may be fraudulent in the workplace. Which of the following actions should the specialist take?\r
+\r
+- ❌ Contact the Office of Inspector General (OIG).\r
+> The specialist should avoid contacting the OIG. The OIG provides guidance for compliance plans.\r
+- ✅ Call the U.S. Department of Health and Human Services' (DHHS) anonymous hotline.\r
+> The specialist should call the U.S. DHHS anonymous hotline to discuss the fraudulent activity. The hotline allows the specialist to report suspicious activity, fraud,\r
+or abuse anonymously.\r
+- ❌ Address it with the provider.\r
+> The specialist should avoid addressing it with the provider.\r
+- ❌ Notify the patient.\r
+> The specialist should avoid notifying the patient.\r
+## Question 21 of 100\r
+Which of the following should a billing and coding specialist complete to be reimbursed for a provider's outpatient services?\r
+- ✅ CMS-1500 claim form\r
+> The specialist should complete a CMS-1500 to be reimbursed for a provider's outpatient services.\r
+- ❌ UB-04 claim form\r
+> UB-04 claim forms are used for inpatient hospital services.\r
+- ❌ Encounter form\r
+> An encounter form, or a superbill, is a tool that is used to communicate the services rendered by the provider to the third-party payer.\r
+- ❌ Itemized statement\r
+> An itemized statement is a financial document that is part of the accounts receivable for services rendered.\r
+Complete the following question by referencing the coding exhibit.\r
+\r
+## Question 22 of 100\r
+A billing and coding specialist is determining the level of service for an office visit for a new patient. Which of the following codes represents a moderate level of medical decision-making?\r
+### CPT® Code Set\r
+| Code  | Description                                                                                                                                                                                                                                                 |\r
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| 99213 | Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making.                                                   |\r
+| 99204 | Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making.                                                       |\r
+| 99235 | Hospital inpatient or observation care, for the evaluation and management of a patient including admission and discharge on the same date, which requires a medically appropriate history and/or examination and moderate level of medical decision making. |\r
+| 99305 | Initial nursing facility care, per day, for the evaluation and management of a patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making.                                                    |\r
+- ✅ 99204\r
+> Code 99204 represents moderate complexity medical decision-making for a new patient.\r
+- ❌ 99235\r
+> Code 99235 represents moderate complexity medical decision-making for an established patient.\r
+- ❌ 99305\r
+> Code 99305 represents moderate complexity medical decision-making in a nursing facility.\r
+- ❌ 99213\r
+> Code 99213 represents low complexity medical decision-making for an established patient.\r
+## Question 23 of 100\r
+A billing and coding specialist should identify that which of the following is used to improve the efficiency and effectiveness of the health care system as mandated by HIPAA for providers?\r
+\r
+- ❌ CMS-1500 claim form\r
+> The CMS 1500 form refers to a paper claim and does not improve the efficiency and effectiveness of health care systems.\r
+- ❌ Electronic remittance advice\r
+> Electronic remittance advice documents are responses from third-party payers and do not improve the efficiency and effectiveness of health care systems.\r
+- ✅ ANSIASC X12N 837P format\r
+> The electronic ANSI ASC X12N 837P format improves the efficiency and effectiveness of health care systems.\r
+- ❌ Health information management\r
+> Health information management is an administrative process.\r
+## Question 24 of 100\r
+A billing and coding specialist should add a modifier in which of the following scenarios?\r
+\r
+- ✅ A bilateral procedure was performed.\r
+> Bilateral procedures are indicated with modifiers.\r
+- ❌ The procedure was cancelled.\r
+> Cancelled procedures are not coded, so they do not require modifiers.\r
+- ❌ The service was an initial service.\r
+> Initial services are not indicated with modifiers.\r
+- ❌ An unspecified code is used.\r
+> Unspecified codes are not indicated with modifiers.\r
+## Question 25 of 100\r
+A new patient presents for an urgent care encounter. Which of the following code sets should be used to report this encounter?\r
+\r
+- ❌ Hospital observation services\r
+> Hospital observation service code sets (99221 to 99239) are only used for patients that have been admitted for observation.\r
+- ❌ Emergency department services\r
+> Emergency department service code sets (99281 to 99285) can only be used for qualified emergency department services, not for urgent care services.\r
+- ✅ Office or other outpatient services\r
+> Office or other outpatient code sets (99202 to 99215) should be used to report urgent care encounters.\r
+- ❌ Office or other outpatient consultations\r
+> Office or other outpatient consultation codes (99242 to 99245) are used to report services that qualify as consultations.\r
+## Question 26 of 100\r
+CPT® Evaluation and management codes are used for which of the following?\r
+- ❌ Physical therapy modalities\r
+> Evaluation and management codes are used for critical care services, not physical therapy modalities.\r
+- ❌ Outpatient hemodialysis\r
+> Evaluation and management codes are used for critical care services, not outpatient hemodialysis.\r
+- ❌ Medical nutrition therapy\r
+> Evaluation and management codes are used for critical care services, not nutrition therapy.\r
+- ✅ Critical care services\r
+> Evaluation and management codes are used for critical care services.\r
+## Question 27 of 100\r
+Outstanding patient balances will appear on which of the following?\r
+\r
+- ✅ Accounts receivable\r
+> Accounts receivable includes any outstanding balances owed, including patient balances.\r
+- ❌ Accounts payable\r
+> Accounts payable are amounts owed to others that have not been paid. Outstanding patient balances are not found here.\r
+- ❌ Tracer\r
+> A tracer is a written request made to a third-party payer to locate the status of a claim. This does not involve outstanding patient balances.\r
+- ❌ Rejected claim\r
+> A rejected claim contains incorrect information and must be reprocessed within a specified time limit.\r
+## Question 28 of 100\r
+Which of the following statements is true regarding the release of patient records?\r
+- ❌ Verbal requests for records from life insurance companies are appropriate.\r
+> All requests for patient records must be in writing and have signed authorization from the patient, parent, or legal guardian.\r
+- ❌ Identification is not required when requesting access to patient records.\r
+> Identification is required to maintain patient confidentiality and privacy.\r
+- ❌ Providers cannot share a patient's medical information with other health care professionals if the patient is mentally unstable.\r
+> Based on the provider's best judgment, information may be shared with other providers if deemed in the patient's best interest.\r
+- ✅ Patient access to psychotherapy notes is restricted\r
+> Patients cannot access psychotherapy notes or information compiled for lawsuits.\r
+## Question 29 of 100\r
+A billing and coding specialist is posting a Medicare remittance advice and identifies an overpayment of $15. Which of the following actions should the specialist take?\r
+\r
+- ✅ Notify Medicare about the overpayment within 60 days.\r
+> The specialist has 60 days to report and return overpayments of less than $25.\r
+- ❌ Contact Medicare about the overpayment within 72 hr\r
+> The specialist has 60 days to report and return overpayments of less than $25.\r
+- ❌ Keep the overpayment on the account as a credit.\r
+> The specialist should not keep the overpayment as a credit. This is an example of fraud.\r
+- ❌ Keep the overpayment by adjusting the patient's balance to $0.\r
+> The specialist should not adjust the patient's balance to $0. This is an example of fraud.\r
+## Question 30 of 100\r
+Which of the following terms describes the removal of the eye, adnexa, and bony structure?\r
+- ❌ Evisceration\r
+> Evisceration is removal of the contents of the globe leaving the extraocular muscles and sclera intact.\r
+- ❌ Enucleation\r
+> Enucleation is removal of the eye leaving the orbital structures intact.\r
+- ✅ Exenteration\r
+> Exenteration is removal of the eye, adnexa, and bony structure.\r
+- ❌ Exploration\r
+> Exploration is used with wounds for exploring the injury site.\r
+## Question 31 of 100\r
+A billing and coding specialist is preparing an accounts receivable aging report. The specialist should expect the report to include which of the following?\r
+\r
+- ❌ Rejected claims organized by payer\r
+> Information about rejected claims organized by payer is not included in an accounts receivable aging report.\r
+- ❌ Lost claims organized by payer\r
+> Information about lost claims organized by payer is not included in an accounts receivable aging report.\r
+- ❌ Paid balances organized by date\r
+> Information about paid balances organized by date is not included in an accounts receivable aging report.\r
+- ✅ Outstanding balances organized by date\r
+> An accounts receivable aging report provides information about any outstanding balances and is organized by date range.\r
+## Question 32 of 100\r
+In an outpatient setting, which of the following forms is used as a financial report of all services provided to patients?\r
+\r
+- ❌ Encounter form\r
+> An encounter form is a record of diagnoses and services for a particular encounter with the provider.\r
+- ✅ Patient account record\r
+> The patient account record, or patient ledger, is a financial report that contains all the transactions between a patient and the practice.\r
+- ❌ CMS-1500 claim form\r
+> The CMS-1500 is used to submit charges to the third-party payer for services rendered to the patient.\r
+- ❌ Accounts receivable journal\r
+> The accounts receivable journal, or day sheet, is a chronological summary of all transactions posted on a specific day.\r
+\r
+## Question 33 of 100\r
+Complete the following question by referencing the coding exhibit.\r
+\r
+A billing and coding specialist is working on a claim in which reimbursement was reduced due to two surgical services performed during the same encounter being bundled together. Which of the following modifiers should be assigned to indicate the procedures were independent to prevent bundling?\r
+| Modifier | Description                                                                                                                                                                                      |\r
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| -22      | Increased procedural services                                                                                                                                                                    |\r
+| -25      | Significant, separately identifiable evaluation and management (E/M) service by the same physician or other qualified health care professional on the same day of the procedure or other service |\r
+| -58      | Staged or related procedure by the same physician or other qualified health care professional during the postoperative period                                                                    |\r
+| -59      | Distinct procedural service                                                                                                                                                                      |\r
+- ❌ -58\r
+> Modifier -59 is used to indicate multiple procedures were independent of each other, which prevents them from being bundled, not -58.\r
+- ❌ -25\r
+> Modifier -59 is used to indicate multiple procedures were independent of each other, which prevents them from being bundled, not -25.\r
+- ❌ -22\r
+> Modifier -59 is used to indicate multiple procedures were independent of each other, which prevents them from being bundled, not -22.\r
+- ✅ -59\r
+> Modifier -59 is used to indicate multiple procedures were independent of each other, which prevents them from being bundled.\r
+## Question 34 of 100\r
+Which of the following entities are required to follow HIPAA rules and regulations?\r
+- ❌ Government insurance agencies, banks, and long-term care facilities\r
+> Health care organizations that transmit protected health information (PHI) are required to follow HIPAA rules and regulations. These can include government insurance agencies and long-term care facilities, but not banks.\r
+- ✅ Clearinghouses, health insurance companies, and billing services\r
+> Health care organizations that transmit protected health information (PHI) are required to follow HIPAA rules and regulations. These can include clearinghouses, health insurance companies, and billing services.\r
+- ❌ Dentists, providers, and retail stores\r
+> Health care organizations that transmit protected health information (PHI) are required to follow HIPAA rules and regulations. These can include dentists and providers, but not retail stores.\r
+- ❌ Pharmacies, chiropractors, and service stations\r
+> Health care organizations that transmit protected health information (PHI) are required to follow HIPAA rules and regulations. These can include pharmacies and chiropractors, but not service stations.\r
+## Question 35 of 100\r
+A provider's office fee is $100, and the Medicare Part B allowed amount is $85. Assuming the beneficiary has not met any deductible amount, the patient should be billed for which of the following amounts?\r
+- ❌ $15\r
+> If the patient has not met their annual deductible, they will pay the Medicare allowed amount.\r
+- ✅ $85\r
+> If the patient has not met their annual deductible, they will pay the Medicare allowed amount, which is $85.\r
+- ❌ $100\r
+> If the patient has not met their annual deductible, they will pay the Medicare allowed amount.\r
+- ❌ $0\r
+> If the patient has not met their annual deductible, they will pay the Medicare allowed amount.\r
+## Question 36 of 100\r
+A billing and coding specialist is reviewing delinquent claims and discovers that a third-party payer paid a claim but applied it to the incorrect provider. The third-party payer will reimburse the payment once the improperly paid funds are recouped. Which of the following terms is used to describe this claim?\r
+- ❌ Payment error\r
+> A payment error involves a payment for a claim that was sent directly to the patient.\r
+- ❌ Rejected\r
+> A rejected claim, or soft denial, is often in response to a technical error.\r
+- ❌ Denied\r
+> A denied claim has been adjudicated and the third-party payer has determined that no payment will be made.\r
+- ✅ Suspended\r
+> A claim that is pending due to recovery of benefits from a third party is a suspended claim. Since payment to the correct provider has been withheld until the third-party payer has recouped its payment from the incorrect provider, this claim is suspended.\r
+## Question 37 of 100\r
+A child is brought into a facility by their mother. The child is covered under both parents’ insurance policies. The child's father was born on 10/1/1980 and their mother was born on 10/2/1981. Which of the following statements is true regarding the primary policy holder for the child?\r
+- ❌ The father is the primary policy holder because he is a year younger\r
+> According to the birthday rule, the policyholder whose birthday month and day comes first in the calendar year is the primary policy holder for dependents. The year is not a factor.\r
+- ✅ The father is the primary policy holder because his birthday falls first in the calendar year.\r
+> According to the birthday rule, the policyholder whose birthday month and day comes first in the calendar year is the primary policy holder for dependents. Therefore, the father is the primary policy holder for the child.\r
+- ❌ The mother is the primary policy holder because she is t\r
+> According to the birthday rule, the policyholder whose birthday month and day comes first in the calendar year is the primary policy holder for dependents. The year is not a factor.\r
+- ❌ The mother is the primary policy holder because she brought the child in for the ap\r
+> According to the birthday rule, the policyholder whose birthday month and day that comes first in the calendar year is the primary policy holder for dependents.\r
+## Question 38 of 100\r
+A billing and coding specialist is preparing a claim for a procedure with a prolonged operative time that has modifier -22 attached. Which of the following actions should the specialist take?\r
+- ✅ Include an attachment to the claim.\r
+> The specialist should include an attachment to the claim to support the increased procedural services, which is indicated by modifier -22\r
+- ❌ Contact the third-party payer\r
+> There is no reason to contact the third-party payer. The specialist should attach documentation to support the increased procedural services.\r
+- ❌ Inform the patient that the service is noncovered.\r
+> There is no reason to inform the patient that the service is noncovered. The specialist should attach documentation to support the increased procedural services.\r
+- ❌ Remove modifier -22 and submit the claim.\r
+> There is no reason to remove modifier -22 prior to submitting the claim. The specialist should attach documentation to support the increased procedural services.\r
+## Question 39 of 100\r
+A billing and coding specialist is reviewing an encounter note that indicates a biopsy was performed. The specialist requires which of the following additional details to fully code this procedure?\r
+- ❌ Proximal vs. distal location\r
+> The specialist requires a status of benign or malignant from the biopsy report to fully code this procedure.\r
+- ✅ Benign vs. malignant status\r
+> The specialist requires a status of benign or malignant from the biopsy report to fully code this procedure.\r
+- ❌ Chronic vs. acute status\r
+> The specialist requires a status of benign or malignant from the biopsy report to fully code this procedure.\r
+- ❌ Multiple vs. singular count\r
+> The specialist requires a status of benign or malignant from the biopsy report to fully code this procedure.\r
+## Question 40 of 100\r
+Which of the following information is required on a patient account record?\r
+- ✅ Name and address of guarantor\r
+> The guarantor’s name and address are required on the patient account record.\r
+- ❌ Procedures performed\r
+> The procedures performed are not required on the patient account record.\r
+- ❌ Family history of the guarantor\r
+> The guarantor's family history is not required on the patient account record.\r
+- ❌ Diagnosis\r
+> The diagnosis is not required on the patient account record.\r
+## Question 41 of 100\r
+A billing and coding specialist is preparing to appeal a partially paid claim due to an incorrect procedure code. Which of the following steps of the appeal process includes the review of the claim adjustment reason code?\r
+- ✅ Identification\r
+> During the identification step, the reason for the denial or rejection is identified by interpreting claim adjustment reason codes.\r
+- ❌ Management\r
+> The management step involves the process of resolving denied or rejected claims, such as sorting.\r
+- ❌ Monitoring\r
+> The monitoring step involves keeping a record of denied or rejected claims that can be reviewed routinely as a reference for samples or for prevention.\r
+- ❌ Prevention\r
+> The prevention step involves teaching and educating those involved in the claims management and appeals process and involving them when necessary.\r
+## Question 42 of 100\r
+Which of the following actions by a billing and coding specialist ensures a patient's health information is protected?\r
+- ❌ Confirming test results with the patient over the phone at the reception area\r
+> The specialist should confirm test results in private.\r
+- ❌ Asking patients the reason for their visit during check-in\r
+> The specialist should ask patients their reason for visiting in a private area where it cannot be overheard.\r
+- ✅ Using data encryption software on office workstations\r
+> Encryption software ensures that electronically transmitted health information cannot be read by third parties; therefore, this action ensures a patient's health information is protected.\r
+- ❌ Leaving the workstation unlocked while stepping away to assist another patient\r
+> The specialist should avoid leaving the workstation unlocked while helping another patient to ensure the patient's health information is protected.\r
+## Question 43 of 100\r
+A billing and coding specialist receives a denial for payment from TRICARE for services provided in the emergency department while a provider was on call. The provider is not a participating TRICARE provider. Which of the following actions must the specialist take to process an appeal for payment?\r
+\r
+- ❌ File a nonavailability request form\r
+> A nonavailability request form is filled out by out-of-network providers who wish to treat obstetric patients when a TRICARE provider is not available. Out-of-network providers have no access to TRICARE information for subscribers. All requests for information must go through the subscriber or patient.\r
+- ❌ Request reconsideration.\r
+> Only participating providers can request reconsideration for a denial of payment from TRICARE. Out-of-network providers have no access to TRICARE information for patients. All requests must go through the subscriber or patient.\r
+- ✅ Contact the patient for assistance\r
+> Out-of-network providers have no access to TRICARE information for patients. All requests must go through the subscriber or patient.\r
+- ❌ Inquire through the online TRICARE portal.\r
+> Only participating providers have access to the online TRICARE portal. Out-of-network providers have no access to TRICARE information for patients. All requests must go through the subscriber or patient.\r
+## Question 44 of 100\r
+A billing and coding specialist is reviewing a remittance advice from Medicare and notices that the amount paid for a procedure is less than the contracted amount. Which of the following is a potential reason for the reduced amount of payment?\r
+\r
+- ✅ The claim indicated an incorrect place of service.\r
+> Medicare requires specific services to be provided in specific care locations. If this is not possible, the amount of payment provided is reduced. This is called a site-of-service limitation.\r
+- ❌ The claim is missing demographic information.\r
+> A claim that is missing demographic information will be denied by the payer, rather than have a reduced payment applied to it.\r
+- ❌ The coordination of benefits was not updated.\r
+> If the coordination of benefits is not updated by the patient, it will result in the claim being denied, rather than a reduction in the amount of payment.\r
+- ❌ The claim was for a work-related injury.\r
+> A claim for a work-related injury would need to be filed through workers’ compensation, not Medicare. If a work-related claim is filed through Medicare, the claim would be denied, rather than the payment be reduced.\r
+## Question 45 of 100\r
+A billing and coding specialist is collecting demographic information from a patient. Which of the following pieces of information should the specialist expect the Medicaid eligibility verification system (MEVS) to provide?\r
+\r
+- ❌ Preauthorization for services\r
+> Preauthorization for services is based on coverage and is not provided through MEVS.\r
+- ❌ Medicare eligibility\r
+> Medicare and Medicaid are separate entities. The specialist should not expect to collect information about Medicare eligibility from MEVS.\r
+- ✅ Dates of coverage\r
+> MEVS provides information about Medicaid eligibility, including the patient's dates of coverage.\r
+- ❌ List of pre-existing conditions\r
+> MEVS does not provide a list of a patient's pre-existing conditions. Insurers are prohibited from disclosing information about a patient's pre-existing conditions; therefore, this information would need to be collected directly from the patient.\r
+## Question 46 of 100\r
+A billing and coding specialist observes a colleague perform an unethical act. Which of the following actions should the specialist take?\r
+- ❌ File a complaint with the provider.\r
+> Filing a complaint with the provider is not an appropriate action.\r
+- ❌ Confront the employee\r
+> Confronting the employee is not an appropriate action.\r
+- ✅ Report the incident to a supervisor.\r
+> The specialist should report the incident to a supervisor.\r
+- ❌ Disregard the incident.\r
+> Disregarding the incident is not an appropriate action.\r
+## Question 47 of 100\r
+When a patient signs an Acknowledgement of Notice of Privacy Practice, it indicates which of the following?\r
+- ❌ The patient allows information to be used for treatment, payment, and health care operations (TPO).\r
+> Allowing information to be used for TPO does not apply to the Acknowledgement of Notice of Privacy Practice.\r
+- ❌ The patient is billed for services provided that are not paid for by The Centers for Medicare and Medicaid Services (CMS).\r
+> Being billed for services that are not paid for by CMS does not apply to the Acknowledgement of Notice of Privacy Practice.\r
+- ❌ The patient allows information to be maintained in an electronic health record (EHR) environment.\r
+> Allowing information to be maintained in an EHR environment does not apply to the Acknowledgement of Notice of Privacy Practice.\r
+- ✅ The patient accepts the policies and procedures regarding how protected health information (PHI) is handled.\r
+> Accepting the policies and procedures regarding how PHI is handled ensures that the patient has reviewed and signed off on how their PHI is handled.\r
+## Question 48 of 100\r
+A billing and coding specialist is processing a claim for a patient who broke their arm while repairing cars at their workplace. There is no nerve damage, the arm is placed in a cast for 6 weeks, and the patient is cleared to return to work in 6 weeks. Which of the following types of workers’ compensation applies to this patient?\r
+- ✅ Temporary disability\r
+> Temporary disability is provided when a worker is injured on the job and their wages are lost on a temporary basis.\r
+- ❌ Third-party subrogation\r
+> Third-party subrogation is legally pursuing an individual that caused an insurance loss to the insured to recover the amount of the claim paid.\r
+- ❌ Permanent disability\r
+> Permanent disability is provided when it is determined that the patient is permanently impaired and unable to return to the job they held prior to the injury.\r
+- ❌ Nondisability\r
+> Nondisablity is provided when a worker has a minor injury on the job and is able to continue regular duties.\r
+## Question 49 of 100\r
+Medigap coverage is offered to Medicare beneficiaries by which of the following?\r
+- ❌ Medicaid\r
+> Medicaid's supplemental coverage, Medi-Medi, picks up Medicare's premiums for qualified applicants.\r
+- ❌ Federal health plans\r
+> Federal health plans are not private; therefore, they do not offer supplemental coverage.\r
+- ❌ Managed care plans\r
+> Managed care plans are eligible as primary or secondary care plans; therefore, they do not provide supplemental coverage.\r
+- ✅ Private third-party payers\r
+> Medigap coverage is supplemental coverage that private third-party payers offer to Medicare beneficiaries who pay their Medicare premium.\r
+## Question 50 of 100\r
+Which of the following qualifies a patient for eligibility under Medicare as the primary third-party payer?\r
+- ❌ Individuals who have worked 9 years in Medicare-covered employment\r
+> Individuals must work for at least 10 years in Medicare-covered employment to be eligible.\r
+- ❌ Individuals who are below the federal poverty level\r
+> Individuals who are below the federal poverty level are eligible for Medicaid, not Medicare.\r
+- ❌ Individuals who are 50 years or younger\r
+> Individuals who are 65 years or older qualify for Medicare.\r
+- ✅ Individuals who are under age 65 and have a disability\r
+> Individuals who are under age 65 and have a disability are eligible for Medicare.\r
+\r
+## Question 51 of 100\r
+An employer's workers' compensation payer requires bloodwork for an employee who experienced a work-related injury. Which of the following modifiers should a billing and coding specialist use?\r
+| Modifier | Description                                                                                                                   |\r
+|----------|-------------------------------------------------------------------------------------------------------------------------------|\r
+| -26      | Professional component                                                                                                        |\r
+| -32      | Mandated services                                                                                                             |\r
+| -52      | Reduced services                                                                                                              |\r
+| -58      | Staged or related procedure by the same physician or other qualified health care professional during the postoperative period |\r
+- ❌ -52\r
+> Modifier 32 is used when a service is required by a payer or agency not -52.\r
+- ❌ -58\r
+> Modifier 32 is used when a service is required by a payer or agency not -58.\r
+- ✅ -32\r
+> Modifier 32 is used when a service is required by a payer or agency.\r
+- ❌ -26\r
+> Modifier 32 is used when a service is required by a payer or agency, not -26.\r
+## Question 52 of 100\r
+A patient has met an in-network PPO deductible of $150. The patient's coinsurance is 20%, and the allowed amount is $600. Which of the following is the patient's out-of-pocket expense?\r
+- ❌ $450\r
+> Since the patient's deductible has been met, the patient's responsibility is 20% of the allowed amount. (0.20 x 600 = 120)\r
+- ❌ $300\r
+> Since the patient's deductible has been met, the patient's responsibility is 20% of the allowed amount. (0.20 x 600 = 120)\r
+- ✅ $120\r
+> Since the patient's deductible has been met, the patient's responsibility is 20% of the allowed amount. (0.20 x 600 = 120)\r
+- ❌ $150\r
+> Since the patient's deductible has been met, the patient's responsibility is 20% of the allowed amount. (0.20 x 600 = 120)\r
+## Question 53 of 100\r
+Which of the following is a correct rule when using CPT® add-on codes?\r
+- ❌ They are automatically reduced in value.\r
+> CPT® add-on codes are not automatically reduced in value.\r
+- ❌ They should be sequenced first.\r
+> CPT® add-on codes should not be sequenced first.\r
+- ❌ They are used for unspecified codes\r
+> CPT® add-on codes are not used for unspecified codes.\r
+- ✅ They are exempt from the multiple procedure concept.\r
+> CPT® add-on codes are exempt from the multiple procedure concept.\r
+\r
+## Question 54 of 100\r
+Complete the following question by referencing the coding exhibit\r
+Which of the following CPT® codes should a billing and coding specialist use to bill for a 5-year-old child who had an initial repair of a 2.5 cm abdominal hernia?\r
+### CPT® Code Set\r
+| Code  | Description                                                                                                                                                                                                                                                                               |\r
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| 49491 | Repair, initial inguinal hernia, preterm infant (younger than 37 weeks gestation at birth), performed from birth up to 50 weeks post conception age, with or without hydrocelectomy; reducible.                                                                                           |\r
+| 49521 | Repair recurrent inguinal hernia, any age; incarcerated or strangulated.                                                                                                                                                                                                                  |\r
+| 49591 | Repair of anterior abdominal hernia(s) (i.e., epigastric, incisional, ventral, umbilical, spigelian), any approach (i.e., open, laparoscopic, robotic), initial, including implantation of mesh or other prosthesis when performed, total length of defect(s); less than 3 cm, reducible. |\r
+| 49613 | Repair of anterior abdominal hernia(s) (i.e., epigastric, incisional, ventral, umbilical, spigelian) any approach (open, laparoscopic, robotic), recurrent, including implantation of mesh or other prosthesis when performed, total length of defect(s); less than 3 cm, reducible.      |\r
+- ❌ 49521\r
+> This CPT® code indicates repair of a recurrent, incarcerated, or strangulated inguinal hernia at any age.\r
+- ❌ 49491\r
+> This CPT® code indicates an inguinal hernia repair for a child from birth up to 50 weeks of age.\r
+- ✅ 49591\r
+> is CPT® code indicates an initial abdominal hernia repair less than 3 cm.\r
+- ❌ 49613\r
+> This CPT® code indicates a recurrent abdominal hernia repair less than 3 cm.\r
+\r
+## Question 55 of 100\r
+Complete the following question by referencing the coding exhibit.\r
+A billing and coding specialist is reviewing a claim for an established patient who arrived at the office with an upper respiratory infection. Which of the following codes should the specialist use for this encounter?\r
+### CPT® Code Set\r
+| Code  | Description                                                                                                                                                                                               |\r
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| 99213 | Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. |\r
+| 99203 | Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and low level of medical decision making.          |\r
+| 99252 | Inpatient or observation consultation for a new or established patient, which requires a medically appropriate history and/or examination and straightforward level of medical decision making.           |\r
+| 99283 | Emergency department visit for the evaluation and management of a patient, which requires a medically appropriate history and/or examination and low level of medical decision making.                    |\r
+- ❌ 99252\r
+> This code is used for an inpatient or observation consultation visit, regardless of whether the patient is new or established.\r
+- ✅ 99213\r
+> This code is used for an established patient office Evaluation and Management (E/M) service.\r
+- ❌ 99203\r
+> This code is used for a new patient office Evaluation and Management (E/M) service.\r
+- ❌ 99283\r
+> This code is used for an emergency department visit, regardless of whether the patient is new or established.\r
+## Question 56 of 100\r
+A billing and coding specialist discovers that one private payer has not reimbursed the provider for any claims submitted in the past year. Clean claims have been submitted to the payer and have been acknowledged. Which of the following entities should the specialist contact to report the payer's failure to submit timely reimbursement?\r
+- ❌ Department of Health and Human Services (HHS)\r
+> The HHS does not set standards for processing and payment times by third-party payers. This is a standard set by individual states' insurance commissioners.\r
+- ❌ Bureau of Health Workforce (BHW)\r
+> The BHW does not set standards for processing and payment times by third-party payers. This is a standard set by individual states’ insurance commissioners.\r
+- ✅ State Insurance Commissioner's office\r
+> Each state has an insurance commission that sets standards for processing and payment times that third-party payers must follow. The specialist should contact their state's Insurance Commissioner's office to file a complaint.\r
+- ❌ Federal Insurance Office (FIO)\r
+> The FIO oversees non-health insurance products.\r
+## Question 57 of 100\r
+Which of the following code sets is used to report inpatient procedures?\r
+- ❌ HCPCS\r
+> HCPCS codes report services and supplies for outpatient services.\r
+- ❌ CPT®\r
+> CPT® codes report the professional charges for procedures.\r
+- ✅ ICD-10-PCS\r
+> ICD-10-PCS codes report inpatient procedures.\r
+- ❌ ICD-10-CM\r
+> ICD-10-CM codes report patient illnesses, injuries and conditions.\r
+## Question 58 of 100\r
+Which of the following is used by Medicare to determine if an item or service is covered?\r
+- ✅ National Coverage Determination (NCD)\r
+> NCD is a Medicare policy stating whether and under what circumstances a particular item or service is covered by Medicare.\r
+- ❌ Prospective payment system (PPS)\r
+> PPS is a method of reimbursement in which Medicare payment is made based on a predetermined, fixed amount.\r
+- ❌ Advance Beneficiary Notice (ABN)\r
+> ABN is a form provided to a patient to indicate a service may not be covered by Medicare and the patient may be responsible for the charges.\r
+- ❌ Resource-based relative value scale (RBRVS)\r
+> RBRVS is used to establish Medicare fees.\r
+## Question 59 of 100\r
+Complete the following question by referencing the coding exhibit.\r
+A patient presents to a provider's office with difficulty speaking, facial drooping, and an inability to close their left eye. They are diagnosed with Bell's palsy. A billing and coding specialist should report which of the following ICD-10-CM codes?\r
+### CPT® Code Set\r
+| Code    | Description                  |\r
+|---------|------------------------------|\r
+| R29.810 | Facial weakness              |\r
+| R47.81  | Slurred speech               |\r
+| G51.0   | Bell's palsy                 |\r
+| P11.3   | Birth injury to facial nerve |\r
+- ❌ R29.810, R47.81\r
+> The specialist should not report signs and symptoms with a confirmed diagnosis.\r
+- ✅ G51.0\r
+> Common signs and symptoms of Bell's palsy include facial drooping and difficulty speaking. These codes are not reported separately with a confirmed or definitive diagnosis. Correct coding for Bell's palsy is reporting only code G51.0.\r
+- ❌ G51.0, R29.810, R47.81\r
+> The specialist should not report signs and symptoms with a confirmed diagnosis.\r
+- ❌ P11.3\r
+> The diagnosis does not indicate it is due to a birth injury. P codes refer to newborns.\r
+## Question 60 of 100\r
+A billing and coding specialist is submitting a claim for a school-age child who was brought to the clinic by their maternal grandmother. The child's parents are divorced and remarried, and the child's mother has legal custody of the child. The specialist should recognize that the child's primary insurance coverage is provided through which of the following insured individuals?\r
+\r
+- ✅ Biological mother\r
+> In instances where a child's parents are divorced and one of the parents retains custody, the custodial parent who is insured is the primary insurer for the child.  The custodial stepparent, when applicable, is the secondary insurer with the noncustodial biological parent being tertiary.\r
+- ❌ Stepmother\r
+> In instances where a child's parents are divorced and one of the parents retains custody, the custodial parent who is insured is the primary insurer for the child.  The custodial stepparent, when applicable, is the secondary insurer with the noncustodial biological parent being tertiary.\r
+- ❌ Biological father\r
+> In instances where a child's parents are divorced and one of the parents retains custody, the custodial parent who is insured is the primary insurer for the child.  The custodial stepparent, when applicable, is the secondary insurer with the noncustodial biological parent being tertiary.\r
+- ❌ Maternal grandmother\r
+> In instances where a child's parents are divorced and one of the parents retains custody, the custodial parent who is insured is the primary insurer for the child.  The custodial stepparent, when applicable, is the secondary insurer with the noncustodial biological parent being tertiary.\r
+\r
+## Question 61 of 100\r
+A billing and coding specialist is reviewing a delinquent claim. Which of the following actions should the specialst take first?\r
+- ✅ Verify the age of the account.\r
+> Verifying the age of the account is the first action the specialist should take when reviewing a delinquent claim.\r
+- ❌ Query the third-party payer.\r
+> Querying the third-party payer is the third step the specialist should take when reviewing a delinquent claim.\r
+- ❌ Obtain the claim status.\r
+> Obtaining the claim status is the second step the specialist should take when reviewing a delinquent claim.\r
+- ❌ Resubmit the claim.\r
+> Resubmitting the claim is the last step the specialist should take when reviewing a delinquent claim.\r
+## Question 62 of 100\r
+Which of the following parts of Medicare is managed by private third-party payers that have been approved by Medicare?\r
+- ❌ Medicare Part A\r
+> Medicare Part A provides coverage for hospital services.\r
+- ❌ Medicare Part B\r
+> Medicare Part B provides coverage for outpatient and provider services.\r
+- ✅ Medicare Part C\r
+> Medicare Part C, or Medicare Advantage Plans, allows the patient to choose a managed care plan and a private, fee-for-service health care plan that has been approved by Medicare.\r
+- ❌ Medicare Part D\r
+> Medicare Part D provides prescription medication coverage.\r
+## Question 63 of 100\r
+Which of the following is true regarding Medicaid eligibility?\r
+- ❌ Eligibility of dependents is automatic.\r
+> Dependent eligibility is income-based and is not automatic.\r
+- ❌ Providers who accept Medicare must also accept Medicaid.\r
+> Medicare and Medicaid are separate entities and providers are not required to accept both.\r
+- ✅ Patient eligibility is determined at each visit.\r
+> Patient eligibility for Medicaid is determined at each visit and depends upon the patient's financial status.\r
+- ❌ Patient eligibility begins at 65 years of age.\r
+> Patient eligibility for Medicare begins at 65 years of age.\r
+## Question 64 of 100\r
+For which of the following reasons should a billing and coding specialist follow the guidelines in the CPT® manual?\r
+- ✅ The guidelines define items that are necessary to accurately code.\r
+> The CPT® coding manual contains guidelines required for accurate coding.\r
+- ❌ The guidelines assist with coding proper diagnoses.\r
+> The ICD-10-CM coding manual assists with the coding of proper diagnoses.\r
+- ❌ The guidelines indicate medical necessity.\r
+> The CPT® guidelines do not contain any indications for medical necessity.\r
+- ❌ The guidelines negate the need for documentation.\r
+> Proper documentation is still required outside of the CPT® guidelines.\r
+## Question 65 of 100\r
+Which of the following provisions ensures that an insured patient's benefits from third-party payers do not exceed 100% of allowable medical expenses?\r
+\r
+- ❌ Source document\r
+> A source document is a communication tool used between the provider and third-party payer to submit a claim.\r
+- ❌ Assignment of benefits\r
+> Assignment of benefits does not ensure that patient benefits from a third-party payer do not exceed allowable medical expenses.\r
+- ❌ Coinsurance\r
+> Coinsurance is the percentage a patient pays for covered services after the deductible is met.\r
+- ✅ Coordination of benefits\r
+> Coordination of benefits is used between multiple third-party payers to determine which payer pays primary and which payer pays secondary. The coordination of benefits third-party payer does not exceed allowable medical expenses.\r
+## Question 66 of 100\r
+A billing and coding specialist is preparing a claim for a provider. The operative note indicates the surgeon performed a CABG. The specialist should identify that CABG stands for which of the following?\r
+- ✅ Coronary artery bypass graft\r
+> CABG stands for coronary artery bypass graft.\r
+- ❌ Cardiac arterial blood gas\r
+> CABG stands for coronary artery bypass graft.\r
+- ❌ Coronal aortic basilar graph\r
+> CABG stands for coronary artery bypass graft.\r
+- ❌ Cardio axillary brachial gram\r
+> CABG stands for coronary artery bypass graft.\r
+## Question 67 of 100\r
+A patient is diagnosed with pneumonia during a follow-up encounter for a knee joint replacement surgery performed 2 weeks previously. Which of the following CPT® modifiers should the specialist add to the claim prior to resubmitting?\r
+\r
+- ❌ -55 Postoperative management only\r
+> Modifier -55 is used for postoperative management care.\r
+- ❌ -25 Significant, separately identifiable evaluation and management service by the same physician or other qualified health care professional on the same day of the procedure or other service\r
+> Modifier -25 is used for separately significant Evaluation and Management (E/M) services by the same provider on the same day of service.\r
+- ❌ -79 Unrelated procedure or service by the same physician or other qualified health care professional during the postoperative period\r
+> Modifier -79 is used for unrelated procedures or services by the same provider during the postoperative period.\r
+- ✅ -24 Unrelated evaluation and management service by the same physician or other qualified health care professional during a postoperative period\r
+> Modifier -24 is used for unrelated Evaluation and Management (E/M) services by the same provider during the postoperative period. The specialist should add this modifier and resubmit the claim.\r
+\r
+## Question 68 of 100\r
+Anesthesia codes from the CPT® manual require which of the following on the claim form?\r
+- ❌ Special reports\r
+> Anesthesia codes require physical status modifiers for billing, not special reports.\r
+- ❌ Add-on codes\r
+> Anesthesia codes require physical status modifiers for billing, not add-on codes.\r
+- ❌ Category Il supplemental codes\r
+> Anesthesia codes require physical status modifiers for billing, not category II supplemental codes.\r
+- ✅ Physical status modifiers\r
+> Anesthesia codes require physical status modifiers for billing.\r
+\r
+## Question 69 of 100\r
+Complete the following question by referencing the coding exhibit.\r
+A billing and coding specialist is reviewing a patient's encounter progress note. Which of the following modifiers indicates the patient received general anesthesia from a surgeon?\r
+| Modifier | Description                   |\r
+|----------|-------------------------------|\r
+| -22      | Increased procedural services |\r
+| -23      | Unusual anesthesia            |\r
+| -47      | Anesthesia by surgeon         |\r
+| -52      | Reduced services              |\r
+- ✅ -47\r
+> Modifier -47 indicates general anesthesia was administered by the surgeon.\r
+- ❌ -23\r
+> Modifier -23 indicates local or regional anesthesia was administered.\r
+- ❌ -52\r
+> Modifier -52 indicates services rendered were reduced from the originally planned full services.\r
+- ❌ -22\r
+> Modifier -22 indicates services rendered were increased from the originally planned services due to severity of the patient's condition.\r
+## Question 70 of 100\r
+A billing and coding specialist is training a new employee on a claim for a consultation. The new employee asks, "What is a consultation?" Which of the following responses should the specialist make?\r
+\r
+- ❌ "It's when a provider requests medical advice from the nursing staff."\r
+> A consultation is when a provider requests medical advice about treating a condition from a specialist, such as a cardiologist.\r
+- ❌ "It's a meeting between the provider and the patient's family.\r
+> A consultation is when a provider requests medical advice about treating a condition from a specialist, such as a cardiologist.\r
+- ✅ "It's when a provider requests medical advice from a specialist."\r
+> A consultation is when a provider requests medical advice about treating a condition from a specialist, such as a cardiologist.\r
+- ❌ "It's a meeting between the provider and the third-party payer."\r
+> A consultation is when a provider requests medical advice about treating a condition from a specialist, such as a cardiologist.\r
+## Question 71 of 100\r
+Which of the following is a ICD-10-CM category code?\r
+- ✅ A 3-character code\r
+> ICD-10-CM category codes have 3 characters.\r
+- ❌ A 5-character code\r
+> ICD-10-CM category codes have 3 characters, not 5.\r
+- ❌ A 7-character code\r
+> ICD-10-CM category codes have 3 characters, not 7.\r
+- ❌ A 6-character code\r
+> ICD-10-CM category codes have 3 characters, not 6.\r
+## Question 72 of 100\r
+A billing and coding specialist is preparing a claim for a patient who had a procedure performed on their left index finger. Which of the following CPT® modifiers indicates the correct digit?\r
+- ❌ -F4 Left hand, fifth digit\r
+> Modifier -F4 is used for the left pinky.\r
+- ❌ -F6 Right hand, second digit\r
+> Modifier -F6 is used for the right index finger.\r
+- ❌ -FA Left hand, thumb\r
+> Modifier -FA is used for the left thumb.\r
+- ✅ -F1 Left hand, second digit\r
+> Modifier -F1 is used for the left index finger.\r
+## Question 73 of 100\r
+Which of the following is an example of a violation of an adult patient's confidentiality?\r
+- ❌ While reviewing a claim, a billing and coding specialist reads the diagnosis before realizing that the patient is a neighbor.\r
+> Proofing a claim, including the ICD-10-CM code, is not a violation of patient confidentiality.\r
+- ❌ A billing and coding specialist queries the provider about a diagnosis in a patient's medical record.\r
+> Unclear documentation should be clarified prior to code assignment and billing, This is not a violation of patient confidentiality.\r
+- ❌ The provider uses their home phone to discuss the patient's care with nursing staff.\r
+> Using a home phone is not a violation of patient confidentiality.\r
+- ✅ Patient information was disclosed to the patient's parent without consent.\r
+> Disclosing information to anyone without the patient's consent is a violation of patient confidentiality.\r
+## Question 74 of 100\r
+Which of the following links the ICD-10-CM and CPT® codes for claims processing?\r
+- ✅ Diagnosis pointer\r
+> The diagnosis pointer links the ICD-10-CM and CPT® codes to support medical necessity.\r
+- ❌ Place of service\r
+> Place of service identifies where a service was performed.\r
+- ❌ Modifier\r
+> A modifier provides additional detail for CPT® codes.\r
+- ❌ Days or units\r
+> The days identify the number of days a patient was hospitalized. Units are measurements that identify the quantity of injections or procedures.\r
+## Question 75 of 100\r
+Which of the following is the provision of health insurance policies that specifies which coverage is primary or secondary?\r
+- ❌ Eligibility verification\r
+> Eligibility verification is the process of checking and confirming that a patient is covered under an insurance plan.\r
+- ❌ Explanation of benefits\r
+> Explanation of benefits is a summary of all benefits processed.\r
+- ❌ Assignment of benefits\r
+> Assignment of benefits is when a patient authorizes the third-party payer to pay the provider directly.\r
+- ✅ Coordination of benefits\r
+> Coordination of benefits is the provision of health insurance policies that specifies which coverage is primary or secondary.\r
+## Question 76 of 100\r
+Which of the following is the purpose of running an insurance aging report each month?\r
+- ❌ To determine the balances the patients owe the provider\r
+> The aging report does not indicate the balances owed the provider by patients.\r
+- ❌ To determine which patients have upcoming or missed appointments\r
+> The aging report does not indicate patient appointment status.\r
+- ✅ To determine which claims are outstanding from third-party payers\r
+> An aging report indicates the status of outstanding claims that need to be paid.\r
+- ❌ To determine what the third-party payer has paid for the provider's services to a patient\r
+> The aging report does not indicate the amount a third-party payer has paid the provider.\r
+## Question 77 of 100\r
+An explanation of benefits states the amount billed was $80. The allowed amount is $60, and the patient is required to pay a $20 copayment. Which of the following describes the insurance check amount to be posted?\r
+- ✅ $40\r
+> The allowed amount is $60 and the patient is required to pay a $20 copayment. The difference in cost is $40, which is the insurance check amount to be posted.\r
+- ❌ $80\r
+> The check amount is the allowed amount minus any copay requirements\r
+- ❌ $60\r
+> The check amount is the allowed amount minus any copay requirements\r
+- ❌ $20\r
+> The check amount is the allowed amount minus any copay requirements\r
+\r
+## Question 78 of 100\r
+Complete the following question by referencing the coding exhibit.\r
+A patient has a breast biopsy with the placement of a clip. After the biopsy is determined to be malignant, the patient elects for a mastectomy during the global period of the biopsy. Which of the following modifiers should a billing and coding specialist use to report the mastectomy?\r
+| Modifier | Description                                                                                                                                                                                       |\r
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| -25      | Significant, separately identifiable evaluation and management (E/M) service by the same physician or other qualified health care professional on the same day of the procedure or other service. |\r
+| -58      | Staged or related procedure by the same physician or other qualified health care professional during the postoperative period.                                                                    |\r
+| -59      | Distinct procedural service                                                                                                                                                                       |\r
+| -78      | Unplanned return to the operating/procedure room by the same physician or other qualified health care professional following procedure for a related procedure during the postoperative period.   |\r
+- ✅ -58\r
+> Modifier -58 indicates a procedure that is performed by the same provider or other qualified health care professional during the postoperative period. This is the modifier the specialist should use to report the mastectomy because it was performed during the global period of the biopsy.\r
+- ❌ -59\r
+> Modifier -59 indicates a distinct procedural service.\r
+- ❌ -25\r
+> Modifier -25 indicates a significant, separately identifiable Evaluation and Management (E/M) service by the same provider or other qualified health care professional on the same day of the procedure or other service.\r
+- ❌ -78\r
+> Modifier -78 indicates an unplanned return to the operating or procedure room by the same provider or other qualified health professional following the initial procedure for a related procedure during the postoperative period.\r
+## Question 79 of 100\r
+Which of the following is part of a provider's practice compliance program?\r
+- ❌ HIPAA compliance audit\r
+> AHIPAA compliance audit is not part of a provider's practice compliance program.\r
+- ❌ Provider recruitment\r
+> Provider recruitment is not part of a provider's practice compliance program.\r
+- ✅ Internal monitoring and auditing\r
+> Internal monitoring and auditing is part of a provider's practice compliance program. Conducting internal monitoring and auditing provides a solid basis upon which a provider practice can create a voluntary compliance program.\r
+- ❌ Notice of privacy practices\r
+> Notice of privacy practices is not part of a provider's practice compliance program.\r
+## Question 80 of 100\r
+A billing and coding specialist is preparing a claim for an established patient who arrived for an annual exam. During the examination, the provider treated the patient's sinus infection and prescribed medication for it. Which of the following Evaluation and Management (E/M) codes requires modifier -25?\r
+### CPT® Code Set\r
+| Code / Modifier | Description                                                                                                                                                                                                                                                                                                         |\r
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| 99213           | Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making.                                                                                                           |\r
+| 99202           | Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and straightforward level of medical decision making.                                                                                                        |\r
+| 99385           | Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient, 18-39 years.            |\r
+| 99395           | Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient, 18-39 years. |\r
+| -25             | Significant, separately identifiable evaluation and management (E/M) service by the same physician or other qualified health care professional on the same day of the procedure or other service.                                                                                                                   |\r
+- ❌ 99395\r
+> This code is used for the annual examination of an established patient.\r
+- ❌ 99385\r
+> This code is used for the annual examination of a new patient.\r
+- ✅ 99213\r
+> Modifier -25 is used when a separately significant service is provided on the same day as another documented Evaluation and Management (E/M) service.\r
+- ❌ 99202\r
+> This code is used for the Evaluation and Management (E/M) service of a new patient.\r
+## Question 81 of 100\r
+A billing and coding specialist is determining coordination of benefits for a patient who has health insurance coverage from both parents. The patient's father's birthday is May 18, 1982 and their mother's birthday is May 18, 1984. Which of the following statements is correct for determining coverage?\r
+\r
+- ❌ The parent whose birth month comes first in the calendar year will be the primary insurer.\r
+> According to the birthday rule, the parent whose birth month and day comes first in the calendar year will be the primary insurer. If the parents have the same birth month and day, the policy that has been active the longest will be the primary.\r
+- ❌ The parent whose birth year comes first will be the primary insurer.\r
+> According to the birthday rule, the parent whose birth month and day comes first in the calendar year will be the primary insurer. If the parents have the same birth month and day, the policy that has been active the longest will be the primary.\r
+- ❌ The parent whose insurance policy went into effect most recently will be the primary insurer.\r
+> According to the birthday rule, the parent whose birth month and day comes first in the calendar year will be the primary insurer. If the parents have the same birth month and day, the policy that has been active the longest will be the primary.\r
+- ✅ The parent whose insurance policy has been active the longest will be the primary insurer.\r
+> According to the birthday rule, the parent whose birth month and day comes first in the calendar year will be the primary insurer. If the parents have the same birth month and day, the policy that has been active the longest will be the primary.\r
+\r
+## Question 82 of 100\r
+When reviewing an established patient's insurance card, a billing and coding specialist notices a minor change from the existing card on file. Which of the following actions should the specialist take?\r
+\r
+- ✅ Photocopy both sides of the new card.\r
+> Any changes to the insurance card should be photocopied or scanned and added to the patient record.\r
+- ❌ Describe the change on the patient registration form.\r
+> A description of the new card is not sufficient. Any changes to the insurance card should be photocopied and added to the patient record.\r
+- ❌ Instruct the patient to contact the third-party payer to verify coverage.\r
+> The office staff are responsible for confirming coverage.\r
+- ❌ Confirm with the patient that the insurance coverage is the same.\r
+> The patient may not be aware of the changes; therefore, the specialist should not confirm coverage with the patient.\r
+## Question 83 of 100\r
+In ICD-10-CM, Z codes are used to identify which of the following?\r
+- ❌ Behavior disorders\r
+> Behavior disorders are identified with F codes.\r
+- ❌ Digestive diseases\r
+> Digestive diseases are identified with K codes.\r
+- ❌ Infectious diseases\r
+> Infectious diseases are identified with A and B codes.\r
+- ✅ Immunizations\r
+> Z codes identify encounters for reasons other than illness and injury, such as immunizations.\r
+\r
+## Question 84 of 100\r
+Which of the following pieces of guarantor information is required when establishing a patient's financial record?\r
+- ❌ Procedural codes used\r
+> The procedural codes used are not required on the patient's financial record.\r
+- ❌ Provider name\r
+> The provider name is not required on the patient's financial record.\r
+- ✅ Phone number\r
+> The guarantor's phone number is required on the patient's financial record.\r
+- ❌ Diagnosis\r
+> The diagnosis is not required on the patient's financial record.\r
+## Question 85 of 100\r
+A billing and coding specialist is determining third-party payer responsibilities for a 70-year-old patient who has Medicare coverage. The patient's spouse has insurance with Blue Cross Blue Shield through their employer. Which of the following actions should the specialist take?\r
+- ❌ Use Blue Cross Blue Shield as the primary insurance.\r
+> Since the patient is 70 years old, Medicare would be their primary insurance.\r
+- ❌ Ask the patient which insurance is primary.\r
+> It is the specialist's responsibility to determine primary and secondary insurance.\r
+- ✅ Establish coordination of benefits\r
+> The specialist should establish coordination of benefits. Coordination of benefits is the process that determines third-party payer responsibilities.\r
+- ❌ Apply the birthday rule.\r
+> The birthday rule is used to determine primary insurance for a child when two parents have insurance coverage for the child.\r
+## Question 86 of 100\r
+Which of the following is the third stage of a claim's life cycle?\r
+- ❌ Processing\r
+> Processing is the second stage of a claim's life cycle.\r
+- ❌ Payment\r
+> Payment is the fourth stage of a claim's life cycle.\r
+- ✅ Adjudication\r
+> Adjudication is the third stage of a claim's life cycle.\r
+- ❌ Submission\r
+> Submission and electronic data interchange is the first stage of a claim's life cycle.\r
+## Question 87 of 100\r
+Which of the following is an advantage of electronic claim submission?\r
+- ✅ Claims are expedited.\r
+> Submitting claims electronically is faster than submitting paper claims.\r
+- ❌ Claims are scrubbed.\r
+> Both electronic and paper claims can be scrubbed.\r
+- ❌ Claims are clean.\r
+> Both electronic and paper claims can be clean.\r
+- ❌ Claims are paid.\r
+> Both electronic and paper claims can be paid.\r
+## Question 88 of 100\r
+A patient who recently received care from an endocrinologist is being referred to an infectious disease specialist. Which of the following types of referral does the patient need from the endocrinologist?\r
+- ❌ Formal referral\r
+> A formal referral is required by the managed care organization to determine medical necessity.\r
+- ❌ Direct referral\r
+> A direct referral is completed and signed by the provider and given to the patient.\r
+- ✅ Tertiary care referral\r
+> The patient needs a tertiary care referral from the endocrinologist. A tertiary care referral is a referral from one specialist to another specialist.\r
+- ❌ Self referral\r
+> A self referral is when the patient refers themselves to a specialist.\r
+## Question 89 of 100\r
+A claim is submitted with a transposed insurance member ID number and returned to the provider. Which of the following describes the status that will be assigned to the claim by the third-party payer?\r
+- ❌ Suspended\r
+> A suspended claim is held for additional information.\r
+- ❌ Pending\r
+> A pending claim is held for pending review.\r
+- ❌ Denied\r
+> A denied claim is returned to the provider after it has been processed.\r
+- ✅ Invalid\r
+> The third-party payer will assign an invalid status to the claim. An invalid claim contains illogical or incorrect information and is returned to the provider unprocessed.\r
+## Question 90 of 100\r
+For which of the following reasons should a claim be resubmitted?\r
+- ❌ The software claims review process indicates the claim is not complete.\r
+> The claims review process is used to correct errors. Claims are submitted electronically once the corrections have been made.\r
+- ❌ The claim needs authorization.\r
+> The authorization number needs to be included on both paper and electronic claims to be adjudicated; however, it does not require the claim to be resubmitted.\r
+- ✅ The claim requires an attachment to support medical necessity.\r
+> A claim that requires an attachment to support medical necessity should be resubmitted.\r
+- ❌ The claim has been adjudicated.\r
+> A claim that has been adjudicated by the third-party payer has completed the claims review process and does not need to be resubmitted.\r
+## Question 91 of 100\r
+A provider's office receives a subpoena requesting medical documentation from a patient's medical record. After confirming the correct authorization, which of the following actions should a billing and coding specialist take?\r
+\r
+- ❌ Send the patient's demographic information from the dates of service requested.\r
+> The demographic information from the dates of service requested is not what the subpoena requested\r
+- ✅ Send the medical information pertaining to the dates of service requested.\r
+> The specialist should send only the medical information for the dates of service requested in the subpoena.\r
+- ❌ Send the patient's financial record ledger from the dates of service requested.\r
+> The financial record ledger from the dates of service requested is not what the subpoena requested.\r
+- ❌ Send the claims pertaining to the dates of service requested.\r
+> The claims from the dates of service requested is not what the subpoena requested.\r
+## Question 92 of 100\r
+A billing and coding specialist is arranging a payment plan with a patient who wants to leave postdated checks with the office. The patient proposes leaving one check postdated for 3 months, one for 4 months, and another one for 5 months in the future. According to federal collection law, which of the following actions should the specialist take?\r
+\r
+- ❌ Send all checks to the bank immediately for the bank to deposit on the dates indicated.\r
+> Checks deposited with dates that are this far in advance will not be honored by the bank. Therefore, the checks should be held and deposited no earlier than the date indicated on each check. At least 3 days, and no more than 10 days, prior to depositing each check, the patient must be notified of the deposit.\r
+- ✅ Notify the patient between 3 and 10 days prior to depositing each check on the indicated date.\r
+> According to federal collection law, the checks should be held by the provider's office and deposited no earlier than the date indicated on each check. At least 3 days, and no more than 10 days, prior to depositing each check, the patient must be notified of the deposit.\r
+- ❌ Hold all checks until the final deposit date and deposit the checks together\r
+> The checks should be held by the provider's office and deposited no earlier than the date indicated on each check. At least 3 days, and no longer than 10 days, prior to depositing each check, the patient must be notified of the deposit.\r
+- ❌ Inform the patient that it is illegal to accept postdated checks.\r
+> The specialist should recognize that it is not illegal to accept postdated checks. If the office decides to accept postdated checks, they should be held by the office and deposited no earlier than the date indicated on each check. At least 3 days, and no longer than 10 days, prior to depositing each check, the patient must be notified of the deposit.\r
+\r
+## Question 93 of 100\r
+A billing and coding specialist identifies a CPT® code that is routinely being denied by a third-party payer. Which of the following types of review should the specialist perform?\r
+- ❌ Prospective review\r
+> A prospective review focuses on medical necessity for care prior to provision of care.\r
+- ✅ Retrospective review\r
+> The specialist should perform a retrospective review. This type of review focuses on medical necessity for care after care has been concluded.\r
+- ❌ Preadmission review\r
+> A preadmission review focuses on medical necessity for care before the patient is admitted to receive care.\r
+- ❌ Concurrent review\r
+> A concurrent review focuses on medical necessity for care while care is ongoing.\r
+## Question 94 of 100\r
+A billing and coding specialist is reviewing modifier use with a new employee. Which of the following scenarios warrants the use of a modifier?\r
+- ❌ Fracture of the left femur\r
+> This is a diagnosis and does not warrant a modifier.\r
+- ✅ Splinting of the fourth digit on the left foot\r
+> Procedures performed on the digits of the foot warrant the use of a modifier to specify on which digit the procedure was performed.\r
+- ❌ Recurrent inguinal hernia\r
+> This is a diagnosis and does not warrant a modifier.\r
+- ❌ Insertion of a drug delivery implant\r
+> Insertion codes for a drug delivery implant do not require modifiers.\r
+## Question 95 of 100\r
+A patient presents to a primary care provider for a closed right index finger fracture. The provider is a non-participating provider for a private payer and does not accept assignment of benefits. The provider's charge for the service is $135. The third-party payer's usual customary reasonable (UCR) amount is $120 with a 20% coinsurance fee. Which of the following is the patient's financial responsibility?\r
+- ✅ $39\r
+> Because the provider is a non-participating provider, the entire amount is recoverable. The insurance deems $120 to be usual, customary, and reasonable, and bases their 80% payment on that amount ($96). The patient is responsible for the other 20% of the amount ($24) plus the remainder of the difference between the fee and the payer's UCR amount ($15). Therefore, the patient is responsible for $39.\r
+- ❌ $24\r
+> Because the provider is a non-participating provider, the entire amount is recoverable. The insurance deems $120 to be usual, customary, and reasonable, and bases their 80% payment on that amount ($96). The patient is responsible for the other 20% of the amount ($24) plus the remainder of the difference between the fee and the payer's UCR amount ($15). Therefore, the patient is responsible for $39. An amount of $24 does not add the difference between the charged amount and the UCR amount ($15).\r
+- ❌ $27\r
+> Because the provider is a non-participating provider, the entire amount is recoverable. The insurance deems $120 to be usual, customary, and reasonable, and bases their 80% payment on that amount ($96). The patient is responsible for the other 20% of the amount ($24) plus the remainder of the difference between the fee and the payer's UCR amount ($15). Therefore, the patient is responsible for $39, An amount of $27 would be 20% of the charged amount, not the UCR.\r
+- ❌ $42\r
+> Because the provider is a non-participating provider, the entire amount is recoverable. The insurance deems $120 to be usual, customary, and reasonable, and bases their 80% payment on that amount ($96). The patient is responsible for the other 20% of the amount ($24) plus the remainder of the difference between the fee and the payer's UCR amount ($15). Therefore, the patient is responsible for $39, An amount of $42 would be 20% of the charged amount ($27) plus the difference between the charged amount and the UCR ($15).\r
+## Question 96 of 100\r
+Which of the following actions should a billing and coding specialist take to assign a diagnosis code to the highest level of specificity?\r
+- ❌ Apply only the three-character code to a claim.\r
+> Not all codes are only three characters in length. A code can require additional specificity and be up to seven characters long.\r
+- ❌ Check for exclusion or inclusion notes.\r
+> This does not apply when assigning a diagnosis code to the highest level of specificity.\r
+- ✅ Apply characters four through seven to a claim.\r
+> In order to code to the highest level of specificity, a code may require more than three characters. Therefore, the specialist should apply characters four through seven to a diagnosis code to assign it to the highest level of specificity.\r
+- ❌ Check for code first or code also notes.\r
+> This does not apply when assigning a diagnosis code to the highest level of specificity.\r
+## Question 97 of 100\r
+A billing and coding specialist is filing a CMS-1500 claim form for a patient who has private insurance. The specialist should recognize that a signature approving assignment of benefits indicates which of the following?\r
+- ❌ The payer should send reimbursement for the claim to the patient, with the exception of copays and deductibles.\r
+> If the patient does not sign the statement in block 13 to approve assignment of benefits to the provider, the reimbursement will go to the patient. However, if the block is signed, the payer has permission to send the reimbursement to the provider.\r
+- ❌ The provider will accept the payer's reimbursement as payment in full with the exception of copays and deductibles.\r
+> Accepting the payer's reimbursement as payment in full is "accepting assignment."\r
+- ✅ The payer should send reimbursement directly to the provider with the exception of copays and deductibles.\r
+> If block 13, which indicates approval of assignment of benefits, is signed, the payer has permission from the patient to send the reimbursement directly to the provider.\r
+- ❌ The provider should bill the patient for any difference between the amount billed and the amount reimbursed by the payer.\r
+> This outcome will occur if "No" is checked in block 27 on the CMS-1500, indicating that the provider does not accept assignment. This is not the same as assignment of benefits.\r
+## Question 98 of 100\r
+Which of the following is a federal government health insurance program?\r
+- ❌ Blue Cross Blue Shield\r
+> Blue Cross Blue Shield is not a government health insurance program. It is a group or individual private insurance company.\r
+- ❌ Workers’ compensation\r
+> The federal government requires each state to have workers’ compensation; however, workers’ compensation is not a federal government health insurance program.\r
+- ❌ Cigna\r
+> Cigna is a private health insurance company.\r
+- ✅ TRICARE\r
+> TRICARE is a federal government health insurance program that is provided for active military personnel and their families.\r
+\r
+## Question 99 of 100\r
+A billing and coding specialist is preparing a claim for an appendectomy and reports it with two units. The claim is then denied. Which of the following coding edits should the specialist have reviewed prior to submitting the claim?\r
+- ✅ Medically unlikely edits\r
+> Medically unlikely edits (MUEs) are the maximum units of service that a provider will report under most circumstances for a single beneficiary on a single date of service.\r
+- ❌ National Coverage Determination\r
+> National Coverage Determination (NCD) determines coverage limitations for items or services that are reasonable and necessary for diagnosis or treatment.\r
+- ❌ Outpatient code editor\r
+> Outpatient code editor (OCE) is used by Medicare and hospitals.\r
+- ❌ Procedure-to-procedure\r
+> Procedure-to-procedure (PTP) is an automatic, prepayment edit that prevents improper payments when submitted with Medicare Part B.\r
+## Question 100 of 100\r
+In which of the following sections of a SOAP note does a provider indicate a patient's reported level of pain?\r
+- ✅ Subjective\r
+> The subjective section is where the patient describes the chief complaint, which can include the patient's reported level of pain.\r
+- ❌ Objective\r
+> The objective section includes the results of the patient's physical examination.\r
+- ❌ Assessment\r
+> The assessment section includes the provider's diagnosis.\r
+- ❌ Plan\r
 > The plan section includes the provider's treatment plan for the patient.`;function Mn(){return{async:!1,breaks:!1,extensions:null,gfm:!0,hooks:null,pedantic:!1,renderer:null,silent:!1,tokenizer:null,walkTokens:null}}let he=Mn();function Wt(t){he=t}const Me={exec:()=>null};function T(t,e=""){let n=typeof t=="string"?t:t.source;const i={replace:(r,o)=>{let a=typeof o=="string"?o:o.source;return a=a.replace($.caret,"$1"),n=n.replace(r,a),i},getRegex:()=>new RegExp(n,e)};return i}const $={codeRemoveIndent:/^(?: {1,4}| {0,3}\t)/gm,outputLinkReplace:/\\([\[\]])/g,indentCodeCompensation:/^(\s+)(?:```)/,beginningSpace:/^\s+/,endingHash:/#$/,startingSpaceChar:/^ /,endingSpaceChar:/ $/,nonSpaceChar:/[^ ]/,newLineCharGlobal:/\n/g,tabCharGlobal:/\t/g,multipleSpaceGlobal:/\s+/g,blankLine:/^[ \t]*$/,doubleBlankLine:/\n[ \t]*\n[ \t]*$/,blockquoteStart:/^ {0,3}>/,blockquoteSetextReplace:/\n {0,3}((?:=+|-+) *)(?=\n|$)/g,blockquoteSetextReplace2:/^ {0,3}>[ \t]?/gm,listReplaceTabs:/^\t+/,listReplaceNesting:/^ {1,4}(?=( {4})*[^ ])/g,listIsTask:/^\[[ xX]\] /,listReplaceTask:/^\[[ xX]\] +/,anyLine:/\n.*\n/,hrefBrackets:/^<(.*)>$/,tableDelimiter:/[:|]/,tableAlignChars:/^\||\| *$/g,tableRowBlankLine:/\n[ \t]*$/,tableAlignRight:/^ *-+: *$/,tableAlignCenter:/^ *:-+: *$/,tableAlignLeft:/^ *:-+ *$/,startATag:/^<a /i,endATag:/^<\/a>/i,startPreScriptTag:/^<(pre|code|kbd|script)(\s|>)/i,endPreScriptTag:/^<\/(pre|code|kbd|script)(\s|>)/i,startAngleBracket:/^</,endAngleBracket:/>$/,pedanticHrefTitle:/^([^'"]*[^\s])\s+(['"])(.*)\2/,unicodeAlphaNumeric:/[\p{L}\p{N}]/u,escapeTest:/[&<>"']/,escapeReplace:/[&<>"']/g,escapeTestNoEncode:/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/,escapeReplaceNoEncode:/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/g,unescapeTest:/&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/ig,caret:/(^|[^\[])\^/g,percentDecode:/%25/g,findPipe:/\|/g,splitPipe:/ \|/,slashPipe:/\\\|/g,carriageReturn:/\r\n|\r/g,spaceLine:/^ +$/gm,notSpaceStart:/^\S*/,endingNewline:/\n$/,listItemRegex:t=>new RegExp(`^( {0,3}${t})((?:[	 ][^\\n]*)?(?:\\n|$))`),nextBulletRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ 	][^\\n]*)?(?:\\n|$))`),hrRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`),fencesBeginRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}(?:\`\`\`|~~~)`),headingBeginRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}#`),htmlBeginRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}<(?:[a-z].*>|!--)`,"i")},Ar=/^(?:[ \t]*(?:\n|$))+/,Tr=/^((?: {4}| {0,3}\t)[^\n]+(?:\n(?:[ \t]*(?:\n|$))*)?)+/,Cr=/^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/,We=/^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/,xr=/^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/,Dt=/(?:[*+-]|\d{1,9}[.)])/,zt=T(/^(?!bull |blockCode|fences|blockquote|heading|html)((?:.|\n(?!\s*?\n|bull |blockCode|fences|blockquote|heading|html))+?)\n {0,3}(=+|-+) *(?:\n+|$)/).replace(/bull/g,Dt).replace(/blockCode/g,/(?: {4}| {0,3}\t)/).replace(/fences/g,/ {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g,/ {0,3}>/).replace(/heading/g,/ {0,3}#{1,6}/).replace(/html/g,/ {0,3}<[^\n>]+>\n/).getRegex(),In=/^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/,_r=/^[^\n]+/,Sn=/(?!\s*\])(?:\\.|[^\[\]\\])+/,Pr=T(/^ {0,3}\[(label)\]: *(?:\n[ \t]*)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n[ \t]*)?| *\n[ \t]*)(title))? *(?:\n+|$)/).replace("label",Sn).replace("title",/(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/).getRegex(),Mr=T(/^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/).replace(/bull/g,Dt).getRegex(),tn="address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|search|section|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul",En=/<!--(?:-?>|[\s\S]*?(?:-->|$))/,Ir=T("^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$))","i").replace("comment",En).replace("tag",tn).replace("attribute",/ +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/).getRegex(),Bt=T(In).replace("hr",We).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("|table","").replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",tn).getRegex(),Sr=T(/^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/).replace("paragraph",Bt).getRegex(),qn={blockquote:Sr,code:Tr,def:Pr,fences:Cr,heading:xr,hr:We,html:Ir,lheading:zt,list:Mr,newline:Ar,paragraph:Bt,table:Me,text:_r},Jn=T("^ *([^\\n ].*)\\n {0,3}((?:\\| *)?:?-+:? *(?:\\| *:?-+:? *)*(?:\\| *)?)(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)").replace("hr",We).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("blockquote"," {0,3}>").replace("code","(?: {4}| {0,3}	)[^\\n]").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",tn).getRegex(),Er={...qn,table:Jn,paragraph:T(In).replace("hr",We).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("table",Jn).replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",tn).getRegex()},qr={...qn,html:T(`^ *(?:comment *(?:\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)|<tag(?:"[^"]*"|'[^']*'|\\s[^'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))`).replace("comment",En).replace(/tag/g,"(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b").getRegex(),def:/^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,heading:/^(#{1,6})(.*)(?:\n+|$)/,fences:Me,lheading:/^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,paragraph:T(In).replace("hr",We).replace("heading",` *#{1,6} *[^
 ]`).replace("lheading",zt).replace("|table","").replace("blockquote"," {0,3}>").replace("|fences","").replace("|list","").replace("|html","").replace("|tag","").getRegex()},Nt=/^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/,Rr=/^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/,Ot=/^( {2,}|\\)\n(?!\s*$)/,Qr=/^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/,rn=/[\p{P}\p{S}]/u,Rn=/[\s\p{P}\p{S}]/u,Ht=/[^\s\p{P}\p{S}]/u,$r=T(/^((?![*_])punctSpace)/,"u").replace(/punctSpace/g,Rn).getRegex(),Wr=/\[[^[\]]*?\]\((?:\\.|[^\\\(\)]|\((?:\\.|[^\\\(\)])*\))*\)|`[^`]*?`|<[^<>]*?>/g,Dr=T(/^(?:\*+(?:((?!\*)punct)|[^\s*]))|^_+(?:((?!_)punct)|([^\s_]))/,"u").replace(/punct/g,rn).getRegex(),zr=T("^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)punct(\\*+)(?=[\\s]|$)|notPunctSpace(\\*+)(?!\\*)(?=punctSpace|$)|(?!\\*)punctSpace(\\*+)(?=notPunctSpace)|[\\s](\\*+)(?!\\*)(?=punct)|(?!\\*)punct(\\*+)(?!\\*)(?=punct)|notPunctSpace(\\*+)(?=notPunctSpace)","gu").replace(/notPunctSpace/g,Ht).replace(/punctSpace/g,Rn).replace(/punct/g,rn).getRegex(),Br=T("^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)punct(_+)(?=[\\s]|$)|notPunctSpace(_+)(?!_)(?=punctSpace|$)|(?!_)punctSpace(_+)(?=notPunctSpace)|[\\s](_+)(?!_)(?=punct)|(?!_)punct(_+)(?!_)(?=punct)","gu").replace(/notPunctSpace/g,Ht).replace(/punctSpace/g,Rn).replace(/punct/g,rn).getRegex(),Nr=T(/\\(punct)/,"gu").replace(/punct/g,rn).getRegex(),Or=T(/^<(scheme:[^\s\x00-\x1f<>]*|email)>/).replace("scheme",/[a-zA-Z][a-zA-Z0-9+.-]{1,31}/).replace("email",/[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/).getRegex(),Hr=T(En).replace("(?:-->|$)","-->").getRegex(),Lr=T("^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>").replace("comment",Hr).replace("attribute",/\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/).getRegex(),Ze=/(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/,jr=T(/^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/).replace("label",Ze).replace("href",/<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/).replace("title",/"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/).getRegex(),Lt=T(/^!?\[(label)\]\[(ref)\]/).replace("label",Ze).replace("ref",Sn).getRegex(),jt=T(/^!?\[(ref)\](?:\[\])?/).replace("ref",Sn).getRegex(),Fr=T("reflink|nolink(?!\\()","g").replace("reflink",Lt).replace("nolink",jt).getRegex(),Qn={_backpedal:Me,anyPunctuation:Nr,autolink:Or,blockSkip:Wr,br:Ot,code:Rr,del:Me,emStrongLDelim:Dr,emStrongRDelimAst:zr,emStrongRDelimUnd:Br,escape:Nt,link:jr,nolink:jt,punctuation:$r,reflink:Lt,reflinkSearch:Fr,tag:Lr,text:Qr,url:Me},Ur={...Qn,link:T(/^!?\[(label)\]\((.*?)\)/).replace("label",Ze).getRegex(),reflink:T(/^!?\[(label)\]\s*\[([^\]]*)\]/).replace("label",Ze).getRegex()},gn={...Qn,escape:T(Nt).replace("])","~|])").getRegex(),url:T(/^((?:ftp|https?):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/,"i").replace("email",/[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/).getRegex(),_backpedal:/(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,del:/^(~~?)(?=[^\s~])((?:\\.|[^\\])*?(?:\\.|[^\s~\\]))\1(?=[^~]|$)/,text:/^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/},Gr={...gn,br:T(Ot).replace("{2,}","*").getRegex(),text:T(gn.text).replace("\\b_","\\b_| {2,}\\n").replace(/\{2,\}/g,"*").getRegex()},Be={normal:qn,gfm:Er,pedantic:qr},Ce={normal:Qn,gfm:gn,breaks:Gr,pedantic:Ur},Zr={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"},et=t=>Zr[t];function U(t,e){if(e){if($.escapeTest.test(t))return t.replace($.escapeReplace,et)}else if($.escapeTestNoEncode.test(t))return t.replace($.escapeReplaceNoEncode,et);return t}function nt(t){try{t=encodeURI(t).replace($.percentDecode,"%")}catch{return null}return t}function tt(t,e){var o;const n=t.replace($.findPipe,(a,c,d)=>{let l=!1,s=c;for(;--s>=0&&d[s]==="\\";)l=!l;return l?"|":" |"}),i=n.split($.splitPipe);let r=0;if(i[0].trim()||i.shift(),i.length>0&&!((o=i.at(-1))!=null&&o.trim())&&i.pop(),e)if(i.length>e)i.splice(e);else for(;i.length<e;)i.push("");for(;r<i.length;r++)i[r]=i[r].trim().replace($.slashPipe,"|");return i}function xe(t,e,n){const i=t.length;if(i===0)return"";let r=0;for(;r<i;){const o=t.charAt(i-r-1);if(o===e&&!n)r++;else if(o!==e&&n)r++;else break}return t.slice(0,i-r)}function Vr(t,e){if(t.indexOf(e[1])===-1)return-1;let n=0;for(let i=0;i<t.length;i++)if(t[i]==="\\")i++;else if(t[i]===e[0])n++;else if(t[i]===e[1]&&(n--,n<0))return i;return-1}function it(t,e,n,i,r){const o=e.href,a=e.title||null,c=t[1].replace(r.other.outputLinkReplace,"$1");if(t[0].charAt(0)!=="!"){i.state.inLink=!0;const d={type:"link",raw:n,href:o,title:a,text:c,tokens:i.inlineTokens(c)};return i.state.inLink=!1,d}return{type:"image",raw:n,href:o,title:a,text:c}}function Kr(t,e,n){const i=t.match(n.other.indentCodeCompensation);if(i===null)return e;const r=i[1];return e.split(`
 `).map(o=>{const a=o.match(n.other.beginningSpace);if(a===null)return o;const[c]=a;return c.length>=r.length?o.slice(r.length):o}).join(`
@@ -2493,4 +2493,4 @@ ${e}</tr>
 `}tablecell(e){const n=this.parser.parseInline(e.tokens),i=e.header?"th":"td";return(e.align?`<${i} align="${e.align}">`:`<${i}>`)+n+`</${i}>
 `}strong({tokens:e}){return`<strong>${this.parser.parseInline(e)}</strong>`}em({tokens:e}){return`<em>${this.parser.parseInline(e)}</em>`}codespan({text:e}){return`<code>${U(e,!0)}</code>`}br(e){return"<br>"}del({tokens:e}){return`<del>${this.parser.parseInline(e)}</del>`}link({href:e,title:n,tokens:i}){const r=this.parser.parseInline(i),o=nt(e);if(o===null)return r;e=o;let a='<a href="'+e+'"';return n&&(a+=' title="'+U(n)+'"'),a+=">"+r+"</a>",a}image({href:e,title:n,text:i}){const r=nt(e);if(r===null)return U(i);e=r;let o=`<img src="${e}" alt="${i}"`;return n&&(o+=` title="${U(n)}"`),o+=">",o}text(e){return"tokens"in e&&e.tokens?this.parser.parseInline(e.tokens):"escaped"in e&&e.escaped?e.text:U(e.text)}}class $n{strong({text:e}){return e}em({text:e}){return e}codespan({text:e}){return e}del({text:e}){return e}html({text:e}){return e}text({text:e}){return e}link({text:e}){return""+e}image({text:e}){return""+e}br(){return""}}class L{constructor(e){C(this,"options");C(this,"renderer");C(this,"textRenderer");this.options=e||he,this.options.renderer=this.options.renderer||new Ke,this.renderer=this.options.renderer,this.renderer.options=this.options,this.renderer.parser=this,this.textRenderer=new $n}static parse(e,n){return new L(n).parse(e)}static parseInline(e,n){return new L(n).parseInline(e)}parse(e,n=!0){var r,o;let i="";for(let a=0;a<e.length;a++){const c=e[a];if((o=(r=this.options.extensions)==null?void 0:r.renderers)!=null&&o[c.type]){const l=c,s=this.options.extensions.renderers[l.type].call({parser:this},l);if(s!==!1||!["space","hr","heading","code","table","blockquote","list","html","paragraph","text"].includes(l.type)){i+=s||"";continue}}const d=c;switch(d.type){case"space":{i+=this.renderer.space(d);continue}case"hr":{i+=this.renderer.hr(d);continue}case"heading":{i+=this.renderer.heading(d);continue}case"code":{i+=this.renderer.code(d);continue}case"table":{i+=this.renderer.table(d);continue}case"blockquote":{i+=this.renderer.blockquote(d);continue}case"list":{i+=this.renderer.list(d);continue}case"html":{i+=this.renderer.html(d);continue}case"paragraph":{i+=this.renderer.paragraph(d);continue}case"text":{let l=d,s=this.renderer.text(l);for(;a+1<e.length&&e[a+1].type==="text";)l=e[++a],s+=`
 `+this.renderer.text(l);n?i+=this.renderer.paragraph({type:"paragraph",raw:s,text:s,tokens:[{type:"text",raw:s,text:s,escaped:!0}]}):i+=s;continue}default:{const l='Token with "'+d.type+'" type was not found.';if(this.options.silent)return console.error(l),"";throw new Error(l)}}}return i}parseInline(e,n=this.renderer){var r,o;let i="";for(let a=0;a<e.length;a++){const c=e[a];if((o=(r=this.options.extensions)==null?void 0:r.renderers)!=null&&o[c.type]){const l=this.options.extensions.renderers[c.type].call({parser:this},c);if(l!==!1||!["escape","html","link","image","strong","em","codespan","br","del","text"].includes(c.type)){i+=l||"";continue}}const d=c;switch(d.type){case"escape":{i+=n.text(d);break}case"html":{i+=n.html(d);break}case"link":{i+=n.link(d);break}case"image":{i+=n.image(d);break}case"strong":{i+=n.strong(d);break}case"em":{i+=n.em(d);break}case"codespan":{i+=n.codespan(d);break}case"br":{i+=n.br(d);break}case"del":{i+=n.del(d);break}case"text":{i+=n.text(d);break}default:{const l='Token with "'+d.type+'" type was not found.';if(this.options.silent)return console.error(l),"";throw new Error(l)}}}return i}}class Ie{constructor(e){C(this,"options");C(this,"block");this.options=e||he}preprocess(e){return e}postprocess(e){return e}processAllTokens(e){return e}provideLexer(){return this.block?H.lex:H.lexInline}provideParser(){return this.block?L.parse:L.parseInline}}C(Ie,"passThroughHooks",new Set(["preprocess","postprocess","processAllTokens"]));class Xr{constructor(...e){C(this,"defaults",Mn());C(this,"options",this.setOptions);C(this,"parse",this.parseMarkdown(!0));C(this,"parseInline",this.parseMarkdown(!1));C(this,"Parser",L);C(this,"Renderer",Ke);C(this,"TextRenderer",$n);C(this,"Lexer",H);C(this,"Tokenizer",Ve);C(this,"Hooks",Ie);this.use(...e)}walkTokens(e,n){var r,o;let i=[];for(const a of e)switch(i=i.concat(n.call(this,a)),a.type){case"table":{const c=a;for(const d of c.header)i=i.concat(this.walkTokens(d.tokens,n));for(const d of c.rows)for(const l of d)i=i.concat(this.walkTokens(l.tokens,n));break}case"list":{const c=a;i=i.concat(this.walkTokens(c.items,n));break}default:{const c=a;(o=(r=this.defaults.extensions)==null?void 0:r.childTokens)!=null&&o[c.type]?this.defaults.extensions.childTokens[c.type].forEach(d=>{const l=c[d].flat(1/0);i=i.concat(this.walkTokens(l,n))}):c.tokens&&(i=i.concat(this.walkTokens(c.tokens,n)))}}return i}use(...e){const n=this.defaults.extensions||{renderers:{},childTokens:{}};return e.forEach(i=>{const r={...i};if(r.async=this.defaults.async||r.async||!1,i.extensions&&(i.extensions.forEach(o=>{if(!o.name)throw new Error("extension name required");if("renderer"in o){const a=n.renderers[o.name];a?n.renderers[o.name]=function(...c){let d=o.renderer.apply(this,c);return d===!1&&(d=a.apply(this,c)),d}:n.renderers[o.name]=o.renderer}if("tokenizer"in o){if(!o.level||o.level!=="block"&&o.level!=="inline")throw new Error("extension level must be 'block' or 'inline'");const a=n[o.level];a?a.unshift(o.tokenizer):n[o.level]=[o.tokenizer],o.start&&(o.level==="block"?n.startBlock?n.startBlock.push(o.start):n.startBlock=[o.start]:o.level==="inline"&&(n.startInline?n.startInline.push(o.start):n.startInline=[o.start]))}"childTokens"in o&&o.childTokens&&(n.childTokens[o.name]=o.childTokens)}),r.extensions=n),i.renderer){const o=this.defaults.renderer||new Ke(this.defaults);for(const a in i.renderer){if(!(a in o))throw new Error(`renderer '${a}' does not exist`);if(["options","parser"].includes(a))continue;const c=a,d=i.renderer[c],l=o[c];o[c]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=l.apply(o,s)),u||""}}r.renderer=o}if(i.tokenizer){const o=this.defaults.tokenizer||new Ve(this.defaults);for(const a in i.tokenizer){if(!(a in o))throw new Error(`tokenizer '${a}' does not exist`);if(["options","rules","lexer"].includes(a))continue;const c=a,d=i.tokenizer[c],l=o[c];o[c]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=l.apply(o,s)),u}}r.tokenizer=o}if(i.hooks){const o=this.defaults.hooks||new Ie;for(const a in i.hooks){if(!(a in o))throw new Error(`hook '${a}' does not exist`);if(["options","block"].includes(a))continue;const c=a,d=i.hooks[c],l=o[c];Ie.passThroughHooks.has(a)?o[c]=s=>{if(this.defaults.async)return Promise.resolve(d.call(o,s)).then(h=>l.call(o,h));const u=d.call(o,s);return l.call(o,u)}:o[c]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=l.apply(o,s)),u}}r.hooks=o}if(i.walkTokens){const o=this.defaults.walkTokens,a=i.walkTokens;r.walkTokens=function(c){let d=[];return d.push(a.call(this,c)),o&&(d=d.concat(o.call(this,c))),d}}this.defaults={...this.defaults,...r}}),this}setOptions(e){return this.defaults={...this.defaults,...e},this}lexer(e,n){return H.lex(e,n??this.defaults)}parser(e,n){return L.parse(e,n??this.defaults)}parseMarkdown(e){return(i,r)=>{const o={...r},a={...this.defaults,...o},c=this.onError(!!a.silent,!!a.async);if(this.defaults.async===!0&&o.async===!1)return c(new Error("marked(): The async option was set to true by an extension. Remove async: false from the parse options object to return a Promise."));if(typeof i>"u"||i===null)return c(new Error("marked(): input parameter is undefined or null"));if(typeof i!="string")return c(new Error("marked(): input parameter is of type "+Object.prototype.toString.call(i)+", string expected"));a.hooks&&(a.hooks.options=a,a.hooks.block=e);const d=a.hooks?a.hooks.provideLexer():e?H.lex:H.lexInline,l=a.hooks?a.hooks.provideParser():e?L.parse:L.parseInline;if(a.async)return Promise.resolve(a.hooks?a.hooks.preprocess(i):i).then(s=>d(s,a)).then(s=>a.hooks?a.hooks.processAllTokens(s):s).then(s=>a.walkTokens?Promise.all(this.walkTokens(s,a.walkTokens)).then(()=>s):s).then(s=>l(s,a)).then(s=>a.hooks?a.hooks.postprocess(s):s).catch(c);try{a.hooks&&(i=a.hooks.preprocess(i));let s=d(i,a);a.hooks&&(s=a.hooks.processAllTokens(s)),a.walkTokens&&this.walkTokens(s,a.walkTokens);let u=l(s,a);return a.hooks&&(u=a.hooks.postprocess(u)),u}catch(s){return c(s)}}}onError(e,n){return i=>{if(i.message+=`
-Please report this to https://github.com/markedjs/marked.`,e){const r="<p>An error occurred:</p><pre>"+U(i.message+"",!0)+"</pre>";return n?Promise.resolve(r):r}if(n)return Promise.reject(i);throw i}}}const se=new Xr;function k(t,e){return se.parse(t,e)}k.options=k.setOptions=function(t){return se.setOptions(t),k.defaults=se.defaults,Wt(k.defaults),k};k.getDefaults=Mn;k.defaults=he;k.use=function(...t){return se.use(...t),k.defaults=se.defaults,Wt(k.defaults),k};k.walkTokens=function(t,e){return se.walkTokens(t,e)};k.parseInline=se.parseInline;k.Parser=L;k.parser=L.parse;k.Renderer=Ke;k.TextRenderer=$n;k.Lexer=H;k.lexer=H.lex;k.Tokenizer=Ve;k.Hooks=Ie;k.parse=k;k.options;k.setOptions;k.use;k.walkTokens;k.parseInline;L.parse;H.lex;var Yr=de('<div class="svelte-1fic553"><!></div>'),Jr=de('<fieldset class="fancy"><legend> </legend> <!></fieldset>'),eo=de('<h2 style="font-size: 1.5rem; font-weight: medium; margin: 0">Final Score</h2> <div style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 1rem" class="score svelte-1fic553"> </div> <table style="margin: auto"><tbody><tr><th>Correct</th><td> </td></tr><tr><th>Incorrect</th><td> </td></tr></tbody></table>',1),no=de('<article><nav class="svelte-1fic553"><button type="button" class="svelte-1fic553">Previous</button> <div class="timer svelte-1fic553">Timer <time class="svelte-1fic553"> </time></div> <button type="button" class="svelte-1fic553">Next</button></nav> <!></article>');function to(t,e){en(e,!1);let n=Ne(e,"num_questions",12,5),i=G(),r=G(0),o=G([]),a,c=G(),d=G("00:00:00"),l=G(!1);function s(){g(r)<=g(i).length&&Nn(r)}function u(x){return k(x,{async:!1}).split(/^<h2>.+<\/h2>\n/gm).filter(Boolean)}Qt(()=>{M(i,[...u(wr),...u(kr)]),$t(g(i)),M(i,g(i).slice(0,n())),n(g(i).length),M(o,new Array(n()).fill(void 0)),a=new Date,M(c,setInterval(()=>{M(d,yr(a))},1e3))});function h(x){lt(o,g(o)[g(r)]=x)}yt(()=>(g(l),g(o),g(c)),()=>{M(l,g(o).every(x=>typeof x=="boolean")),g(l)&&clearInterval(g(c))}),bt(),Rt();var p=no(),f=S(p),m=S(f),y=Q(m,2),v=Q(S(y)),P=S(v),I=Q(y,2),B=Q(f,2);qt(B,()=>g(r)<n(),x=>{var E=Jr(),q=S(E),w=S(q),N=Q(q,2);or(N,1,()=>g(i),ir,(X,on,De)=>{var Te=Yr(),an=S(Te),sn=cn(()=>typeof g(o)[g(r)]=="boolean");vr(an,{get src(){return g(on)},onSubmit:h,get answered(){return g(sn)}}),Y(()=>Gn(Te,"hidden",g(r)!==De)),re(X,Te)}),Y(()=>{E.disabled=typeof g(o)[g(r)]=="boolean",fe(w,`Question: ${g(r)+1} of ${n()??""}`)}),re(x,E)},x=>{var E=eo(),q=Q(Si(E),2);const w=cn(()=>g(o).filter(Boolean).length/n()*100<70);Y(()=>Gn(q,"failed",g(w)));var N=S(q);Y(()=>fe(N,`${(g(o).filter(Boolean).length/n()*100).toFixed(2)??""}%`));var X=Q(q,2),on=S(X),De=S(on),Te=Q(S(De)),an=S(Te);Y(()=>fe(an,`${g(o).filter(Boolean).length??""} out of ${n()??""}`));var sn=Q(De),Ft=Q(S(sn)),Ut=S(Ft);Y(()=>fe(Ut,`${g(o).filter(Gt=>!Gt).length??""} out of ${n()??""}`)),re(x,E)}),Y(()=>{m.disabled=g(r)===0,fe(P,g(d)),I.disabled=g(r)===n()||typeof g(o)[g(r)]!="boolean"}),Ge("click",m,()=>Nn(r,-1)),Ge("click",I,s),re(t,p),nn()}var io=de('<fieldset class="fancy flex flex-col items-center justify-center gap-2"><label for="numquestions">How many questions?</label> <input type="number" id="numquestions" min="1" class="pl-2 py-1 rounded border border-neutral-300 dark:border-neutral-600"> <button class="mt-4">Start</button></fieldset>'),ro=de('<main><header class="mb-6 grid grid-cols-[1fr,max-content,1fr] gap-4 justify-center items-center"><div></div> <h1 class="mb-2 text-5xl font-bold">NHA Practice Test</h1> <label class="cursor-pointer text-2xl inline-grid justify-self-end justify-center items-center text-center border p-2 pt-1 rounded-full size-12 hover:bg-neutral-200 dark:hover:bg-neutral-700 leading-none"><input type="checkbox" class="hidden"> <small class="text-xs text-center block sr-only">Theme</small></label></header> <!></main>');function oo(t,e){en(e,!1);let n=G(225),i=G(!1),r=G(!1);yt(()=>g(r),()=>{document.documentElement.classList.toggle("dark",g(r))}),bt();var o=ro(),a=S(o),c=Q(S(a),4),d=S(c),l=Q(d),s=Q(a,2);qt(s,()=>!g(i),u=>{var h=io(),p=Q(S(h),2),f=Q(p,2);hr(p,()=>g(n),m=>M(n,m)),Ge("click",f,()=>M(i,!0)),re(u,h)},u=>{to(u,{get num_questions(){return g(n)}})}),Y(()=>fe(l,` ${(g(r)?"🌙":"☀️")??""} `)),ur(d,()=>g(r),u=>M(r,u)),re(t,o),nn()}nr(oo,{target:document.getElementById("app")});
+Please report this to https://github.com/markedjs/marked.`,e){const r="<p>An error occurred:</p><pre>"+U(i.message+"",!0)+"</pre>";return n?Promise.resolve(r):r}if(n)return Promise.reject(i);throw i}}}const se=new Xr;function k(t,e){return se.parse(t,e)}k.options=k.setOptions=function(t){return se.setOptions(t),k.defaults=se.defaults,Wt(k.defaults),k};k.getDefaults=Mn;k.defaults=he;k.use=function(...t){return se.use(...t),k.defaults=se.defaults,Wt(k.defaults),k};k.walkTokens=function(t,e){return se.walkTokens(t,e)};k.parseInline=se.parseInline;k.Parser=L;k.parser=L.parse;k.Renderer=Ke;k.TextRenderer=$n;k.Lexer=H;k.lexer=H.lex;k.Tokenizer=Ve;k.Hooks=Ie;k.parse=k;k.options;k.setOptions;k.use;k.walkTokens;k.parseInline;L.parse;H.lex;var Yr=de('<div class="svelte-1fic553"><!></div>'),Jr=de('<fieldset class="fancy"><legend> </legend> <!></fieldset>'),eo=de('<h2 style="font-size: 1.5rem; font-weight: medium; margin: 0">Final Score</h2> <div style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 1rem" class="score svelte-1fic553"> </div> <table style="margin: auto"><tbody><tr><th>Correct</th><td> </td></tr><tr><th>Incorrect</th><td> </td></tr></tbody></table>',1),no=de('<article><nav class="svelte-1fic553"><button type="button" class="svelte-1fic553">Previous</button> <div class="timer svelte-1fic553">Timer <time class="svelte-1fic553"> </time></div> <button type="button" class="svelte-1fic553">Next</button></nav> <!></article>');function to(t,e){en(e,!1);let n=Ne(e,"num_questions",12,5),i=G(),r=G(0),o=G([]),a,c=G(),d=G("00:00:00"),l=G(!1);function s(){g(r)<=g(i).length&&Nn(r)}function u(x){return k(x,{async:!1}).split(/^<h2>.+<\/h2>\n/gm).filter(Boolean)}Qt(()=>{M(i,[...u(wr),...u(kr)]),$t(g(i)),M(i,g(i).slice(0,n())),n(g(i).length),M(o,new Array(n()).fill(void 0)),a=new Date,M(c,setInterval(()=>{M(d,yr(a))},1e3))});function h(x){lt(o,g(o)[g(r)]=x)}yt(()=>(g(l),g(o),g(c)),()=>{M(l,g(o).every(x=>typeof x=="boolean")),g(l)&&clearInterval(g(c))}),bt(),Rt();var p=no(),f=S(p),m=S(f),y=Q(m,2),v=Q(S(y)),P=S(v),I=Q(y,2),B=Q(f,2);qt(B,()=>g(r)<n(),x=>{var E=Jr(),q=S(E),w=S(q),N=Q(q,2);or(N,1,()=>g(i),ir,(X,on,De)=>{var Te=Yr(),an=S(Te),sn=cn(()=>typeof g(o)[g(r)]=="boolean");vr(an,{get src(){return g(on)},onSubmit:h,get answered(){return g(sn)}}),Y(()=>Gn(Te,"hidden",g(r)!==De)),re(X,Te)}),Y(()=>{E.disabled=typeof g(o)[g(r)]=="boolean",fe(w,`Question: ${g(r)+1} of ${n()??""}`)}),re(x,E)},x=>{var E=eo(),q=Q(Si(E),2);const w=cn(()=>g(o).filter(Boolean).length/n()*100<70);Y(()=>Gn(q,"failed",g(w)));var N=S(q);Y(()=>fe(N,`${(g(o).filter(Boolean).length/n()*100).toFixed(2)??""}%`));var X=Q(q,2),on=S(X),De=S(on),Te=Q(S(De)),an=S(Te);Y(()=>fe(an,`${g(o).filter(Boolean).length??""} out of ${n()??""}`));var sn=Q(De),Ft=Q(S(sn)),Ut=S(Ft);Y(()=>fe(Ut,`${g(o).filter(Gt=>!Gt).length??""} out of ${n()??""}`)),re(x,E)}),Y(()=>{m.disabled=g(r)===0,fe(P,g(d)),I.disabled=g(r)===n()||typeof g(o)[g(r)]!="boolean"}),Ge("click",m,()=>Nn(r,-1)),Ge("click",I,s),re(t,p),nn()}var io=de('<fieldset class="fancy flex flex-col items-center justify-center gap-2"><label for="numquestions">How many questions?</label> <input type="number" id="numquestions" min="1" class="pl-2 py-1 rounded border border-neutral-300 dark:border-neutral-600"> <button class="mt-4">Start</button></fieldset>'),ro=de('<main><header class="mb-6 grid grid-cols-[1fr,max-content,1fr] gap-4 justify-center items-center text-center"><div></div> <h1 class="mb-2 text-3xl font-bold">NHA Practice Test</h1> <label class="cursor-pointer text-lg inline-grid justify-self-end justify-center items-center text-center border p-2 rounded-full size-9 hover:bg-neutral-200 dark:hover:bg-neutral-700 leading-none"><input type="checkbox" class="hidden"> <small class="text-xs text-center block sr-only">Theme</small></label></header> <!></main>');function oo(t,e){en(e,!1);let n=G(225),i=G(!1),r=G(!1);yt(()=>g(r),()=>{document.documentElement.classList.toggle("dark",g(r))}),bt();var o=ro(),a=S(o),c=Q(S(a),4),d=S(c),l=Q(d),s=Q(a,2);qt(s,()=>!g(i),u=>{var h=io(),p=Q(S(h),2),f=Q(p,2);hr(p,()=>g(n),m=>M(n,m)),Ge("click",f,()=>M(i,!0)),re(u,h)},u=>{to(u,{get num_questions(){return g(n)}})}),Y(()=>fe(l,` ${(g(r)?"🌙":"☀️")??""} `)),ur(d,()=>g(r),u=>M(r,u)),re(t,o),nn()}nr(oo,{target:document.getElementById("app")});
