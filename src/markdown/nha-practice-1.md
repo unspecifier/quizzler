@@ -732,7 +732,7 @@ Which of the following provisions ensures that an insured patient's benefits fro
 > A source document is a communication tool used between the provider and third-party payer to submit a claim.
 - ❌ Assignment of benefits
 > Assignment of benefits does not ensure that patient benefits from a third-party payer do not exceed allowable medical expenses.
-- ❌ coinsurance
+- ❌ Coinsurance
 > Coinsurance is the percentage a patient pays for covered services after the deductible is met.
 - ✅ Coordination of benefits
 > Coordination of benefits is used between multiple third-party payers to determine which payer pays primary and which payer pays secondary. The coordination of benefits third-party payer does not exceed allowable medical expenses.
@@ -1000,7 +1000,7 @@ A patient who recently received care from an endocrinologist is being referred t
 ## Question 89 of 100
 A claim is submitted with a transposed insurance member ID number and returned to the provider. Which of the following describes the status that will be assigned to the claim by the third-party payer?
 - ❌ Suspended
-> Asuspended claim is held for additional information.
+> A suspended claim is held for additional information.
 - ❌ Pending
 > A pending claim is held for pending review.
 - ❌ Denied
