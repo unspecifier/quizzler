@@ -10,12 +10,12 @@
 
 <main>
   <header
-    class="mb-6 grid grid-cols-[1fr,max-content,1fr] gap-4 justify-center items-center"
+    class="mb-6 grid grid-cols-[1fr,max-content,1fr] gap-4 justify-center items-center text-center"
   >
     <div></div>
-    <h1 class="mb-2 text-5xl font-bold">NHA Practice Test</h1>
+    <h1 class="mb-2 text-3xl font-bold">NHA Practice Test</h1>
     <label
-      class="cursor-pointer text-2xl inline-grid justify-self-end justify-center items-center text-center border p-2 pt-1 rounded-full size-12 hover:bg-neutral-200 dark:hover:bg-neutral-700 leading-none"
+      class="cursor-pointer text-lg inline-grid justify-self-end justify-center items-center text-center border p-2 rounded-full size-9 hover:bg-neutral-200 dark:hover:bg-neutral-700 leading-none"
     >
       <input type="checkbox" class="hidden" bind:checked={is_dark} />
       {is_dark ? "🌙" : "☀️"}

@@ -41,12 +41,6 @@ p + div:has(> label):first-of-type {
   @apply /* border-top: thin solid rgb(229, 231, 235, 0.3); */ pt-4 dark:border-t-neutral-500;
 }
 
-h1 {
-  text-align: center;
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 h2 {
   text-align: center;
 }
