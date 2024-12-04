@@ -133,10 +133,7 @@
   button {
     min-width: 100px;
   }
-  h1 {
-    font-size: 2rem;
-    margin-top: 0;
-  }
+
   nav {
     display: flex;
     justify-content: space-between;
