@@ -1,36 +1,20 @@
 ## Question 1 of 15
 
-
 Which of the following describes the practice of routinely submitting claims that have the same coding or modifier errors?
 
-INCORRECT
+- ❌ Upcoding
+> Upcoding is a category of fraud, not abuse. This is billing abuse, which can occur unintentionally because of claim errors, including inaccurate code or modifier assignment.
 
-Upcoding is a category of fraud, not abuse. This is billing abuse, which can occur unintentionally because of claim errors, including inaccurate code or modifier
-assignment.
+- ❌ Overpayment
+> Overpayment will not occur for this type of claim: it will be rejected. This is billing abuse, which can occur unintentionally because of claim errors, including inaccurate code or modifier assignment.
 
-© overpayment
+- ✅ Abusive billing pattern
+> Abusive billing patterns can occur unintentionally in organizations due to claim errors, including inaccurate coding or modifier assignment
 
-INCORRECT
+- ❌ Billing for services not rendered
+> Billing for services not rendered is considered fraud. This is billing abuse, which can occur unintentionally because of claim errors, including inaccurate code or modifier assignment.
 
-Overpayment will not occur for this type of claim: it will be rejected. This is billing abuse, which can occur unintentionally because of claim errors, including
-inaccurate code or modifier assignment.
-
-© Abusive billing pattern
-
-CORRECT ire
-
-Abusive billing patterns can occur unintentionally in organizations due to claim errors, including inaacurate coding or modifier assignment
-
-not rendered
-
-© Billing for serv
-
-INCORRECT
-
-Billing for services not rendered is considered fraud. This is billing abuse, which can occur unintentionally because of claim errors, including inaccurate code or
-modifier assignment.
 ## Question 2 of 15
-
 
 Which of the following refers to the act of controlling access to records, protecting patient health information from destruction or loss, and
 providing employee training?
@@ -62,8 +46,7 @@ This concept gives covered enteties permission to use specified protected health
 
 A billing and coding specialist is processing claims. Which of the following should the specialist identify as an example of fraud?
 
-© Billi
-
+- Billi
 vered serv
 
 INCORRECT
@@ -78,8 +61,7 @@ INCORRECT
 
 Reporting duplicate charges is an example of abuse, not fraud.
 
-© upcoding for increase
-
+- upcoding for increase
 reimbursement
 
 CORRECT inne
@@ -91,26 +73,19 @@ Upcoding is billing for a higher level of service than what was provided in orde
 
 Which of the following requires a patient's authorization prior to disclosure?
 
-© Protected health information (PHI)
-
-CORRECT ire
+- ✅ Protected health information (PHI)
 
 A patient's PHI requires an authorization from the patient before that information can be disclosed to another party.
 
-© Workers' comp
-INCORRECT
+- ❌ Workers' comp
 
 Workers’ compensation claims do not require patient authorization for release of history and treatment plan information related to an accepted claim.
 
-© Release of information log
-
-INCORRECT
+- ❌ Release of information log
 
 The information log is a tracking system that is used to identify where health information was released and who authorized the release.
 
-© Treatment, payment, and hea
-
-INCORRECT
+- ❌ Treatment, payment, and hea
 
 TPO is an exception to the rule for requiring authorization; all of these actions can be performed without a patient's authorization.
 
@@ -195,31 +170,24 @@ Authorization is the act of giving permission to disclose patient information, n
 A billing and coding specialist should identify that a Medicare Recovery Audit Contractor (RAC) can review medical records for which of the
 following reasons?
 
-© Toinvestigate
-
-INCORRECT
+- ❌ Toinvestigate
 
 ent was denied Medicare
 
 This is not a responsibility of the Medicare RAC.
 
-© To investigate whether a provic
-INCORRECT
+- ❌ To investigate whether a provic
 
 -referring for ancillary ser
-
 This is not a responsibility of the Medicare RAC.
 
-© To investigate potential improper Medic
-
-CORRECT ire
+- ✅ To investigate potential improper Medic
 
 ‘The Medicare RAC can review medical records to investigate potential improper Medicare payments, such as overpayments or underpayments.
 
 e payments
 
-© Toinvestig
-INCORRECT
+- ❌ Toinvestig
 
 HIPAA violation
 
@@ -253,9 +221,7 @@ ing: 00:37:46
 
 During which of the following steps of the revenue cycle does effective communication begin?
 
-© utiliza
-
-INCORRECT
+- ❌ utiliza
 
 ition management review
 
@@ -272,9 +238,7 @@ INCORRECT
 
 While effective communication is important during all steps of the revenue cycle, it begins during registration and scheduling.
 
-© Registration and schedulin,
-
-CORRECT ire
+- ✅ Registration and schedulin,
 
 Effective communication starts at the point of service, which is during registration and scheduling.
 
@@ -332,9 +296,7 @@ This action violates the confidentiality standards and represents a breach of co
 
 ‘tor where other patients are p!
 
-© communicating
-
-INCORRECT
+- ❌ communicating
 
 with the patient's con:
 
@@ -346,8 +308,7 @@ ig specialist should identify that the Office of Inspector General (O1G) has whi
 
 ith information
 
-- re of protected
-INCORRECT
+- ❌ re of protected
 
 This is not a responsibility of the OIG.
 
@@ -375,24 +336,19 @@ The OIG is responsible for identifying Medicare fraud and abuse, and then sendin
 
 Which of the following is an effective tool for collecting a patient's payment for health care services?
 
-© Eligibitity verification
-
-INCORRECT
+- ❌ Eligibitity verification
 
 Eligibility verification helps to determine the patient's financial responsibilty, but itis not an effective tool for collecting the payment.
 
-© communi
-
-CORRECT
+- ✅ communi
 
 Communicating office policies regarding the patient's financial responsibilities is a key tool for collecting patient's payments.
 
-INCORRECT < MyAnswer
+INCORRECT
 
 Precertification is not a tool for collections. It is a utilization management tool to reduce health care costs and ensure medical necessity.
 
-©O copayment
-
+-O copayment
 INCORRECT
 
 Copayments are a cost share requirement of the third-party payer. They are not a collection tool.
@@ -436,9 +392,7 @@ INCORRECT
 
 HCPCS Level Il codes are used to report drugs administered in the outpatient environment, not pathology.
 
-© ow
-
-CORRECT ine
+- ✅ ow
 
 HCPCS Level Il codes are used to report drugs administered in the outpatient environment.
 
@@ -466,16 +420,14 @@ mergency department visit of a patient which r ally appropriate history and/or e
 
 E/M code 99285 describes emergency department services, including a high complexity of medical decision-making.
 
-© 99205 off
-
+- 99205 off
 decision-rr
 
 ch requires a medically appropriate history and/o
 
 ‘The specialist should select €/M code 99205. This code describes new patient E/M services, including a reported time spent with the patient of at least 60 min.
 
-© 99214 off
-
+- 99214 off
 me
 
 INCORRECT
@@ -566,7 +518,7 @@ HCPCS modifier F9 indicates the anatomical location of right hand, fifth digit.
 
 Ora
 
-INCORRECT «MyAnswerl
+INCORRECT
 HCPCS modifier FA indicates the anatomical location of left hand, thumb.
 
 CORRECT
@@ -581,7 +533,7 @@ is coding an initial encounter with a provider. Which of the following ICD-10-CM
 
 Fracture of unspecified part of neck of ri
 
-INCORRECT (MyAnswWer)
+INCORRECT
 
 femur
 
@@ -625,13 +577,11 @@ INCORRECT
 ‘The abbreviation IM represents a medication that is introduced intramuscularly, or directly into @ muscle.
 
 Os
-INCORRECT < MyAnswer
+INCORRECT
 
 ‘The abbreviation SC represents a medication that is introduced subcutaneously, or just under the skin.
 
-© nH
-
-INCORRECT
+- ❌ nH
 
 The abbreviation INH represents a medication that is introduced by administration of an inhaled solution.
 
@@ -643,16 +593,14 @@ CORRECT
 
 h of the following CPT® modifiers indicates only the interpretation and report of a radiology service was provided?
 
-© 26 Professional component
-
-CORRECT
+- ✅ 26 Professional component
 
 CPT® modifier 26 indicates only the professional component of a radiology service was provided.
 
-© 25 significant, separately identifiable evaluation and ma
+- 25 significant, separately identifiable evaluation and ma
 the same day of the procedure or other service
 
-INCORRECT < MyAnswer
+INCORRECT
 
 jagement servic
 
@@ -661,7 +609,7 @@ by the same physician or other qualified health care professional on
 CPT® modifier 25 indicates a significant, separately identifiable Evaluation and Management (E/M) service was performed by the same provider on the same day
 as a procedure or other service was performed.
 
-© 24un
+- 24un
 —" period
 
 INCORRECT
@@ -690,8 +638,7 @@ min?
 
 1g 15
 
-© 99442 Telephone evaluation and management service provided by a physician to an established patient: 11-20 minutes of medical discussion
-INCORRECT
+- ❌ 99442 Telephone evaluation and management service provided by a physician to an established patient: 11-20 minutes of medical discussion
 
 E/M code 99442 describes telephonic services. This service does not meet the requirements of online digital face-to-face evaluation regulations for telehealth
 services. This code is for 11 to 20 min telephonic services.
@@ -741,8 +688,7 @@ Comme
 
 This code describes a commode chair with detachable arms but is not extra wide or heavy duty.
 
-© c0168 extra
-
+- c0168 extra
 This code describes a commode chair that is extra wide and/or heavy duty. Therefore, this fits the requirement from the provider.
 
 £0171 Comm
@@ -757,26 +703,19 @@ This code describes a commode chair that comes with an integrated seat lift mech
 
 A patient is diagnosed with exudative otitis media. Which of the following is the anatomic location of this condition?
 
-© Middle ear
-
-CORRECT
+- ✅ Middle ear
 
 The condition of exudative otitis media is located the middle ear.
 
-© im
-
-INCORRECT < MyAnswer
+- ❌ im
 
 The condition of exudative otitis media is located in the middle ear; the inner ear would be otitis interna.
 
-© outer ear
-
-INCORRECT
+- ❌ outer ear
 
 The condition of exudative otitis media is located in the middle ear; the outer ear would be otitis externa.
 
-© Eustachian tube
-INCORRECT
+- ❌ Eustachian tube
 
 The condition of exudative otitis media is located in the middle ear; the eustachian tube is located in the inner ear.
 ## Question 20 of 25
@@ -806,20 +745,18 @@ INCORRECT
 Which of the following is the Evaluation and Management (E/M) code used to report a worsening patient who was admitted yesterday, with
 straightforward medical decision-making?
 
-© 99234 Hospital inpatient or observation care including admission and discharge on the same date, which requires a medically appropriate history
+- 99234 Hospital inpatient or observation care including admission and discharge on the same date, which requires a medically appropriate history
 "and/or examination and straightforward or low level of medical decision-making
 
 INCORRECT
 
 E/M code 99234 describes hospital inpatient or observation care when the patient is admitted and discharged on the same date of service.
 
-© 99238 Hospital inpatient or observation discharge day management
-
-INCORRECT
+- ❌ 99238 Hospital inpatient or observation discharge day management
 
 E/M code 99238 describes hospital inpatient or observation discharge day management services.
 
-© 99221 Initial hospital inpatient or observation care, pet day. which requires a medically appropriate history and/or examination and
+- 99221 Initial hospital inpatient or observation care, pet day. which requires a medically appropriate history and/or examination and
 — straightforward or low level of medical decision-making
 
 INCORRECT
@@ -921,7 +858,7 @@ direction by a physician
 
 eo
 
-INCORRECT «MyAnswier
+INCORRECT
 
 HCPCS modifier AA indicates anesthesia services performed personally by an anesthesiologist.
 
@@ -951,9 +888,7 @@ ions with a predominantly s
 ‘The ICD-10-CM code 211.3 identifies an encounter for screening for infections with a predominantly sexual mode of transmission. The Excludes2 note states 211.4
 is for HIV testing.
 
-© 211.4 Encounter for screening for human immuno
-
-CORRECT are
+- ✅ 211.4 Encounter for screening for human immuno
 
 ‘The ICD-10-CM code 211.4 identifies an encounter for screening for HIV.
 
@@ -965,9 +900,7 @@ INCORRECT
 
 The ICD-10-CM code 211.51 identifies an encounter for screening for human papillomavirus.
 
-© 271.7 Human immunod
-
-INCORRECT
+- ❌ 271.7 Human immunod
 
 HIV) counseling
 
@@ -981,9 +914,7 @@ Which of the following types of ICD-10-CM codes require the use of 7th character
 
 ee oer oeeer soos oeoee sree eorer sores sores eoereereoereereorere
 
-© Traumatic fracture codes
-
-CORRECT
+- ✅ Traumatic fracture codes
 
 Traumatic fracture codes require the use of 7th character extensions.
 
@@ -999,9 +930,7 @@ INCORRECT « My Answer
 
 Pregnancy complication codes do not require the use of 7th character extensions.
 
-© > Dialysis status codes
-
-INCORRECT
+- ❌ > Dialysis status codes
 
 Dialysis status codes do not require the use of 7th character extensions,
 ## Question 2 of 25
@@ -1064,8 +993,7 @@ Time Remaini
 
 Bi] FLac
 
-© 80.00 Calculus of g
-INCORRECT
+- ❌ 80.00 Calculus of g
 
 bladder with
 
@@ -1081,14 +1009,11 @@ CORRECT ire
 
 The ICD-10-CM code K80.10 identifies calculus of the gallbladder with chronic cholecystitis without obstruction.
 
-© k80.20 Calculus of gallbladder without cholecystitis without obstruction
-INCORRECT
+- ❌ k80.20 Calculus of gallbladder without cholecystitis without obstruction
 
 The ICD-10-CM code K80.20 identifies calculus of the gallbladder without cholecystitis, not with cholecystitis.
 
-© 80.31 Calculus of bil
-
-INCORRECT
+- ❌ 80.31 Calculus of bil
 
 ct with cholangiti d, with obstruction
 
@@ -1159,16 +1084,13 @@ for supervision of norm
 
 pregnai
 
-© 009 super
-
-INCORRECT
+- ❌ 009 super
 
 n of high-risk preg}
 
 Category 009 is used to report encounters for supervision of a high-risk pregnancy.
 
-©O ose
-
+-O ose
 INCORRECT
 
 unter for full-term uncomplicated delivery
@@ -1223,7 +1145,6 @@ resulted from the initial procedure?
 Modifier Description
 
 -76 Repeat procedure by the same physician or other qualified health care professional
-
 77 Repeat procedure by another physician or other qualified health care professional
 
 78 Unplanned return to the operating/procedure room by the same physician or other qualified health care professional following i
@@ -1288,7 +1209,7 @@ first. Both codes are required for a complete diagnosis.
 Which of the following Evaluation and Management (E/M) codes is used to report services for a 40-year-old patient who returns to the office for an
 annual exam?
 
-© 39386 initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history
+- 39386 initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history
 "examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new
 patient: 40-64 years
 
@@ -1304,7 +1225,7 @@ CORRECT ine
 
 E/M code 99396 describes comprehensive preventative services for an established patient between the ages of 40 and 64 years.
 
-© 99215 Office or other outpatient visit for an established patient which requires a medically appropriate history and/or examination and high
+- 99215 Office or other outpatient visit for an established patient which requires a medically appropriate history and/or examination and high
 —" medical decision-making
 
 INCORRECT
@@ -1403,9 +1324,7 @@ tion of benefi
 
 Explanation of benefits does not determine coordination of benefits,
 
-© coordination of benefits
-
-CORRECT ane
+- ✅ coordination of benefits
 
 The concept of coordination of benefits determines the primary payer when a patient is covered by more than one plan.
 ime Remaining: 00:43:00
@@ -1416,30 +1335,22 @@ ime Remaining: 00:43:00
 A billing and coding specialist is reviewing insurance eligibility for a 49-year-old patient who has end-stage renal disease and multiple third-party
 payers. The specialist should recognize that which of the following payers is the primary?
 
-© Workers' comp
-
-INCORRECT
+- ❌ Workers' comp
 
 A patient who is under the age of 65 years old and has a qualifying disability or end-stage renal disease is eligible for primary coverage through Medicare even
 though they have not met the usual starting age of 65. Workers’ compensation would not be appropriate for end-stage renal disease.
 
-© Medicare
-
-CORRECT ine
+- ✅ Medicare
 
 A patient who is under the age of 65 years old and has a qualifying disability or end-stage renal disease is eligible for primary coverage through Medicare even
 though they have not met the usual starting age of 65.
 
-© Medicaid
-
-INCORRECT
+- ❌ Medicaid
 
 A patient who is under the age of 65 years old and has a qualifying disability or end-stage renal disease is eligible for primary coverage through Medicare even
 though they have not met the usual starting age of 65. They are not eligible for coverage through Medicaid solely based on their diagnosis.
 
-© tc
-
-INCORRECT
+- ❌ tc
 
 A patient who is under the age of 65 years old and has a qualifying disability or end-stage renal disease is eligible for primary coverage through Medicare even
 though they have not met the usual starting age of 65.They are not eligible for coverage through TRICARE solely due to their diagnosis, TRICARE is intended for
@@ -1458,7 +1369,7 @@ CORRECT
 For a patient who has an 80/20 insurance plan, the patient will pay a coinsurance of 20% of the allowable amount. This is calculated as follows: $500 x 20% (0.20)
 $100. Therefore, the patient's coinsurance is $100 for an 80/20 plan.
 
-INCORRECT « MyAnswer!
+INCORRECT
 
 This amount is equal to 20% of the total charge, which is incorrect. The patient's copayment is 20% of the allowable charge in an 80/20 plan.
 
@@ -1490,9 +1401,7 @@ een in place the longi
 
 The insurance plan of the patient's partner will be the secondary insurance coverage, not the primary.
 
-© Primary e is provided through the patient's plan.
-
-CORRECT ane
+- ✅ Primary e is provided through the patient's plan.
 
 ‘The patient's own plan is primary while the patient's partner's plan is secondary.
 
@@ -1511,8 +1420,7 @@ coverage for the patient.
 A billing and coding specialist is preparing the registration for a patient who is covered under their spouse's insurance. Which of the following
 items is required to complete the registration?
 
-© Patient demographics
-
+- Patient demographics
 Patient demographics are required and obtained during the registration process.
 
 rd
@@ -1546,8 +1454,7 @@ INCORRECT
 
 Auto insurance covers a motor-vehicle crash.
 
-© workers: compe!
-
+- workers: compe!
 Workers’ compensation covers an employee who is injured or becomes ill on the job,
 
 Homeowners insurance
@@ -1573,9 +1480,7 @@ INCORRECT
 
 Workers’ compensation is used for submitting claims that involve injuries during the performance of work-related tasks.
 
-© out of pocket patient payment
-
-INCORRECT < MyAnswer
+- ❌ out of pocket patient payment
 
 An out-of-pocket patient payment would not cover this claim.
 
@@ -1585,9 +1490,7 @@ INCORRECT
 Disability insurance is reimbursement for income that has been lost due to temporary or permanent illness or injury. Disability insurance does not pay for health
 care services, but provides financial assistance for loss of income.
 
-© The
-
-CORRECT
+- ✅ The
 
 oup health insur:
 
@@ -1605,21 +1508,15 @@ INCORRECT
 
 The child's school would not be legally required to release that information.
 
-© Policyholder
-
-CORRECT ine
+- ✅ Policyholder
 
 A policyholder is a person who has entered into a contract with an insurance plan and would be the appropriate contact for a patient who is a minor.
 
-© Third-party payer
-
-INCORRECT
+- ❌ Third-party payer
 
 A third party payer is an organization that offers the policy and provides benefit coverage, they would not verify patient demographic information.
 
-© Patient
-
-INCORRECT
+- ❌ Patient
 
 A patient is the person who received health care services, and in this case is a minor. The policyholder is the appropriate contact to verify this patient's
 demographics.
@@ -1654,7 +1551,7 @@ This is the total allowed amount of the procedure. The patient's responsibility 
 
 50
 
-INCORRECT < MyAnswer
+INCORRECT
 
 This amount includes the deductible and the patient's 20% coinsurance. The annual deductible amount has already been met so it should not be included in the
 calculation.
@@ -1709,9 +1606,7 @@ rective
 
 ‘The PPS is the predetermined amount the provider will be reimbursed for services rendered.
 
-© The Defense Enrollment Reporti
-
-CORRECT ine
+- ✅ The Defense Enrollment Reporti
 
 DEERS is the insurance eligibility reporting system for service members and their families.
 
@@ -1759,23 +1654,17 @@ INCORRECT
 
 ‘An aging report breakdown of a patient's account will only show patient balances or payer balances. It will not show denial reason codes.
 
-© Aremittance advice with re:
-
-CORRECT ine
+- ✅ Aremittance advice with re:
 
 The remittance advice from the third-party payer shows the allowed amount, adjustments, or reason for denial.
 
 n codes
 
-© Registration notes
-
-INCORRECT
+- ❌ Registration notes
 
 The registration notes may pertain to the patient, but they would not include any reason denial codes.
 
-© sop notes
-
-INCORRECT
+- ❌ sop notes
 
 SOAP notes are the provider's notes pertaining to the patient encounter.
 ## Question 2 of 25
@@ -1793,14 +1682,11 @@ INCORRECT
 
 The ledger cannot be balanced without making all collection efforts.
 
-© submit an adjustment for additional reimbursement.
-
-INCORRECT < MyAnswer
+- ❌ submit an adjustment for additional reimbursement.
 
 An adjustment would not be submitted to collect patient financial responsibility.
 
-© callthe third-party p.
-INCORRECT
+- ❌ callthe third-party p.
 
 er to negotiate a higher rate of reimbursement.
 
@@ -1814,22 +1700,17 @@ CORRECT
 
 Which of the following unpaid claims listed on a current aging report should a billing and coding specialist review first?
 
-© 14 days outstanding
-
-INCORRECT
+- ❌ 14 days outstanding
 
 This unpaid claim should be reviewed; however, the specialist should review another unpaid claim first because this claim is stil within the normal processing time
 frame for insurance plans.
 
-© 21 days outstanding
-INCORRECT
+- ❌ 21 days outstanding
 
 This unpaid claim should be reviewed; however, the specialist should review another unpaid claim first because this claim is stil within the normal processing time
 frame for insurance plans.
 
-© 28 days outstanding
-
-INCORRECT
+- ❌ 28 days outstanding
 
 This unpaid claim should be reviewed; however, the specialist should review another unpaid claim first because this claim is stil within the normal processing time
 frame for insurance plans.
@@ -1847,15 +1728,11 @@ unpaid claims that are 31 to 60 days old.
 [A] Fac
 Which of the following is an example of a clinical data abstraction error?
 
-© incorrect date of service was
-
-INCORRECT
+- ❌ incorrect date of service was
 
 Incorrect date of service is not an abstraction error.
 
-© Authorization was not obtained.
-
-INCORRECT
+- ❌ Authorization was not obtained.
 
 Failing to obtain prior authorization is not an abstraction error.
 
@@ -1865,9 +1742,7 @@ CORRECT are
 
 Billing as charges when a referral request is created in the patient chart is an example of an abstraction error.
 
-© secondary
-
-INCORRECT
+- ❌ secondary
 
 billed as primary insur:
 
@@ -1878,31 +1753,24 @@ Billing insurances in the wrong order is not an abstraction error.
 A billing and coding specialist is reviewing a Medicare electronic remittance advice. The remittance advice indicates a payment of $80.00 for a
 wellness exam. The billed amount was $220.00 and the allowed amount was $80.00. Which of the following actions should the specialist take?
 
-© res
-INCORRECT < MyAnswer
+- ❌ res
 
 ibmit the claim
 
 Since the payer determined the allowed amount was $80.00 and reimbursed $80.00, the patient financial responsibility is $0.00. The remainder should be written
 off and there would be no need to resubmit.
 
-© Post the payment a # the difference.
-
-CORRECT
+- ✅ Post the payment a # the difference.
 
 Since the payer determined the allowed amount was $80.00 and reimbursed $80.00, the patient financial responsibility is $0.00. The remainder should be written
 off.
 
-© Ask the patient to pay the dif
-
-INCORRECT
+- ❌ Ask the patient to pay the dif
 
 Since the payer determined the allowed amount was $80.00 and reimbursed $80.00, the patient financial responsibility is $0.00. The remainder should be written
 off.
 
-© submit an appe:
-
-INCORRECT
+- ❌ submit an appe:
 
 the previously processed claim.
 
@@ -1925,9 +1793,7 @@ INCORRECT
 
 NCCI edits identify codes that are bundled into another service. They do not provide coverage circumstances such as indications and coding guidance.
 
-© Mutually
-
-INCORRECT
+- ❌ Mutually
 
 e edits (MUE)
 
@@ -1945,30 +1811,23 @@ INCORRECT
 A billing and coding specialist is reviewing a remittance advice that has a remark code that indicates a claim is pended for review of medical
 records. Which of the following actions should the specialist take?
 
-© Send the requested medical records
-
-CORRECT are
+- ✅ Send the requested medical records
 
 ‘The specialist should send the requested medical records to the third-party payer for processing.
 
-© Resubmit the
-INCORRECT
+- ❌ Resubmit the
 
 the third-party payer as a corrected claim.
 
 Acorrected claim would not resolve the issue because the claim has not been denied.
 
-© Notify the third.
-
-INCORRECT
+- ❌ Notify the third.
 
 ty payer to review the claim for payment.
 
 Notifying the third-party payer will not result in a payment without submitting the requested medical records.
 
-© Advise the patient that they will be responsible for the charges not covered by the p
-
-INCORRECT
+- ❌ Advise the patient that they will be responsible for the charges not covered by the p
 
 The patient should not be contacted and billed for a pended claim.
 ## Question 8 of 25
@@ -1983,8 +1842,7 @@ INCORRECT
 
 ‘Admission to a hospital does not eliminate the need for prior authorization.
 
-© the patient required an emergenq
-
+- the patient required an emergenq
 An emergency procedure eliminates the need for prior authorization.
 
 The patient r
@@ -2008,26 +1866,20 @@ ing: 01:09:59
 A billing and coding specialist receives a denial from a third-party payer due to missing information. Which of the following actions should the
 specialist take to receive reimbursement?
 
-©) Request reimbursement from the patient.
-
+-) Request reimbursement from the patient.
 INCORRECT
 
 This is a billing error, so it is not the patient's responsibility to make a payment.
 
-© submit an adjust:
-
-INCORRECT
+- ❌ submit an adjust:
 
 There is no indication that this claim had any payments, so an adjustment would not be necessary.
 
-© Contact the third-party payer to provide the i
-INCORRECT
+- ❌ Contact the third-party payer to provide the i
 
 ‘The specialist should not contact the third-party payer to provide the information. instead, they should resubmit the claim with the completed information.
 
-© Resubmit the claim with the completed infor
-
-CORRECT ane
+- ✅ Resubmit the claim with the completed infor
 
 The specialist should resubmit the claim with the completed information.
 ## Question 10 of 25
@@ -2046,7 +1898,7 @@ The patient is no longer financially responsible for their health care costs bec
 
 of the allowable amount for the procedure
 
-INCORRECT < MyAnswer
+INCORRECT
 
 The patient is no longer financially responsible for their health care costs because of the dual coverage with Medicare and TRICARE.
 
@@ -2064,9 +1916,7 @@ Time Remaining: 01:08:46
 A billing and coding specialist has received numerous denials from a third-party payer for a preauthorized service. Which of the following actions
 should the specialist take to resolve the denied claim?
 
-© Request that the third-party payer review for recor
-
-CORRECT ine
+- ✅ Request that the third-party payer review for recor
 
 ‘The preauthorized services should be considered medically necessary if billed accurately; therefore, the claim would need to be reconsidered for payment.
 
@@ -2092,9 +1942,7 @@ The specialist should avoid submitting a new claim because it will result in a d
 A billing and coding specialist is reviewing a remittance advice (RA). The specialist should identify that which of the following provides the reason
 for a claim denial?
 
-© Patient statements
-
-INCORRECT
+- ❌ Patient statements
 
 Patient statements are generated by the office after the third-party payer has adjudicated the claim. This would not be a place to find claim denial reasons.
 
@@ -2104,9 +1952,7 @@ INCORRECT
 
 son code
 
-© claim adjustment
-
-CORRECT ane
+- ✅ claim adjustment
 
 AARC identifies the reason for a claim denial.
 
@@ -2131,8 +1977,7 @@ INCORRECT
 
 Although the specialist will need to record the denial with the reason code and make 2 note in the patient's account, the specialist should first research the denial.
 
-©O Review the dia
-
+-O Review the dia
 INCORRECT
 
 entered on the claim against the
@@ -2141,8 +1986,7 @@ nosis entered in the provider note.
 
 Denied claims are reviewed prior to determination about whether to submit for an appeal.
 
-© callthe third-party
-INCORRECT
+- ❌ callthe third-party
 
 lanation of the adj
 
@@ -2161,9 +2005,7 @@ hird-party payer.
 
 h of the following occurs when claims are submitted in batches using a clearinghouse?
 
-© Alldaims are submitted to the same
-
-INCORRECT
+- ❌ Alldaims are submitted to the same
 
 Claims are sorted by carrier type, software edits are conducted, and then the claim is sent electronically to the correct payers.
 
@@ -2173,18 +2015,14 @@ CORRECT
 
 After the clearinghouse receives a batch, it separates the claims by carrier and performs software edits for each claim.
 
-© the clearinghouse prints t
-
-INCORRECT < MyAnswer
+- ❌ the clearinghouse prints t
 
 e claim forms and mails them to each carrie
 
 After the clearinghouse receives a batch, it separates the claims by carrier and performs software edits for each claim. Then, the clearinghouse will send on only
 electronic claims.
 
-© Arter th
-
-INCORRECT
+- ❌ Arter th
 
 ed claims are submit
 
@@ -2201,9 +2039,7 @@ INCORRECT
 
 ‘The NCCI initiative for Medicare speaks to the policy for correct coding.
 
-© current Proc
-
-INCORRECT < MyAnswer
+- ❌ current Proc
 
 jural Terminology (CPT®) cod:
 
@@ -2218,9 +2054,7 @@ eason Code (CARC)
 ‘The CARC list is managed by Medicare and used universally within insurance plans for coding denials listed on explanation of benefits (EOBs), The letters PR on a
 remittance advice indicates patient responsibility.
 
-© international Classification of Dise:
-
-INCORRECT
+- ❌ international Classification of Dise:
 
 (ICD) codes
 
@@ -2234,24 +2068,19 @@ Bi] FLac
 After running a report, a billing and coding specialist discovers several claims are being denied for coding errors. To prevent future errors, which
 of the following actions should the specialist take?
 
-© Educate the third-party payer on researching codir
-
-INCORRECT < MyAnswer
+- ❌ Educate the third-party payer on researching codir
 
 g issues.
 
 ‘The third-party payer creates the rules that specialists abide by. The specialist should retrain staff, not the third-party payer, about the rules.
 
-© implement ex
-
-INCORRECT
+- ❌ implement ex
 
 nal audit pi
 
 ‘The specialist should implement internal, not external, audit processes to prevent future errors.
 
-© Retrain staff on proper documentation and c
-CORRECT
+- ✅ Retrain staff on proper documentation and c
 
 nes.
 
@@ -2276,9 +2105,7 @@ INCORRECT
 
 Resubmitting the claim, even with copies of the medical record documentation, is incorrect because it would result in a duplicate claim submission denial,
 
-© submit an appeal with copies
-
-CORRECT ane
+- ✅ submit an appeal with copies
 
 Submitting an appeal with copies of the medical record documentation is the action required to receive correct reimbursement for increased procedural services.
 
@@ -2312,15 +2139,11 @@ INCORRECT
 
 This is not a required field on the CMS-1500/837P claim form,
 
-© Patient's email address
-
-INCORRECT
+- ❌ Patient's email address
 
 This is a not a required field on the CMS-1500/837P claim form.
 
-© Place of se
-
-CORRECT ire
+- ✅ Place of se
 
 This is a required field on the CMS-1500/837P claim form.
 
@@ -2336,21 +2159,15 @@ ing: 01:03:33
 
 Which of the following documents is used to review claim reimbursements and denials?
 
-© cuss
-
-INCORRECT
+- ❌ cuss
 
 This document is used to submit claims.
 
-© eemittan
-
-CORRECT ine
+- ✅ eemittan
 
 Arremittance advice is a document that explains the adjudication, including claim rejections and denials, of a claim by a third-party payer.
 
-© Authorization
-
-INCORRECT
+- ❌ Authorization
 
 This document is used to obtain and receive authorization for services.
 
@@ -2381,9 +2198,7 @@ INCORRECT
 
 An EIN is required by HIPAA for health care transactions that do not involve a provider.
 
-© Provider's Social Security number (SSN
-
-INCORRECT
+- ❌ Provider's Social Security number (SSN
 
 The provider's Social Security number is not required to be on a claim form.
 
@@ -2400,8 +2215,7 @@ A DRG is a grouping of ICD10 codes that are required by HIPAA to identify care p
 A billing and coding specialist is preparing a claim with two types of third-party payer coverage. Which of the following is a process that
 determines the order of third-party payers for the claim?
 
-© coordination of benefits
-
+- coordination of benefits
 Coordination of benefits is a process that ensures patient benefits are paid in the correct order when more than one third-party payer provides coverage.
 
 Insurance claim c
@@ -2432,22 +2246,17 @@ Bi] FLac
 A billing and coding specialist is completing a claim form for a Medicare beneficiary for a wellness visit with their primary care provider who is a
 PAR provider. Which of the following information is required on the form?
 
-© Medicare identification number, date of birth, and date of injury
-
-INCORRECT
+- ❌ Medicare identification number, date of birth, and date of injury
 
 Since this is only a wellness visit, there would be no date of injury recorded.
 
-© Medicare identification number, date of birth, and date of
-INCORRECT
+- ❌ Medicare identification number, date of birth, and date of
 
 charge
 
 Since the patient has not been admitted or discharged from a hospital, there would be no date of discharge.
 
-© wedicare identification number, date of birth, and referri
-
-INCORRECT < MyAnswer
+- ❌ wedicare identification number, date of birth, and referri
 
 hysician's na
 
@@ -2455,9 +2264,7 @@ onal provider identifier (NPI)
 
 Since the patient is seeing their primary care provider, there would be no need for a referring provider.
 
-© Medicare identification number, date of birth, and accept
-
-CORRECT
+- ✅ Medicare identification number, date of birth, and accept
 
 assignment
 
@@ -2468,17 +2275,11 @@ These are all elements that are required for a Medicare claim for a wellness vis
 A billing and coding specialist is reviewing a remittance advice from a third-party payer that indicates $250 out of the $500 charge is a contractual
 adjustment. Which of the following actions should the specialist take?
 
-© Billthe patie
-
-INCORRECT
-
-it for the differenc
+- ❌ Bill the patient for the difference
 
 It is not appropriate to balance bill the patient based on the contract with the payer.
 
-© resubmit the
-
-INCORRECT < MyAnswer
+- ❌ resubmit the
 
 tional review
 
@@ -2490,9 +2291,7 @@ INCORRECT
 
 Changing the cost for the services does not change the contractual agreement.
 
-© Post the adjustmen
-
-CORRECT
+- ✅ Post the adjustmen
 
 According to the contract with the third-party payer, the specialist should post the adjustment amount indicated on the remittance advice and enter the
 adjustment reason in the patient's account.
@@ -2502,16 +2301,13 @@ adjustment reason in the patient's account.
 Which of the following information is required for third-party payers to process a CMS-1500/837P claim for an evaluation and management service
 performed using televisual devices?
 
-© Patient
-
-INCORRECT
+- ❌ Patient
 
 int number
 
 ‘The patient account number is assigned by the provider and is not required by the third-party payer to process a claim.
 
-© Provider's phone numbe
-INCORRECT
+- ❌ Provider's phone numbe
 
 The phone number is not required for claims processing.
 
@@ -2521,11 +2317,10 @@ CORRECT
 
 Since this is an evaluation and management telehealth service, a modifier is required to process the claim.
 
-© Prior
-
+- Prior
 uthorization number
 
-INCORRECT < MyAnswer
+INCORRECT
 
 No prior authorization is needed for evaluation and management telehealth services.
 ## Question 25 of 25
@@ -2543,13 +2338,11 @@ stained
 
 Charge capture errors include incorrect code assignment. Preauthorization is not a charge capture error.
 
-© Patient demographi
-INCORRECT
+- ❌ Patient demographi
 
 Charge capture errors include incorrect code assignment. Patient demographics are not a charge capture error.
 
-© Data entry
-INCORRECT
+- ❌ Data entry
 
 Charge capture errors include incorrect code assignment. Data entry errors are not a charge capture error.
 
