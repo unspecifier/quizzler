@@ -62,8 +62,6 @@
 </script>
 
 <article>
-  <h1 class="font-bold mb-6">NHA Baseline Test</h1>
-
   <nav>
     <button
       type="button"

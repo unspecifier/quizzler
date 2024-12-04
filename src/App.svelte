@@ -3,14 +3,32 @@
 
   let num_questions: number = 225;
   let is_started = false;
+  let is_dark = false;
+
+  $: document.documentElement.classList.toggle("dark", is_dark);
 </script>
 
 <main>
-  {#if !is_started}
-    <header class="mb-6">
+  <header
+    class="mb-6 grid grid-cols-[1fr,max-content,1fr] gap-4 justify-center"
+  >
+    <div></div>
+    <hgroup>
       <h1 class="mb-2 text-5xl font-bold">The Quizzler</h1>
       <p class="text-center text-xl">Medical Coding Edition</p>
-    </header>
+    </hgroup>
+    <div class="justify-self-end">
+      <label
+        class="cursor-pointer text-2xl inline-grid justify-center items-center text-center border p-2 pt-1 rounded-full size-12 hover:bg-neutral-200 dark:hover:bg-neutral-700 leading-none"
+      >
+        <input type="checkbox" class="hidden" bind:checked={is_dark} />
+        {is_dark ? "🌙" : "☀️"}
+        <small class="text-xs text-center block sr-only">Theme</small>
+      </label>
+    </div>
+  </header>
+
+  {#if !is_started}
     <fieldset class="fancy flex flex-col items-center justify-center gap-2">
       <label for="numquestions" class="">How many questions?</label>
       <input
