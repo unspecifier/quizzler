@@ -1,7 +1,7 @@
 <script lang="ts">
   import Quiz from "./quiz.svelte";
 
-  let num_questions: number = 225;
+  let num_questions: number = 227;
   let is_started = false;
   let is_dark = false;
 
