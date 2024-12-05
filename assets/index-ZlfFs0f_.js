@@ -1,4 +1,4 @@
-var Zt=Object.defineProperty;var Vt=(t,e,n)=>e in t?Zt(t,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[e]=n;var C=(t,e,n)=>Vt(t,typeof e!="symbol"?e+"":e,n);(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))i(r);new MutationObserver(r=>{for(const o of r)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&i(a)}).observe(document,{childList:!0,subtree:!0});function n(r){const o={};return r.integrity&&(o.integrity=r.integrity),r.referrerPolicy&&(o.referrerPolicy=r.referrerPolicy),r.crossOrigin==="use-credentials"?o.credentials="include":r.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function i(r){if(r.ep)return;r.ep=!0;const o=n(r);fetch(r.href,o)}})();const Kt=!1;var yn=Array.isArray,bn=Array.from,Xt=Object.defineProperty,ge=Object.getOwnPropertyDescriptor,rt=Object.getOwnPropertyDescriptors,Yt=Object.prototype,Jt=Array.prototype,Oe=Object.getPrototypeOf;function ei(t){return t()}function ln(t){for(var e=0;e<t.length;e++)t[e]()}const J=2,ot=4,qe=8,vn=16,j=32,Re=64,le=128,He=256,W=512,te=1024,be=2048,Z=4096,Qe=8192,ni=16384,wn=32768,ti=65536,ii=1<<18,at=1<<19,oe=Symbol("$state"),ri=Symbol("legacy props");function st(t){return t===this.v}function oi(t,e){return t!=t?e==e:t!==e||t!==null&&typeof t=="object"||typeof t=="function"}function kn(t){return!oi(t,this.v)}function ai(t){throw new Error("effect_in_teardown")}function si(){throw new Error("effect_in_unowned_derived")}function li(t){throw new Error("effect_orphan")}function ci(){throw new Error("effect_update_depth_exceeded")}function di(t){throw new Error("props_invalid_value")}function hi(){throw new Error("state_descriptors_fixed")}function ui(){throw new Error("state_prototype_fixed")}function pi(){throw new Error("state_unsafe_local_read")}function fi(){throw new Error("state_unsafe_mutation")}let ve=!1;function mi(){ve=!0}function O(t){return{f:0,v:t,reactions:null,equals:st,version:0}}function An(t,e=!1){var i;const n=O(t);return e||(n.equals=kn),ve&&_!==null&&_.l!==null&&((i=_.l).s??(i.s=[])).push(n),n}function G(t,e=!1){return gi(An(t,e))}function gi(t){return A!==null&&A.f&J&&(V===null?Bi([t]):V.push(t)),t}function lt(t,e){return M(t,ae(()=>g(t))),e}function M(t,e){return A!==null&&Ye()&&A.f&(J|vn)&&(V===null||!V.includes(t))&&fi(),ct(t,e)}function ct(t,e){return t.equals(e)||(t.v=e,t.version=Pt(),dt(t,te),Ye()&&b!==null&&b.f&W&&!(b.f&j)&&(R!==null&&R.includes(t)?(F(b,te),Je(b)):ne===null?Ni([t]):ne.push(t))),e}function dt(t,e){var n=t.reactions;if(n!==null)for(var i=Ye(),r=n.length,o=0;o<r;o++){var a=n[o],c=a.f;c&te||!i&&a===b||(F(a,e),c&(W|le)&&(c&J?dt(a,be):Je(a)))}}const yi=1,bi=2,vi=16,wi=1,ki=2,Ai=4,Ti=8,Ci=16,xi=1,_i=2,D=Symbol();let Pi=!1;function pe(t,e=null,n){if(typeof t!="object"||t===null||oe in t)return t;const i=Oe(t);if(i!==Yt&&i!==Jt)return t;var r=new Map,o=yn(t),a=O(0);o&&r.set("length",O(t.length));var c;return new Proxy(t,{defineProperty(d,l,s){(!("value"in s)||s.configurable===!1||s.enumerable===!1||s.writable===!1)&&hi();var u=r.get(l);return u===void 0?(u=O(s.value),r.set(l,u)):M(u,pe(s.value,c)),!0},deleteProperty(d,l){var s=r.get(l);if(s===void 0)l in d&&r.set(l,O(D));else{if(o&&typeof l=="string"){var u=r.get("length"),h=Number(l);Number.isInteger(h)&&h<u.v&&M(u,h)}M(s,D),Wn(a)}return!0},get(d,l,s){var f;if(l===oe)return t;var u=r.get(l),h=l in d;if(u===void 0&&(!h||(f=ge(d,l))!=null&&f.writable)&&(u=O(pe(h?d[l]:D,c)),r.set(l,u)),u!==void 0){var p=g(u);return p===D?void 0:p}return Reflect.get(d,l,s)},getOwnPropertyDescriptor(d,l){var s=Reflect.getOwnPropertyDescriptor(d,l);if(s&&"value"in s){var u=r.get(l);u&&(s.value=g(u))}else if(s===void 0){var h=r.get(l),p=h==null?void 0:h.v;if(h!==void 0&&p!==D)return{enumerable:!0,configurable:!0,value:p,writable:!0}}return s},has(d,l){var p;if(l===oe)return!0;var s=r.get(l),u=s!==void 0&&s.v!==D||Reflect.has(d,l);if(s!==void 0||b!==null&&(!u||(p=ge(d,l))!=null&&p.writable)){s===void 0&&(s=O(u?pe(d[l],c):D),r.set(l,s));var h=g(s);if(h===D)return!1}return u},set(d,l,s,u){var I;var h=r.get(l),p=l in d;if(o&&l==="length")for(var f=s;f<h.v;f+=1){var m=r.get(f+"");m!==void 0?M(m,D):f in d&&(m=O(D),r.set(f+"",m))}h===void 0?(!p||(I=ge(d,l))!=null&&I.writable)&&(h=O(void 0),M(h,pe(s,c)),r.set(l,h)):(p=h.v!==D,M(h,pe(s,c)));var y=Reflect.getOwnPropertyDescriptor(d,l);if(y!=null&&y.set&&y.set.call(u,s),!p){if(o&&typeof l=="string"){var v=r.get("length"),P=Number(l);Number.isInteger(P)&&P>=v.v&&M(v,P+1)}Wn(a)}return!0},ownKeys(d){g(a);var l=Reflect.ownKeys(d).filter(h=>{var p=r.get(h);return p===void 0||p.v!==D});for(var[s,u]of r)u.v!==D&&!(s in d)&&l.push(s);return l},setPrototypeOf(){ui()}})}function Wn(t,e=1){M(t,t.v+e)}var Dn,ht,ut;function Mi(){if(Dn===void 0){Dn=window;var t=Element.prototype,e=Node.prototype;ht=ge(e,"firstChild").get,ut=ge(e,"nextSibling").get,t.__click=void 0,t.__className="",t.__attributes=null,t.__styles=null,t.__e=void 0,Text.prototype.__t=void 0}}function Ii(t=""){return document.createTextNode(t)}function Le(t){return ht.call(t)}function Xe(t){return ut.call(t)}function S(t,e){return Le(t)}function Si(t,e){{var n=Le(t);return n instanceof Comment&&n.data===""?Xe(n):n}}function Q(t,e=1,n=!1){let i=t;for(;e--;)i=Xe(i);return i}function Ei(t){t.textContent=""}function je(t){var e=J|te;b===null?e|=le:b.f|=at;const n={children:null,ctx:_,deps:null,equals:st,f:e,fn:t,reactions:null,v:null,version:0,parent:b};if(A!==null&&A.f&J){var i=A;(i.children??(i.children=[])).push(n)}return n}function cn(t){const e=je(t);return e.equals=kn,e}function pt(t){var e=t.children;if(e!==null){t.children=null;for(var n=0;n<e.length;n+=1){var i=e[n];i.f&J?Tn(i):ce(i)}}}function ft(t){var e,n=b;K(t.parent);try{pt(t),e=Mt(t)}finally{K(n)}return e}function mt(t){var e=ft(t),n=(me||t.f&le)&&t.deps!==null?be:W;F(t,n),t.equals(e)||(t.v=e,t.version=Pt())}function Tn(t){pt(t),Ee(t,0),F(t,Qe),t.v=t.children=t.deps=t.ctx=t.reactions=null}function gt(t){b===null&&A===null&&li(),A!==null&&A.f&le&&si(),Pn&&ai()}function qi(t,e){var n=e.last;n===null?e.last=e.first=t:(n.next=t,t.prev=n,e.last=t)}function we(t,e,n,i=!0){var r=(t&Re)!==0,o=b,a={ctx:_,deps:null,deriveds:null,nodes_start:null,nodes_end:null,f:t|te,first:null,fn:e,last:null,next:null,parent:r?null:o,prev:null,teardown:null,transitions:null,version:0};if(n){var c=ye;try{zn(!0),$e(a),a.f|=ni}catch(s){throw ce(a),s}finally{zn(c)}}else e!==null&&Je(a);var d=n&&a.deps===null&&a.first===null&&a.nodes_start===null&&a.teardown===null&&(a.f&at)===0;if(!d&&!r&&i&&(o!==null&&qi(a,o),A!==null&&A.f&J)){var l=A;(l.children??(l.children=[])).push(a)}return a}function Ri(t){const e=we(qe,null,!1);return F(e,W),e.teardown=t,e}function dn(t){gt();var e=b!==null&&(b.f&j)!==0&&_!==null&&!_.m;if(e){var n=_;(n.e??(n.e=[])).push({fn:t,effect:b,reaction:A})}else{var i=Cn(t);return i}}function Qi(t){return gt(),ke(t)}function $i(t){const e=we(Re,t,!0);return()=>{ce(e)}}function Cn(t){return we(ot,t,!1)}function yt(t,e){var n=_,i={effect:null,ran:!1};n.l.r1.push(i),i.effect=ke(()=>{t(),!i.ran&&(i.ran=!0,M(n.l.r2,!0),ae(e))})}function bt(){var t=_;ke(()=>{if(g(t.l.r2)){for(var e of t.l.r1){var n=e.effect;n.f&W&&F(n,be),Ae(n)&&$e(n),e.ran=!1}t.l.r2.v=!1}})}function ke(t){return we(qe,t,!0)}function Y(t){return xn(t)}function xn(t,e=0){return we(qe|vn|e,t,!0)}function Se(t,e=!0){return we(qe|j,t,!0,e)}function vt(t){var e=t.teardown;if(e!==null){const n=Pn,i=A;Bn(!0),ie(null);try{e.call(null)}finally{Bn(n),ie(i)}}}function wt(t){var e=t.deriveds;if(e!==null){t.deriveds=null;for(var n=0;n<e.length;n+=1)Tn(e[n])}}function kt(t,e=!1){var n=t.first;for(t.first=t.last=null;n!==null;){var i=n.next;ce(n,e),n=i}}function Wi(t){for(var e=t.first;e!==null;){var n=e.next;e.f&j||ce(e),e=n}}function ce(t,e=!0){var n=!1;if((e||t.f&ii)&&t.nodes_start!==null){for(var i=t.nodes_start,r=t.nodes_end;i!==null;){var o=i===r?null:Xe(i);i.remove(),i=o}n=!0}kt(t,e&&!n),wt(t),Ee(t,0),F(t,Qe);var a=t.transitions;if(a!==null)for(const d of a)d.stop();vt(t);var c=t.parent;c!==null&&c.first!==null&&At(t),t.next=t.prev=t.teardown=t.ctx=t.deps=t.parent=t.fn=t.nodes_start=t.nodes_end=null}function At(t){var e=t.parent,n=t.prev,i=t.next;n!==null&&(n.next=i),i!==null&&(i.prev=n),e!==null&&(e.first===t&&(e.first=i),e.last===t&&(e.last=n))}function hn(t,e){var n=[];_n(t,n,!0),Tt(n,()=>{ce(t),e&&e()})}function Tt(t,e){var n=t.length;if(n>0){var i=()=>--n||e();for(var r of t)r.out(i)}else e()}function _n(t,e,n){if(!(t.f&Z)){if(t.f^=Z,t.transitions!==null)for(const a of t.transitions)(a.is_global||n)&&e.push(a);for(var i=t.first;i!==null;){var r=i.next,o=(i.f&wn)!==0||(i.f&j)!==0;_n(i,e,o?n:!1),i=r}}}function Fe(t){Ct(t,!0)}function Ct(t,e){if(t.f&Z){Ae(t)&&$e(t),t.f^=Z;for(var n=t.first;n!==null;){var i=n.next,r=(n.f&wn)!==0||(n.f&j)!==0;Ct(n,r?e:!1),n=i}if(t.transitions!==null)for(const o of t.transitions)(o.is_global||e)&&o.in()}}let un=!1,pn=[];function Di(){un=!1;const t=pn.slice();pn=[],ln(t)}function xt(t){un||(un=!0,queueMicrotask(Di)),pn.push(t)}function zi(t){throw new Error("lifecycle_outside_component")}let Ue=!1,ye=!1,Pn=!1;function zn(t){ye=t}function Bn(t){Pn=t}let fn=[],Pe=0;let A=null;function ie(t){A=t}let b=null;function K(t){b=t}let V=null;function Bi(t){V=t}let R=null,z=0,ne=null;function Ni(t){ne=t}let _t=0,me=!1,_=null;function Pt(){return++_t}function Ye(){return!ve||_!==null&&_.l===null}function Ae(t){var a,c;var e=t.f;if(e&te)return!0;if(e&be){var n=t.deps,i=(e&le)!==0;if(n!==null){var r;if(e&He){for(r=0;r<n.length;r++)((a=n[r]).reactions??(a.reactions=[])).push(t);t.f^=He}for(r=0;r<n.length;r++){var o=n[r];if(Ae(o)&&mt(o),i&&b!==null&&!me&&!((c=o==null?void 0:o.reactions)!=null&&c.includes(t))&&(o.reactions??(o.reactions=[])).push(t),o.version>t.version)return!0}}i||F(t,W)}return!1}function Oi(t,e,n){throw t}function Mt(t){var h;var e=R,n=z,i=ne,r=A,o=me,a=V,c=_,d=t.f;R=null,z=0,ne=null,A=d&(j|Re)?null:t,me=!ye&&(d&le)!==0,V=null,_=t.ctx;try{var l=(0,t.fn)(),s=t.deps;if(R!==null){var u;if(Ee(t,z),s!==null&&z>0)for(s.length=z+R.length,u=0;u<R.length;u++)s[z+u]=R[u];else t.deps=s=R;if(!me)for(u=z;u<s.length;u++)((h=s[u]).reactions??(h.reactions=[])).push(t)}else s!==null&&z<s.length&&(Ee(t,z),s.length=z);return l}finally{R=e,z=n,ne=i,A=r,me=o,V=a,_=c}}function Hi(t,e){let n=e.reactions;if(n!==null){var i=n.indexOf(t);if(i!==-1){var r=n.length-1;r===0?n=e.reactions=null:(n[i]=n[r],n.pop())}}n===null&&e.f&J&&(R===null||!R.includes(e))&&(F(e,be),e.f&(le|He)||(e.f^=He),Ee(e,0))}function Ee(t,e){var n=t.deps;if(n!==null)for(var i=e;i<n.length;i++)Hi(t,n[i])}function $e(t){var e=t.f;if(!(e&Qe)){F(t,W);var n=b;b=t;try{e&vn?Wi(t):kt(t),wt(t),vt(t);var i=Mt(t);t.teardown=typeof i=="function"?i:null,t.version=_t}catch(r){Oi(r)}finally{b=n}}}function Li(){Pe>1e3&&(Pe=0,ci()),Pe++}function ji(t){var e=t.length;if(e!==0){Li();var n=ye;ye=!0;try{for(var i=0;i<e;i++){var r=t[i];r.f&W||(r.f^=W);var o=[];It(r,o),Fi(o)}}finally{ye=n}}}function Fi(t){var e=t.length;if(e!==0)for(var n=0;n<e;n++){var i=t[n];!(i.f&(Qe|Z))&&Ae(i)&&($e(i),i.deps===null&&i.first===null&&i.nodes_start===null&&(i.teardown===null?At(i):i.fn=null))}}function Ui(){if(Ue=!1,Pe>1001)return;const t=fn;fn=[],ji(t),Ue||(Pe=0)}function Je(t){Ue||(Ue=!0,queueMicrotask(Ui));for(var e=t;e.parent!==null;){e=e.parent;var n=e.f;if(n&(Re|j)){if(!(n&W))return;e.f^=W}}fn.push(e)}function It(t,e){var n=t.first,i=[];e:for(;n!==null;){var r=n.f,o=(r&j)!==0,a=o&&(r&W)!==0;if(!a&&!(r&Z))if(r&qe){o?n.f^=W:Ae(n)&&$e(n);var c=n.first;if(c!==null){n=c;continue}}else r&ot&&i.push(n);var d=n.next;if(d===null){let u=n.parent;for(;u!==null;){if(t===u)break e;var l=u.next;if(l!==null){n=l;continue e}u=u.parent}}n=d}for(var s=0;s<i.length;s++)c=i[s],e.push(c),It(c,e)}function g(t){var c;var e=t.f,n=(e&J)!==0;if(n&&e&Qe){var i=ft(t);return Tn(t),i}if(A!==null){V!==null&&V.includes(t)&&pi();var r=A.deps;R===null&&r!==null&&r[z]===t?z++:R===null?R=[t]:R.push(t),ne!==null&&b!==null&&b.f&W&&!(b.f&j)&&ne.includes(t)&&(F(b,te),Je(b))}else if(n&&t.deps===null){var o=t,a=o.parent;a!==null&&!((c=a.deriveds)!=null&&c.includes(o))&&(a.deriveds??(a.deriveds=[])).push(o)}return n&&(o=t,Ae(o)&&mt(o)),t.v}function ae(t){const e=A;try{return A=null,t()}finally{A=e}}const Gi=~(te|be|W);function F(t,e){t.f=t.f&Gi|e}function Nn(t,e=1){var n=+g(t);return M(t,n+e),n}function en(t,e=!1,n){_={p:_,c:null,e:null,m:!1,s:t,x:null,l:null},ve&&!e&&(_.l={s:null,u:null,r1:[],r2:O(!1)})}function nn(t){const e=_;if(e!==null){const a=e.e;if(a!==null){var n=b,i=A;e.e=null;try{for(var r=0;r<a.length;r++){var o=a[r];K(o.effect),ie(o.reaction),Cn(o.fn)}}finally{K(n),ie(i)}}_=e.p,e.m=!0}return{}}function Zi(t){if(!(typeof t!="object"||!t||t instanceof EventTarget)){if(oe in t)mn(t);else if(!Array.isArray(t))for(let e in t){const n=t[e];typeof n=="object"&&n&&oe in n&&mn(n)}}}function mn(t,e=new Set){if(typeof t=="object"&&t!==null&&!(t instanceof EventTarget)&&!e.has(t)){e.add(t),t instanceof Date&&t.getTime();for(let i in t)try{mn(t[i],e)}catch{}const n=Oe(t);if(n!==Object.prototype&&n!==Array.prototype&&n!==Map.prototype&&n!==Set.prototype&&n!==Date.prototype){const i=rt(n);for(let r in i){const o=i[r].get;if(o)try{o.call(t)}catch{}}}}}let On=!1;function Vi(){On||(On=!0,document.addEventListener("reset",t=>{Promise.resolve().then(()=>{var e;if(!t.defaultPrevented)for(const n of t.target.elements)(e=n.__on_r)==null||e.call(n)})},{capture:!0}))}function St(t){var e=A,n=b;ie(null),K(null);try{return t()}finally{ie(e),K(n)}}function Et(t,e,n,i=n){t.addEventListener(e,()=>St(n));const r=t.__on_r;r?t.__on_r=()=>{r(),i()}:t.__on_r=i,Vi()}const Ki=new Set,Hn=new Set;function Xi(t,e,n,i){function r(o){if(i.capture||_e.call(e,o),!o.cancelBubble)return St(()=>n.call(this,o))}return t.startsWith("pointer")||t.startsWith("touch")||t==="wheel"?xt(()=>{e.addEventListener(t,r,i)}):e.addEventListener(t,r,i),r}function Ge(t,e,n,i,r){var o={capture:i,passive:r},a=Xi(t,e,n,o);(e===document.body||e===window||e===document)&&Ri(()=>{e.removeEventListener(t,a,o)})}function _e(t){var P;var e=this,n=e.ownerDocument,i=t.type,r=((P=t.composedPath)==null?void 0:P.call(t))||[],o=r[0]||t.target,a=0,c=t.__root;if(c){var d=r.indexOf(c);if(d!==-1&&(e===document||e===window)){t.__root=e;return}var l=r.indexOf(e);if(l===-1)return;d<=l&&(a=d)}if(o=r[a]||t.target,o!==e){Xt(t,"currentTarget",{configurable:!0,get(){return o||n}});var s=A,u=b;ie(null),K(null);try{for(var h,p=[];o!==null;){var f=o.assignedSlot||o.parentNode||o.host||null;try{var m=o["__"+i];if(m!==void 0&&!o.disabled)if(yn(m)){var[y,...v]=m;y.apply(o,[t,...v])}else m.call(o,t)}catch(I){h?p.push(I):h=I}if(t.cancelBubble||f===e||f===null)break;o=f}if(h){for(let I of p)queueMicrotask(()=>{throw I});throw h}}finally{t.__root=e,delete t.currentTarget,ie(s),K(u)}}}function Yi(t){var e=document.createElement("template");return e.innerHTML=t,e.content}function Ln(t,e){var n=b;n.nodes_start===null&&(n.nodes_start=t,n.nodes_end=e)}function de(t,e){var n=(e&xi)!==0,i=(e&_i)!==0,r,o=!t.startsWith("<!>");return()=>{r===void 0&&(r=Yi(o?t:"<!>"+t),n||(r=Le(r)));var a=i?document.importNode(r,!0):r.cloneNode(!0);if(n){var c=Le(a),d=a.lastChild;Ln(c,d)}else Ln(a,a);return a}}function re(t,e){t!==null&&t.before(e)}const Ji=["touchstart","touchmove"];function er(t){return Ji.includes(t)}function fe(t,e){var n=e==null?"":typeof e=="object"?e+"":e;n!==(t.__t??(t.__t=t.nodeValue))&&(t.__t=n,t.nodeValue=n==null?"":n+"")}function nr(t,e){return tr(t,e)}const ue=new Map;function tr(t,{target:e,anchor:n,props:i={},events:r,context:o,intro:a=!0}){Mi();var c=new Set,d=u=>{for(var h=0;h<u.length;h++){var p=u[h];if(!c.has(p)){c.add(p);var f=er(p);e.addEventListener(p,_e,{passive:f});var m=ue.get(p);m===void 0?(document.addEventListener(p,_e,{passive:f}),ue.set(p,1)):ue.set(p,m+1)}}};d(bn(Ki)),Hn.add(d);var l=void 0,s=$i(()=>{var u=n??e.appendChild(Ii());return Se(()=>{if(o){en({});var h=_;h.c=o}r&&(i.$$events=r),l=t(u,i)||{},o&&nn()}),()=>{var f;for(var h of c){e.removeEventListener(h,_e);var p=ue.get(h);--p===0?(document.removeEventListener(h,_e),ue.delete(h)):ue.set(h,p)}Hn.delete(d),jn.delete(l),u!==n&&((f=u.parentNode)==null||f.removeChild(u))}});return jn.set(l,s),l}let jn=new WeakMap;function qt(t,e,n,i=null,r=!1){var o=t,a=null,c=null,d=null,l=r?wn:0;xn(()=>{d!==(d=!!e())&&(d?(a?Fe(a):a=Se(()=>n(o)),c&&hn(c,()=>{c=null})):(c?Fe(c):i&&(c=Se(()=>i(o))),a&&hn(a,()=>{a=null})))},l)}function ir(t,e){return e}function rr(t,e,n,i){for(var r=[],o=e.length,a=0;a<o;a++)_n(e[a].e,r,!0);var c=o>0&&r.length===0&&n!==null;if(c){var d=n.parentNode;Ei(d),d.append(n),i.clear(),ee(t,e[0].prev,e[o-1].next)}Tt(r,()=>{for(var l=0;l<o;l++){var s=e[l];c||(i.delete(s.k),ee(t,s.prev,s.next)),ce(s.e,!c)}})}function or(t,e,n,i,r,o=null){var a=t,c={flags:e,items:new Map,first:null},d=null,l=!1;xn(()=>{var s=n(),u=yn(s)?s:s==null?[]:bn(s),h=u.length;if(!(l&&h===0)){l=h===0;{var p=A;ar(u,c,a,r,e,(p.f&Z)!==0,i)}o!==null&&(h===0?d?Fe(d):d=Se(()=>o(a)):d!==null&&hn(d,()=>{d=null})),n()}})}function ar(t,e,n,i,r,o,a){var c=t.length,d=e.items,l=e.first,s=l,u,h=null,p=[],f=[],m,y,v,P;for(P=0;P<c;P+=1){if(m=t[P],y=a(m,P),v=d.get(y),v===void 0){var I=s?s.e.nodes_start:n;h=lr(I,e,h,h===null?e.first:h.next,m,y,P,i,r),d.set(y,h),p=[],f=[],s=h.next;continue}if(sr(v,m,P),v.e.f&Z&&Fe(v.e),v!==s){if(u!==void 0&&u.has(v)){if(p.length<f.length){var B=f[0],x;h=B.prev;var E=p[0],q=p[p.length-1];for(x=0;x<p.length;x+=1)Fn(p[x],B,n);for(x=0;x<f.length;x+=1)u.delete(f[x]);ee(e,E.prev,q.next),ee(e,h,E),ee(e,q,B),s=B,h=q,P-=1,p=[],f=[]}else u.delete(v),Fn(v,s,n),ee(e,v.prev,v.next),ee(e,v,h===null?e.first:h.next),ee(e,h,v),h=v;continue}for(p=[],f=[];s!==null&&s.k!==y;)(o||!(s.e.f&Z))&&(u??(u=new Set)).add(s),f.push(s),s=s.next;if(s===null)continue;v=s}p.push(v),h=v,s=v.next}if(s!==null||u!==void 0){for(var w=u===void 0?[]:bn(u);s!==null;)(o||!(s.e.f&Z))&&w.push(s),s=s.next;var N=w.length;if(N>0){var X=null;rr(e,w,X,d)}}b.first=e.first&&e.first.e,b.last=h&&h.e}function sr(t,e,n,i){ct(t.v,e),t.i=n}function lr(t,e,n,i,r,o,a,c,d){var l=(d&yi)!==0,s=(d&vi)===0,u=l?s?An(r):O(r):r,h=d&bi?O(a):a,p={i:h,v:u,k:o,a:null,e:null,prev:n,next:i};try{return p.e=Se(()=>c(t,u,h),Pi),p.e.prev=n&&n.e,p.e.next=i&&i.e,n===null?e.first=p:(n.next=p,n.e.next=p.e),i!==null&&(i.prev=p,i.e.prev=p.e),p}finally{}}function Fn(t,e,n){for(var i=t.next?t.next.e.nodes_start:n,r=e?e.e.nodes_start:n,o=t.e.nodes_start;o!==i;){var a=Xe(o);r.before(o),o=a}}function ee(t,e,n){e===null?t.first=n:(e.next=n,e.e.next=n&&n.e),n!==null&&(n.prev=e,n.e.prev=e&&e.e)}function cr(t,e,n,i){var r=t.__attributes??(t.__attributes={});r[e]!==(r[e]=n)&&(n==null?t.removeAttribute(e):typeof n!="string"&&dr(t).includes(e)?t[e]=n:t.setAttribute(e,n))}var Un=new Map;function dr(t){var e=Un.get(t.nodeName);if(e)return e;Un.set(t.nodeName,e=[]);for(var n,i=Oe(t),r=Element.prototype;r!==i;){n=rt(i);for(var o in n)n[o].set&&e.push(o);i=Oe(i)}return e}function Gn(t,e,n){if(n){if(t.classList.contains(e))return;t.classList.add(e)}else{if(!t.classList.contains(e))return;t.classList.remove(e)}}function hr(t,e,n=e){var i=Ye();Et(t,"input",()=>{var r=Zn(t)?Vn(t.value):t.value;n(r),i&&r!==(r=e())&&(t.value=r??"")}),ke(()=>{var r=e();Zn(t)&&r===Vn(t.value)||t.type==="date"&&!r&&!t.value||r!==t.value&&(t.value=r??"")})}function ur(t,e,n=e){Et(t,"change",()=>{var i=t.checked;n(i)}),e()==null&&n(!1),ke(()=>{var i=e();t.checked=!!i})}function Zn(t){var e=t.type;return e==="number"||e==="range"}function Vn(t){return t===""?null:+t}function Kn(t,e){return t===e||(t==null?void 0:t[oe])===e}function pr(t={},e,n,i){return Cn(()=>{var r,o;return ke(()=>{r=o,o=[],ae(()=>{t!==n(...o)&&(e(t,...o),r&&Kn(n(...r),t)&&e(null,...r))})}),()=>{xt(()=>{o&&Kn(n(...o),t)&&e(null,...o)})}}),t}function Rt(t=!1){const e=_,n=e.l.u;if(!n)return;let i=()=>Zi(e.s);if(t){let r=0,o={};const a=je(()=>{let c=!1;const d=e.s;for(const l in d)d[l]!==o[l]&&(o[l]=d[l],c=!0);return c&&r++,r});i=()=>g(a)}n.b.length&&Qi(()=>{Xn(e,i),ln(n.b)}),dn(()=>{const r=ae(()=>n.m.map(ei));return()=>{for(const o of r)typeof o=="function"&&o()}}),n.a.length&&dn(()=>{Xn(e,i),ln(n.a)})}function Xn(t,e){if(t.l.s)for(const n of t.l.s)g(n);e()}let ze=!1;function fr(t){var e=ze;try{return ze=!1,[t(),ze]}finally{ze=e}}function Yn(t){for(var e=b,n=b;e!==null&&!(e.f&(j|Re));)e=e.parent;try{return K(e),t()}finally{K(n)}}function Ne(t,e,n,i){var q;var r=(n&wi)!==0,o=!ve||(n&ki)!==0,a=(n&Ti)!==0,c=(n&Ci)!==0,d=!1,l;a?[l,d]=fr(()=>t[e]):l=t[e];var s=oe in t||ri in t,u=((q=ge(t,e))==null?void 0:q.set)??(s&&a&&e in t?w=>t[e]=w:void 0),h=i,p=!0,f=!1,m=()=>(f=!0,p&&(p=!1,c?h=ae(i):h=i),h);l===void 0&&i!==void 0&&(u&&o&&di(),l=m(),u&&u(l));var y;if(o)y=()=>{var w=t[e];return w===void 0?m():(p=!0,f=!1,w)};else{var v=Yn(()=>(r?je:cn)(()=>t[e]));v.f|=ti,y=()=>{var w=g(v);return w!==void 0&&(h=void 0),w===void 0?h:w}}if(!(n&Ai))return y;if(u){var P=t.$$legacy;return function(w,N){return arguments.length>0?((!o||!N||P||d)&&u(N?y():w),w):y()}}var I=!1,B=!1,x=An(l),E=Yn(()=>je(()=>{var w=y(),N=g(x);return I?(I=!1,B=!0,N):(B=!1,x.v=w)}));return r||(E.equals=kn),function(w,N){if(arguments.length>0){const X=N?g(E):o&&a?pe(w):w;return E.equals(X)||(I=!0,M(x,X),f&&h!==void 0&&(h=X),ae(()=>g(E))),w}return g(E)}}function Qt(t){_===null&&zi(),ve&&_.l!==null?mr(_).m.push(t):dn(()=>{const e=ae(t);if(typeof e=="function")return e})}function mr(t){var e=t.l;return e.u??(e.u={a:[],b:[],m:[]})}const gr="5";typeof window<"u"&&(window.__svelte||(window.__svelte={v:new Set})).v.add(gr);mi();function $t(t){let e=t.length;for(;e!=0;){let n=Math.floor(Math.random()*e);e--,[t[e],t[n]]=[t[n],t[e]]}return t}function yr(t){const n=new Date().getTime()-t.getTime();if(n<0)throw new Error("The provided date is in the future.");const i=Math.floor(n/(1e3*60*60)),r=Math.floor(n%(1e3*60*60)/(1e3*60)),o=Math.floor(n%(1e3*60)/1e3);return[i.toString().padStart(2,"0"),r.toString().padStart(2,"0"),o.toString().padStart(2,"0")].join(":")}var br=de('<form class="svelte-sav0zk"><fieldset class="svelte-sav0zk"></fieldset> <footer class="svelte-sav0zk"><button type="submit" class="disabled:hidden svelte-sav0zk">Submit</button></footer></form>');function vr(t,e){en(e,!1);let n=Ne(e,"onSubmit",8),i=Ne(e,"answered",8,!1),r=Ne(e,"src",8),o=G(document.createElement("fieldset"));function a(l){l.preventDefault();const s=l.target;if(!(s instanceof HTMLFormElement))throw new Error("Not a form");const h=new FormData(s).get("answer");return n()(h==="correct"),!0}Qt(()=>{var u;lt(o,g(o).innerHTML=r());const l=g(o).querySelector("ul");if(!l)throw new Error("No answer set");const s=$t(Array.from(l.children));for(const h of s){const p=h.innerHTML,f=((u=h.textContent)==null?void 0:u.startsWith("✅"))??!1,m=document.createElement("label");m.className="grid grid-cols-[1.5rem,1fr] gap-x-2 items-baseline",m.innerHTML=p.replace(/[✅❌] /g,"");const y=document.createElement("input");y.type="radio",y.name="answer",y.required=!0,f&&(y.value="correct"),m.prepend(y),h.replaceChildren(m),h.className="mb-4",l.appendChild(h)}}),Rt();var c=br(),d=S(c);pr(d,l=>M(o,l),()=>g(o)),Y(()=>cr(c,"data-answered",i())),Ge("submit",c,a),re(t,c),nn()}const wr=`## Question: 1 of 125\r
+var Zt=Object.defineProperty;var Vt=(t,e,n)=>e in t?Zt(t,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[e]=n;var C=(t,e,n)=>Vt(t,typeof e!="symbol"?e+"":e,n);(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))i(r);new MutationObserver(r=>{for(const o of r)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&i(a)}).observe(document,{childList:!0,subtree:!0});function n(r){const o={};return r.integrity&&(o.integrity=r.integrity),r.referrerPolicy&&(o.referrerPolicy=r.referrerPolicy),r.crossOrigin==="use-credentials"?o.credentials="include":r.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function i(r){if(r.ep)return;r.ep=!0;const o=n(r);fetch(r.href,o)}})();const Kt=!1;var yn=Array.isArray,bn=Array.from,Xt=Object.defineProperty,ge=Object.getOwnPropertyDescriptor,rt=Object.getOwnPropertyDescriptors,Yt=Object.prototype,Jt=Array.prototype,Oe=Object.getPrototypeOf;function ei(t){return t()}function ln(t){for(var e=0;e<t.length;e++)t[e]()}const J=2,ot=4,qe=8,vn=16,j=32,Re=64,le=128,He=256,W=512,te=1024,be=2048,Z=4096,Qe=8192,ni=16384,wn=32768,ti=65536,ii=1<<18,at=1<<19,oe=Symbol("$state"),ri=Symbol("legacy props");function st(t){return t===this.v}function oi(t,e){return t!=t?e==e:t!==e||t!==null&&typeof t=="object"||typeof t=="function"}function kn(t){return!oi(t,this.v)}function ai(t){throw new Error("effect_in_teardown")}function si(){throw new Error("effect_in_unowned_derived")}function li(t){throw new Error("effect_orphan")}function ci(){throw new Error("effect_update_depth_exceeded")}function di(t){throw new Error("props_invalid_value")}function hi(){throw new Error("state_descriptors_fixed")}function ui(){throw new Error("state_prototype_fixed")}function pi(){throw new Error("state_unsafe_local_read")}function fi(){throw new Error("state_unsafe_mutation")}let ve=!1;function mi(){ve=!0}function O(t){return{f:0,v:t,reactions:null,equals:st,version:0}}function An(t,e=!1){var i;const n=O(t);return e||(n.equals=kn),ve&&_!==null&&_.l!==null&&((i=_.l).s??(i.s=[])).push(n),n}function G(t,e=!1){return gi(An(t,e))}function gi(t){return A!==null&&A.f&J&&(V===null?Bi([t]):V.push(t)),t}function lt(t,e){return M(t,ae(()=>g(t))),e}function M(t,e){return A!==null&&Ye()&&A.f&(J|vn)&&(V===null||!V.includes(t))&&fi(),ct(t,e)}function ct(t,e){return t.equals(e)||(t.v=e,t.version=Pt(),dt(t,te),Ye()&&b!==null&&b.f&W&&!(b.f&j)&&(R!==null&&R.includes(t)?(F(b,te),Je(b)):ne===null?Ni([t]):ne.push(t))),e}function dt(t,e){var n=t.reactions;if(n!==null)for(var i=Ye(),r=n.length,o=0;o<r;o++){var a=n[o],c=a.f;c&te||!i&&a===b||(F(a,e),c&(W|le)&&(c&J?dt(a,be):Je(a)))}}const yi=1,bi=2,vi=16,wi=1,ki=2,Ai=4,Ti=8,Ci=16,xi=1,_i=2,D=Symbol();let Pi=!1;function pe(t,e=null,n){if(typeof t!="object"||t===null||oe in t)return t;const i=Oe(t);if(i!==Yt&&i!==Jt)return t;var r=new Map,o=yn(t),a=O(0);o&&r.set("length",O(t.length));var c;return new Proxy(t,{defineProperty(d,l,s){(!("value"in s)||s.configurable===!1||s.enumerable===!1||s.writable===!1)&&hi();var u=r.get(l);return u===void 0?(u=O(s.value),r.set(l,u)):M(u,pe(s.value,c)),!0},deleteProperty(d,l){var s=r.get(l);if(s===void 0)l in d&&r.set(l,O(D));else{if(o&&typeof l=="string"){var u=r.get("length"),h=Number(l);Number.isInteger(h)&&h<u.v&&M(u,h)}M(s,D),Wn(a)}return!0},get(d,l,s){var f;if(l===oe)return t;var u=r.get(l),h=l in d;if(u===void 0&&(!h||(f=ge(d,l))!=null&&f.writable)&&(u=O(pe(h?d[l]:D,c)),r.set(l,u)),u!==void 0){var p=g(u);return p===D?void 0:p}return Reflect.get(d,l,s)},getOwnPropertyDescriptor(d,l){var s=Reflect.getOwnPropertyDescriptor(d,l);if(s&&"value"in s){var u=r.get(l);u&&(s.value=g(u))}else if(s===void 0){var h=r.get(l),p=h==null?void 0:h.v;if(h!==void 0&&p!==D)return{enumerable:!0,configurable:!0,value:p,writable:!0}}return s},has(d,l){var p;if(l===oe)return!0;var s=r.get(l),u=s!==void 0&&s.v!==D||Reflect.has(d,l);if(s!==void 0||b!==null&&(!u||(p=ge(d,l))!=null&&p.writable)){s===void 0&&(s=O(u?pe(d[l],c):D),r.set(l,s));var h=g(s);if(h===D)return!1}return u},set(d,l,s,u){var I;var h=r.get(l),p=l in d;if(o&&l==="length")for(var f=s;f<h.v;f+=1){var m=r.get(f+"");m!==void 0?M(m,D):f in d&&(m=O(D),r.set(f+"",m))}h===void 0?(!p||(I=ge(d,l))!=null&&I.writable)&&(h=O(void 0),M(h,pe(s,c)),r.set(l,h)):(p=h.v!==D,M(h,pe(s,c)));var y=Reflect.getOwnPropertyDescriptor(d,l);if(y!=null&&y.set&&y.set.call(u,s),!p){if(o&&typeof l=="string"){var v=r.get("length"),P=Number(l);Number.isInteger(P)&&P>=v.v&&M(v,P+1)}Wn(a)}return!0},ownKeys(d){g(a);var l=Reflect.ownKeys(d).filter(h=>{var p=r.get(h);return p===void 0||p.v!==D});for(var[s,u]of r)u.v!==D&&!(s in d)&&l.push(s);return l},setPrototypeOf(){ui()}})}function Wn(t,e=1){M(t,t.v+e)}var Dn,ht,ut;function Mi(){if(Dn===void 0){Dn=window;var t=Element.prototype,e=Node.prototype;ht=ge(e,"firstChild").get,ut=ge(e,"nextSibling").get,t.__click=void 0,t.__className="",t.__attributes=null,t.__styles=null,t.__e=void 0,Text.prototype.__t=void 0}}function Ii(t=""){return document.createTextNode(t)}function Le(t){return ht.call(t)}function Xe(t){return ut.call(t)}function S(t,e){return Le(t)}function Si(t,e){{var n=Le(t);return n instanceof Comment&&n.data===""?Xe(n):n}}function Q(t,e=1,n=!1){let i=t;for(;e--;)i=Xe(i);return i}function Ei(t){t.textContent=""}function je(t){var e=J|te;b===null?e|=le:b.f|=at;const n={children:null,ctx:_,deps:null,equals:st,f:e,fn:t,reactions:null,v:null,version:0,parent:b};if(A!==null&&A.f&J){var i=A;(i.children??(i.children=[])).push(n)}return n}function cn(t){const e=je(t);return e.equals=kn,e}function pt(t){var e=t.children;if(e!==null){t.children=null;for(var n=0;n<e.length;n+=1){var i=e[n];i.f&J?Tn(i):ce(i)}}}function ft(t){var e,n=b;K(t.parent);try{pt(t),e=Mt(t)}finally{K(n)}return e}function mt(t){var e=ft(t),n=(me||t.f&le)&&t.deps!==null?be:W;F(t,n),t.equals(e)||(t.v=e,t.version=Pt())}function Tn(t){pt(t),Ee(t,0),F(t,Qe),t.v=t.children=t.deps=t.ctx=t.reactions=null}function gt(t){b===null&&A===null&&li(),A!==null&&A.f&le&&si(),Pn&&ai()}function qi(t,e){var n=e.last;n===null?e.last=e.first=t:(n.next=t,t.prev=n,e.last=t)}function we(t,e,n,i=!0){var r=(t&Re)!==0,o=b,a={ctx:_,deps:null,deriveds:null,nodes_start:null,nodes_end:null,f:t|te,first:null,fn:e,last:null,next:null,parent:r?null:o,prev:null,teardown:null,transitions:null,version:0};if(n){var c=ye;try{zn(!0),$e(a),a.f|=ni}catch(s){throw ce(a),s}finally{zn(c)}}else e!==null&&Je(a);var d=n&&a.deps===null&&a.first===null&&a.nodes_start===null&&a.teardown===null&&(a.f&at)===0;if(!d&&!r&&i&&(o!==null&&qi(a,o),A!==null&&A.f&J)){var l=A;(l.children??(l.children=[])).push(a)}return a}function Ri(t){const e=we(qe,null,!1);return F(e,W),e.teardown=t,e}function dn(t){gt();var e=b!==null&&(b.f&j)!==0&&_!==null&&!_.m;if(e){var n=_;(n.e??(n.e=[])).push({fn:t,effect:b,reaction:A})}else{var i=Cn(t);return i}}function Qi(t){return gt(),ke(t)}function $i(t){const e=we(Re,t,!0);return()=>{ce(e)}}function Cn(t){return we(ot,t,!1)}function yt(t,e){var n=_,i={effect:null,ran:!1};n.l.r1.push(i),i.effect=ke(()=>{t(),!i.ran&&(i.ran=!0,M(n.l.r2,!0),ae(e))})}function bt(){var t=_;ke(()=>{if(g(t.l.r2)){for(var e of t.l.r1){var n=e.effect;n.f&W&&F(n,be),Ae(n)&&$e(n),e.ran=!1}t.l.r2.v=!1}})}function ke(t){return we(qe,t,!0)}function Y(t){return xn(t)}function xn(t,e=0){return we(qe|vn|e,t,!0)}function Se(t,e=!0){return we(qe|j,t,!0,e)}function vt(t){var e=t.teardown;if(e!==null){const n=Pn,i=A;Bn(!0),ie(null);try{e.call(null)}finally{Bn(n),ie(i)}}}function wt(t){var e=t.deriveds;if(e!==null){t.deriveds=null;for(var n=0;n<e.length;n+=1)Tn(e[n])}}function kt(t,e=!1){var n=t.first;for(t.first=t.last=null;n!==null;){var i=n.next;ce(n,e),n=i}}function Wi(t){for(var e=t.first;e!==null;){var n=e.next;e.f&j||ce(e),e=n}}function ce(t,e=!0){var n=!1;if((e||t.f&ii)&&t.nodes_start!==null){for(var i=t.nodes_start,r=t.nodes_end;i!==null;){var o=i===r?null:Xe(i);i.remove(),i=o}n=!0}kt(t,e&&!n),wt(t),Ee(t,0),F(t,Qe);var a=t.transitions;if(a!==null)for(const d of a)d.stop();vt(t);var c=t.parent;c!==null&&c.first!==null&&At(t),t.next=t.prev=t.teardown=t.ctx=t.deps=t.parent=t.fn=t.nodes_start=t.nodes_end=null}function At(t){var e=t.parent,n=t.prev,i=t.next;n!==null&&(n.next=i),i!==null&&(i.prev=n),e!==null&&(e.first===t&&(e.first=i),e.last===t&&(e.last=n))}function hn(t,e){var n=[];_n(t,n,!0),Tt(n,()=>{ce(t),e&&e()})}function Tt(t,e){var n=t.length;if(n>0){var i=()=>--n||e();for(var r of t)r.out(i)}else e()}function _n(t,e,n){if(!(t.f&Z)){if(t.f^=Z,t.transitions!==null)for(const a of t.transitions)(a.is_global||n)&&e.push(a);for(var i=t.first;i!==null;){var r=i.next,o=(i.f&wn)!==0||(i.f&j)!==0;_n(i,e,o?n:!1),i=r}}}function Fe(t){Ct(t,!0)}function Ct(t,e){if(t.f&Z){Ae(t)&&$e(t),t.f^=Z;for(var n=t.first;n!==null;){var i=n.next,r=(n.f&wn)!==0||(n.f&j)!==0;Ct(n,r?e:!1),n=i}if(t.transitions!==null)for(const o of t.transitions)(o.is_global||e)&&o.in()}}let un=!1,pn=[];function Di(){un=!1;const t=pn.slice();pn=[],ln(t)}function xt(t){un||(un=!0,queueMicrotask(Di)),pn.push(t)}function zi(t){throw new Error("lifecycle_outside_component")}let Ue=!1,ye=!1,Pn=!1;function zn(t){ye=t}function Bn(t){Pn=t}let fn=[],Pe=0;let A=null;function ie(t){A=t}let b=null;function K(t){b=t}let V=null;function Bi(t){V=t}let R=null,z=0,ne=null;function Ni(t){ne=t}let _t=0,me=!1,_=null;function Pt(){return++_t}function Ye(){return!ve||_!==null&&_.l===null}function Ae(t){var a,c;var e=t.f;if(e&te)return!0;if(e&be){var n=t.deps,i=(e&le)!==0;if(n!==null){var r;if(e&He){for(r=0;r<n.length;r++)((a=n[r]).reactions??(a.reactions=[])).push(t);t.f^=He}for(r=0;r<n.length;r++){var o=n[r];if(Ae(o)&&mt(o),i&&b!==null&&!me&&!((c=o==null?void 0:o.reactions)!=null&&c.includes(t))&&(o.reactions??(o.reactions=[])).push(t),o.version>t.version)return!0}}i||F(t,W)}return!1}function Oi(t,e,n){throw t}function Mt(t){var h;var e=R,n=z,i=ne,r=A,o=me,a=V,c=_,d=t.f;R=null,z=0,ne=null,A=d&(j|Re)?null:t,me=!ye&&(d&le)!==0,V=null,_=t.ctx;try{var l=(0,t.fn)(),s=t.deps;if(R!==null){var u;if(Ee(t,z),s!==null&&z>0)for(s.length=z+R.length,u=0;u<R.length;u++)s[z+u]=R[u];else t.deps=s=R;if(!me)for(u=z;u<s.length;u++)((h=s[u]).reactions??(h.reactions=[])).push(t)}else s!==null&&z<s.length&&(Ee(t,z),s.length=z);return l}finally{R=e,z=n,ne=i,A=r,me=o,V=a,_=c}}function Hi(t,e){let n=e.reactions;if(n!==null){var i=n.indexOf(t);if(i!==-1){var r=n.length-1;r===0?n=e.reactions=null:(n[i]=n[r],n.pop())}}n===null&&e.f&J&&(R===null||!R.includes(e))&&(F(e,be),e.f&(le|He)||(e.f^=He),Ee(e,0))}function Ee(t,e){var n=t.deps;if(n!==null)for(var i=e;i<n.length;i++)Hi(t,n[i])}function $e(t){var e=t.f;if(!(e&Qe)){F(t,W);var n=b;b=t;try{e&vn?Wi(t):kt(t),wt(t),vt(t);var i=Mt(t);t.teardown=typeof i=="function"?i:null,t.version=_t}catch(r){Oi(r)}finally{b=n}}}function Li(){Pe>1e3&&(Pe=0,ci()),Pe++}function ji(t){var e=t.length;if(e!==0){Li();var n=ye;ye=!0;try{for(var i=0;i<e;i++){var r=t[i];r.f&W||(r.f^=W);var o=[];It(r,o),Fi(o)}}finally{ye=n}}}function Fi(t){var e=t.length;if(e!==0)for(var n=0;n<e;n++){var i=t[n];!(i.f&(Qe|Z))&&Ae(i)&&($e(i),i.deps===null&&i.first===null&&i.nodes_start===null&&(i.teardown===null?At(i):i.fn=null))}}function Ui(){if(Ue=!1,Pe>1001)return;const t=fn;fn=[],ji(t),Ue||(Pe=0)}function Je(t){Ue||(Ue=!0,queueMicrotask(Ui));for(var e=t;e.parent!==null;){e=e.parent;var n=e.f;if(n&(Re|j)){if(!(n&W))return;e.f^=W}}fn.push(e)}function It(t,e){var n=t.first,i=[];e:for(;n!==null;){var r=n.f,o=(r&j)!==0,a=o&&(r&W)!==0;if(!a&&!(r&Z))if(r&qe){o?n.f^=W:Ae(n)&&$e(n);var c=n.first;if(c!==null){n=c;continue}}else r&ot&&i.push(n);var d=n.next;if(d===null){let u=n.parent;for(;u!==null;){if(t===u)break e;var l=u.next;if(l!==null){n=l;continue e}u=u.parent}}n=d}for(var s=0;s<i.length;s++)c=i[s],e.push(c),It(c,e)}function g(t){var c;var e=t.f,n=(e&J)!==0;if(n&&e&Qe){var i=ft(t);return Tn(t),i}if(A!==null){V!==null&&V.includes(t)&&pi();var r=A.deps;R===null&&r!==null&&r[z]===t?z++:R===null?R=[t]:R.push(t),ne!==null&&b!==null&&b.f&W&&!(b.f&j)&&ne.includes(t)&&(F(b,te),Je(b))}else if(n&&t.deps===null){var o=t,a=o.parent;a!==null&&!((c=a.deriveds)!=null&&c.includes(o))&&(a.deriveds??(a.deriveds=[])).push(o)}return n&&(o=t,Ae(o)&&mt(o)),t.v}function ae(t){const e=A;try{return A=null,t()}finally{A=e}}const Gi=~(te|be|W);function F(t,e){t.f=t.f&Gi|e}function Nn(t,e=1){var n=+g(t);return M(t,n+e),n}function en(t,e=!1,n){_={p:_,c:null,e:null,m:!1,s:t,x:null,l:null},ve&&!e&&(_.l={s:null,u:null,r1:[],r2:O(!1)})}function nn(t){const e=_;if(e!==null){const a=e.e;if(a!==null){var n=b,i=A;e.e=null;try{for(var r=0;r<a.length;r++){var o=a[r];K(o.effect),ie(o.reaction),Cn(o.fn)}}finally{K(n),ie(i)}}_=e.p,e.m=!0}return{}}function Zi(t){if(!(typeof t!="object"||!t||t instanceof EventTarget)){if(oe in t)mn(t);else if(!Array.isArray(t))for(let e in t){const n=t[e];typeof n=="object"&&n&&oe in n&&mn(n)}}}function mn(t,e=new Set){if(typeof t=="object"&&t!==null&&!(t instanceof EventTarget)&&!e.has(t)){e.add(t),t instanceof Date&&t.getTime();for(let i in t)try{mn(t[i],e)}catch{}const n=Oe(t);if(n!==Object.prototype&&n!==Array.prototype&&n!==Map.prototype&&n!==Set.prototype&&n!==Date.prototype){const i=rt(n);for(let r in i){const o=i[r].get;if(o)try{o.call(t)}catch{}}}}}let On=!1;function Vi(){On||(On=!0,document.addEventListener("reset",t=>{Promise.resolve().then(()=>{var e;if(!t.defaultPrevented)for(const n of t.target.elements)(e=n.__on_r)==null||e.call(n)})},{capture:!0}))}function St(t){var e=A,n=b;ie(null),K(null);try{return t()}finally{ie(e),K(n)}}function Et(t,e,n,i=n){t.addEventListener(e,()=>St(n));const r=t.__on_r;r?t.__on_r=()=>{r(),i()}:t.__on_r=i,Vi()}const Ki=new Set,Hn=new Set;function Xi(t,e,n,i){function r(o){if(i.capture||_e.call(e,o),!o.cancelBubble)return St(()=>n.call(this,o))}return t.startsWith("pointer")||t.startsWith("touch")||t==="wheel"?xt(()=>{e.addEventListener(t,r,i)}):e.addEventListener(t,r,i),r}function Ge(t,e,n,i,r){var o={capture:i,passive:r},a=Xi(t,e,n,o);(e===document.body||e===window||e===document)&&Ri(()=>{e.removeEventListener(t,a,o)})}function _e(t){var P;var e=this,n=e.ownerDocument,i=t.type,r=((P=t.composedPath)==null?void 0:P.call(t))||[],o=r[0]||t.target,a=0,c=t.__root;if(c){var d=r.indexOf(c);if(d!==-1&&(e===document||e===window)){t.__root=e;return}var l=r.indexOf(e);if(l===-1)return;d<=l&&(a=d)}if(o=r[a]||t.target,o!==e){Xt(t,"currentTarget",{configurable:!0,get(){return o||n}});var s=A,u=b;ie(null),K(null);try{for(var h,p=[];o!==null;){var f=o.assignedSlot||o.parentNode||o.host||null;try{var m=o["__"+i];if(m!==void 0&&!o.disabled)if(yn(m)){var[y,...v]=m;y.apply(o,[t,...v])}else m.call(o,t)}catch(I){h?p.push(I):h=I}if(t.cancelBubble||f===e||f===null)break;o=f}if(h){for(let I of p)queueMicrotask(()=>{throw I});throw h}}finally{t.__root=e,delete t.currentTarget,ie(s),K(u)}}}function Yi(t){var e=document.createElement("template");return e.innerHTML=t,e.content}function Ln(t,e){var n=b;n.nodes_start===null&&(n.nodes_start=t,n.nodes_end=e)}function de(t,e){var n=(e&xi)!==0,i=(e&_i)!==0,r,o=!t.startsWith("<!>");return()=>{r===void 0&&(r=Yi(o?t:"<!>"+t),n||(r=Le(r)));var a=i?document.importNode(r,!0):r.cloneNode(!0);if(n){var c=Le(a),d=a.lastChild;Ln(c,d)}else Ln(a,a);return a}}function re(t,e){t!==null&&t.before(e)}const Ji=["touchstart","touchmove"];function er(t){return Ji.includes(t)}function fe(t,e){var n=e==null?"":typeof e=="object"?e+"":e;n!==(t.__t??(t.__t=t.nodeValue))&&(t.__t=n,t.nodeValue=n==null?"":n+"")}function nr(t,e){return tr(t,e)}const ue=new Map;function tr(t,{target:e,anchor:n,props:i={},events:r,context:o,intro:a=!0}){Mi();var c=new Set,d=u=>{for(var h=0;h<u.length;h++){var p=u[h];if(!c.has(p)){c.add(p);var f=er(p);e.addEventListener(p,_e,{passive:f});var m=ue.get(p);m===void 0?(document.addEventListener(p,_e,{passive:f}),ue.set(p,1)):ue.set(p,m+1)}}};d(bn(Ki)),Hn.add(d);var l=void 0,s=$i(()=>{var u=n??e.appendChild(Ii());return Se(()=>{if(o){en({});var h=_;h.c=o}r&&(i.$$events=r),l=t(u,i)||{},o&&nn()}),()=>{var f;for(var h of c){e.removeEventListener(h,_e);var p=ue.get(h);--p===0?(document.removeEventListener(h,_e),ue.delete(h)):ue.set(h,p)}Hn.delete(d),jn.delete(l),u!==n&&((f=u.parentNode)==null||f.removeChild(u))}});return jn.set(l,s),l}let jn=new WeakMap;function qt(t,e,n,i=null,r=!1){var o=t,a=null,c=null,d=null,l=r?wn:0;xn(()=>{d!==(d=!!e())&&(d?(a?Fe(a):a=Se(()=>n(o)),c&&hn(c,()=>{c=null})):(c?Fe(c):i&&(c=Se(()=>i(o))),a&&hn(a,()=>{a=null})))},l)}function ir(t,e){return e}function rr(t,e,n,i){for(var r=[],o=e.length,a=0;a<o;a++)_n(e[a].e,r,!0);var c=o>0&&r.length===0&&n!==null;if(c){var d=n.parentNode;Ei(d),d.append(n),i.clear(),ee(t,e[0].prev,e[o-1].next)}Tt(r,()=>{for(var l=0;l<o;l++){var s=e[l];c||(i.delete(s.k),ee(t,s.prev,s.next)),ce(s.e,!c)}})}function or(t,e,n,i,r,o=null){var a=t,c={flags:e,items:new Map,first:null},d=null,l=!1;xn(()=>{var s=n(),u=yn(s)?s:s==null?[]:bn(s),h=u.length;if(!(l&&h===0)){l=h===0;{var p=A;ar(u,c,a,r,e,(p.f&Z)!==0,i)}o!==null&&(h===0?d?Fe(d):d=Se(()=>o(a)):d!==null&&hn(d,()=>{d=null})),n()}})}function ar(t,e,n,i,r,o,a){var c=t.length,d=e.items,l=e.first,s=l,u,h=null,p=[],f=[],m,y,v,P;for(P=0;P<c;P+=1){if(m=t[P],y=a(m,P),v=d.get(y),v===void 0){var I=s?s.e.nodes_start:n;h=lr(I,e,h,h===null?e.first:h.next,m,y,P,i,r),d.set(y,h),p=[],f=[],s=h.next;continue}if(sr(v,m,P),v.e.f&Z&&Fe(v.e),v!==s){if(u!==void 0&&u.has(v)){if(p.length<f.length){var B=f[0],x;h=B.prev;var E=p[0],q=p[p.length-1];for(x=0;x<p.length;x+=1)Fn(p[x],B,n);for(x=0;x<f.length;x+=1)u.delete(f[x]);ee(e,E.prev,q.next),ee(e,h,E),ee(e,q,B),s=B,h=q,P-=1,p=[],f=[]}else u.delete(v),Fn(v,s,n),ee(e,v.prev,v.next),ee(e,v,h===null?e.first:h.next),ee(e,h,v),h=v;continue}for(p=[],f=[];s!==null&&s.k!==y;)(o||!(s.e.f&Z))&&(u??(u=new Set)).add(s),f.push(s),s=s.next;if(s===null)continue;v=s}p.push(v),h=v,s=v.next}if(s!==null||u!==void 0){for(var w=u===void 0?[]:bn(u);s!==null;)(o||!(s.e.f&Z))&&w.push(s),s=s.next;var N=w.length;if(N>0){var X=null;rr(e,w,X,d)}}b.first=e.first&&e.first.e,b.last=h&&h.e}function sr(t,e,n,i){ct(t.v,e),t.i=n}function lr(t,e,n,i,r,o,a,c,d){var l=(d&yi)!==0,s=(d&vi)===0,u=l?s?An(r):O(r):r,h=d&bi?O(a):a,p={i:h,v:u,k:o,a:null,e:null,prev:n,next:i};try{return p.e=Se(()=>c(t,u,h),Pi),p.e.prev=n&&n.e,p.e.next=i&&i.e,n===null?e.first=p:(n.next=p,n.e.next=p.e),i!==null&&(i.prev=p,i.e.prev=p.e),p}finally{}}function Fn(t,e,n){for(var i=t.next?t.next.e.nodes_start:n,r=e?e.e.nodes_start:n,o=t.e.nodes_start;o!==i;){var a=Xe(o);r.before(o),o=a}}function ee(t,e,n){e===null?t.first=n:(e.next=n,e.e.next=n&&n.e),n!==null&&(n.prev=e,n.e.prev=e&&e.e)}function cr(t,e,n,i){var r=t.__attributes??(t.__attributes={});r[e]!==(r[e]=n)&&(n==null?t.removeAttribute(e):typeof n!="string"&&dr(t).includes(e)?t[e]=n:t.setAttribute(e,n))}var Un=new Map;function dr(t){var e=Un.get(t.nodeName);if(e)return e;Un.set(t.nodeName,e=[]);for(var n,i=Oe(t),r=Element.prototype;r!==i;){n=rt(i);for(var o in n)n[o].set&&e.push(o);i=Oe(i)}return e}function Gn(t,e,n){if(n){if(t.classList.contains(e))return;t.classList.add(e)}else{if(!t.classList.contains(e))return;t.classList.remove(e)}}function hr(t,e,n=e){var i=Ye();Et(t,"input",()=>{var r=Zn(t)?Vn(t.value):t.value;n(r),i&&r!==(r=e())&&(t.value=r??"")}),ke(()=>{var r=e();Zn(t)&&r===Vn(t.value)||t.type==="date"&&!r&&!t.value||r!==t.value&&(t.value=r??"")})}function ur(t,e,n=e){Et(t,"change",()=>{var i=t.checked;n(i)}),e()==null&&n(!1),ke(()=>{var i=e();t.checked=!!i})}function Zn(t){var e=t.type;return e==="number"||e==="range"}function Vn(t){return t===""?null:+t}function Kn(t,e){return t===e||(t==null?void 0:t[oe])===e}function pr(t={},e,n,i){return Cn(()=>{var r,o;return ke(()=>{r=o,o=[],ae(()=>{t!==n(...o)&&(e(t,...o),r&&Kn(n(...r),t)&&e(null,...r))})}),()=>{xt(()=>{o&&Kn(n(...o),t)&&e(null,...o)})}}),t}function Rt(t=!1){const e=_,n=e.l.u;if(!n)return;let i=()=>Zi(e.s);if(t){let r=0,o={};const a=je(()=>{let c=!1;const d=e.s;for(const l in d)d[l]!==o[l]&&(o[l]=d[l],c=!0);return c&&r++,r});i=()=>g(a)}n.b.length&&Qi(()=>{Xn(e,i),ln(n.b)}),dn(()=>{const r=ae(()=>n.m.map(ei));return()=>{for(const o of r)typeof o=="function"&&o()}}),n.a.length&&dn(()=>{Xn(e,i),ln(n.a)})}function Xn(t,e){if(t.l.s)for(const n of t.l.s)g(n);e()}let ze=!1;function fr(t){var e=ze;try{return ze=!1,[t(),ze]}finally{ze=e}}function Yn(t){for(var e=b,n=b;e!==null&&!(e.f&(j|Re));)e=e.parent;try{return K(e),t()}finally{K(n)}}function Ne(t,e,n,i){var q;var r=(n&wi)!==0,o=!ve||(n&ki)!==0,a=(n&Ti)!==0,c=(n&Ci)!==0,d=!1,l;a?[l,d]=fr(()=>t[e]):l=t[e];var s=oe in t||ri in t,u=((q=ge(t,e))==null?void 0:q.set)??(s&&a&&e in t?w=>t[e]=w:void 0),h=i,p=!0,f=!1,m=()=>(f=!0,p&&(p=!1,c?h=ae(i):h=i),h);l===void 0&&i!==void 0&&(u&&o&&di(),l=m(),u&&u(l));var y;if(o)y=()=>{var w=t[e];return w===void 0?m():(p=!0,f=!1,w)};else{var v=Yn(()=>(r?je:cn)(()=>t[e]));v.f|=ti,y=()=>{var w=g(v);return w!==void 0&&(h=void 0),w===void 0?h:w}}if(!(n&Ai))return y;if(u){var P=t.$$legacy;return function(w,N){return arguments.length>0?((!o||!N||P||d)&&u(N?y():w),w):y()}}var I=!1,B=!1,x=An(l),E=Yn(()=>je(()=>{var w=y(),N=g(x);return I?(I=!1,B=!0,N):(B=!1,x.v=w)}));return r||(E.equals=kn),function(w,N){if(arguments.length>0){const X=N?g(E):o&&a?pe(w):w;return E.equals(X)||(I=!0,M(x,X),f&&h!==void 0&&(h=X),ae(()=>g(E))),w}return g(E)}}function Qt(t){_===null&&zi(),ve&&_.l!==null?mr(_).m.push(t):dn(()=>{const e=ae(t);if(typeof e=="function")return e})}function mr(t){var e=t.l;return e.u??(e.u={a:[],b:[],m:[]})}const gr="5";typeof window<"u"&&(window.__svelte||(window.__svelte={v:new Set})).v.add(gr);mi();function $t(t){let e=t.length;for(;e!=0;){let n=Math.floor(Math.random()*e);e--,[t[e],t[n]]=[t[n],t[e]]}return t}function yr(t){const n=new Date().getTime()-t.getTime();if(n<0)throw new Error("The provided date is in the future.");const i=Math.floor(n/(1e3*60*60)),r=Math.floor(n%(1e3*60*60)/(1e3*60)),o=Math.floor(n%(1e3*60)/1e3);return[i.toString().padStart(2,"0"),r.toString().padStart(2,"0"),o.toString().padStart(2,"0")].join(":")}var br=de('<form class="svelte-sav0zk"><fieldset class="svelte-sav0zk"></fieldset> <footer class="svelte-sav0zk"><button type="submit" class="disabled:hidden svelte-sav0zk">Submit</button></footer></form>');function vr(t,e){en(e,!1);let n=Ne(e,"onSubmit",8),i=Ne(e,"answered",8,!1),r=Ne(e,"src",8),o=G(document.createElement("fieldset"));function a(l){l.preventDefault();const s=l.target;if(!(s instanceof HTMLFormElement))throw new Error("Not a form");const h=new FormData(s).get("answer");return n()(h==="correct"),!0}Qt(()=>{var u;lt(o,g(o).innerHTML=r());const l=g(o).querySelector("ul");if(!l)throw new Error("No answer set");const s=$t(Array.from(l.children));for(const h of s){const p=h.innerHTML,f=((u=h.textContent)==null?void 0:u.startsWith("✅"))??!1,m=document.createElement("label");m.className="grid grid-cols-[1.5rem,1fr] gap-x-2 items-baseline",m.innerHTML=p.replace(/[✅❌] /g,"");const y=document.createElement("input");y.type="radio",y.name="answer",y.required=!0,f&&(y.value="correct"),m.prepend(y),h.replaceChildren(m),h.className="mb-4",l.appendChild(h)}}),Rt();var c=br(),d=S(c);pr(d,l=>M(o,l),()=>g(o)),Y(()=>cr(c,"data-answered",i())),Ge("submit",c,a),re(t,c),nn()}const wr=`## Question: 1 of 127\r
 \r
 A patient has managed care insurance and has been referred to a specialist for gastric bypass surgery. Which of the following is needed to ensure payment?\r
 \r
@@ -7,7 +7,7 @@ A patient has managed care insurance and has been referred to a specialist for g
 - Concurrent review\r
 - Retrospective review\r
 \r
-## Question: 2 of 125\r
+## Question: 2 of 127\r
 \r
 In which of the following scenarios is it appropriate to release a patient's psychiatric records without the patient's consent?\r
 \r
@@ -16,7 +16,7 @@ In which of the following scenarios is it appropriate to release a patient's psy
 - When the patient admits themselves into a facility\r
 - When the patient is receiving hospice care\r
 \r
-## Question: 3 of 125\r
+## Question: 3 of 127\r
 \r
 Which of the following is a document used to analyze accounts receivable based on dates of service?\r
 \r
@@ -25,7 +25,7 @@ Which of the following is a document used to analyze accounts receivable based o
 - Itemized statement\r
 - ✅ Aging report\r
 \r
-## Question: 4 of 125\r
+## Question: 4 of 127\r
 \r
 A patient is covered by Medicare through managed care.\r
 Which of the following parts of Medicare includes this coverage?\r
@@ -35,7 +35,7 @@ Which of the following parts of Medicare includes this coverage?\r
 - ✅ Part C\r
 - Part D\r
 \r
-## Question: 5 of 125\r
+## Question: 5 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -54,7 +54,7 @@ Which of the following modifiers should the specialist use?\r
 - ✅ -80\r
 - -47\r
 \r
-## Question: 6 of 125\r
+## Question: 6 of 127\r
 \r
 Which of the following requires an authorization to release protected health information (PHI)?\r
 \r
@@ -63,7 +63,7 @@ Which of the following requires an authorization to release protected health inf
 - _Subpoena duces tecum_\r
 - Reporting communicable diseases\r
 \r
-## Question: 7 of 125\r
+## Question: 7 of 127\r
 \r
 Which of the following statements is true when determining patient financial responsibility by reviewing the remittance advice?\r
 \r
@@ -72,7 +72,7 @@ Which of the following statements is true when determining patient financial res
 - The difference between the billed amount and the allowed amount should be collected from the patient.\r
 - Claims not billed to a third-party payer within the correct time period should be collected from the patient.\r
 \r
-## Question: 8 of 125\r
+## Question: 8 of 127\r
 \r
 A billing and coding specialist is coding a claim for a provider who performed a hysterectomy and needs to determine whether the procedure was done by an excisional or laparoscopic procedure.\r
 \r
@@ -84,7 +84,7 @@ procedure code?\r
 - Code the procedure as excisional because the reimbursement will be greater\r
 - Review the provider's SOAP notes.\r
 \r
-## Question: 9 of 125\r
+## Question: 9 of 127\r
 \r
 A billing and coding specialist is reviewing a remittance advice that has a deductible of $100 indicated for one of the claims.\r
 The provider asks the specialist to write it off. Which of the following describes this scenario?\r
@@ -94,7 +94,7 @@ The provider asks the specialist to write it off. Which of the following describ
 - Adjudication\r
 - Spend down\r
 \r
-## Question: 10 of 125\r
+## Question: 10 of 127\r
 \r
 A billing and coding specialist is verifying coverage for a Medicare beneficiary. Which of the following determines Medicare coverage of services on a national level?\r
 \r
@@ -103,7 +103,7 @@ A billing and coding specialist is verifying coverage for a Medicare beneficiary
 - LCD\r
 - EDI\r
 \r
-## Question: 11 of 125\r
+## Question: 11 of 127\r
 \r
 Which of the following is a specified amount of money that a patient who has a preferred provider organization (PPO) plan is required to pay for each visit or medical service?\r
 \r
@@ -112,7 +112,7 @@ Which of the following is a specified amount of money that a patient who has a p
 - Coinsurance\r
 - Deductible\r
 \r
-## Question: 12 of 125\r
+## Question: 12 of 127\r
 \r
 For which of the following is the provider responsible?\r
 \r
@@ -121,7 +121,7 @@ For which of the following is the provider responsible?\r
 - Copay\r
 - Allowed amount\r
 \r
-## Question: 13 of 125\r
+## Question: 13 of 127\r
 \r
 A patient's employer has not submitted a premium payment for the company's commercial insurance plan. Which of the following is the claim\r
 status the provider will receive for any claims sent to the third-party payer?\r
@@ -131,7 +131,7 @@ status the provider will receive for any claims sent to the third-party payer?\r
 - ✅ Denied\r
 - Incomplete\r
 \r
-## Question: 14 of 125\r
+## Question: 14 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -149,7 +149,7 @@ A provider documents a simple repair of a superficial wound that is 2.5 cm long 
 - ✅ Upcoding\r
 - Auditing\r
 \r
-## Question: 15 of 125\r
+## Question: 15 of 127\r
 \r
 A billing and coding specialist is reviewing a letter from a patient's third-party payer about an emergency procedure that was performed for the\r
 patient. The letter states that preauthorization requirements were not met and the claim was denied. Which of the following actions should the\r
@@ -160,7 +160,7 @@ specialist take?\r
 - Bill the patient for services rendered.\r
 - Resubmit the bill to the third-party payer with a different CPT® code.\r
 \r
-## Question: 16 of 125\r
+## Question: 16 of 127\r
 \r
 Which of the following identifies improper payments made for CMS claims?\r
 \r
@@ -169,7 +169,7 @@ Which of the following identifies improper payments made for CMS claims?\r
 - ✅ Recovery Audit Contractors (RACs)\r
 - Medicare Administrative Contractors (MACs)\r
 \r
-## Question: 17 of 125\r
+## Question: 17 of 127\r
 \r
 A billing and coding specialist is completing a claim to be submitted for Blue Cross Blue Shield by a provider who used to be in private practice\r
 but was recently hired by a group practice. Which of the following is true regarding the provider's national provider identifier (NPI)?\r
@@ -179,7 +179,7 @@ but was recently hired by a group practice. Which of the following is true regar
 - Since the provider has joined a group, only the group's NPI is listed on the claim.\r
 - The provider's Social Security number can be substituted for the NPI temporarily.\r
 \r
-## Question: 18 of 125\r
+## Question: 18 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -200,7 +200,7 @@ A billing and coding specialist is reviewing the encounter form for a patient wh
 - ✅ E10.22\r
 - N18.6\r
 \r
-## Question: 19 of 125\r
+## Question: 19 of 127\r
 \r
 Which of the following should be included on a claim form that is sent from a specialist to a managed health care organization?\r
 \r
@@ -209,7 +209,7 @@ Which of the following should be included on a claim form that is sent from a sp
 - The referring provider's Social Security number (SSN)\r
 - ✅ The referring provider's national provider identifier (NPI)\r
 \r
-## Question: 20 of 125\r
+## Question: 20 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -229,7 +229,7 @@ ICD-10-CM codes should a billing and coding specialist assign to this patient?\r
 - ✅ O24.410\r
 - Z79.4, O24.410\r
 \r
-## Question: 21 of 125\r
+## Question: 21 of 127\r
 \r
 Which of the following terms describes the amount the patient must pay for a service when they have an insurance plan benefit that pays 70% of\r
 the allowed amount and the patient is responsible for 30% of the allowed amount?\r
@@ -239,7 +239,7 @@ the allowed amount and the patient is responsible for 30% of the allowed amount?
 - Premium\r
 - Copayment\r
 \r
-## Question: 22 of 125\r
+## Question: 22 of 127\r
 \r
 A married couple each have group insurance through their employers. The patient has an appointment with the provider. Which insurance\r
 should be used as primary for the appointment?\r
@@ -249,7 +249,7 @@ should be used as primary for the appointment?\r
 - The policy belonging to the person who has their birthday first in the calendar year\r
 - ✅ The patient's policy\r
 \r
-## Question: 23 of 125\r
+## Question: 23 of 127\r
 \r
 A provider accepts assignment for a patient who has a $10 copayment and has already met $100 of their $150 deductible. The office charge is\r
 $100 and the allowed amount is $70. How much should the provider's office adjust off the patient's account?\r
@@ -259,7 +259,7 @@ $100 and the allowed amount is $70. How much should the provider's office adjust
 - $10\r
 - $50\r
 \r
-## Question: 24 of 125\r
+## Question: 24 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -282,7 +282,7 @@ year-old patient?\r
 - -P4\r
 - -P6\r
 \r
-## Question: 25 of 125\r
+## Question: 25 of 127\r
 \r
 A billing and coding specialist is posting payments from an explanation of benefits (EOB).\r
 Which of the following equations determines how patient responsibility is calculated?\r
@@ -296,7 +296,7 @@ Which of the following equations determines how patient responsibility is calcul
 - Charged amount - Allowed amount - Adjustment amount = Patient responsibility\r
 > The allowed amount is reflected in the adjustment amount. Patient responsibility cannot be more than the allowed amount determined by the payments and adjustments deducted from the charged amount.\r
 \r
-## Question: 26 of 125\r
+## Question: 26 of 127\r
 \r
 When coding for outpatient and professional services and procedures, a billing and coding specialist must sequence the diagnosis codes\r
 according to ICD-10-CM guidelines. Which of the following describes the first listed diagnosis code on a claim?\r
@@ -306,7 +306,7 @@ according to ICD-10-CM guidelines. Which of the following describes the first li
 - Late effect\r
 - Assessment\r
 \r
-## Question: 27 of 125\r
+## Question: 27 of 127\r
 \r
 A billing and coding specialist is submitting a batch of claims to the\r
 clearinghouse and receives a report stating that three claims were rejected.\r
@@ -317,7 +317,7 @@ Which of the following actions should the specialist take?\r
 - Call the third-party payer to determine the reasons for rejection.\r
 - Appeal the rejections.\r
 \r
-## Question: 28 of 125\r
+## Question: 28 of 127\r
 \r
 Which of the following information is required to include on an Advance Beneficiary Notice (ABN) form?\r
 \r
@@ -326,7 +326,7 @@ Which of the following information is required to include on an Advance Benefici
 - ICD-10-CM codes\r
 - The reason a patient needs a procedure\r
 \r
-## Question: 29 of 125\r
+## Question: 29 of 127\r
 \r
 A billing and coding specialist is reviewing a claim edit report and identifies a rejection for missing patient demographic information. Which of\r
 the following missing pieces of patient demographic information would cause a rejection from the clearinghouse?\r
@@ -336,7 +336,7 @@ the following missing pieces of patient demographic information would cause a re
 - Apartment number\r
 - Emergency contact name\r
 \r
-## Question: 30 of 125\r
+## Question: 30 of 127\r
 \r
 Claims that are submitted without an NPI number will delay payment to the\r
 provider due to which of the following?\r
@@ -346,7 +346,7 @@ provider due to which of the following?\r
 - The number is used to identify the claim.\r
 - The number is used to preauthorize the service.\r
 \r
-## Question: 31 of 125\r
+## Question: 31 of 127\r
 \r
 The HIPAA Privacy Rule requires covered entities to track which of the following?\r
 \r
@@ -355,7 +355,7 @@ The HIPAA Privacy Rule requires covered entities to track which of the following
 - Coordination of care\r
 - Clinical trial participation\r
 \r
-## Question: 32 of 125\r
+## Question: 32 of 127\r
 \r
 Which of the following procedures refers to the removal of kidney stones?\r
 \r
@@ -364,7 +364,7 @@ Which of the following procedures refers to the removal of kidney stones?\r
 - ✅ Nephrolithotomy\r
 - Nephrotomy\r
 \r
-## Question: 33 of 125\r
+## Question: 33 of 127\r
 \r
 A billing and coding specialist is using an accounts receivable aging report to determine which accounts should be sent to collections.\r
 According to best practices, which of the following accounts should the specialist send to collections?\r
@@ -374,7 +374,7 @@ According to best practices, which of the following accounts should the speciali
 - An account that has a balance of $60 and is 45 days old\r
 - An account that has a balance of $500 and is 110 days old\r
 \r
-## Question: 34 of 125\r
+## Question: 34 of 127\r
 \r
 A billing and coding specialist is coding a claim for an autopsy.\r
 Which of the following CPT® codes should be included on the claim?\r
@@ -385,7 +385,7 @@ Which of the following CPT® codes should be included on the claim?\r
 - 81000 Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity,\r
   urobilinogen, any number of these constituents\r
 \r
-## Question: 35 of 125\r
+## Question: 35 of 127\r
 \r
 A provider orders a comprehensive metabolic panel for a 70-year-old patient who has Medicare as their primary insurance. Which of the\r
 following is required to inform the patient they may be responsible for payment?\r
@@ -395,7 +395,7 @@ following is required to inform the patient they may be responsible for payment?
 - Assignment of benefits\r
 - Claim form\r
 \r
-## Question: 36 of 125\r
+## Question: 36 of 127\r
 \r
 Which of the following actions by a billing and coding specialist is an example of fraud?\r
 \r
@@ -404,7 +404,7 @@ Which of the following actions by a billing and coding specialist is an example 
 - ✅ Billing for services not provided to obtain higher reimbursement\r
 - Billing noncovered services as covered services in error\r
 \r
-## Question: 37 of 125\r
+## Question: 37 of 127\r
 \r
 Which of the following is an electronic form that is used to post reimbursements?\r
 \r
@@ -413,7 +413,7 @@ Which of the following is an electronic form that is used to post reimbursements
 - CMS-1500 claim form\r
 - ✅ Electronic remittance advice (ERA)\r
 \r
-## Question: 38 of 125\r
+## Question: 38 of 127\r
 \r
 Which of the following does a patient sign to allow payment of claims directly to the provider?\r
 \r
@@ -422,7 +422,7 @@ Which of the following does a patient sign to allow payment of claims directly t
 - Notice of Privacy Practices (NPP)\r
 - Release of information form\r
 \r
-## Question: 39 of 125\r
+## Question: 39 of 127\r
 \r
 A billing and coding specialist is posting payments to accounts based on a remittance advice and discovers a denial of payment. Which of the\r
 following codes indicates why reimbursement was denied?\r
@@ -432,7 +432,7 @@ following codes indicates why reimbursement was denied?\r
 - Category II code\r
 - Taxonomy code\r
 \r
-## Question: 40 of 125\r
+## Question: 40 of 127\r
 \r
 A billing and coding specialist should identify that which of the following statements is correct regarding the filing limit for Medicaid?\r
 \r
@@ -441,7 +441,7 @@ A billing and coding specialist should identify that which of the following stat
 - There is no filing limit for Medicaid.\r
 - The filing limit is 90 days from the date of service.\r
 \r
-## Question: 41 of 125\r
+## Question: 41 of 127\r
 \r
 A patient was seen in an outpatient clinic for a cough, chest congestion, and a low-grade fever and was given the diagnosis of possible\r
 pneumonia. How should a billing and coding specialist code this encounter using ICD-10-CM?\r
@@ -451,7 +451,7 @@ pneumonia. How should a billing and coding specialist code this encounter using 
 - ✅ Cough, chest congestion, and low-grade fever\r
 - Possible pneumonia\r
 \r
-## Question: 42 of 125\r
+## Question: 42 of 127\r
 \r
 A provider documents a patient's response to questions about various parts of the body. A billing and coding specialists should identify that\r
 this information is included in which of the following sections of the note?\r
@@ -461,7 +461,7 @@ this information is included in which of the following sections of the note?\r
 - ✅ Review of systems\r
 - Comprehensive examination\r
 \r
-## Question: 43 of 125\r
+## Question: 43 of 127\r
 \r
 Many third-party payers require that a patient pay a set amount of eligible charges per year before the patient's health care plan will begin to\r
 pay benefits. This refers to which of the following terms?\r
@@ -471,7 +471,7 @@ pay benefits. This refers to which of the following terms?\r
 - ✅ Deductible\r
 - Copay\r
 \r
-## Question: 44 of 125\r
+## Question: 44 of 127\r
 \r
 A billing and coding specialist is preparing a claim for an esophagectomy.\r
 Which of the following types of service is being provided?\r
@@ -481,7 +481,7 @@ Which of the following types of service is being provided?\r
 - ✅ Removal\r
 - Repair\r
 \r
-## Question: 45 of 125\r
+## Question: 45 of 127\r
 \r
 A billing and coding specialist is posting a payment received from Medicare.\r
 The specialist should identify that which part of Medicare covers prescription costs?\r
@@ -491,7 +491,7 @@ The specialist should identify that which part of Medicare covers prescription c
 - Part C\r
 - ✅ Part D\r
 \r
-## Question: 46 of 125\r
+## Question: 46 of 127\r
 \r
 A billing and coding specialist is performing a coordination of benefits check.\r
 The patient has primary and secondary benefits. Which of the following applies to the guarantor?\r
@@ -501,7 +501,7 @@ The patient has primary and secondary benefits. Which of the following applies t
 - ✅ They are responsible for any charges that are incurred.\r
 - They are responsible for submitting the claim for the secondary third-party payer.\r
 \r
-## Question: 47 of 125\r
+## Question: 47 of 127\r
 \r
 Which of the following processes is used to verify patient benefits and insurance coverage for an outpatient procedure?\r
 \r
@@ -510,7 +510,7 @@ Which of the following processes is used to verify patient benefits and insuranc
 - Adjudication\r
 - Coordination of benefits\r
 \r
-## Question: 48 of 125\r
+## Question: 48 of 127\r
 \r
 A billing and coding specialist is processing a claim for a new patient who came to the office for a sore throat. The provider diagnosed the\r
 patient with tonsilitis and wrote a prescription for antibiotics. Which of the following codes should the specialist use?\r
@@ -520,7 +520,7 @@ patient with tonsilitis and wrote a prescription for antibiotics. Which of the f
 - ✅ 99203 Office or other outpatient visit for the evaluation and management of a new patient, which requires a medically appropriate history and/or examination and low level of medical decision making.\r
 - 99282 Emergency department visit for the evaluation and management of a patient, which requires a medically appropriate history and/or examination and straightforward level of medical decision making.\r
 \r
-## Question: 49 of 125\r
+## Question: 49 of 127\r
 \r
 A billing and coding specialist is evaluating code assignments for a batch of claims. Which of the following should the specialist consult as a\r
 resource to check for proper code assignment based on procedure-to-procedure (PTP) code pair edits and medically unlikely edits (MUEs)?\r
@@ -530,7 +530,7 @@ resource to check for proper code assignment based on procedure-to-procedure (PT
 - Medicare coverage database (MCD)\r
 - Office of the inspector General (OIG)\r
 \r
-## Question: 50 of 125\r
+## Question: 50 of 127\r
 \r
 A patient has a new diagnosis of hypothyroidism. In which of the following body systems is the thyroid gland located?\r
 \r
@@ -539,7 +539,7 @@ A patient has a new diagnosis of hypothyroidism. In which of the following body 
 - ✅ Endocrine system\r
 - Lymphatic system\r
 \r
-## Question: 51 of 125\r
+## Question: 51 of 127\r
 \r
 Which of the following government agencies is responsible for combating fraud and abuse in health insurance and health care delivery?\r
 \r
@@ -548,7 +548,7 @@ Which of the following government agencies is responsible for combating fraud an
 - Department of Health and Human Services (HHS)\r
 - Centers for Medicare and Medicaid Services (CMS)\r
 \r
-## Question: 52 of 125\r
+## Question: 52 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -568,7 +568,7 @@ cervical biopsy. Which of the following CPT® codes should the specialist use?\r
 - 58558, 58555-59\r
 - 58558-59, 58555\r
 \r
-## Question: 53 of 125\r
+## Question: 53 of 127\r
 \r
 A billing and coding specialist is contacted by a patient who requests a copy of\r
 the remittance advice for a recently adjudicated claim. Which of the following actions should the specialist take?\r
@@ -578,7 +578,7 @@ the remittance advice for a recently adjudicated claim. Which of the following a
 - Explain to the patient that this information cannot be released to them.\r
 - Refer the patient to their third-party payer for a copy of the remittance advice.\r
 \r
-## Question: 54 of 125\r
+## Question: 54 of 127\r
 \r
 Which of the following is the filing limit for claim submission for an outpatient service with TRICARE?\r
 \r
@@ -587,7 +587,7 @@ Which of the following is the filing limit for claim submission for an outpatien
 - Within 60 days from the date of service\r
 - Within 2 years from the date of service\r
 \r
-## Question: 55 of 125\r
+## Question: 55 of 127\r
 \r
 Which of the following is an example of a breach of patient confidentiality?\r
 \r
@@ -596,7 +596,7 @@ Which of the following is an example of a breach of patient confidentiality?\r
 - Releasing patient information to someone listed on the protected health information (PHI) disclosure form\r
 - Giving patient information to an employer for a workers' compensation claim\r
 \r
-## Question: 56 of 125\r
+## Question: 56 of 127\r
 \r
 A billing and coding specialist is analyzing the health of a practice's revenue cycle using an aging report.\r
 Which of the following categories of the report should contain the lowest percentage of accounts receivable?\r
@@ -606,7 +606,7 @@ Which of the following categories of the report should contain the lowest percen
 - 61 to 90 days\r
 - 0 to 30 days\r
 \r
-## Question: 57 of 125\r
+## Question: 57 of 127\r
 \r
 A billing and coding specialist is preparing a list of delinquent accounts over 300 days old that have received telephone calls, letters, and have\r
 been referred to a collection agency with no results. Which of the following is the term that describes accounts receivable that are deemed to\r
@@ -617,7 +617,7 @@ be "uncollectable"?\r
 - Improper payments\r
 - Open claims\r
 \r
-## Question: 58 of 125\r
+## Question: 58 of 127\r
 \r
 Which of the following is the purpose of coordination of benefits?\r
 \r
@@ -626,7 +626,7 @@ Which of the following is the purpose of coordination of benefits?\r
 - To collect and verify information about the patient and provider by sorting claims upon submission\r
 - To reduce the number of paper claims submitted\r
 \r
-## Question: 59 of 125\r
+## Question: 59 of 127\r
 \r
 Which of the following actions should a billing and coding specialist take when\r
 submitting a claim to Medicaid for a patient who has primary and secondary insurance coverage?\r
@@ -636,7 +636,7 @@ submitting a claim to Medicaid for a patient who has primary and secondary insur
 - Attach the remittance advice from the patient's most recent visit to confirm Medicaid eligibility.\r
 - Submit both claims simultaneously and then review the remittance advice from both to determine which one provided more coverage.\r
 \r
-## Question: 60 of 125\r
+## Question: 60 of 127\r
 \r
 Which of the following describes an insurance company that offers plans that pay health care providers who render services to patients?\r
 \r
@@ -645,7 +645,7 @@ Which of the following describes an insurance company that offers plans that pay
 - ✅ Third-party payer\r
 - Clearinghouse\r
 \r
-## Question: 61 of 125\r
+## Question: 61 of 127\r
 \r
 In which of the following departments should a patient be seen for a furuncle?\r
 \r
@@ -654,7 +654,7 @@ In which of the following departments should a patient be seen for a furuncle?\r
 - Otolaryngology\r
 - Gastroenterology\r
 \r
-## Question: 62 of 125\r
+## Question: 62 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -674,7 +674,7 @@ orders should the codes be reported on the claim form?\r
 - ✅ E11.319, Z79.4\r
 - Z79.4, E10.319\r
 \r
-## Question: 63 of 125\r
+## Question: 63 of 127\r
 \r
 A billing and coding specialist is preparing a claim for a participating provider whose billed amount is $175.00 for an encounter. The third-party\r
 payer's allowed amount is $90.00 for the service rendered, including a $20.00 copay. The specialist should recognize that which of the following\r
@@ -685,7 +685,7 @@ is the provider's write-off amount?\r
 - $70.00\r
 - ✅ $85.00\r
 \r
-## Question: 64 of 125\r
+## Question: 64 of 127\r
 \r
 Which of the following is proper supportive documentation for reporting CPT® and ICD-10-CM codes for the removal of a skin lesion?\r
 \r
@@ -694,7 +694,7 @@ Which of the following is proper supportive documentation for reporting CPT® an
 - Encounter form\r
 - Progress note\r
 \r
-## Question: 65 of 125\r
+## Question: 65 of 127\r
 \r
 Which of the following is a document about patient rights that is required to be signed by the patient to acknowledge receipt and can be\r
 provided to the patient upon request?\r
@@ -704,7 +704,7 @@ provided to the patient upon request?\r
 - UB-04 form\r
 - Medicare Summary Notice (MSN)\r
 \r
-## Question: 66 of 125\r
+## Question: 66 of 127\r
 \r
 Which of the following requires companies with 20 or more workers to offer employees who are laid off the ability to buy into the company's health insurance coverage for 18 months?\r
 \r
@@ -713,7 +713,7 @@ Which of the following requires companies with 20 or more workers to offer emplo
 - ✅ Consolidated Omnibus Budget Reconciliation Act of 1985 (COBRA)\r
 - Competitive medical plan (CMP)\r
 \r
-## Question: 67 of 125\r
+## Question: 67 of 127\r
 \r
 A billing and coding specialist is submitting an electronic claim for a procedure with modifier -22 for increased procedural services. Which of\r
 the following actions should the specialist take?\r
@@ -723,7 +723,7 @@ the following actions should the specialist take?\r
 - Inform the patient that the service is noncovered.\r
 - Remove modifier -22 and submit the claim.\r
 \r
-## Question: 68 of 125\r
+## Question: 68 of 127\r
 \r
 A billing and coding specialist is reviewing provider notes to complete a claim. They need clarification on whether the procedure performed\r
 was on the left side, right side, or bilaterally. Which of the following indicates laterality of the procedure for the claim?\r
@@ -733,7 +733,7 @@ was on the left side, right side, or bilaterally. Which of the following indicat
 - Pre-authorization\r
 - An add-on code\r
 \r
-## Question: 69 of 125\r
+## Question: 69 of 127\r
 \r
 A billing and coding specialist is reviewing an operative report for a patient who had a graft. Which of the following is a tissue transplanted\r
 from one person to another?\r
@@ -743,7 +743,7 @@ from one person to another?\r
 - Alloplastic graft\r
 - Xenograft\r
 \r
-## Question: 70 of 125\r
+## Question: 70 of 127\r
 \r
 A patient has health coverage through multiple third-party payers. A billing and coding specialist should identify that which of the following is\r
 the payer of last resort?\r
@@ -753,7 +753,7 @@ the payer of last resort?\r
 - Medicare\r
 - TRICARE\r
 \r
-## Question: 71 of 125\r
+## Question: 71 of 127\r
 \r
 A surgeon performed a cholecystectomy for a patient. The billing and coding specialist does not know whether to code for an open or laparoscopic cholecystectomy. The specialist should query the provider to prevent which of the following types of fraud or abuse?\r
 \r
@@ -762,7 +762,7 @@ A surgeon performed a cholecystectomy for a patient. The billing and coding spec
 - Bundling\r
 - Unbundling\r
 \r
-## Question: 72 of 125\r
+## Question: 72 of 127\r
 \r
 A billing and coding specialist is coding a consultation in the provider's office. The provider documented the appropriate history and exam,\r
 with low-level medical decision making. Which of the following Evaluation and Management (E/M) codes should the specialist report?\r
@@ -772,7 +772,7 @@ with low-level medical decision making. Which of the following Evaluation and Ma
 - ✅ 99243 Office or other outpatient consultation for a new or established patient, which requires a medically appropriate history and/or examination and low level of medical decision making.\r
 - 99291 Critical care, evaluation and management of the critically ill or critically injured patient; first 30-74 minutes.\r
 \r
-## Question: 73 of 125\r
+## Question: 73 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -790,7 +790,7 @@ A billing and coding specialist is preparing a claim for a colonoscopy. At the s
 - -22\r
 - -52\r
 \r
-## Question: 74 of 125\r
+## Question: 74 of 127\r
 \r
 Which of the following are required for professional services claims to specify the type of organization for the services rendered?\r
 \r
@@ -799,7 +799,7 @@ Which of the following are required for professional services claims to specify 
 - National provider identifier\r
 - Modifiers\r
 \r
-## Question: 75 of 125\r
+## Question: 75 of 127\r
 \r
 Vaccine products are included in which of the following code sets?\r
 \r
@@ -812,7 +812,7 @@ Vaccine products are included in which of the following code sets?\r
 - NDC\r
 > Vaccines are included in the CPT® code set, not NDC.\r
 \r
-## Question: 76 of 125\r
+## Question: 76 of 127\r
 \r
 Chronic kidney disease is included in which of the following code sets?\r
 \r
@@ -821,7 +821,7 @@ Chronic kidney disease is included in which of the following code sets?\r
 - ✅ ICD-10-CM\r
 - SNOMED\r
 \r
-## Question: 77 of 125\r
+## Question: 77 of 127\r
 \r
 Which of the following documents should a billing and coding specialist use to ensure that all payers are sending reimbursement within 45\r
 days of claim submission?\r
@@ -831,7 +831,7 @@ days of claim submission?\r
 - ✅ Aging report\r
 - Remittance advice\r
 \r
-## Question: 78 of 125\r
+## Question: 78 of 127\r
 \r
 A patient presents to a provider with chest pain and shortness of breath. After an unexpected EKG result, the provider calls a cardiologist and\r
 summarizes the patient's symptoms. Which of the following is a portion of HIPAA that allows the provider to speak to the cardiologist prior to\r
@@ -842,7 +842,7 @@ obtaining the patient's consent?\r
 - FERPA\r
 - ✅ Title II: Administrative Simplification\r
 \r
-## Question: 79 of 125\r
+## Question: 79 of 127\r
 \r
 HCPCS codes are used in which of the following health care settings?\r
 \r
@@ -855,7 +855,7 @@ HCPCS codes are used in which of the following health care settings?\r
 - Psychiatric facility\r
 > HCPCS codes are used in physician clinics not psychiatric facilities.\r
 \r
-## Question: 80 of 125\r
+## Question: 80 of 127\r
 \r
 Which of the following is a valid type of authorization used to release medical information to the judicial system?\r
 \r
@@ -864,7 +864,7 @@ Which of the following is a valid type of authorization used to release medical 
 - Signed release of information form\r
 - ✅ _Subpoena duces tecum_\r
 \r
-## Question: 81 of 125\r
+## Question: 81 of 127\r
 \r
 Which of the following security features is required during transmission of protected health information and medical claims to third-party payers?\r
 \r
@@ -873,7 +873,7 @@ Which of the following security features is required during transmission of prot
 - Electronic data interchange\r
 - ✅ Encryption\r
 \r
-## Question: 82 of 125\r
+## Question: 82 of 127\r
 \r
 A claim was denied due to termination of coverage. The patient had recently obtained new insurance. Which of the following actions should the billing and coding specialist take?\r
 \r
@@ -882,7 +882,7 @@ A claim was denied due to termination of coverage. The patient had recently obta
 - Resubmit the claim to the original third-party payer.\r
 - ✅ Obtain the patient's updated insurance and submit the claim to the new third-party payer.\r
 \r
-## Question: 83 of 125\r
+## Question: 83 of 127\r
 \r
 A billing and coding specialist is reviewing a claim for services provided on November 30. In reviewing the insurance information, the specialist\r
 notes the patient's eligibility date began on December 1. The specialist changing the date of service to December 1 is an example of which of\r
@@ -893,7 +893,7 @@ the following?\r
 - Compliance\r
 - ✅ Fraud\r
 \r
-## Question: 84 of 125\r
+## Question: 84 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -912,7 +912,7 @@ the following is the reason for the denial?\r
 - ✅ The modifier is not valid with the procedure.\r
 - Precertification was not obtained before services were performed.\r
 \r
-## Question: 85 of 125\r
+## Question: 85 of 127\r
 \r
 A billing and coding specialist is training a new specialist about submitting claims to a clearinghouse. Which of the following describes the\r
 process completed by the clearinghouse before submitting claims to a third-party payer?\r
@@ -922,7 +922,7 @@ process completed by the clearinghouse before submitting claims to a third-party
 - Reviewing claims to verify accurate payment has been received\r
 - ✅ Checking claims against payer edits for missing, incomplete, or invalid information\r
 \r
-## Question: 86 of 125\r
+## Question: 86 of 127\r
 \r
 Which of the following modifiers indicates that a patient has signed a Medicare Advance Beneficiary Notice (ABN)?\r
 \r
@@ -931,7 +931,7 @@ Which of the following modifiers indicates that a patient has signed a Medicare 
 - ✅ -GA Waiver of liability statement issued as required by payer policy\r
 - -32 Mandated services\r
 \r
-## Question: 87 of 125\r
+## Question: 87 of 127\r
 \r
 Which of the following is used to communicate why a claim line item was denied or paid differently than it was billed?\r
 \r
@@ -940,7 +940,7 @@ Which of the following is used to communicate why a claim line item was denied o
 - Provider taxonomy codes\r
 - Claim status review\r
 \r
-## Question: 88 of 125\r
+## Question: 88 of 127\r
 \r
 A billing and coding specialist is reviewing a Medicare remittance advice (RA) and discovers a denial due to medical necessity. Which of the\r
 following actions should the specialist take?\r
@@ -950,7 +950,7 @@ following actions should the specialist take?\r
 - Use the electronic data interchange (EDI) to verify eligibility of the patient's benefits.\r
 - Use a modifier to report the medical necessity.\r
 \r
-## Question: 89 of 125\r
+## Question: 89 of 127\r
 \r
 A billing and coding specialist is reviewing a patient's account and notes there is an outstanding balance that is 45 days old after third-party\r
 payer reimbursement. Which of the following actions should the specialist take?\r
@@ -960,7 +960,7 @@ payer reimbursement. Which of the following actions should the specialist take?\
 - Give the patient a waiver.\r
 - ✅ Send the patient an itemized statement to collect the outstanding balance.\r
 \r
-## Question: 90 of 125\r
+## Question: 90 of 127\r
 \r
 A billing and coding specialist is preparing a claim for an outpatient encounter. The patient was last seen in the office 2 years ago. Which of the\r
 following Evaluation and Management (E/M) codes should the specialist use?\r
@@ -970,7 +970,7 @@ following Evaluation and Management (E/M) codes should the specialist use?\r
 - ✅ 99213 Office or other outpatient visit for the evaluation and management of an established patient\r
 - 99203 Office or other outpatient visit for the evaluation and management of a new patient\r
 \r
-## Question: 91 of 125\r
+## Question: 91 of 127\r
 \r
 Which of the following are used to code provider and outpatient services?\r
 \r
@@ -979,7 +979,7 @@ Which of the following are used to code provider and outpatient services?\r
 - DRGs\r
 - ✅ CPT® codes\r
 \r
-## Question: 92 of 125\r
+## Question: 92 of 127\r
 \r
 A billing and coding specialist is collecting demographic information for a patient who lives in Hawaii and is an active duty service member.\r
 The specialist should identify that the insured has which of the following types of insurance?\r
@@ -989,7 +989,7 @@ The specialist should identify that the insured has which of the following types
 - TRICARE Reserve Select\r
 - ✅ TRICARE\r
 \r
-## Question: 93 of 125\r
+## Question: 93 of 127\r
 \r
 Which of the following describes the nature of a modifier?\r
 \r
@@ -998,7 +998,7 @@ Which of the following describes the nature of a modifier?\r
 - ✅ Indicates that an alteration to a service or procedure has occurred\r
 - Identifies new technology was used\r
 \r
-## Question: 94 of 125\r
+## Question: 94 of 127\r
 \r
 A billing and coding specialist is reviewing an electronic remittance advice (ERA).\r
 Which of the following gives additional information about the denial of reimbursement?\r
@@ -1008,7 +1008,7 @@ Which of the following gives additional information about the denial of reimburs
 - ✅ Remark code\r
 - Preauthorization\r
 \r
-## Question: 95 of 125\r
+## Question: 95 of 127\r
 \r
 Which of the following is a covered entity affected by HIPAA security rules?\r
 \r
@@ -1017,7 +1017,7 @@ Which of the following is a covered entity affected by HIPAA security rules?\r
 - A family member of a guarantor\r
 - ✅ A health care clearinghouse\r
 \r
-## Question: 96 of 125\r
+## Question: 96 of 127\r
 \r
 A patient's portion of the bill should be discussed with the patient before a procedure is performed for which of the following reasons?\r
 \r
@@ -1026,7 +1026,7 @@ A patient's portion of the bill should be discussed with the patient before a pr
 - To give the patient the option to negotiate their portion of the bill\r
 - ✅ To ensure the patient understands how much they are responsible to pay\r
 \r
-## Question: 97 of 125\r
+## Question: 97 of 127\r
 \r
 A patient has a history of breast cancer that has metastasized to the liver and is undergoing chemotherapy today for the liver cancer. Which of\r
 the following ICD-10-CM codes should be sequenced first?\r
@@ -1036,7 +1036,7 @@ the following ICD-10-CM codes should be sequenced first?\r
 - ✅ Z51.11 Chemotherapy\r
 - Z90.3 History of breast cancer\r
 \r
-## Question: 98 of 125\r
+## Question: 98 of 127\r
 \r
 A billing and coding specialist is determining patient financial responsibility for a claim. The billed amount is $1,800, the allowed amount is\r
 $750, and the patient paid a $20 copayment. There is a $500 deductible that has not been met, and the plan pays 80/20. Which of the following\r
@@ -1047,7 +1047,7 @@ is the total patient financial responsibility?\r
 - $170\r
 - $750\r
 \r
-## Question: 99 of 125\r
+## Question: 99 of 127\r
 \r
 A billing and coding specialist is processing a claim for a patient who has Medicare and Medicaid coverage. Which of the following is the type of\r
 claim that is automatically adjudicated by Medicare and forwarded to Medicaid?\r
@@ -1057,7 +1057,7 @@ claim that is automatically adjudicated by Medicare and forwarded to Medicaid?\r
 - Managed care\r
 - CHAMPVA\r
 \r
-## Question: 100 of 125\r
+## Question: 100 of 127\r
 \r
 A billing and coding specialist is preparing to create patient statements and has been asked to collect finance charges on any late payments.\r
 According to the Truth in Lending Act (TILA), which of the following is the way the finance charges must be disclosed on the statement?\r
@@ -1067,7 +1067,7 @@ According to the Truth in Lending Act (TILA), which of the following is the way 
 - ✅ As an annual percentage rate\r
 - As an amount no higher than the outstanding balance\r
 \r
-## Question: 101 of 125\r
+## Question: 101 of 127\r
 \r
 A patient is preauthorized to receive vitamin B12 injections from January 1 to May 31. On June 2, the provider prescribes an additional 6\r
 months of injections. In order for the patient to continue with coverage of care, which of the following should occur?\r
@@ -1077,7 +1077,7 @@ months of injections. In order for the patient to continue with coverage of care
 - The provider should go ahead with the injections due to medical necessity.\r
 - ✅ The patient's third-party payer should be contacted to obtain a new preauthorization.\r
 \r
-## Question: 102 of 125\r
+## Question: 102 of 127\r
 \r
 Which of the following describes the term "crossover" as it relates to Medicare?\r
 \r
@@ -1086,7 +1086,7 @@ Which of the following describes the term "crossover" as it relates to Medicare?
 - When a third-party payer pays for a service twice\r
 - When a third-party payer processes data to allow adjudication of a claim to occur\r
 \r
-## Question: 103 of 125\r
+## Question: 103 of 127\r
 \r
 Which of the following is the structure used for ICD-10-CM codes?\r
 \r
@@ -1095,7 +1095,7 @@ Which of the following is the structure used for ICD-10-CM codes?\r
 - 5 alpha-numeric characters\r
 - 2 letters\r
 \r
-## Question: 104 of 129\r
+## Question: 104 of 127\r
 \r
 Which of the following is issued to active duty uniformed service personnel for access to TRICARE benefits?\r
 \r
@@ -1104,7 +1104,7 @@ Which of the following is issued to active duty uniformed service personnel for 
 - Release of information\r
 - TRICARE Prime\r
 \r
-## Question: 105 of 125\r
+## Question: 105 of 127\r
 \r
 Which of the following types of diagnosis code is to identify the presence of a pacemaker?\r
 \r
@@ -1113,7 +1113,7 @@ Which of the following types of diagnosis code is to identify the presence of a 
 - Manifestation\r
 - ✅ Status\r
 \r
-## Question: 106 of 125\r
+## Question: 106 of 127\r
 \r
 Which of the following is the type of service code that can have three to five levels of service and covers office visits, hospital visits, and\r
 consultations?\r
@@ -1123,7 +1123,7 @@ consultations?\r
 - External causes of morbidity\r
 - ✅ Evaluation and Management\r
 \r
-## Question: 107 of 125\r
+## Question: 107 of 127\r
 \r
 A billing and coding specialist in an internal medicine practice is assisting a patient who is already collecting Social Security but will be turning\r
 65 in the next year and has questions about what Medicare will cover. The specialist should know that which of the following is the Medicare\r
@@ -1134,7 +1134,7 @@ benefit the patient will be enrolled in automatically?\r
 - Medicare Part C\r
 - Medicare Part D\r
 \r
-## Question: 108 of 125\r
+## Question: 108 of 127\r
 \r
 Complete the following question by referencing the coding exhibit.\r
 \r
@@ -1153,7 +1153,7 @@ resubmitting the claim?\r
 - Bill each service on a separate claim.\r
 - Add modifier -81 to the claim.\r
 \r
-## Question: 109 of 125\r
+## Question: 109 of 127\r
 \r
 A patient had an x-ray for a fractured arm. The documentation does not indicate if the x-ray was performed on the right or left arm. Which of\r
 the following actions should a billing and coding specialist take?\r
@@ -1163,7 +1163,7 @@ the following actions should a billing and coding specialist take?\r
 - Contact the patient.\r
 - ✅ Query the provider.\r
 \r
-## Question: 110 of 125\r
+## Question: 110 of 127\r
 \r
 A billing and coding specialist is coding a laceration repair and needs to determine the type of closure. The specialist queries the provider, who\r
 confirms retention sutures were used. The specialist should code which of the following types of closure?\r
@@ -1173,7 +1173,7 @@ confirms retention sutures were used. The specialist should code which of the fo
 - Partial-thickness (Epidermis and extending into the dermis) |\r
 - ✅ Complex (Layered closure requiring additional corrections)\r
 \r
-## Question: 111 of 125\r
+## Question: 111 of 127\r
 \r
 Coding manuals use which of the following conventions?\r
 \r
@@ -1182,7 +1182,7 @@ Coding manuals use which of the following conventions?\r
 - Laws\r
 - ✅ Fee schedules\r
 \r
-## Question: 112 of 125\r
+## Question: 112 of 127\r
 \r
 Which of the following introduced documentation guidelines to Medicare carriers to ensure that services paid for have been provided and\r
 were medically necessary?\r
@@ -1192,7 +1192,7 @@ were medically necessary?\r
 - ✅ CMS\r
 - AMA\r
 \r
-## Question: 113 of 125\r
+## Question: 113 of 127\r
 \r
 A billing and coding specialist is appealing a Medicare denial.\r
 Which of the following is the first step in the appeals process?\r
@@ -1202,7 +1202,7 @@ Which of the following is the first step in the appeals process?\r
 - Judicial review\r
 - ✅ Redetermination\r
 \r
-## Question: 114 of 125\r
+## Question: 114 of 127\r
 \r
 A billing and coding specialist is reviewing a remittance advice for a claim that was denied for medical necessity.\r
 Which of the following is an example of this type of error?\r
@@ -1212,7 +1212,7 @@ Which of the following is an example of this type of error?\r
 - ✅ The ICD-10-CM code for tonsillitis was listed with the CPT® code for an appendectomy.\r
 - Appendectomies are not covered by the patient's insurance plan.\r
 \r
-## Question: 115 of 125\r
+## Question: 115 of 127\r
 \r
 CPT® codes are used for which of the following concepts?\r
 \r
@@ -1221,7 +1221,7 @@ CPT® codes are used for which of the following concepts?\r
 - ✅ Revenue\r
 - Collections\r
 \r
-## Question: 116 of 125\r
+## Question: 116 of 127\r
 \r
 Which of the following is an example of an informational modifier?\r
 \r
@@ -1230,7 +1230,7 @@ Which of the following is an example of an informational modifier?\r
 - -TC Technical component\r
 - -82 Assistant surgeon (when qualified resident surgeon not available)\r
 \r
-## Question: 117 of 125\r
+## Question: 117 of 127\r
 \r
 An internal retrospective billing account audit prevents fraud and abuse by\r
 reviewing and comparing completed claim forms with which of the following?\r
@@ -1240,7 +1240,7 @@ reviewing and comparing completed claim forms with which of the following?\r
 - Documentation of compliance plans\r
 - An appeal letter\r
 \r
-## Question: 118 of 125\r
+## Question: 118 of 127\r
 \r
 Which of the following is a HIPAA compliance guideline affecting electronic health records?\r
 \r
@@ -1249,7 +1249,7 @@ Which of the following is a HIPAA compliance guideline affecting electronic heal
 - ✅ The electronic transmission and code set standards require every provider to use the health care transactions, code sets, and identifiers.\r
 - The Health Information Technology for Economic and Clinical Health (HITECH) Act encrypts provider-protected health information.\r
 \r
-## Question: 119 of 125\r
+## Question: 119 of 127\r
 \r
 Which of the following positions is required in a provider's office to comply with HIPAA regulations?\r
 \r
@@ -1258,7 +1258,7 @@ Which of the following positions is required in a provider's office to comply wi
 - Claims examiner\r
 - Chargemaster coordinator\r
 \r
-## Question: 120 of 125\r
+## Question: 120 of 127\r
 \r
 Two providers are having a conversation about a patient's test results at the nursing station. A different patient overhears them talking. This\r
 type of privacy exposure is known as which of the following?\r
@@ -1268,7 +1268,7 @@ type of privacy exposure is known as which of the following?\r
 - Malfeasance\r
 - Negligence\r
 \r
-## Question: 121 of 125\r
+## Question: 121 of 127\r
 \r
 A billing and coding specialist is preparing a small claims court case against a patient for a delinquent account in the amount of $6,500. Which\r
 of the following is a court order that allows payments on unsecured debt to be made directly from a defendant's paycheck?\r
@@ -1278,7 +1278,7 @@ of the following is a court order that allows payments on unsecured debt to be m
 - Automatic stay\r
 - Lien\r
 \r
-## Question: 122 of 125\r
+## Question: 122 of 127\r
 \r
 A billing and coding specialist is submitting claims through a clearinghouse. The specialist should identify that which of the following actions is\r
 performed by the clearinghouse?\r
@@ -1288,7 +1288,7 @@ performed by the clearinghouse?\r
 - Helping to develop U.S. standards for electronic data exchange\r
 - ✅ Scrubbing claims, translating them to a standard format, then sending them to various third-party payers\r
 \r
-## Question: 123 of 125\r
+## Question: 123 of 127\r
 \r
 Which of the following do providers use to electronically submit claims?\r
 \r
@@ -1297,7 +1297,7 @@ Which of the following do providers use to electronically submit claims?\r
 - CMS-1500 claim form\r
 - Electronic remittance advice (ERA)\r
 \r
-## Question: 124 of 125\r
+## Question: 124 of 127\r
 \r
 A billing and coding specialist is reviewing paperwork that indicates overpayment by Medicare for six patients over the past year. Which of the\r
 following describes this process?\r
@@ -1307,7 +1307,7 @@ following describes this process?\r
 - ✅ Audit\r
 - Adjudication\r
 \r
-## Question: 125 of 125\r
+## Question: 125 of 127\r
 \r
 Which of the following prohibits a provider from referring Medicare patients to a clinical laboratory service in which the provider has a\r
 financial interest?\r
@@ -1316,6 +1316,24 @@ financial interest?\r
 - Health Insurance Portability and Accountability Act (HIPAA)\r
 - Consolidated Omnibus Budget Reconciliation Act (COBRA)\r
 - ✅ Stark Law\r
+\r
+## Question: 126 of 127\r
+\r
+Which of the following coding manuals is used to identify products, supplies, and services?\r
+\r
+- ICD-10-CM\r
+- ✅ HCPCS Level II\r
+- ICD-10-PCS\r
+- CPT®\r
+\r
+## Question: 127 of 127\r
+\r
+Which of the following are used in coding manuals to support correct code assignment?\r
+\r
+- Claim forms\r
+- Add-on codes\r
+- Modifiers\r
+- ✅ Conventions\r
 `,kr=`## Question 1 of 100\r
 On a remittance advice form, which of the following is responsible for writing off the difference between the amount billed and the amount allowed by the agreement?\r
 - ✅ Provider\r
@@ -2493,4 +2511,4 @@ ${e}</tr>
 `}tablecell(e){const n=this.parser.parseInline(e.tokens),i=e.header?"th":"td";return(e.align?`<${i} align="${e.align}">`:`<${i}>`)+n+`</${i}>
 `}strong({tokens:e}){return`<strong>${this.parser.parseInline(e)}</strong>`}em({tokens:e}){return`<em>${this.parser.parseInline(e)}</em>`}codespan({text:e}){return`<code>${U(e,!0)}</code>`}br(e){return"<br>"}del({tokens:e}){return`<del>${this.parser.parseInline(e)}</del>`}link({href:e,title:n,tokens:i}){const r=this.parser.parseInline(i),o=nt(e);if(o===null)return r;e=o;let a='<a href="'+e+'"';return n&&(a+=' title="'+U(n)+'"'),a+=">"+r+"</a>",a}image({href:e,title:n,text:i}){const r=nt(e);if(r===null)return U(i);e=r;let o=`<img src="${e}" alt="${i}"`;return n&&(o+=` title="${U(n)}"`),o+=">",o}text(e){return"tokens"in e&&e.tokens?this.parser.parseInline(e.tokens):"escaped"in e&&e.escaped?e.text:U(e.text)}}class $n{strong({text:e}){return e}em({text:e}){return e}codespan({text:e}){return e}del({text:e}){return e}html({text:e}){return e}text({text:e}){return e}link({text:e}){return""+e}image({text:e}){return""+e}br(){return""}}class L{constructor(e){C(this,"options");C(this,"renderer");C(this,"textRenderer");this.options=e||he,this.options.renderer=this.options.renderer||new Ke,this.renderer=this.options.renderer,this.renderer.options=this.options,this.renderer.parser=this,this.textRenderer=new $n}static parse(e,n){return new L(n).parse(e)}static parseInline(e,n){return new L(n).parseInline(e)}parse(e,n=!0){var r,o;let i="";for(let a=0;a<e.length;a++){const c=e[a];if((o=(r=this.options.extensions)==null?void 0:r.renderers)!=null&&o[c.type]){const l=c,s=this.options.extensions.renderers[l.type].call({parser:this},l);if(s!==!1||!["space","hr","heading","code","table","blockquote","list","html","paragraph","text"].includes(l.type)){i+=s||"";continue}}const d=c;switch(d.type){case"space":{i+=this.renderer.space(d);continue}case"hr":{i+=this.renderer.hr(d);continue}case"heading":{i+=this.renderer.heading(d);continue}case"code":{i+=this.renderer.code(d);continue}case"table":{i+=this.renderer.table(d);continue}case"blockquote":{i+=this.renderer.blockquote(d);continue}case"list":{i+=this.renderer.list(d);continue}case"html":{i+=this.renderer.html(d);continue}case"paragraph":{i+=this.renderer.paragraph(d);continue}case"text":{let l=d,s=this.renderer.text(l);for(;a+1<e.length&&e[a+1].type==="text";)l=e[++a],s+=`
 `+this.renderer.text(l);n?i+=this.renderer.paragraph({type:"paragraph",raw:s,text:s,tokens:[{type:"text",raw:s,text:s,escaped:!0}]}):i+=s;continue}default:{const l='Token with "'+d.type+'" type was not found.';if(this.options.silent)return console.error(l),"";throw new Error(l)}}}return i}parseInline(e,n=this.renderer){var r,o;let i="";for(let a=0;a<e.length;a++){const c=e[a];if((o=(r=this.options.extensions)==null?void 0:r.renderers)!=null&&o[c.type]){const l=this.options.extensions.renderers[c.type].call({parser:this},c);if(l!==!1||!["escape","html","link","image","strong","em","codespan","br","del","text"].includes(c.type)){i+=l||"";continue}}const d=c;switch(d.type){case"escape":{i+=n.text(d);break}case"html":{i+=n.html(d);break}case"link":{i+=n.link(d);break}case"image":{i+=n.image(d);break}case"strong":{i+=n.strong(d);break}case"em":{i+=n.em(d);break}case"codespan":{i+=n.codespan(d);break}case"br":{i+=n.br(d);break}case"del":{i+=n.del(d);break}case"text":{i+=n.text(d);break}default:{const l='Token with "'+d.type+'" type was not found.';if(this.options.silent)return console.error(l),"";throw new Error(l)}}}return i}}class Ie{constructor(e){C(this,"options");C(this,"block");this.options=e||he}preprocess(e){return e}postprocess(e){return e}processAllTokens(e){return e}provideLexer(){return this.block?H.lex:H.lexInline}provideParser(){return this.block?L.parse:L.parseInline}}C(Ie,"passThroughHooks",new Set(["preprocess","postprocess","processAllTokens"]));class Xr{constructor(...e){C(this,"defaults",Mn());C(this,"options",this.setOptions);C(this,"parse",this.parseMarkdown(!0));C(this,"parseInline",this.parseMarkdown(!1));C(this,"Parser",L);C(this,"Renderer",Ke);C(this,"TextRenderer",$n);C(this,"Lexer",H);C(this,"Tokenizer",Ve);C(this,"Hooks",Ie);this.use(...e)}walkTokens(e,n){var r,o;let i=[];for(const a of e)switch(i=i.concat(n.call(this,a)),a.type){case"table":{const c=a;for(const d of c.header)i=i.concat(this.walkTokens(d.tokens,n));for(const d of c.rows)for(const l of d)i=i.concat(this.walkTokens(l.tokens,n));break}case"list":{const c=a;i=i.concat(this.walkTokens(c.items,n));break}default:{const c=a;(o=(r=this.defaults.extensions)==null?void 0:r.childTokens)!=null&&o[c.type]?this.defaults.extensions.childTokens[c.type].forEach(d=>{const l=c[d].flat(1/0);i=i.concat(this.walkTokens(l,n))}):c.tokens&&(i=i.concat(this.walkTokens(c.tokens,n)))}}return i}use(...e){const n=this.defaults.extensions||{renderers:{},childTokens:{}};return e.forEach(i=>{const r={...i};if(r.async=this.defaults.async||r.async||!1,i.extensions&&(i.extensions.forEach(o=>{if(!o.name)throw new Error("extension name required");if("renderer"in o){const a=n.renderers[o.name];a?n.renderers[o.name]=function(...c){let d=o.renderer.apply(this,c);return d===!1&&(d=a.apply(this,c)),d}:n.renderers[o.name]=o.renderer}if("tokenizer"in o){if(!o.level||o.level!=="block"&&o.level!=="inline")throw new Error("extension level must be 'block' or 'inline'");const a=n[o.level];a?a.unshift(o.tokenizer):n[o.level]=[o.tokenizer],o.start&&(o.level==="block"?n.startBlock?n.startBlock.push(o.start):n.startBlock=[o.start]:o.level==="inline"&&(n.startInline?n.startInline.push(o.start):n.startInline=[o.start]))}"childTokens"in o&&o.childTokens&&(n.childTokens[o.name]=o.childTokens)}),r.extensions=n),i.renderer){const o=this.defaults.renderer||new Ke(this.defaults);for(const a in i.renderer){if(!(a in o))throw new Error(`renderer '${a}' does not exist`);if(["options","parser"].includes(a))continue;const c=a,d=i.renderer[c],l=o[c];o[c]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=l.apply(o,s)),u||""}}r.renderer=o}if(i.tokenizer){const o=this.defaults.tokenizer||new Ve(this.defaults);for(const a in i.tokenizer){if(!(a in o))throw new Error(`tokenizer '${a}' does not exist`);if(["options","rules","lexer"].includes(a))continue;const c=a,d=i.tokenizer[c],l=o[c];o[c]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=l.apply(o,s)),u}}r.tokenizer=o}if(i.hooks){const o=this.defaults.hooks||new Ie;for(const a in i.hooks){if(!(a in o))throw new Error(`hook '${a}' does not exist`);if(["options","block"].includes(a))continue;const c=a,d=i.hooks[c],l=o[c];Ie.passThroughHooks.has(a)?o[c]=s=>{if(this.defaults.async)return Promise.resolve(d.call(o,s)).then(h=>l.call(o,h));const u=d.call(o,s);return l.call(o,u)}:o[c]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=l.apply(o,s)),u}}r.hooks=o}if(i.walkTokens){const o=this.defaults.walkTokens,a=i.walkTokens;r.walkTokens=function(c){let d=[];return d.push(a.call(this,c)),o&&(d=d.concat(o.call(this,c))),d}}this.defaults={...this.defaults,...r}}),this}setOptions(e){return this.defaults={...this.defaults,...e},this}lexer(e,n){return H.lex(e,n??this.defaults)}parser(e,n){return L.parse(e,n??this.defaults)}parseMarkdown(e){return(i,r)=>{const o={...r},a={...this.defaults,...o},c=this.onError(!!a.silent,!!a.async);if(this.defaults.async===!0&&o.async===!1)return c(new Error("marked(): The async option was set to true by an extension. Remove async: false from the parse options object to return a Promise."));if(typeof i>"u"||i===null)return c(new Error("marked(): input parameter is undefined or null"));if(typeof i!="string")return c(new Error("marked(): input parameter is of type "+Object.prototype.toString.call(i)+", string expected"));a.hooks&&(a.hooks.options=a,a.hooks.block=e);const d=a.hooks?a.hooks.provideLexer():e?H.lex:H.lexInline,l=a.hooks?a.hooks.provideParser():e?L.parse:L.parseInline;if(a.async)return Promise.resolve(a.hooks?a.hooks.preprocess(i):i).then(s=>d(s,a)).then(s=>a.hooks?a.hooks.processAllTokens(s):s).then(s=>a.walkTokens?Promise.all(this.walkTokens(s,a.walkTokens)).then(()=>s):s).then(s=>l(s,a)).then(s=>a.hooks?a.hooks.postprocess(s):s).catch(c);try{a.hooks&&(i=a.hooks.preprocess(i));let s=d(i,a);a.hooks&&(s=a.hooks.processAllTokens(s)),a.walkTokens&&this.walkTokens(s,a.walkTokens);let u=l(s,a);return a.hooks&&(u=a.hooks.postprocess(u)),u}catch(s){return c(s)}}}onError(e,n){return i=>{if(i.message+=`
-Please report this to https://github.com/markedjs/marked.`,e){const r="<p>An error occurred:</p><pre>"+U(i.message+"",!0)+"</pre>";return n?Promise.resolve(r):r}if(n)return Promise.reject(i);throw i}}}const se=new Xr;function k(t,e){return se.parse(t,e)}k.options=k.setOptions=function(t){return se.setOptions(t),k.defaults=se.defaults,Wt(k.defaults),k};k.getDefaults=Mn;k.defaults=he;k.use=function(...t){return se.use(...t),k.defaults=se.defaults,Wt(k.defaults),k};k.walkTokens=function(t,e){return se.walkTokens(t,e)};k.parseInline=se.parseInline;k.Parser=L;k.parser=L.parse;k.Renderer=Ke;k.TextRenderer=$n;k.Lexer=H;k.lexer=H.lex;k.Tokenizer=Ve;k.Hooks=Ie;k.parse=k;k.options;k.setOptions;k.use;k.walkTokens;k.parseInline;L.parse;H.lex;var Yr=de('<div class="svelte-1fic553"><!></div>'),Jr=de('<fieldset class="fancy"><legend> </legend> <!></fieldset>'),eo=de('<h2 style="font-size: 1.5rem; font-weight: medium; margin: 0">Final Score</h2> <div style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 1rem" class="score svelte-1fic553"> </div> <table style="margin: auto"><tbody><tr><th>Correct</th><td> </td></tr><tr><th>Incorrect</th><td> </td></tr></tbody></table>',1),no=de('<article><nav class="svelte-1fic553"><button type="button" class="svelte-1fic553">Previous</button> <div class="timer svelte-1fic553">Timer <time class="svelte-1fic553"> </time></div> <button type="button" class="svelte-1fic553">Next</button></nav> <!></article>');function to(t,e){en(e,!1);let n=Ne(e,"num_questions",12,5),i=G(),r=G(0),o=G([]),a,c=G(),d=G("00:00:00"),l=G(!1);function s(){g(r)<=g(i).length&&Nn(r)}function u(x){return k(x,{async:!1}).split(/^<h2>.+<\/h2>\n/gm).filter(Boolean)}Qt(()=>{M(i,[...u(wr),...u(kr)]),$t(g(i)),M(i,g(i).slice(0,n())),n(g(i).length),M(o,new Array(n()).fill(void 0)),a=new Date,M(c,setInterval(()=>{M(d,yr(a))},1e3))});function h(x){lt(o,g(o)[g(r)]=x)}yt(()=>(g(l),g(o),g(c)),()=>{M(l,g(o).every(x=>typeof x=="boolean")),g(l)&&clearInterval(g(c))}),bt(),Rt();var p=no(),f=S(p),m=S(f),y=Q(m,2),v=Q(S(y)),P=S(v),I=Q(y,2),B=Q(f,2);qt(B,()=>g(r)<n(),x=>{var E=Jr(),q=S(E),w=S(q),N=Q(q,2);or(N,1,()=>g(i),ir,(X,on,De)=>{var Te=Yr(),an=S(Te),sn=cn(()=>typeof g(o)[g(r)]=="boolean");vr(an,{get src(){return g(on)},onSubmit:h,get answered(){return g(sn)}}),Y(()=>Gn(Te,"hidden",g(r)!==De)),re(X,Te)}),Y(()=>{E.disabled=typeof g(o)[g(r)]=="boolean",fe(w,`Question: ${g(r)+1} of ${n()??""}`)}),re(x,E)},x=>{var E=eo(),q=Q(Si(E),2);const w=cn(()=>g(o).filter(Boolean).length/n()*100<70);Y(()=>Gn(q,"failed",g(w)));var N=S(q);Y(()=>fe(N,`${(g(o).filter(Boolean).length/n()*100).toFixed(2)??""}%`));var X=Q(q,2),on=S(X),De=S(on),Te=Q(S(De)),an=S(Te);Y(()=>fe(an,`${g(o).filter(Boolean).length??""} out of ${n()??""}`));var sn=Q(De),Ft=Q(S(sn)),Ut=S(Ft);Y(()=>fe(Ut,`${g(o).filter(Gt=>!Gt).length??""} out of ${n()??""}`)),re(x,E)}),Y(()=>{m.disabled=g(r)===0,fe(P,g(d)),I.disabled=g(r)===n()||typeof g(o)[g(r)]!="boolean"}),Ge("click",m,()=>Nn(r,-1)),Ge("click",I,s),re(t,p),nn()}var io=de('<fieldset class="fancy flex flex-col items-center justify-center gap-2"><label for="numquestions">How many questions?</label> <input type="number" id="numquestions" min="1" class="pl-2 py-1 rounded border border-neutral-300 dark:border-neutral-600"> <button class="mt-4">Start</button></fieldset>'),ro=de('<main><header class="mb-6 grid grid-cols-[1fr,max-content,1fr] gap-4 justify-center items-center text-center"><div></div> <h1 class="mb-2 text-3xl font-bold">NHA Practice Test</h1> <label class="cursor-pointer text-lg inline-grid justify-self-end justify-center items-center text-center border p-2 rounded-full size-9 hover:bg-neutral-200 dark:hover:bg-neutral-700 leading-none"><input type="checkbox" class="hidden"> <small class="text-xs text-center block sr-only">Theme</small></label></header> <!></main>');function oo(t,e){en(e,!1);let n=G(225),i=G(!1),r=G(!1);yt(()=>g(r),()=>{document.documentElement.classList.toggle("dark",g(r))}),bt();var o=ro(),a=S(o),c=Q(S(a),4),d=S(c),l=Q(d),s=Q(a,2);qt(s,()=>!g(i),u=>{var h=io(),p=Q(S(h),2),f=Q(p,2);hr(p,()=>g(n),m=>M(n,m)),Ge("click",f,()=>M(i,!0)),re(u,h)},u=>{to(u,{get num_questions(){return g(n)}})}),Y(()=>fe(l,` ${(g(r)?"🌙":"☀️")??""} `)),ur(d,()=>g(r),u=>M(r,u)),re(t,o),nn()}nr(oo,{target:document.getElementById("app")});
+Please report this to https://github.com/markedjs/marked.`,e){const r="<p>An error occurred:</p><pre>"+U(i.message+"",!0)+"</pre>";return n?Promise.resolve(r):r}if(n)return Promise.reject(i);throw i}}}const se=new Xr;function k(t,e){return se.parse(t,e)}k.options=k.setOptions=function(t){return se.setOptions(t),k.defaults=se.defaults,Wt(k.defaults),k};k.getDefaults=Mn;k.defaults=he;k.use=function(...t){return se.use(...t),k.defaults=se.defaults,Wt(k.defaults),k};k.walkTokens=function(t,e){return se.walkTokens(t,e)};k.parseInline=se.parseInline;k.Parser=L;k.parser=L.parse;k.Renderer=Ke;k.TextRenderer=$n;k.Lexer=H;k.lexer=H.lex;k.Tokenizer=Ve;k.Hooks=Ie;k.parse=k;k.options;k.setOptions;k.use;k.walkTokens;k.parseInline;L.parse;H.lex;var Yr=de('<div class="svelte-1fic553"><!></div>'),Jr=de('<fieldset class="fancy"><legend> </legend> <!></fieldset>'),eo=de('<h2 style="font-size: 1.5rem; font-weight: medium; margin: 0">Final Score</h2> <div style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 1rem" class="score svelte-1fic553"> </div> <table style="margin: auto"><tbody><tr><th>Correct</th><td> </td></tr><tr><th>Incorrect</th><td> </td></tr></tbody></table>',1),no=de('<article><nav class="svelte-1fic553"><button type="button" class="svelte-1fic553">Previous</button> <div class="timer svelte-1fic553">Timer <time class="svelte-1fic553"> </time></div> <button type="button" class="svelte-1fic553">Next</button></nav> <!></article>');function to(t,e){en(e,!1);let n=Ne(e,"num_questions",12,5),i=G(),r=G(0),o=G([]),a,c=G(),d=G("00:00:00"),l=G(!1);function s(){g(r)<=g(i).length&&Nn(r)}function u(x){return k(x,{async:!1}).split(/^<h2>.+<\/h2>\n/gm).filter(Boolean)}Qt(()=>{M(i,[...u(wr),...u(kr)]),$t(g(i)),M(i,g(i).slice(0,n())),n(g(i).length),M(o,new Array(n()).fill(void 0)),a=new Date,M(c,setInterval(()=>{M(d,yr(a))},1e3))});function h(x){lt(o,g(o)[g(r)]=x)}yt(()=>(g(l),g(o),g(c)),()=>{M(l,g(o).every(x=>typeof x=="boolean")),g(l)&&clearInterval(g(c))}),bt(),Rt();var p=no(),f=S(p),m=S(f),y=Q(m,2),v=Q(S(y)),P=S(v),I=Q(y,2),B=Q(f,2);qt(B,()=>g(r)<n(),x=>{var E=Jr(),q=S(E),w=S(q),N=Q(q,2);or(N,1,()=>g(i),ir,(X,on,De)=>{var Te=Yr(),an=S(Te),sn=cn(()=>typeof g(o)[g(r)]=="boolean");vr(an,{get src(){return g(on)},onSubmit:h,get answered(){return g(sn)}}),Y(()=>Gn(Te,"hidden",g(r)!==De)),re(X,Te)}),Y(()=>{E.disabled=typeof g(o)[g(r)]=="boolean",fe(w,`Question: ${g(r)+1} of ${n()??""}`)}),re(x,E)},x=>{var E=eo(),q=Q(Si(E),2);const w=cn(()=>g(o).filter(Boolean).length/n()*100<70);Y(()=>Gn(q,"failed",g(w)));var N=S(q);Y(()=>fe(N,`${(g(o).filter(Boolean).length/n()*100).toFixed(2)??""}%`));var X=Q(q,2),on=S(X),De=S(on),Te=Q(S(De)),an=S(Te);Y(()=>fe(an,`${g(o).filter(Boolean).length??""} out of ${n()??""}`));var sn=Q(De),Ft=Q(S(sn)),Ut=S(Ft);Y(()=>fe(Ut,`${g(o).filter(Gt=>!Gt).length??""} out of ${n()??""}`)),re(x,E)}),Y(()=>{m.disabled=g(r)===0,fe(P,g(d)),I.disabled=g(r)===n()||typeof g(o)[g(r)]!="boolean"}),Ge("click",m,()=>Nn(r,-1)),Ge("click",I,s),re(t,p),nn()}var io=de('<fieldset class="fancy flex flex-col items-center justify-center gap-2"><label for="numquestions">How many questions?</label> <input type="number" id="numquestions" min="1" class="pl-2 py-1 rounded border border-neutral-300 dark:border-neutral-600"> <button class="mt-4">Start</button></fieldset>'),ro=de('<main><header class="mb-6 grid grid-cols-[1fr,max-content,1fr] gap-4 justify-center items-center text-center"><div></div> <h1 class="mb-2 text-3xl font-bold">NHA Practice Test</h1> <label class="cursor-pointer text-lg inline-grid justify-self-end justify-center items-center text-center border p-2 rounded-full size-9 hover:bg-neutral-200 dark:hover:bg-neutral-700 leading-none"><input type="checkbox" class="hidden"> <small class="text-xs text-center block sr-only">Theme</small></label></header> <!></main>');function oo(t,e){en(e,!1);let n=G(227),i=G(!1),r=G(!1);yt(()=>g(r),()=>{document.documentElement.classList.toggle("dark",g(r))}),bt();var o=ro(),a=S(o),c=Q(S(a),4),d=S(c),l=Q(d),s=Q(a,2);qt(s,()=>!g(i),u=>{var h=io(),p=Q(S(h),2),f=Q(p,2);hr(p,()=>g(n),m=>M(n,m)),Ge("click",f,()=>M(i,!0)),re(u,h)},u=>{to(u,{get num_questions(){return g(n)}})}),Y(()=>fe(l,` ${(g(r)?"🌙":"☀️")??""} `)),ur(d,()=>g(r),u=>M(r,u)),re(t,o),nn()}nr(oo,{target:document.getElementById("app")});
