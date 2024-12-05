@@ -1727,13 +1727,13 @@ A billing and coding specialist is reviewing delinquent claims and discovers tha
 > A claim that is pending due to recovery of benefits from a third party is a suspended claim. Since payment to the correct provider has been withheld until the third-party payer has recouped its payment from the incorrect provider, this claim is suspended.\r
 ## Question 37 of 100\r
 A child is brought into a facility by their mother. The child is covered under both parents’ insurance policies. The child's father was born on 10/1/1980 and their mother was born on 10/2/1981. Which of the following statements is true regarding the primary policy holder for the child?\r
-- ❌ The father is the primary policy holder because he is a year younger\r
+- ❌ The father is the primary policy holder because he is a year younger.\r
 > According to the birthday rule, the policyholder whose birthday month and day comes first in the calendar year is the primary policy holder for dependents. The year is not a factor.\r
 - ✅ The father is the primary policy holder because his birthday falls first in the calendar year.\r
 > According to the birthday rule, the policyholder whose birthday month and day comes first in the calendar year is the primary policy holder for dependents. Therefore, the father is the primary policy holder for the child.\r
-- ❌ The mother is the primary policy holder because she is t\r
+- ❌ The mother is the primary policy holder because she is the oldest\r
 > According to the birthday rule, the policyholder whose birthday month and day comes first in the calendar year is the primary policy holder for dependents. The year is not a factor.\r
-- ❌ The mother is the primary policy holder because she brought the child in for the ap\r
+- ❌ The mother is the primary policy holder because she brought the child in for the appointment.\r
 > According to the birthday rule, the policyholder whose birthday month and day that comes first in the calendar year is the primary policy holder for dependents.\r
 ## Question 38 of 100\r
 A billing and coding specialist is preparing a claim for a procedure with a prolonged operative time that has modifier -22 attached. Which of the following actions should the specialist take?\r
