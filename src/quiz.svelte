@@ -3,6 +3,7 @@
   import Question from "./lib/Question.svelte";
   import baseline_test_md_string from "./markdown/nha-baseline.md?raw";
   import nha_practice_1_md_string from "./markdown/nha-practice-1.md?raw";
+  import nha_modules_md_string from "./markdown/nha-modules.md?raw";
   import { marked } from "marked";
   import { get_elapsed_time, shuffle } from "./lib/helpers";
 
@@ -34,12 +35,11 @@
       .filter(Boolean);
   }
 
-  // nha_practice_1_md_string
-
   onMount(() => {
     questions = [
       ...markdown_to_questions(baseline_test_md_string),
       ...markdown_to_questions(nha_practice_1_md_string),
+      ...markdown_to_questions(nha_modules_md_string),
     ];
     if (DO_SHUFFLE) shuffle(questions);
     questions = questions.slice(0, num_questions);
