@@ -2729,8 +2729,8 @@ A provider orders a bedside commode without further details. The supply company 
 - ❌ E0163 Commode chair, mobile or stationary, with fixed arms\r
 > This code describes a commode chair with fixed arms but is not extra wide or heavy duty.\r
 - ❌ E0165 Commode chair with detachable arms\r
-> ✅ This code describes a commode chair with detachable arms but is not extra wide or heavy duty.\r
-- E0168 Extra wide/heave duty commode chairs\r
+> This code describes a commode chair with detachable arms but is not extra wide or heavy duty.\r
+- ✅ E0168 Extra wide/heave duty commode chairs\r
 > This code describes a commode chair that is extra wide and/or heavy duty. Therefore, this fits the requirement from the provider.\r
 - ❌ E0171 Commode with seat lift mechanism\r
 > This code describes a commode chair that comes with an integrated seat lift mechanism, which was not a requirement from the provider.\r
