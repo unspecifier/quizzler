@@ -1,4 +1,4 @@
-var Zt=Object.defineProperty;var Vt=(t,e,n)=>e in t?Zt(t,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[e]=n;var C=(t,e,n)=>Vt(t,typeof e!="symbol"?e+"":e,n);(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))i(r);new MutationObserver(r=>{for(const o of r)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&i(a)}).observe(document,{childList:!0,subtree:!0});function n(r){const o={};return r.integrity&&(o.integrity=r.integrity),r.referrerPolicy&&(o.referrerPolicy=r.referrerPolicy),r.crossOrigin==="use-credentials"?o.credentials="include":r.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function i(r){if(r.ep)return;r.ep=!0;const o=n(r);fetch(r.href,o)}})();const Kt=!1;var yn=Array.isArray,bn=Array.from,Xt=Object.defineProperty,ge=Object.getOwnPropertyDescriptor,rt=Object.getOwnPropertyDescriptors,Yt=Object.prototype,Jt=Array.prototype,Oe=Object.getPrototypeOf;function ei(t){return t()}function ln(t){for(var e=0;e<t.length;e++)t[e]()}const J=2,ot=4,qe=8,vn=16,j=32,Re=64,le=128,He=256,W=512,te=1024,be=2048,Z=4096,Qe=8192,ni=16384,wn=32768,ti=65536,ii=1<<18,at=1<<19,oe=Symbol("$state"),ri=Symbol("legacy props");function st(t){return t===this.v}function oi(t,e){return t!=t?e==e:t!==e||t!==null&&typeof t=="object"||typeof t=="function"}function kn(t){return!oi(t,this.v)}function ai(t){throw new Error("effect_in_teardown")}function si(){throw new Error("effect_in_unowned_derived")}function li(t){throw new Error("effect_orphan")}function ci(){throw new Error("effect_update_depth_exceeded")}function di(t){throw new Error("props_invalid_value")}function hi(){throw new Error("state_descriptors_fixed")}function ui(){throw new Error("state_prototype_fixed")}function pi(){throw new Error("state_unsafe_local_read")}function fi(){throw new Error("state_unsafe_mutation")}let ve=!1;function mi(){ve=!0}function O(t){return{f:0,v:t,reactions:null,equals:st,version:0}}function An(t,e=!1){var i;const n=O(t);return e||(n.equals=kn),ve&&_!==null&&_.l!==null&&((i=_.l).s??(i.s=[])).push(n),n}function G(t,e=!1){return gi(An(t,e))}function gi(t){return A!==null&&A.f&J&&(V===null?Bi([t]):V.push(t)),t}function lt(t,e){return M(t,ae(()=>g(t))),e}function M(t,e){return A!==null&&Ye()&&A.f&(J|vn)&&(V===null||!V.includes(t))&&fi(),ct(t,e)}function ct(t,e){return t.equals(e)||(t.v=e,t.version=Pt(),dt(t,te),Ye()&&b!==null&&b.f&W&&!(b.f&j)&&(R!==null&&R.includes(t)?(F(b,te),Je(b)):ne===null?Ni([t]):ne.push(t))),e}function dt(t,e){var n=t.reactions;if(n!==null)for(var i=Ye(),r=n.length,o=0;o<r;o++){var a=n[o],c=a.f;c&te||!i&&a===b||(F(a,e),c&(W|le)&&(c&J?dt(a,be):Je(a)))}}const yi=1,bi=2,vi=16,wi=1,ki=2,Ai=4,Ti=8,Ci=16,xi=1,_i=2,D=Symbol();let Pi=!1;function pe(t,e=null,n){if(typeof t!="object"||t===null||oe in t)return t;const i=Oe(t);if(i!==Yt&&i!==Jt)return t;var r=new Map,o=yn(t),a=O(0);o&&r.set("length",O(t.length));var c;return new Proxy(t,{defineProperty(d,l,s){(!("value"in s)||s.configurable===!1||s.enumerable===!1||s.writable===!1)&&hi();var u=r.get(l);return u===void 0?(u=O(s.value),r.set(l,u)):M(u,pe(s.value,c)),!0},deleteProperty(d,l){var s=r.get(l);if(s===void 0)l in d&&r.set(l,O(D));else{if(o&&typeof l=="string"){var u=r.get("length"),h=Number(l);Number.isInteger(h)&&h<u.v&&M(u,h)}M(s,D),Wn(a)}return!0},get(d,l,s){var f;if(l===oe)return t;var u=r.get(l),h=l in d;if(u===void 0&&(!h||(f=ge(d,l))!=null&&f.writable)&&(u=O(pe(h?d[l]:D,c)),r.set(l,u)),u!==void 0){var p=g(u);return p===D?void 0:p}return Reflect.get(d,l,s)},getOwnPropertyDescriptor(d,l){var s=Reflect.getOwnPropertyDescriptor(d,l);if(s&&"value"in s){var u=r.get(l);u&&(s.value=g(u))}else if(s===void 0){var h=r.get(l),p=h==null?void 0:h.v;if(h!==void 0&&p!==D)return{enumerable:!0,configurable:!0,value:p,writable:!0}}return s},has(d,l){var p;if(l===oe)return!0;var s=r.get(l),u=s!==void 0&&s.v!==D||Reflect.has(d,l);if(s!==void 0||b!==null&&(!u||(p=ge(d,l))!=null&&p.writable)){s===void 0&&(s=O(u?pe(d[l],c):D),r.set(l,s));var h=g(s);if(h===D)return!1}return u},set(d,l,s,u){var I;var h=r.get(l),p=l in d;if(o&&l==="length")for(var f=s;f<h.v;f+=1){var m=r.get(f+"");m!==void 0?M(m,D):f in d&&(m=O(D),r.set(f+"",m))}h===void 0?(!p||(I=ge(d,l))!=null&&I.writable)&&(h=O(void 0),M(h,pe(s,c)),r.set(l,h)):(p=h.v!==D,M(h,pe(s,c)));var y=Reflect.getOwnPropertyDescriptor(d,l);if(y!=null&&y.set&&y.set.call(u,s),!p){if(o&&typeof l=="string"){var v=r.get("length"),P=Number(l);Number.isInteger(P)&&P>=v.v&&M(v,P+1)}Wn(a)}return!0},ownKeys(d){g(a);var l=Reflect.ownKeys(d).filter(h=>{var p=r.get(h);return p===void 0||p.v!==D});for(var[s,u]of r)u.v!==D&&!(s in d)&&l.push(s);return l},setPrototypeOf(){ui()}})}function Wn(t,e=1){M(t,t.v+e)}var Dn,ht,ut;function Mi(){if(Dn===void 0){Dn=window;var t=Element.prototype,e=Node.prototype;ht=ge(e,"firstChild").get,ut=ge(e,"nextSibling").get,t.__click=void 0,t.__className="",t.__attributes=null,t.__styles=null,t.__e=void 0,Text.prototype.__t=void 0}}function Ii(t=""){return document.createTextNode(t)}function Le(t){return ht.call(t)}function Xe(t){return ut.call(t)}function S(t,e){return Le(t)}function Si(t,e){{var n=Le(t);return n instanceof Comment&&n.data===""?Xe(n):n}}function Q(t,e=1,n=!1){let i=t;for(;e--;)i=Xe(i);return i}function Ei(t){t.textContent=""}function je(t){var e=J|te;b===null?e|=le:b.f|=at;const n={children:null,ctx:_,deps:null,equals:st,f:e,fn:t,reactions:null,v:null,version:0,parent:b};if(A!==null&&A.f&J){var i=A;(i.children??(i.children=[])).push(n)}return n}function cn(t){const e=je(t);return e.equals=kn,e}function pt(t){var e=t.children;if(e!==null){t.children=null;for(var n=0;n<e.length;n+=1){var i=e[n];i.f&J?Tn(i):ce(i)}}}function ft(t){var e,n=b;K(t.parent);try{pt(t),e=Mt(t)}finally{K(n)}return e}function mt(t){var e=ft(t),n=(me||t.f&le)&&t.deps!==null?be:W;F(t,n),t.equals(e)||(t.v=e,t.version=Pt())}function Tn(t){pt(t),Ee(t,0),F(t,Qe),t.v=t.children=t.deps=t.ctx=t.reactions=null}function gt(t){b===null&&A===null&&li(),A!==null&&A.f&le&&si(),Pn&&ai()}function qi(t,e){var n=e.last;n===null?e.last=e.first=t:(n.next=t,t.prev=n,e.last=t)}function we(t,e,n,i=!0){var r=(t&Re)!==0,o=b,a={ctx:_,deps:null,deriveds:null,nodes_start:null,nodes_end:null,f:t|te,first:null,fn:e,last:null,next:null,parent:r?null:o,prev:null,teardown:null,transitions:null,version:0};if(n){var c=ye;try{zn(!0),$e(a),a.f|=ni}catch(s){throw ce(a),s}finally{zn(c)}}else e!==null&&Je(a);var d=n&&a.deps===null&&a.first===null&&a.nodes_start===null&&a.teardown===null&&(a.f&at)===0;if(!d&&!r&&i&&(o!==null&&qi(a,o),A!==null&&A.f&J)){var l=A;(l.children??(l.children=[])).push(a)}return a}function Ri(t){const e=we(qe,null,!1);return F(e,W),e.teardown=t,e}function dn(t){gt();var e=b!==null&&(b.f&j)!==0&&_!==null&&!_.m;if(e){var n=_;(n.e??(n.e=[])).push({fn:t,effect:b,reaction:A})}else{var i=Cn(t);return i}}function Qi(t){return gt(),ke(t)}function $i(t){const e=we(Re,t,!0);return()=>{ce(e)}}function Cn(t){return we(ot,t,!1)}function yt(t,e){var n=_,i={effect:null,ran:!1};n.l.r1.push(i),i.effect=ke(()=>{t(),!i.ran&&(i.ran=!0,M(n.l.r2,!0),ae(e))})}function bt(){var t=_;ke(()=>{if(g(t.l.r2)){for(var e of t.l.r1){var n=e.effect;n.f&W&&F(n,be),Ae(n)&&$e(n),e.ran=!1}t.l.r2.v=!1}})}function ke(t){return we(qe,t,!0)}function Y(t){return xn(t)}function xn(t,e=0){return we(qe|vn|e,t,!0)}function Se(t,e=!0){return we(qe|j,t,!0,e)}function vt(t){var e=t.teardown;if(e!==null){const n=Pn,i=A;Bn(!0),ie(null);try{e.call(null)}finally{Bn(n),ie(i)}}}function wt(t){var e=t.deriveds;if(e!==null){t.deriveds=null;for(var n=0;n<e.length;n+=1)Tn(e[n])}}function kt(t,e=!1){var n=t.first;for(t.first=t.last=null;n!==null;){var i=n.next;ce(n,e),n=i}}function Wi(t){for(var e=t.first;e!==null;){var n=e.next;e.f&j||ce(e),e=n}}function ce(t,e=!0){var n=!1;if((e||t.f&ii)&&t.nodes_start!==null){for(var i=t.nodes_start,r=t.nodes_end;i!==null;){var o=i===r?null:Xe(i);i.remove(),i=o}n=!0}kt(t,e&&!n),wt(t),Ee(t,0),F(t,Qe);var a=t.transitions;if(a!==null)for(const d of a)d.stop();vt(t);var c=t.parent;c!==null&&c.first!==null&&At(t),t.next=t.prev=t.teardown=t.ctx=t.deps=t.parent=t.fn=t.nodes_start=t.nodes_end=null}function At(t){var e=t.parent,n=t.prev,i=t.next;n!==null&&(n.next=i),i!==null&&(i.prev=n),e!==null&&(e.first===t&&(e.first=i),e.last===t&&(e.last=n))}function hn(t,e){var n=[];_n(t,n,!0),Tt(n,()=>{ce(t),e&&e()})}function Tt(t,e){var n=t.length;if(n>0){var i=()=>--n||e();for(var r of t)r.out(i)}else e()}function _n(t,e,n){if(!(t.f&Z)){if(t.f^=Z,t.transitions!==null)for(const a of t.transitions)(a.is_global||n)&&e.push(a);for(var i=t.first;i!==null;){var r=i.next,o=(i.f&wn)!==0||(i.f&j)!==0;_n(i,e,o?n:!1),i=r}}}function Fe(t){Ct(t,!0)}function Ct(t,e){if(t.f&Z){Ae(t)&&$e(t),t.f^=Z;for(var n=t.first;n!==null;){var i=n.next,r=(n.f&wn)!==0||(n.f&j)!==0;Ct(n,r?e:!1),n=i}if(t.transitions!==null)for(const o of t.transitions)(o.is_global||e)&&o.in()}}let un=!1,pn=[];function Di(){un=!1;const t=pn.slice();pn=[],ln(t)}function xt(t){un||(un=!0,queueMicrotask(Di)),pn.push(t)}function zi(t){throw new Error("lifecycle_outside_component")}let Ue=!1,ye=!1,Pn=!1;function zn(t){ye=t}function Bn(t){Pn=t}let fn=[],Pe=0;let A=null;function ie(t){A=t}let b=null;function K(t){b=t}let V=null;function Bi(t){V=t}let R=null,z=0,ne=null;function Ni(t){ne=t}let _t=0,me=!1,_=null;function Pt(){return++_t}function Ye(){return!ve||_!==null&&_.l===null}function Ae(t){var a,c;var e=t.f;if(e&te)return!0;if(e&be){var n=t.deps,i=(e&le)!==0;if(n!==null){var r;if(e&He){for(r=0;r<n.length;r++)((a=n[r]).reactions??(a.reactions=[])).push(t);t.f^=He}for(r=0;r<n.length;r++){var o=n[r];if(Ae(o)&&mt(o),i&&b!==null&&!me&&!((c=o==null?void 0:o.reactions)!=null&&c.includes(t))&&(o.reactions??(o.reactions=[])).push(t),o.version>t.version)return!0}}i||F(t,W)}return!1}function Oi(t,e,n){throw t}function Mt(t){var h;var e=R,n=z,i=ne,r=A,o=me,a=V,c=_,d=t.f;R=null,z=0,ne=null,A=d&(j|Re)?null:t,me=!ye&&(d&le)!==0,V=null,_=t.ctx;try{var l=(0,t.fn)(),s=t.deps;if(R!==null){var u;if(Ee(t,z),s!==null&&z>0)for(s.length=z+R.length,u=0;u<R.length;u++)s[z+u]=R[u];else t.deps=s=R;if(!me)for(u=z;u<s.length;u++)((h=s[u]).reactions??(h.reactions=[])).push(t)}else s!==null&&z<s.length&&(Ee(t,z),s.length=z);return l}finally{R=e,z=n,ne=i,A=r,me=o,V=a,_=c}}function Hi(t,e){let n=e.reactions;if(n!==null){var i=n.indexOf(t);if(i!==-1){var r=n.length-1;r===0?n=e.reactions=null:(n[i]=n[r],n.pop())}}n===null&&e.f&J&&(R===null||!R.includes(e))&&(F(e,be),e.f&(le|He)||(e.f^=He),Ee(e,0))}function Ee(t,e){var n=t.deps;if(n!==null)for(var i=e;i<n.length;i++)Hi(t,n[i])}function $e(t){var e=t.f;if(!(e&Qe)){F(t,W);var n=b;b=t;try{e&vn?Wi(t):kt(t),wt(t),vt(t);var i=Mt(t);t.teardown=typeof i=="function"?i:null,t.version=_t}catch(r){Oi(r)}finally{b=n}}}function Li(){Pe>1e3&&(Pe=0,ci()),Pe++}function ji(t){var e=t.length;if(e!==0){Li();var n=ye;ye=!0;try{for(var i=0;i<e;i++){var r=t[i];r.f&W||(r.f^=W);var o=[];It(r,o),Fi(o)}}finally{ye=n}}}function Fi(t){var e=t.length;if(e!==0)for(var n=0;n<e;n++){var i=t[n];!(i.f&(Qe|Z))&&Ae(i)&&($e(i),i.deps===null&&i.first===null&&i.nodes_start===null&&(i.teardown===null?At(i):i.fn=null))}}function Ui(){if(Ue=!1,Pe>1001)return;const t=fn;fn=[],ji(t),Ue||(Pe=0)}function Je(t){Ue||(Ue=!0,queueMicrotask(Ui));for(var e=t;e.parent!==null;){e=e.parent;var n=e.f;if(n&(Re|j)){if(!(n&W))return;e.f^=W}}fn.push(e)}function It(t,e){var n=t.first,i=[];e:for(;n!==null;){var r=n.f,o=(r&j)!==0,a=o&&(r&W)!==0;if(!a&&!(r&Z))if(r&qe){o?n.f^=W:Ae(n)&&$e(n);var c=n.first;if(c!==null){n=c;continue}}else r&ot&&i.push(n);var d=n.next;if(d===null){let u=n.parent;for(;u!==null;){if(t===u)break e;var l=u.next;if(l!==null){n=l;continue e}u=u.parent}}n=d}for(var s=0;s<i.length;s++)c=i[s],e.push(c),It(c,e)}function g(t){var c;var e=t.f,n=(e&J)!==0;if(n&&e&Qe){var i=ft(t);return Tn(t),i}if(A!==null){V!==null&&V.includes(t)&&pi();var r=A.deps;R===null&&r!==null&&r[z]===t?z++:R===null?R=[t]:R.push(t),ne!==null&&b!==null&&b.f&W&&!(b.f&j)&&ne.includes(t)&&(F(b,te),Je(b))}else if(n&&t.deps===null){var o=t,a=o.parent;a!==null&&!((c=a.deriveds)!=null&&c.includes(o))&&(a.deriveds??(a.deriveds=[])).push(o)}return n&&(o=t,Ae(o)&&mt(o)),t.v}function ae(t){const e=A;try{return A=null,t()}finally{A=e}}const Gi=~(te|be|W);function F(t,e){t.f=t.f&Gi|e}function Nn(t,e=1){var n=+g(t);return M(t,n+e),n}function en(t,e=!1,n){_={p:_,c:null,e:null,m:!1,s:t,x:null,l:null},ve&&!e&&(_.l={s:null,u:null,r1:[],r2:O(!1)})}function nn(t){const e=_;if(e!==null){const a=e.e;if(a!==null){var n=b,i=A;e.e=null;try{for(var r=0;r<a.length;r++){var o=a[r];K(o.effect),ie(o.reaction),Cn(o.fn)}}finally{K(n),ie(i)}}_=e.p,e.m=!0}return{}}function Zi(t){if(!(typeof t!="object"||!t||t instanceof EventTarget)){if(oe in t)mn(t);else if(!Array.isArray(t))for(let e in t){const n=t[e];typeof n=="object"&&n&&oe in n&&mn(n)}}}function mn(t,e=new Set){if(typeof t=="object"&&t!==null&&!(t instanceof EventTarget)&&!e.has(t)){e.add(t),t instanceof Date&&t.getTime();for(let i in t)try{mn(t[i],e)}catch{}const n=Oe(t);if(n!==Object.prototype&&n!==Array.prototype&&n!==Map.prototype&&n!==Set.prototype&&n!==Date.prototype){const i=rt(n);for(let r in i){const o=i[r].get;if(o)try{o.call(t)}catch{}}}}}let On=!1;function Vi(){On||(On=!0,document.addEventListener("reset",t=>{Promise.resolve().then(()=>{var e;if(!t.defaultPrevented)for(const n of t.target.elements)(e=n.__on_r)==null||e.call(n)})},{capture:!0}))}function St(t){var e=A,n=b;ie(null),K(null);try{return t()}finally{ie(e),K(n)}}function Et(t,e,n,i=n){t.addEventListener(e,()=>St(n));const r=t.__on_r;r?t.__on_r=()=>{r(),i()}:t.__on_r=i,Vi()}const Ki=new Set,Hn=new Set;function Xi(t,e,n,i){function r(o){if(i.capture||_e.call(e,o),!o.cancelBubble)return St(()=>n.call(this,o))}return t.startsWith("pointer")||t.startsWith("touch")||t==="wheel"?xt(()=>{e.addEventListener(t,r,i)}):e.addEventListener(t,r,i),r}function Ge(t,e,n,i,r){var o={capture:i,passive:r},a=Xi(t,e,n,o);(e===document.body||e===window||e===document)&&Ri(()=>{e.removeEventListener(t,a,o)})}function _e(t){var P;var e=this,n=e.ownerDocument,i=t.type,r=((P=t.composedPath)==null?void 0:P.call(t))||[],o=r[0]||t.target,a=0,c=t.__root;if(c){var d=r.indexOf(c);if(d!==-1&&(e===document||e===window)){t.__root=e;return}var l=r.indexOf(e);if(l===-1)return;d<=l&&(a=d)}if(o=r[a]||t.target,o!==e){Xt(t,"currentTarget",{configurable:!0,get(){return o||n}});var s=A,u=b;ie(null),K(null);try{for(var h,p=[];o!==null;){var f=o.assignedSlot||o.parentNode||o.host||null;try{var m=o["__"+i];if(m!==void 0&&!o.disabled)if(yn(m)){var[y,...v]=m;y.apply(o,[t,...v])}else m.call(o,t)}catch(I){h?p.push(I):h=I}if(t.cancelBubble||f===e||f===null)break;o=f}if(h){for(let I of p)queueMicrotask(()=>{throw I});throw h}}finally{t.__root=e,delete t.currentTarget,ie(s),K(u)}}}function Yi(t){var e=document.createElement("template");return e.innerHTML=t,e.content}function Ln(t,e){var n=b;n.nodes_start===null&&(n.nodes_start=t,n.nodes_end=e)}function de(t,e){var n=(e&xi)!==0,i=(e&_i)!==0,r,o=!t.startsWith("<!>");return()=>{r===void 0&&(r=Yi(o?t:"<!>"+t),n||(r=Le(r)));var a=i?document.importNode(r,!0):r.cloneNode(!0);if(n){var c=Le(a),d=a.lastChild;Ln(c,d)}else Ln(a,a);return a}}function re(t,e){t!==null&&t.before(e)}const Ji=["touchstart","touchmove"];function er(t){return Ji.includes(t)}function fe(t,e){var n=e==null?"":typeof e=="object"?e+"":e;n!==(t.__t??(t.__t=t.nodeValue))&&(t.__t=n,t.nodeValue=n==null?"":n+"")}function nr(t,e){return tr(t,e)}const ue=new Map;function tr(t,{target:e,anchor:n,props:i={},events:r,context:o,intro:a=!0}){Mi();var c=new Set,d=u=>{for(var h=0;h<u.length;h++){var p=u[h];if(!c.has(p)){c.add(p);var f=er(p);e.addEventListener(p,_e,{passive:f});var m=ue.get(p);m===void 0?(document.addEventListener(p,_e,{passive:f}),ue.set(p,1)):ue.set(p,m+1)}}};d(bn(Ki)),Hn.add(d);var l=void 0,s=$i(()=>{var u=n??e.appendChild(Ii());return Se(()=>{if(o){en({});var h=_;h.c=o}r&&(i.$$events=r),l=t(u,i)||{},o&&nn()}),()=>{var f;for(var h of c){e.removeEventListener(h,_e);var p=ue.get(h);--p===0?(document.removeEventListener(h,_e),ue.delete(h)):ue.set(h,p)}Hn.delete(d),jn.delete(l),u!==n&&((f=u.parentNode)==null||f.removeChild(u))}});return jn.set(l,s),l}let jn=new WeakMap;function qt(t,e,n,i=null,r=!1){var o=t,a=null,c=null,d=null,l=r?wn:0;xn(()=>{d!==(d=!!e())&&(d?(a?Fe(a):a=Se(()=>n(o)),c&&hn(c,()=>{c=null})):(c?Fe(c):i&&(c=Se(()=>i(o))),a&&hn(a,()=>{a=null})))},l)}function ir(t,e){return e}function rr(t,e,n,i){for(var r=[],o=e.length,a=0;a<o;a++)_n(e[a].e,r,!0);var c=o>0&&r.length===0&&n!==null;if(c){var d=n.parentNode;Ei(d),d.append(n),i.clear(),ee(t,e[0].prev,e[o-1].next)}Tt(r,()=>{for(var l=0;l<o;l++){var s=e[l];c||(i.delete(s.k),ee(t,s.prev,s.next)),ce(s.e,!c)}})}function or(t,e,n,i,r,o=null){var a=t,c={flags:e,items:new Map,first:null},d=null,l=!1;xn(()=>{var s=n(),u=yn(s)?s:s==null?[]:bn(s),h=u.length;if(!(l&&h===0)){l=h===0;{var p=A;ar(u,c,a,r,e,(p.f&Z)!==0,i)}o!==null&&(h===0?d?Fe(d):d=Se(()=>o(a)):d!==null&&hn(d,()=>{d=null})),n()}})}function ar(t,e,n,i,r,o,a){var c=t.length,d=e.items,l=e.first,s=l,u,h=null,p=[],f=[],m,y,v,P;for(P=0;P<c;P+=1){if(m=t[P],y=a(m,P),v=d.get(y),v===void 0){var I=s?s.e.nodes_start:n;h=lr(I,e,h,h===null?e.first:h.next,m,y,P,i,r),d.set(y,h),p=[],f=[],s=h.next;continue}if(sr(v,m,P),v.e.f&Z&&Fe(v.e),v!==s){if(u!==void 0&&u.has(v)){if(p.length<f.length){var B=f[0],x;h=B.prev;var E=p[0],q=p[p.length-1];for(x=0;x<p.length;x+=1)Fn(p[x],B,n);for(x=0;x<f.length;x+=1)u.delete(f[x]);ee(e,E.prev,q.next),ee(e,h,E),ee(e,q,B),s=B,h=q,P-=1,p=[],f=[]}else u.delete(v),Fn(v,s,n),ee(e,v.prev,v.next),ee(e,v,h===null?e.first:h.next),ee(e,h,v),h=v;continue}for(p=[],f=[];s!==null&&s.k!==y;)(o||!(s.e.f&Z))&&(u??(u=new Set)).add(s),f.push(s),s=s.next;if(s===null)continue;v=s}p.push(v),h=v,s=v.next}if(s!==null||u!==void 0){for(var w=u===void 0?[]:bn(u);s!==null;)(o||!(s.e.f&Z))&&w.push(s),s=s.next;var N=w.length;if(N>0){var X=null;rr(e,w,X,d)}}b.first=e.first&&e.first.e,b.last=h&&h.e}function sr(t,e,n,i){ct(t.v,e),t.i=n}function lr(t,e,n,i,r,o,a,c,d){var l=(d&yi)!==0,s=(d&vi)===0,u=l?s?An(r):O(r):r,h=d&bi?O(a):a,p={i:h,v:u,k:o,a:null,e:null,prev:n,next:i};try{return p.e=Se(()=>c(t,u,h),Pi),p.e.prev=n&&n.e,p.e.next=i&&i.e,n===null?e.first=p:(n.next=p,n.e.next=p.e),i!==null&&(i.prev=p,i.e.prev=p.e),p}finally{}}function Fn(t,e,n){for(var i=t.next?t.next.e.nodes_start:n,r=e?e.e.nodes_start:n,o=t.e.nodes_start;o!==i;){var a=Xe(o);r.before(o),o=a}}function ee(t,e,n){e===null?t.first=n:(e.next=n,e.e.next=n&&n.e),n!==null&&(n.prev=e,n.e.prev=e&&e.e)}function cr(t,e,n,i){var r=t.__attributes??(t.__attributes={});r[e]!==(r[e]=n)&&(n==null?t.removeAttribute(e):typeof n!="string"&&dr(t).includes(e)?t[e]=n:t.setAttribute(e,n))}var Un=new Map;function dr(t){var e=Un.get(t.nodeName);if(e)return e;Un.set(t.nodeName,e=[]);for(var n,i=Oe(t),r=Element.prototype;r!==i;){n=rt(i);for(var o in n)n[o].set&&e.push(o);i=Oe(i)}return e}function Gn(t,e,n){if(n){if(t.classList.contains(e))return;t.classList.add(e)}else{if(!t.classList.contains(e))return;t.classList.remove(e)}}function hr(t,e,n=e){var i=Ye();Et(t,"input",()=>{var r=Zn(t)?Vn(t.value):t.value;n(r),i&&r!==(r=e())&&(t.value=r??"")}),ke(()=>{var r=e();Zn(t)&&r===Vn(t.value)||t.type==="date"&&!r&&!t.value||r!==t.value&&(t.value=r??"")})}function ur(t,e,n=e){Et(t,"change",()=>{var i=t.checked;n(i)}),e()==null&&n(!1),ke(()=>{var i=e();t.checked=!!i})}function Zn(t){var e=t.type;return e==="number"||e==="range"}function Vn(t){return t===""?null:+t}function Kn(t,e){return t===e||(t==null?void 0:t[oe])===e}function pr(t={},e,n,i){return Cn(()=>{var r,o;return ke(()=>{r=o,o=[],ae(()=>{t!==n(...o)&&(e(t,...o),r&&Kn(n(...r),t)&&e(null,...r))})}),()=>{xt(()=>{o&&Kn(n(...o),t)&&e(null,...o)})}}),t}function Rt(t=!1){const e=_,n=e.l.u;if(!n)return;let i=()=>Zi(e.s);if(t){let r=0,o={};const a=je(()=>{let c=!1;const d=e.s;for(const l in d)d[l]!==o[l]&&(o[l]=d[l],c=!0);return c&&r++,r});i=()=>g(a)}n.b.length&&Qi(()=>{Xn(e,i),ln(n.b)}),dn(()=>{const r=ae(()=>n.m.map(ei));return()=>{for(const o of r)typeof o=="function"&&o()}}),n.a.length&&dn(()=>{Xn(e,i),ln(n.a)})}function Xn(t,e){if(t.l.s)for(const n of t.l.s)g(n);e()}let ze=!1;function fr(t){var e=ze;try{return ze=!1,[t(),ze]}finally{ze=e}}function Yn(t){for(var e=b,n=b;e!==null&&!(e.f&(j|Re));)e=e.parent;try{return K(e),t()}finally{K(n)}}function Ne(t,e,n,i){var q;var r=(n&wi)!==0,o=!ve||(n&ki)!==0,a=(n&Ti)!==0,c=(n&Ci)!==0,d=!1,l;a?[l,d]=fr(()=>t[e]):l=t[e];var s=oe in t||ri in t,u=((q=ge(t,e))==null?void 0:q.set)??(s&&a&&e in t?w=>t[e]=w:void 0),h=i,p=!0,f=!1,m=()=>(f=!0,p&&(p=!1,c?h=ae(i):h=i),h);l===void 0&&i!==void 0&&(u&&o&&di(),l=m(),u&&u(l));var y;if(o)y=()=>{var w=t[e];return w===void 0?m():(p=!0,f=!1,w)};else{var v=Yn(()=>(r?je:cn)(()=>t[e]));v.f|=ti,y=()=>{var w=g(v);return w!==void 0&&(h=void 0),w===void 0?h:w}}if(!(n&Ai))return y;if(u){var P=t.$$legacy;return function(w,N){return arguments.length>0?((!o||!N||P||d)&&u(N?y():w),w):y()}}var I=!1,B=!1,x=An(l),E=Yn(()=>je(()=>{var w=y(),N=g(x);return I?(I=!1,B=!0,N):(B=!1,x.v=w)}));return r||(E.equals=kn),function(w,N){if(arguments.length>0){const X=N?g(E):o&&a?pe(w):w;return E.equals(X)||(I=!0,M(x,X),f&&h!==void 0&&(h=X),ae(()=>g(E))),w}return g(E)}}function Qt(t){_===null&&zi(),ve&&_.l!==null?mr(_).m.push(t):dn(()=>{const e=ae(t);if(typeof e=="function")return e})}function mr(t){var e=t.l;return e.u??(e.u={a:[],b:[],m:[]})}const gr="5";typeof window<"u"&&(window.__svelte||(window.__svelte={v:new Set})).v.add(gr);mi();function $t(t){let e=t.length;for(;e!=0;){let n=Math.floor(Math.random()*e);e--,[t[e],t[n]]=[t[n],t[e]]}return t}function yr(t){const n=new Date().getTime()-t.getTime();if(n<0)throw new Error("The provided date is in the future.");const i=Math.floor(n/(1e3*60*60)),r=Math.floor(n%(1e3*60*60)/(1e3*60)),o=Math.floor(n%(1e3*60)/1e3);return[i.toString().padStart(2,"0"),r.toString().padStart(2,"0"),o.toString().padStart(2,"0")].join(":")}var br=de('<form class="svelte-sav0zk"><fieldset class="svelte-sav0zk"></fieldset> <footer class="svelte-sav0zk"><button type="submit" class="disabled:hidden svelte-sav0zk">Submit</button></footer></form>');function vr(t,e){en(e,!1);let n=Ne(e,"onSubmit",8),i=Ne(e,"answered",8,!1),r=Ne(e,"src",8),o=G(document.createElement("fieldset"));function a(l){l.preventDefault();const s=l.target;if(!(s instanceof HTMLFormElement))throw new Error("Not a form");const h=new FormData(s).get("answer");return n()(h==="correct"),!0}Qt(()=>{var u;lt(o,g(o).innerHTML=r());const l=g(o).querySelector("ul");if(!l)throw new Error("No answer set");const s=$t(Array.from(l.children));for(const h of s){const p=h.innerHTML,f=((u=h.textContent)==null?void 0:u.startsWith("✅"))??!1,m=document.createElement("label");m.className="grid grid-cols-[1.5rem,1fr] gap-x-2 items-baseline",m.innerHTML=p.replace(/[✅❌] /g,"");const y=document.createElement("input");y.type="radio",y.name="answer",y.required=!0,f&&(y.value="correct"),m.prepend(y),h.replaceChildren(m),h.className="mb-4",l.appendChild(h)}}),Rt();var c=br(),d=S(c);pr(d,l=>M(o,l),()=>g(o)),Y(()=>cr(c,"data-answered",i())),Ge("submit",c,a),re(t,c),nn()}const wr=`## Question: 1 of 127\r
+var Zi=Object.defineProperty;var Vi=(i,e,n)=>e in i?Zi(i,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):i[e]=n;var k=(i,e,n)=>Vi(i,typeof e!="symbol"?e+"":e,n);(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))t(r);new MutationObserver(r=>{for(const o of r)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&t(a)}).observe(document,{childList:!0,subtree:!0});function n(r){const o={};return r.integrity&&(o.integrity=r.integrity),r.referrerPolicy&&(o.referrerPolicy=r.referrerPolicy),r.crossOrigin==="use-credentials"?o.credentials="include":r.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function t(r){if(r.ep)return;r.ep=!0;const o=n(r);fetch(r.href,o)}})();const Ji=!1;var yn=Array.isArray,bn=Array.from,Ki=Object.defineProperty,ge=Object.getOwnPropertyDescriptor,ri=Object.getOwnPropertyDescriptors,Xi=Object.prototype,Yi=Array.prototype,Ne=Object.getPrototypeOf;function et(i){return i()}function cn(i){for(var e=0;e<i.length;e++)i[e]()}const Y=2,oi=4,qe=8,vn=16,L=32,Re=64,ce=128,Oe=256,D=512,ie=1024,be=2048,Z=4096,Qe=8192,nt=16384,wn=32768,it=65536,tt=1<<18,ai=1<<19,oe=Symbol("$state"),rt=Symbol("legacy props");function si(i){return i===this.v}function ot(i,e){return i!=i?e==e:i!==e||i!==null&&typeof i=="object"||typeof i=="function"}function Tn(i){return!ot(i,this.v)}function at(i){throw new Error("effect_in_teardown")}function st(){throw new Error("effect_in_unowned_derived")}function ct(i){throw new Error("effect_orphan")}function lt(){throw new Error("effect_update_depth_exceeded")}function dt(i){throw new Error("props_invalid_value")}function ht(){throw new Error("state_descriptors_fixed")}function ut(){throw new Error("state_prototype_fixed")}function pt(){throw new Error("state_unsafe_local_read")}function ft(){throw new Error("state_unsafe_mutation")}let ve=!1;function mt(){ve=!0}function N(i){return{f:0,v:i,reactions:null,equals:si,version:0}}function Cn(i,e=!1){var t;const n=N(i);return e||(n.equals=Tn),ve&&P!==null&&P.l!==null&&((t=P.l).s??(t.s=[])).push(n),n}function G(i,e=!1){return gt(Cn(i,e))}function gt(i){return C!==null&&C.f&Y&&(V===null?Ht([i]):V.push(i)),i}function ci(i,e){return _(i,ae(()=>g(i))),e}function _(i,e){return C!==null&&Xe()&&C.f&(Y|vn)&&(V===null||!V.includes(i))&&ft(),li(i,e)}function li(i,e){return i.equals(e)||(i.v=e,i.version=Mi(),di(i,ie),Xe()&&b!==null&&b.f&D&&!(b.f&L)&&(R!==null&&R.includes(i)?(F(b,ie),Ye(b)):ne===null?Bt([i]):ne.push(i))),e}function di(i,e){var n=i.reactions;if(n!==null)for(var t=Xe(),r=n.length,o=0;o<r;o++){var a=n[o],l=a.f;l&ie||!t&&a===b||(F(a,e),l&(D|ce)&&(l&Y?di(a,be):Ye(a)))}}const yt=1,bt=2,vt=16,wt=1,Tt=2,Ct=4,At=8,kt=16,xt=1,Pt=2,$=Symbol();let Mt=!1;function pe(i,e=null,n){if(typeof i!="object"||i===null||oe in i)return i;const t=Ne(i);if(t!==Xi&&t!==Yi)return i;var r=new Map,o=yn(i),a=N(0);o&&r.set("length",N(i.length));var l;return new Proxy(i,{defineProperty(d,c,s){(!("value"in s)||s.configurable===!1||s.enumerable===!1||s.writable===!1)&&ht();var u=r.get(c);return u===void 0?(u=N(s.value),r.set(c,u)):_(u,pe(s.value,l)),!0},deleteProperty(d,c){var s=r.get(c);if(s===void 0)c in d&&r.set(c,N($));else{if(o&&typeof c=="string"){var u=r.get("length"),h=Number(c);Number.isInteger(h)&&h<u.v&&_(u,h)}_(s,$),Dn(a)}return!0},get(d,c,s){var f;if(c===oe)return i;var u=r.get(c),h=c in d;if(u===void 0&&(!h||(f=ge(d,c))!=null&&f.writable)&&(u=N(pe(h?d[c]:$,l)),r.set(c,u)),u!==void 0){var p=g(u);return p===$?void 0:p}return Reflect.get(d,c,s)},getOwnPropertyDescriptor(d,c){var s=Reflect.getOwnPropertyDescriptor(d,c);if(s&&"value"in s){var u=r.get(c);u&&(s.value=g(u))}else if(s===void 0){var h=r.get(c),p=h==null?void 0:h.v;if(h!==void 0&&p!==$)return{enumerable:!0,configurable:!0,value:p,writable:!0}}return s},has(d,c){var p;if(c===oe)return!0;var s=r.get(c),u=s!==void 0&&s.v!==$||Reflect.has(d,c);if(s!==void 0||b!==null&&(!u||(p=ge(d,c))!=null&&p.writable)){s===void 0&&(s=N(u?pe(d[c],l):$),r.set(c,s));var h=g(s);if(h===$)return!1}return u},set(d,c,s,u){var I;var h=r.get(c),p=c in d;if(o&&c==="length")for(var f=s;f<h.v;f+=1){var m=r.get(f+"");m!==void 0?_(m,$):f in d&&(m=N($),r.set(f+"",m))}h===void 0?(!p||(I=ge(d,c))!=null&&I.writable)&&(h=N(void 0),_(h,pe(s,l)),r.set(c,h)):(p=h.v!==$,_(h,pe(s,l)));var y=Reflect.getOwnPropertyDescriptor(d,c);if(y!=null&&y.set&&y.set.call(u,s),!p){if(o&&typeof c=="string"){var v=r.get("length"),M=Number(c);Number.isInteger(M)&&M>=v.v&&_(v,M+1)}Dn(a)}return!0},ownKeys(d){g(a);var c=Reflect.ownKeys(d).filter(h=>{var p=r.get(h);return p===void 0||p.v!==$});for(var[s,u]of r)u.v!==$&&!(s in d)&&c.push(s);return c},setPrototypeOf(){ut()}})}function Dn(i,e=1){_(i,i.v+e)}var $n,hi,ui;function _t(){if($n===void 0){$n=window;var i=Element.prototype,e=Node.prototype;hi=ge(e,"firstChild").get,ui=ge(e,"nextSibling").get,i.__click=void 0,i.__className="",i.__attributes=null,i.__styles=null,i.__e=void 0,Text.prototype.__t=void 0}}function It(i=""){return document.createTextNode(i)}function je(i){return hi.call(i)}function Ke(i){return ui.call(i)}function S(i,e){return je(i)}function St(i,e){{var n=je(i);return n instanceof Comment&&n.data===""?Ke(n):n}}function Q(i,e=1,n=!1){let t=i;for(;e--;)t=Ke(t);return t}function Et(i){i.textContent=""}function Le(i){var e=Y|ie;b===null?e|=ce:b.f|=ai;const n={children:null,ctx:P,deps:null,equals:si,f:e,fn:i,reactions:null,v:null,version:0,parent:b};if(C!==null&&C.f&Y){var t=C;(t.children??(t.children=[])).push(n)}return n}function ln(i){const e=Le(i);return e.equals=Tn,e}function pi(i){var e=i.children;if(e!==null){i.children=null;for(var n=0;n<e.length;n+=1){var t=e[n];t.f&Y?An(t):le(t)}}}function fi(i){var e,n=b;J(i.parent);try{pi(i),e=_i(i)}finally{J(n)}return e}function mi(i){var e=fi(i),n=(me||i.f&ce)&&i.deps!==null?be:D;F(i,n),i.equals(e)||(i.v=e,i.version=Mi())}function An(i){pi(i),Ee(i,0),F(i,Qe),i.v=i.children=i.deps=i.ctx=i.reactions=null}function gi(i){b===null&&C===null&&ct(),C!==null&&C.f&ce&&st(),Mn&&at()}function qt(i,e){var n=e.last;n===null?e.last=e.first=i:(n.next=i,i.prev=n,e.last=i)}function we(i,e,n,t=!0){var r=(i&Re)!==0,o=b,a={ctx:P,deps:null,deriveds:null,nodes_start:null,nodes_end:null,f:i|ie,first:null,fn:e,last:null,next:null,parent:r?null:o,prev:null,teardown:null,transitions:null,version:0};if(n){var l=ye;try{zn(!0),We(a),a.f|=nt}catch(s){throw le(a),s}finally{zn(l)}}else e!==null&&Ye(a);var d=n&&a.deps===null&&a.first===null&&a.nodes_start===null&&a.teardown===null&&(a.f&ai)===0;if(!d&&!r&&t&&(o!==null&&qt(a,o),C!==null&&C.f&Y)){var c=C;(c.children??(c.children=[])).push(a)}return a}function Rt(i){const e=we(qe,null,!1);return F(e,D),e.teardown=i,e}function dn(i){gi();var e=b!==null&&(b.f&L)!==0&&P!==null&&!P.m;if(e){var n=P;(n.e??(n.e=[])).push({fn:i,effect:b,reaction:C})}else{var t=kn(i);return t}}function Qt(i){return gi(),Te(i)}function Wt(i){const e=we(Re,i,!0);return()=>{le(e)}}function kn(i){return we(oi,i,!1)}function yi(i,e){var n=P,t={effect:null,ran:!1};n.l.r1.push(t),t.effect=Te(()=>{i(),!t.ran&&(t.ran=!0,_(n.l.r2,!0),ae(e))})}function bi(){var i=P;Te(()=>{if(g(i.l.r2)){for(var e of i.l.r1){var n=e.effect;n.f&D&&F(n,be),Ce(n)&&We(n),e.ran=!1}i.l.r2.v=!1}})}function Te(i){return we(qe,i,!0)}function X(i){return xn(i)}function xn(i,e=0){return we(qe|vn|e,i,!0)}function Se(i,e=!0){return we(qe|L,i,!0,e)}function vi(i){var e=i.teardown;if(e!==null){const n=Mn,t=C;Hn(!0),te(null);try{e.call(null)}finally{Hn(n),te(t)}}}function wi(i){var e=i.deriveds;if(e!==null){i.deriveds=null;for(var n=0;n<e.length;n+=1)An(e[n])}}function Ti(i,e=!1){var n=i.first;for(i.first=i.last=null;n!==null;){var t=n.next;le(n,e),n=t}}function Dt(i){for(var e=i.first;e!==null;){var n=e.next;e.f&L||le(e),e=n}}function le(i,e=!0){var n=!1;if((e||i.f&tt)&&i.nodes_start!==null){for(var t=i.nodes_start,r=i.nodes_end;t!==null;){var o=t===r?null:Ke(t);t.remove(),t=o}n=!0}Ti(i,e&&!n),wi(i),Ee(i,0),F(i,Qe);var a=i.transitions;if(a!==null)for(const d of a)d.stop();vi(i);var l=i.parent;l!==null&&l.first!==null&&Ci(i),i.next=i.prev=i.teardown=i.ctx=i.deps=i.parent=i.fn=i.nodes_start=i.nodes_end=null}function Ci(i){var e=i.parent,n=i.prev,t=i.next;n!==null&&(n.next=t),t!==null&&(t.prev=n),e!==null&&(e.first===i&&(e.first=t),e.last===i&&(e.last=n))}function hn(i,e){var n=[];Pn(i,n,!0),Ai(n,()=>{le(i),e&&e()})}function Ai(i,e){var n=i.length;if(n>0){var t=()=>--n||e();for(var r of i)r.out(t)}else e()}function Pn(i,e,n){if(!(i.f&Z)){if(i.f^=Z,i.transitions!==null)for(const a of i.transitions)(a.is_global||n)&&e.push(a);for(var t=i.first;t!==null;){var r=t.next,o=(t.f&wn)!==0||(t.f&L)!==0;Pn(t,e,o?n:!1),t=r}}}function Fe(i){ki(i,!0)}function ki(i,e){if(i.f&Z){Ce(i)&&We(i),i.f^=Z;for(var n=i.first;n!==null;){var t=n.next,r=(n.f&wn)!==0||(n.f&L)!==0;ki(n,r?e:!1),n=t}if(i.transitions!==null)for(const o of i.transitions)(o.is_global||e)&&o.in()}}let un=!1,pn=[];function $t(){un=!1;const i=pn.slice();pn=[],cn(i)}function xi(i){un||(un=!0,queueMicrotask($t)),pn.push(i)}function zt(i){throw new Error("lifecycle_outside_component")}let Ue=!1,ye=!1,Mn=!1;function zn(i){ye=i}function Hn(i){Mn=i}let fn=[],Me=0;let C=null;function te(i){C=i}let b=null;function J(i){b=i}let V=null;function Ht(i){V=i}let R=null,z=0,ne=null;function Bt(i){ne=i}let Pi=0,me=!1,P=null;function Mi(){return++Pi}function Xe(){return!ve||P!==null&&P.l===null}function Ce(i){var a,l;var e=i.f;if(e&ie)return!0;if(e&be){var n=i.deps,t=(e&ce)!==0;if(n!==null){var r;if(e&Oe){for(r=0;r<n.length;r++)((a=n[r]).reactions??(a.reactions=[])).push(i);i.f^=Oe}for(r=0;r<n.length;r++){var o=n[r];if(Ce(o)&&mi(o),t&&b!==null&&!me&&!((l=o==null?void 0:o.reactions)!=null&&l.includes(i))&&(o.reactions??(o.reactions=[])).push(i),o.version>i.version)return!0}}t||F(i,D)}return!1}function Nt(i,e,n){throw i}function _i(i){var h;var e=R,n=z,t=ne,r=C,o=me,a=V,l=P,d=i.f;R=null,z=0,ne=null,C=d&(L|Re)?null:i,me=!ye&&(d&ce)!==0,V=null,P=i.ctx;try{var c=(0,i.fn)(),s=i.deps;if(R!==null){var u;if(Ee(i,z),s!==null&&z>0)for(s.length=z+R.length,u=0;u<R.length;u++)s[z+u]=R[u];else i.deps=s=R;if(!me)for(u=z;u<s.length;u++)((h=s[u]).reactions??(h.reactions=[])).push(i)}else s!==null&&z<s.length&&(Ee(i,z),s.length=z);return c}finally{R=e,z=n,ne=t,C=r,me=o,V=a,P=l}}function Ot(i,e){let n=e.reactions;if(n!==null){var t=n.indexOf(i);if(t!==-1){var r=n.length-1;r===0?n=e.reactions=null:(n[t]=n[r],n.pop())}}n===null&&e.f&Y&&(R===null||!R.includes(e))&&(F(e,be),e.f&(ce|Oe)||(e.f^=Oe),Ee(e,0))}function Ee(i,e){var n=i.deps;if(n!==null)for(var t=e;t<n.length;t++)Ot(i,n[t])}function We(i){var e=i.f;if(!(e&Qe)){F(i,D);var n=b;b=i;try{e&vn?Dt(i):Ti(i),wi(i),vi(i);var t=_i(i);i.teardown=typeof t=="function"?t:null,i.version=Pi}catch(r){Nt(r)}finally{b=n}}}function jt(){Me>1e3&&(Me=0,lt()),Me++}function Lt(i){var e=i.length;if(e!==0){jt();var n=ye;ye=!0;try{for(var t=0;t<e;t++){var r=i[t];r.f&D||(r.f^=D);var o=[];Ii(r,o),Ft(o)}}finally{ye=n}}}function Ft(i){var e=i.length;if(e!==0)for(var n=0;n<e;n++){var t=i[n];!(t.f&(Qe|Z))&&Ce(t)&&(We(t),t.deps===null&&t.first===null&&t.nodes_start===null&&(t.teardown===null?Ci(t):t.fn=null))}}function Ut(){if(Ue=!1,Me>1001)return;const i=fn;fn=[],Lt(i),Ue||(Me=0)}function Ye(i){Ue||(Ue=!0,queueMicrotask(Ut));for(var e=i;e.parent!==null;){e=e.parent;var n=e.f;if(n&(Re|L)){if(!(n&D))return;e.f^=D}}fn.push(e)}function Ii(i,e){var n=i.first,t=[];e:for(;n!==null;){var r=n.f,o=(r&L)!==0,a=o&&(r&D)!==0;if(!a&&!(r&Z))if(r&qe){o?n.f^=D:Ce(n)&&We(n);var l=n.first;if(l!==null){n=l;continue}}else r&oi&&t.push(n);var d=n.next;if(d===null){let u=n.parent;for(;u!==null;){if(i===u)break e;var c=u.next;if(c!==null){n=c;continue e}u=u.parent}}n=d}for(var s=0;s<t.length;s++)l=t[s],e.push(l),Ii(l,e)}function g(i){var l;var e=i.f,n=(e&Y)!==0;if(n&&e&Qe){var t=fi(i);return An(i),t}if(C!==null){V!==null&&V.includes(i)&&pt();var r=C.deps;R===null&&r!==null&&r[z]===i?z++:R===null?R=[i]:R.push(i),ne!==null&&b!==null&&b.f&D&&!(b.f&L)&&ne.includes(i)&&(F(b,ie),Ye(b))}else if(n&&i.deps===null){var o=i,a=o.parent;a!==null&&!((l=a.deriveds)!=null&&l.includes(o))&&(a.deriveds??(a.deriveds=[])).push(o)}return n&&(o=i,Ce(o)&&mi(o)),i.v}function ae(i){const e=C;try{return C=null,i()}finally{C=e}}const Gt=~(ie|be|D);function F(i,e){i.f=i.f&Gt|e}function Bn(i,e=1){var n=+g(i);return _(i,n+e),n}function en(i,e=!1,n){P={p:P,c:null,e:null,m:!1,s:i,x:null,l:null},ve&&!e&&(P.l={s:null,u:null,r1:[],r2:N(!1)})}function nn(i){const e=P;if(e!==null){const a=e.e;if(a!==null){var n=b,t=C;e.e=null;try{for(var r=0;r<a.length;r++){var o=a[r];J(o.effect),te(o.reaction),kn(o.fn)}}finally{J(n),te(t)}}P=e.p,e.m=!0}return{}}function Zt(i){if(!(typeof i!="object"||!i||i instanceof EventTarget)){if(oe in i)mn(i);else if(!Array.isArray(i))for(let e in i){const n=i[e];typeof n=="object"&&n&&oe in n&&mn(n)}}}function mn(i,e=new Set){if(typeof i=="object"&&i!==null&&!(i instanceof EventTarget)&&!e.has(i)){e.add(i),i instanceof Date&&i.getTime();for(let t in i)try{mn(i[t],e)}catch{}const n=Ne(i);if(n!==Object.prototype&&n!==Array.prototype&&n!==Map.prototype&&n!==Set.prototype&&n!==Date.prototype){const t=ri(n);for(let r in t){const o=t[r].get;if(o)try{o.call(i)}catch{}}}}}let Nn=!1;function Vt(){Nn||(Nn=!0,document.addEventListener("reset",i=>{Promise.resolve().then(()=>{var e;if(!i.defaultPrevented)for(const n of i.target.elements)(e=n.__on_r)==null||e.call(n)})},{capture:!0}))}function Si(i){var e=C,n=b;te(null),J(null);try{return i()}finally{te(e),J(n)}}function Ei(i,e,n,t=n){i.addEventListener(e,()=>Si(n));const r=i.__on_r;r?i.__on_r=()=>{r(),t()}:i.__on_r=t,Vt()}const Jt=new Set,On=new Set;function Kt(i,e,n,t){function r(o){if(t.capture||Pe.call(e,o),!o.cancelBubble)return Si(()=>n.call(this,o))}return i.startsWith("pointer")||i.startsWith("touch")||i==="wheel"?xi(()=>{e.addEventListener(i,r,t)}):e.addEventListener(i,r,t),r}function Ge(i,e,n,t,r){var o={capture:t,passive:r},a=Kt(i,e,n,o);(e===document.body||e===window||e===document)&&Rt(()=>{e.removeEventListener(i,a,o)})}function Pe(i){var M;var e=this,n=e.ownerDocument,t=i.type,r=((M=i.composedPath)==null?void 0:M.call(i))||[],o=r[0]||i.target,a=0,l=i.__root;if(l){var d=r.indexOf(l);if(d!==-1&&(e===document||e===window)){i.__root=e;return}var c=r.indexOf(e);if(c===-1)return;d<=c&&(a=d)}if(o=r[a]||i.target,o!==e){Ki(i,"currentTarget",{configurable:!0,get(){return o||n}});var s=C,u=b;te(null),J(null);try{for(var h,p=[];o!==null;){var f=o.assignedSlot||o.parentNode||o.host||null;try{var m=o["__"+t];if(m!==void 0&&!o.disabled)if(yn(m)){var[y,...v]=m;y.apply(o,[i,...v])}else m.call(o,i)}catch(I){h?p.push(I):h=I}if(i.cancelBubble||f===e||f===null)break;o=f}if(h){for(let I of p)queueMicrotask(()=>{throw I});throw h}}finally{i.__root=e,delete i.currentTarget,te(s),J(u)}}}function Xt(i){var e=document.createElement("template");return e.innerHTML=i,e.content}function jn(i,e){var n=b;n.nodes_start===null&&(n.nodes_start=i,n.nodes_end=e)}function de(i,e){var n=(e&xt)!==0,t=(e&Pt)!==0,r,o=!i.startsWith("<!>");return()=>{r===void 0&&(r=Xt(o?i:"<!>"+i),n||(r=je(r)));var a=t?document.importNode(r,!0):r.cloneNode(!0);if(n){var l=je(a),d=a.lastChild;jn(l,d)}else jn(a,a);return a}}function re(i,e){i!==null&&i.before(e)}const Yt=["touchstart","touchmove"];function er(i){return Yt.includes(i)}function fe(i,e){var n=e==null?"":typeof e=="object"?e+"":e;n!==(i.__t??(i.__t=i.nodeValue))&&(i.__t=n,i.nodeValue=n==null?"":n+"")}function nr(i,e){return ir(i,e)}const ue=new Map;function ir(i,{target:e,anchor:n,props:t={},events:r,context:o,intro:a=!0}){_t();var l=new Set,d=u=>{for(var h=0;h<u.length;h++){var p=u[h];if(!l.has(p)){l.add(p);var f=er(p);e.addEventListener(p,Pe,{passive:f});var m=ue.get(p);m===void 0?(document.addEventListener(p,Pe,{passive:f}),ue.set(p,1)):ue.set(p,m+1)}}};d(bn(Jt)),On.add(d);var c=void 0,s=Wt(()=>{var u=n??e.appendChild(It());return Se(()=>{if(o){en({});var h=P;h.c=o}r&&(t.$$events=r),c=i(u,t)||{},o&&nn()}),()=>{var f;for(var h of l){e.removeEventListener(h,Pe);var p=ue.get(h);--p===0?(document.removeEventListener(h,Pe),ue.delete(h)):ue.set(h,p)}On.delete(d),Ln.delete(c),u!==n&&((f=u.parentNode)==null||f.removeChild(u))}});return Ln.set(c,s),c}let Ln=new WeakMap;function qi(i,e,n,t=null,r=!1){var o=i,a=null,l=null,d=null,c=r?wn:0;xn(()=>{d!==(d=!!e())&&(d?(a?Fe(a):a=Se(()=>n(o)),l&&hn(l,()=>{l=null})):(l?Fe(l):t&&(l=Se(()=>t(o))),a&&hn(a,()=>{a=null})))},c)}function tr(i,e){return e}function rr(i,e,n,t){for(var r=[],o=e.length,a=0;a<o;a++)Pn(e[a].e,r,!0);var l=o>0&&r.length===0&&n!==null;if(l){var d=n.parentNode;Et(d),d.append(n),t.clear(),ee(i,e[0].prev,e[o-1].next)}Ai(r,()=>{for(var c=0;c<o;c++){var s=e[c];l||(t.delete(s.k),ee(i,s.prev,s.next)),le(s.e,!l)}})}function or(i,e,n,t,r,o=null){var a=i,l={flags:e,items:new Map,first:null},d=null,c=!1;xn(()=>{var s=n(),u=yn(s)?s:s==null?[]:bn(s),h=u.length;if(!(c&&h===0)){c=h===0;{var p=C;ar(u,l,a,r,e,(p.f&Z)!==0,t)}o!==null&&(h===0?d?Fe(d):d=Se(()=>o(a)):d!==null&&hn(d,()=>{d=null})),n()}})}function ar(i,e,n,t,r,o,a){var l=i.length,d=e.items,c=e.first,s=c,u,h=null,p=[],f=[],m,y,v,M;for(M=0;M<l;M+=1){if(m=i[M],y=a(m,M),v=d.get(y),v===void 0){var I=s?s.e.nodes_start:n;h=cr(I,e,h,h===null?e.first:h.next,m,y,M,t,r),d.set(y,h),p=[],f=[],s=h.next;continue}if(sr(v,m,M),v.e.f&Z&&Fe(v.e),v!==s){if(u!==void 0&&u.has(v)){if(p.length<f.length){var H=f[0],x;h=H.prev;var E=p[0],q=p[p.length-1];for(x=0;x<p.length;x+=1)Fn(p[x],H,n);for(x=0;x<f.length;x+=1)u.delete(f[x]);ee(e,E.prev,q.next),ee(e,h,E),ee(e,q,H),s=H,h=q,M-=1,p=[],f=[]}else u.delete(v),Fn(v,s,n),ee(e,v.prev,v.next),ee(e,v,h===null?e.first:h.next),ee(e,h,v),h=v;continue}for(p=[],f=[];s!==null&&s.k!==y;)(o||!(s.e.f&Z))&&(u??(u=new Set)).add(s),f.push(s),s=s.next;if(s===null)continue;v=s}p.push(v),h=v,s=v.next}if(s!==null||u!==void 0){for(var w=u===void 0?[]:bn(u);s!==null;)(o||!(s.e.f&Z))&&w.push(s),s=s.next;var B=w.length;if(B>0){var K=null;rr(e,w,K,d)}}b.first=e.first&&e.first.e,b.last=h&&h.e}function sr(i,e,n,t){li(i.v,e),i.i=n}function cr(i,e,n,t,r,o,a,l,d){var c=(d&yt)!==0,s=(d&vt)===0,u=c?s?Cn(r):N(r):r,h=d&bt?N(a):a,p={i:h,v:u,k:o,a:null,e:null,prev:n,next:t};try{return p.e=Se(()=>l(i,u,h),Mt),p.e.prev=n&&n.e,p.e.next=t&&t.e,n===null?e.first=p:(n.next=p,n.e.next=p.e),t!==null&&(t.prev=p,t.e.prev=p.e),p}finally{}}function Fn(i,e,n){for(var t=i.next?i.next.e.nodes_start:n,r=e?e.e.nodes_start:n,o=i.e.nodes_start;o!==t;){var a=Ke(o);r.before(o),o=a}}function ee(i,e,n){e===null?i.first=n:(e.next=n,e.e.next=n&&n.e),n!==null&&(n.prev=e,n.e.prev=e&&e.e)}function lr(i,e,n,t){var r=i.__attributes??(i.__attributes={});r[e]!==(r[e]=n)&&(n==null?i.removeAttribute(e):typeof n!="string"&&dr(i).includes(e)?i[e]=n:i.setAttribute(e,n))}var Un=new Map;function dr(i){var e=Un.get(i.nodeName);if(e)return e;Un.set(i.nodeName,e=[]);for(var n,t=Ne(i),r=Element.prototype;r!==t;){n=ri(t);for(var o in n)n[o].set&&e.push(o);t=Ne(t)}return e}function Gn(i,e,n){if(n){if(i.classList.contains(e))return;i.classList.add(e)}else{if(!i.classList.contains(e))return;i.classList.remove(e)}}function hr(i,e,n=e){var t=Xe();Ei(i,"input",()=>{var r=Zn(i)?Vn(i.value):i.value;n(r),t&&r!==(r=e())&&(i.value=r??"")}),Te(()=>{var r=e();Zn(i)&&r===Vn(i.value)||i.type==="date"&&!r&&!i.value||r!==i.value&&(i.value=r??"")})}function ur(i,e,n=e){Ei(i,"change",()=>{var t=i.checked;n(t)}),e()==null&&n(!1),Te(()=>{var t=e();i.checked=!!t})}function Zn(i){var e=i.type;return e==="number"||e==="range"}function Vn(i){return i===""?null:+i}function Jn(i,e){return i===e||(i==null?void 0:i[oe])===e}function pr(i={},e,n,t){return kn(()=>{var r,o;return Te(()=>{r=o,o=[],ae(()=>{i!==n(...o)&&(e(i,...o),r&&Jn(n(...r),i)&&e(null,...r))})}),()=>{xi(()=>{o&&Jn(n(...o),i)&&e(null,...o)})}}),i}function Ri(i=!1){const e=P,n=e.l.u;if(!n)return;let t=()=>Zt(e.s);if(i){let r=0,o={};const a=Le(()=>{let l=!1;const d=e.s;for(const c in d)d[c]!==o[c]&&(o[c]=d[c],l=!0);return l&&r++,r});t=()=>g(a)}n.b.length&&Qt(()=>{Kn(e,t),cn(n.b)}),dn(()=>{const r=ae(()=>n.m.map(et));return()=>{for(const o of r)typeof o=="function"&&o()}}),n.a.length&&dn(()=>{Kn(e,t),cn(n.a)})}function Kn(i,e){if(i.l.s)for(const n of i.l.s)g(n);e()}let ze=!1;function fr(i){var e=ze;try{return ze=!1,[i(),ze]}finally{ze=e}}function Xn(i){for(var e=b,n=b;e!==null&&!(e.f&(L|Re));)e=e.parent;try{return J(e),i()}finally{J(n)}}function Be(i,e,n,t){var q;var r=(n&wt)!==0,o=!ve||(n&Tt)!==0,a=(n&At)!==0,l=(n&kt)!==0,d=!1,c;a?[c,d]=fr(()=>i[e]):c=i[e];var s=oe in i||rt in i,u=((q=ge(i,e))==null?void 0:q.set)??(s&&a&&e in i?w=>i[e]=w:void 0),h=t,p=!0,f=!1,m=()=>(f=!0,p&&(p=!1,l?h=ae(t):h=t),h);c===void 0&&t!==void 0&&(u&&o&&dt(),c=m(),u&&u(c));var y;if(o)y=()=>{var w=i[e];return w===void 0?m():(p=!0,f=!1,w)};else{var v=Xn(()=>(r?Le:ln)(()=>i[e]));v.f|=it,y=()=>{var w=g(v);return w!==void 0&&(h=void 0),w===void 0?h:w}}if(!(n&Ct))return y;if(u){var M=i.$$legacy;return function(w,B){return arguments.length>0?((!o||!B||M||d)&&u(B?y():w),w):y()}}var I=!1,H=!1,x=Cn(c),E=Xn(()=>Le(()=>{var w=y(),B=g(x);return I?(I=!1,H=!0,B):(H=!1,x.v=w)}));return r||(E.equals=Tn),function(w,B){if(arguments.length>0){const K=B?g(E):o&&a?pe(w):w;return E.equals(K)||(I=!0,_(x,K),f&&h!==void 0&&(h=K),ae(()=>g(E))),w}return g(E)}}function Qi(i){P===null&&zt(),ve&&P.l!==null?mr(P).m.push(i):dn(()=>{const e=ae(i);if(typeof e=="function")return e})}function mr(i){var e=i.l;return e.u??(e.u={a:[],b:[],m:[]})}const gr="5";typeof window<"u"&&(window.__svelte||(window.__svelte={v:new Set})).v.add(gr);mt();function Wi(i){let e=i.length;for(;e!=0;){let n=Math.floor(Math.random()*e);e--,[i[e],i[n]]=[i[n],i[e]]}return i}function yr(i){const n=new Date().getTime()-i.getTime();if(n<0)throw new Error("The provided date is in the future.");const t=Math.floor(n/(1e3*60*60)),r=Math.floor(n%(1e3*60*60)/(1e3*60)),o=Math.floor(n%(1e3*60)/1e3);return[t.toString().padStart(2,"0"),r.toString().padStart(2,"0"),o.toString().padStart(2,"0")].join(":")}var br=de('<form class="svelte-sav0zk"><fieldset class="svelte-sav0zk"></fieldset> <footer class="svelte-sav0zk"><button type="submit" class="disabled:hidden svelte-sav0zk">Submit</button></footer></form>');function vr(i,e){en(e,!1);let n=Be(e,"onSubmit",8),t=Be(e,"answered",8,!1),r=Be(e,"src",8),o=G(document.createElement("fieldset"));function a(c){c.preventDefault();const s=c.target;if(!(s instanceof HTMLFormElement))throw new Error("Not a form");const h=new FormData(s).get("answer");return n()(h==="correct"),!0}Qi(()=>{var u;ci(o,g(o).innerHTML=r());const c=g(o).querySelector("ul");if(!c)throw new Error("No answer set");const s=Wi(Array.from(c.children));for(const h of s){const p=h.innerHTML,f=((u=h.textContent)==null?void 0:u.startsWith("✅"))??!1,m=document.createElement("label");m.className="grid grid-cols-[1.5rem,1fr] gap-x-2 items-baseline",m.innerHTML=p.replace(/[✅❌] /g,"");const y=document.createElement("input");y.type="radio",y.name="answer",y.required=!0,f&&(y.value="correct"),m.prepend(y),h.replaceChildren(m),h.className="mb-4",c.appendChild(h)}}),Ri();var l=br(),d=S(l);pr(d,c=>_(o,c),()=>g(o)),X(()=>lr(l,"data-answered",t())),Ge("submit",l,a),re(i,l),nn()}const wr=`## Question: 1 of 127\r
 \r
 A patient has managed care insurance and has been referred to a specialist for gastric bypass surgery. Which of the following is needed to ensure payment?\r
 \r
@@ -1334,7 +1334,7 @@ Which of the following are used in coding manuals to support correct code assign
 - Add-on codes\r
 - Modifiers\r
 - ✅ Conventions\r
-`,kr=`## Question 1 of 100\r
+`,Tr=`## Question 1 of 100\r
 On a remittance advice form, which of the following is responsible for writing off the difference between the amount billed and the amount allowed by the agreement?\r
 - ✅ Provider\r
 > The provider is responsible for writing off the difference between the amount billed and the amount allowed\r
@@ -2456,59 +2456,1013 @@ In which of the following sections of a SOAP note does a provider indicate a pat
 - ❌ Assessment\r
 > The assessment section includes the provider's diagnosis.\r
 - ❌ Plan\r
-> The plan section includes the provider's treatment plan for the patient.`;function Mn(){return{async:!1,breaks:!1,extensions:null,gfm:!0,hooks:null,pedantic:!1,renderer:null,silent:!1,tokenizer:null,walkTokens:null}}let he=Mn();function Wt(t){he=t}const Me={exec:()=>null};function T(t,e=""){let n=typeof t=="string"?t:t.source;const i={replace:(r,o)=>{let a=typeof o=="string"?o:o.source;return a=a.replace($.caret,"$1"),n=n.replace(r,a),i},getRegex:()=>new RegExp(n,e)};return i}const $={codeRemoveIndent:/^(?: {1,4}| {0,3}\t)/gm,outputLinkReplace:/\\([\[\]])/g,indentCodeCompensation:/^(\s+)(?:```)/,beginningSpace:/^\s+/,endingHash:/#$/,startingSpaceChar:/^ /,endingSpaceChar:/ $/,nonSpaceChar:/[^ ]/,newLineCharGlobal:/\n/g,tabCharGlobal:/\t/g,multipleSpaceGlobal:/\s+/g,blankLine:/^[ \t]*$/,doubleBlankLine:/\n[ \t]*\n[ \t]*$/,blockquoteStart:/^ {0,3}>/,blockquoteSetextReplace:/\n {0,3}((?:=+|-+) *)(?=\n|$)/g,blockquoteSetextReplace2:/^ {0,3}>[ \t]?/gm,listReplaceTabs:/^\t+/,listReplaceNesting:/^ {1,4}(?=( {4})*[^ ])/g,listIsTask:/^\[[ xX]\] /,listReplaceTask:/^\[[ xX]\] +/,anyLine:/\n.*\n/,hrefBrackets:/^<(.*)>$/,tableDelimiter:/[:|]/,tableAlignChars:/^\||\| *$/g,tableRowBlankLine:/\n[ \t]*$/,tableAlignRight:/^ *-+: *$/,tableAlignCenter:/^ *:-+: *$/,tableAlignLeft:/^ *:-+ *$/,startATag:/^<a /i,endATag:/^<\/a>/i,startPreScriptTag:/^<(pre|code|kbd|script)(\s|>)/i,endPreScriptTag:/^<\/(pre|code|kbd|script)(\s|>)/i,startAngleBracket:/^</,endAngleBracket:/>$/,pedanticHrefTitle:/^([^'"]*[^\s])\s+(['"])(.*)\2/,unicodeAlphaNumeric:/[\p{L}\p{N}]/u,escapeTest:/[&<>"']/,escapeReplace:/[&<>"']/g,escapeTestNoEncode:/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/,escapeReplaceNoEncode:/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/g,unescapeTest:/&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/ig,caret:/(^|[^\[])\^/g,percentDecode:/%25/g,findPipe:/\|/g,splitPipe:/ \|/,slashPipe:/\\\|/g,carriageReturn:/\r\n|\r/g,spaceLine:/^ +$/gm,notSpaceStart:/^\S*/,endingNewline:/\n$/,listItemRegex:t=>new RegExp(`^( {0,3}${t})((?:[	 ][^\\n]*)?(?:\\n|$))`),nextBulletRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ 	][^\\n]*)?(?:\\n|$))`),hrRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`),fencesBeginRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}(?:\`\`\`|~~~)`),headingBeginRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}#`),htmlBeginRegex:t=>new RegExp(`^ {0,${Math.min(3,t-1)}}<(?:[a-z].*>|!--)`,"i")},Ar=/^(?:[ \t]*(?:\n|$))+/,Tr=/^((?: {4}| {0,3}\t)[^\n]+(?:\n(?:[ \t]*(?:\n|$))*)?)+/,Cr=/^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/,We=/^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/,xr=/^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/,Dt=/(?:[*+-]|\d{1,9}[.)])/,zt=T(/^(?!bull |blockCode|fences|blockquote|heading|html)((?:.|\n(?!\s*?\n|bull |blockCode|fences|blockquote|heading|html))+?)\n {0,3}(=+|-+) *(?:\n+|$)/).replace(/bull/g,Dt).replace(/blockCode/g,/(?: {4}| {0,3}\t)/).replace(/fences/g,/ {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g,/ {0,3}>/).replace(/heading/g,/ {0,3}#{1,6}/).replace(/html/g,/ {0,3}<[^\n>]+>\n/).getRegex(),In=/^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/,_r=/^[^\n]+/,Sn=/(?!\s*\])(?:\\.|[^\[\]\\])+/,Pr=T(/^ {0,3}\[(label)\]: *(?:\n[ \t]*)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n[ \t]*)?| *\n[ \t]*)(title))? *(?:\n+|$)/).replace("label",Sn).replace("title",/(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/).getRegex(),Mr=T(/^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/).replace(/bull/g,Dt).getRegex(),tn="address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|search|section|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul",En=/<!--(?:-?>|[\s\S]*?(?:-->|$))/,Ir=T("^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$))","i").replace("comment",En).replace("tag",tn).replace("attribute",/ +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/).getRegex(),Bt=T(In).replace("hr",We).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("|table","").replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",tn).getRegex(),Sr=T(/^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/).replace("paragraph",Bt).getRegex(),qn={blockquote:Sr,code:Tr,def:Pr,fences:Cr,heading:xr,hr:We,html:Ir,lheading:zt,list:Mr,newline:Ar,paragraph:Bt,table:Me,text:_r},Jn=T("^ *([^\\n ].*)\\n {0,3}((?:\\| *)?:?-+:? *(?:\\| *:?-+:? *)*(?:\\| *)?)(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)").replace("hr",We).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("blockquote"," {0,3}>").replace("code","(?: {4}| {0,3}	)[^\\n]").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",tn).getRegex(),Er={...qn,table:Jn,paragraph:T(In).replace("hr",We).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("table",Jn).replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",tn).getRegex()},qr={...qn,html:T(`^ *(?:comment *(?:\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)|<tag(?:"[^"]*"|'[^']*'|\\s[^'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))`).replace("comment",En).replace(/tag/g,"(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b").getRegex(),def:/^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,heading:/^(#{1,6})(.*)(?:\n+|$)/,fences:Me,lheading:/^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,paragraph:T(In).replace("hr",We).replace("heading",` *#{1,6} *[^
-]`).replace("lheading",zt).replace("|table","").replace("blockquote"," {0,3}>").replace("|fences","").replace("|list","").replace("|html","").replace("|tag","").getRegex()},Nt=/^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/,Rr=/^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/,Ot=/^( {2,}|\\)\n(?!\s*$)/,Qr=/^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/,rn=/[\p{P}\p{S}]/u,Rn=/[\s\p{P}\p{S}]/u,Ht=/[^\s\p{P}\p{S}]/u,$r=T(/^((?![*_])punctSpace)/,"u").replace(/punctSpace/g,Rn).getRegex(),Wr=/\[[^[\]]*?\]\((?:\\.|[^\\\(\)]|\((?:\\.|[^\\\(\)])*\))*\)|`[^`]*?`|<[^<>]*?>/g,Dr=T(/^(?:\*+(?:((?!\*)punct)|[^\s*]))|^_+(?:((?!_)punct)|([^\s_]))/,"u").replace(/punct/g,rn).getRegex(),zr=T("^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)punct(\\*+)(?=[\\s]|$)|notPunctSpace(\\*+)(?!\\*)(?=punctSpace|$)|(?!\\*)punctSpace(\\*+)(?=notPunctSpace)|[\\s](\\*+)(?!\\*)(?=punct)|(?!\\*)punct(\\*+)(?!\\*)(?=punct)|notPunctSpace(\\*+)(?=notPunctSpace)","gu").replace(/notPunctSpace/g,Ht).replace(/punctSpace/g,Rn).replace(/punct/g,rn).getRegex(),Br=T("^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)punct(_+)(?=[\\s]|$)|notPunctSpace(_+)(?!_)(?=punctSpace|$)|(?!_)punctSpace(_+)(?=notPunctSpace)|[\\s](_+)(?!_)(?=punct)|(?!_)punct(_+)(?!_)(?=punct)","gu").replace(/notPunctSpace/g,Ht).replace(/punctSpace/g,Rn).replace(/punct/g,rn).getRegex(),Nr=T(/\\(punct)/,"gu").replace(/punct/g,rn).getRegex(),Or=T(/^<(scheme:[^\s\x00-\x1f<>]*|email)>/).replace("scheme",/[a-zA-Z][a-zA-Z0-9+.-]{1,31}/).replace("email",/[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/).getRegex(),Hr=T(En).replace("(?:-->|$)","-->").getRegex(),Lr=T("^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>").replace("comment",Hr).replace("attribute",/\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/).getRegex(),Ze=/(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/,jr=T(/^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/).replace("label",Ze).replace("href",/<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/).replace("title",/"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/).getRegex(),Lt=T(/^!?\[(label)\]\[(ref)\]/).replace("label",Ze).replace("ref",Sn).getRegex(),jt=T(/^!?\[(ref)\](?:\[\])?/).replace("ref",Sn).getRegex(),Fr=T("reflink|nolink(?!\\()","g").replace("reflink",Lt).replace("nolink",jt).getRegex(),Qn={_backpedal:Me,anyPunctuation:Nr,autolink:Or,blockSkip:Wr,br:Ot,code:Rr,del:Me,emStrongLDelim:Dr,emStrongRDelimAst:zr,emStrongRDelimUnd:Br,escape:Nt,link:jr,nolink:jt,punctuation:$r,reflink:Lt,reflinkSearch:Fr,tag:Lr,text:Qr,url:Me},Ur={...Qn,link:T(/^!?\[(label)\]\((.*?)\)/).replace("label",Ze).getRegex(),reflink:T(/^!?\[(label)\]\s*\[([^\]]*)\]/).replace("label",Ze).getRegex()},gn={...Qn,escape:T(Nt).replace("])","~|])").getRegex(),url:T(/^((?:ftp|https?):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/,"i").replace("email",/[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/).getRegex(),_backpedal:/(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,del:/^(~~?)(?=[^\s~])((?:\\.|[^\\])*?(?:\\.|[^\s~\\]))\1(?=[^~]|$)/,text:/^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/},Gr={...gn,br:T(Ot).replace("{2,}","*").getRegex(),text:T(gn.text).replace("\\b_","\\b_| {2,}\\n").replace(/\{2,\}/g,"*").getRegex()},Be={normal:qn,gfm:Er,pedantic:qr},Ce={normal:Qn,gfm:gn,breaks:Gr,pedantic:Ur},Zr={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"},et=t=>Zr[t];function U(t,e){if(e){if($.escapeTest.test(t))return t.replace($.escapeReplace,et)}else if($.escapeTestNoEncode.test(t))return t.replace($.escapeReplaceNoEncode,et);return t}function nt(t){try{t=encodeURI(t).replace($.percentDecode,"%")}catch{return null}return t}function tt(t,e){var o;const n=t.replace($.findPipe,(a,c,d)=>{let l=!1,s=c;for(;--s>=0&&d[s]==="\\";)l=!l;return l?"|":" |"}),i=n.split($.splitPipe);let r=0;if(i[0].trim()||i.shift(),i.length>0&&!((o=i.at(-1))!=null&&o.trim())&&i.pop(),e)if(i.length>e)i.splice(e);else for(;i.length<e;)i.push("");for(;r<i.length;r++)i[r]=i[r].trim().replace($.slashPipe,"|");return i}function xe(t,e,n){const i=t.length;if(i===0)return"";let r=0;for(;r<i;){const o=t.charAt(i-r-1);if(o===e&&!n)r++;else if(o!==e&&n)r++;else break}return t.slice(0,i-r)}function Vr(t,e){if(t.indexOf(e[1])===-1)return-1;let n=0;for(let i=0;i<t.length;i++)if(t[i]==="\\")i++;else if(t[i]===e[0])n++;else if(t[i]===e[1]&&(n--,n<0))return i;return-1}function it(t,e,n,i,r){const o=e.href,a=e.title||null,c=t[1].replace(r.other.outputLinkReplace,"$1");if(t[0].charAt(0)!=="!"){i.state.inLink=!0;const d={type:"link",raw:n,href:o,title:a,text:c,tokens:i.inlineTokens(c)};return i.state.inLink=!1,d}return{type:"image",raw:n,href:o,title:a,text:c}}function Kr(t,e,n){const i=t.match(n.other.indentCodeCompensation);if(i===null)return e;const r=i[1];return e.split(`
-`).map(o=>{const a=o.match(n.other.beginningSpace);if(a===null)return o;const[c]=a;return c.length>=r.length?o.slice(r.length):o}).join(`
-`)}class Ve{constructor(e){C(this,"options");C(this,"rules");C(this,"lexer");this.options=e||he}space(e){const n=this.rules.block.newline.exec(e);if(n&&n[0].length>0)return{type:"space",raw:n[0]}}code(e){const n=this.rules.block.code.exec(e);if(n){const i=n[0].replace(this.rules.other.codeRemoveIndent,"");return{type:"code",raw:n[0],codeBlockStyle:"indented",text:this.options.pedantic?i:xe(i,`
-`)}}}fences(e){const n=this.rules.block.fences.exec(e);if(n){const i=n[0],r=Kr(i,n[3]||"",this.rules);return{type:"code",raw:i,lang:n[2]?n[2].trim().replace(this.rules.inline.anyPunctuation,"$1"):n[2],text:r}}}heading(e){const n=this.rules.block.heading.exec(e);if(n){let i=n[2].trim();if(this.rules.other.endingHash.test(i)){const r=xe(i,"#");(this.options.pedantic||!r||this.rules.other.endingSpaceChar.test(r))&&(i=r.trim())}return{type:"heading",raw:n[0],depth:n[1].length,text:i,tokens:this.lexer.inline(i)}}}hr(e){const n=this.rules.block.hr.exec(e);if(n)return{type:"hr",raw:xe(n[0],`
-`)}}blockquote(e){const n=this.rules.block.blockquote.exec(e);if(n){let i=xe(n[0],`
+> The plan section includes the provider's treatment plan for the patient.`,Cr=`## Question 1 of 80\r
+Which of the following describes the practice of routinely submitting claims that have the same coding or modifier errors?\r
+- ❌ Upcoding\r
+> Upcoding is a category of fraud, not abuse. This is billing abuse, which can occur unintentionally because of claim errors, including inaccurate code or modifier assignment.\r
+- ❌ Overpayment\r
+> Overpayment will not occur for this type of claim: it will be rejected. This is billing abuse, which can occur unintentionally because of claim errors, including inaccurate code or modifier assignment.\r
+- ✅ Abusive billing pattern\r
+> Abusive billing patterns can occur unintentionally in organizations due to claim errors, including inaccurate coding or modifier assignment\r
+- ❌ Billing for services not rendered\r
+> Billing for services not rendered is considered fraud. This is billing abuse, which can occur unintentionally because of claim errors, including inaccurate code or modifier assignment.\r
+\r
+## Question 2 of 80\r
+Which of the following refers to the act of controlling access to records, protecting patient health information from destruction or loss, and providing employee training?\r
+- ✅ Security\r
+> This act ensures a patient's health information is protected from destruction or loss.\r
+- ❌ Confidentiality\r
+> Confidentiality is a concept that maintains the security of patient health information by restricting patient information and access to those who do not have proper authorization.\r
+- ❌ Privacy\r
+> This concept represents the right of an individual's personal information to be protected from being disclosed to others.\r
+- ❌ Authorization\r
+> This concept gives covered enteties permission to use specified protected health information (PHI)\r
+\r
+## Question 3 of 80\r
+A billing and coding specialist is processing claims. Which of the following should the specialist identify as an example of fraud?\r
+- ❌ Billing non-covered services\r
+> Billing non-covered services is an example of abuse, not fraud.\r
+- ❌ Charging excessively for services in error\r
+> Charging excessively for services is an example of abuse, not fraud.\r
+- ❌ Mistakenly reporting duplicate charges\r
+> Reporting duplicate charges is an example of abuse, not fraud.\r
+- ✅ Upcoding for increased reimbursement\r
+> Upcoding is billing for a higher level of service than what was provided in order to increase the reimbursement.\r
+\r
+## Question 4 of 80\r
+Which of the following requires a patient's authorization prior to disclosure?\r
+- ✅ Protected health information (PHI)\r
+> A patient's PHI requires an authorization from the patient before that information can be disclosed to another party.\r
+- ❌ Workers' compensation claim\r
+> Workers' compensation claims do not require patient authorization for release of history and treatment plan information related to an accepted claim.\r
+- ❌ Release of information log\r
+> The information log is a tracking system that is used to identify where health information was released and who authorized the release.\r
+- ❌ Treatment, payment, and health care operations (TPO)\r
+> TPO is an exception to the rule for requiring authorization; all of these actions can be performed without a patient's authorization.\r
+\r
+## Question 5 of 80\r
+A billing and coding specialist is preparing to code an anesthesiologist's portion of a procedure. The specialist must be able to identify the correct start/stop times to code the claim correctly. Which of the following regulates this activity?\r
+- ❌ ICD-10-CM Official Guidelines\r
+> These guidelines regulate the correct assignment of diagnosis codes.\r
+- ❌ Federal Claims Collection Act (FCCA)\r
+> The FCCA allows Medicare Administrative Contractors (MAC) to collect claims overpayments from health care providers and beneficiaries.\r
+- ✅ CPT guidelines\r
+> The CPT anesthesia guidelines determine the time reporting requirements for anesthesia.\r
+- ❌ Stark Law\r
+> The Stark law prevents providers from self-referring Medicare patients to health care services where the physicians have a financial interest.\r
+\r
+## Question 6 of 80\r
+A billing and coding specialist should identify that which of the following documents assists providers in determining whether there are any outstanding claims?\r
+- ❌ Charge description master\r
+> A charge description master is a list of procedures, services, and supplies used by hospitals for billing purposes.\r
+- ✅ Aging report\r
+> An aging report assists providers in determining an outstanding claim. It includes information about claims that are current, 30 days overdue, 60 days overdue, and 90 days overdue.\r
+- ❌ Credit report\r
+> A credit report is a consumer report of an individual's credit history.\r
+- ❌ Preauthorization\r
+> A preauthorization is a document from a third-party payer that provides prior approval for reimbursement of services.\r
+\r
+## Question 7 of 80\r
+Which of the following terms describes a patient's right to have their protected health information safeguarded and not disclosed to others without their permission?\r
+- ✅ Privacy\r
+> Privacy is the idea that a patient has the right to keep their protected health information from being disclosed to unauthorized entities.\r
+- ❌ Security\r
+> Security refers to the physical actions taken to keep information private, not the right to privacy itself.\r
+- ❌ Confidentiality\r
+> Confidentiality is the act of restricting patient information, not the right to privacy.\r
+- ❌ Authorization\r
+> Authorization is the act of giving permission to disclose patient information, not the right to privacy.\r
+\r
+## Question 8 of 80\r
+A billing and coding specialist should identify that a Medicare Recovery Audit Contractor (RAC) can review medical records for which of the following reasons?\r
+- ❌ To investigate if a patient was denied Medicare coverage\r
+> This is not a responsibility of the Medicare RAC.\r
+- ❌ To investigate whether a provider is self-referring for ancillary services\r
+> This is not a responsibility of the Medicare RAC.\r
+- ✅ To investigate potential improper Medicare payments\r
+> The Medicare RAC can review medical records to investigate potential improper Medicare payments, such as overpayments or underpayments.\r
+- ❌ To investigate whether a Medicare beneficiary was subject to a HIPAA violation\r
+> This is not a responsibility of the Medicare RAC.\r
+\r
+## Question 9 of 80\r
+A billing and coding specialist notices that a provider is reporting the same code for all new patient visits to get higher reimbursements. The specialist should identify this as which of the following?\r
+- ✅ Fraud\r
+> The specialist should identify that this situation indicates fraud because the provider is intentionally not following guidelines for determining medical necessity and level of service.\r
+- ❌ Waste\r
+> This situation indicates fraud because the provider is intentionally not following guidelines.\r
+- ❌ Abuse\r
+> This situation indicates fraud because the provider is intentionally not following guidelines.\r
+- ❌ Overpayment\r
+> This situation indicates fraud because the provider is intentionally not following guidelines.\r
+\r
+## Question 10 of 80\r
+During which of the following steps of the revenue cycle does effective communication begin?\r
+- ❌ Utilization management review\r
+> While effective communication is important during all steps of the revenue cycle, it begins during registration and scheduling.\r
+- ❌ Health care encounter and documentation\r
+> While effective communication is important during all steps of the revenue cycle, it begins during registration and scheduling.\r
+- ❌ Billing\r
+> While effective communication is important during all steps of the revenue cycle, it begins during registration and scheduling.\r
+- ✅ Registration and scheduling\r
+> Effective communication starts at the point of service, which is during registration and scheduling.\r
+\r
+## Question 11 of 80\r
+Which of the following is a claim that is possible to adjudicate and includes all required data elements?\r
+- ❌ Pending Claim\r
+> A pending claim is a claim that is in process and has not been adjudicated.\r
+- ✅ Clean claim\r
+> A clean claim includes all required data elements to process and reimburse the claim and is paid in full upon submission.\r
+- ❌ Delinquent claim\r
+> A delinquent claim is a claim that has not been adjudicated.\r
+- ❌ Open claim\r
+> An open claim is a claim that has gone out to a third-party payer and is currently being adjudicated\r
+\r
+## Question 12 of 80\r
+Which of the following actions by a billing and coding specialist represents a breach of confidentiality?\r
+- ❌ Protecting passwords and keeping them in a secured location\r
+> Confidentiality standards include protecting passwords from others and does not represent a breach of confidentiality.\r
+- ❌ Never leaving the computer screen unattended\r
+> Confidentiality standards include never leaving a computer screen unattended, Therefore, this is not a breach of confidentiality.\r
+- ✅ Discussing patient information in the elevator where other patients are present\r
+> This action violates the confidentiality standards and represents a breach of confidentiality.\r
+- ❌ Communicating patient information to family members with the patient's consent\r
+> Communicating patient information to family members with the patient's consent is following confidentiality standards and is not a breach of confidentiality.\r
+\r
+## Question 13 of 80\r
+A billing and coding specialist should identify that the Office of Inspector General (OIG) has which of the following roles?\r
+- ❌ To investigate disclosure of protected health information\r
+> This is not a responsibility of the OIG.\r
+- ❌ To evaluate workplace safety standards\r
+> This is not a responsibility of the OIG.\r
+- ❌ To administer the Patient Protection and Affordable Care Act\r
+> This is not a responsibility of the OIG.\r
+- ✅ To identify Medicare fraud and abuse\r
+> The OIG is responsible for identifying Medicare fraud and abuse, and then sending those cases to the Department of Justice for prosecution.\r
+\r
+## Question 14 of 80\r
+Which of the following is an effective tool for collecting a patient's payment for health care services?\r
+- ❌ Eligibitity verification\r
+> Eligibility verification helps to determine the patient's financial responsibilty, but it is not an effective tool for collecting the payment.\r
+- ✅ Communication\r
+> Communicating office policies regarding the patient's financial responsibilities is a key tool for collecting patient's payments.\r
+- ❌ Precertification\r
+> Precertification is not a tool for collections. It is a utilization management tool to reduce health care costs and ensure medical necessity.\r
+- ❌ Copayment\r
+> Copayments are a cost share requirement of the third-party payer. They are not a collection tool.\r
+\r
+## Question 15 of 80\r
+A billing and coding specialist is speaking with a patient on the telephone about their plan benefits. Which of the following actions should the specialist take when communicating with the patient?\r
+- ❌ Use slang terminology\r
+> The specialist should avoid using slang terminology because it can represent a communication barrier.\r
+- ✅ Explain the patient financial responsibility\r
+> The specialist should explain patient financial responsibility when speaking to the patient over the phone to communicate clearly.\r
+- ❌ Demand payment for services\r
+> The specialist should ask for payment for services. However, they should avoid demanding payment for services because the patient might form an opinion on how something is said rather than what is said.\r
+- ❌ Use specific coding convention terms\r
+> The specialist should avoid using specific coding convention terms because health care jargon is likely beyond the patient's knowledge.\r
+\r
+## Question 16 of 80\r
+Which of the followig accurately describes the uses of HCPCS Level II codes?\r
+- ❌ Pathology\r
+> HCPCS Level II codes are used to report drugs administered in the outpatient environment, not pathology.\r
+- ✅ Drugs\r
+> HCPCS Level II codes are used to report drugs administered in the outpatient environment.\r
+- ❌ Toxoids\r
+> HCPCS Level II codes are used to report drugs administered in the outpatient environment, not toxoids.\r
+- ❌ Conscious sedation\r
+> HCPCS Level II codes are used to report drugs administered in the outpatient environment, not conscious sedation.\r
+\r
+## Question 17 of 80\r
+A billing and coding specialist is completing a claim for a new patient who reports swelling in their ankles. The provider performs an appropriate history and examination, with high complexity medical decision-making, spending 60 min with the patient. Which of the following Evaluation and Management (E/M) codes should the specialist select?\r
+- ❌ 99285 Emergency department visit of a patient which requires a medically appropriate history and/or examination and high medical decision-making\r
+> E/M code 99285 describes emergency department services, including a high complexity of medical decision-making.\r
+- ✅ 99205 Office or other outpatient visit for a new patient which requires a medically appropriate history and/or examination and high medical decision-making\r
+> The specialist should select E/M code 99205. This code describes new patient E/M services, including a reported time spent with the patient of at least 60 min.\r
+- ❌ 99214 Office or other outpatient visit for an established patient which requires a medically appropriate history and/or examination and moderate medical decision-making\r
+> E/M code 99214 describes an established patient E/M service, including a reported time spent with the patient between 30 to 39 min.\r
+- ❌ 99215 Office or other outpatient visit for an established patient which requires a medically appropriate history and/or examination and high medical decision-making\r
+> E/M code 99215 describes an established patient E/M service, including a reported time spent with the patient between 40 to 54 min.\r
+\r
+## Question 18 of 80\r
+Complete the following question by referencing the coding exhibit.\r
+A billing and coding specialist should use which of the following CPT® procedure code(s) to report a screening CT colonography?\r
+### CPT® Code Set\r
+| Code  | Description                                                                                                                                          |\r
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| 74150 | Computed tomography, abdomen, without contrast material                                                                                              |\r
+| 74261 | Computed tomographic colonography, diagnostic, including image postprocessing; without contrast material                                             |\r
+| 74262 | Computed tomographic colonography, diagnostic, including image postprocessing; with contrast material(s) including non-contrast Images, if performed |\r
+| 74263 | Computed tomographic colonography, screening, including image postprocessing                                                                         |\r
+- ❌ 74150, 74263\r
+> CPT® code 74150 identifies computed tomography, abdamen, without contrast material. CPT® code 74262 identiias computed tomographic calonegraphy, screening, including image postprocessing. This description does not match the procedural documentation.\r
+- ❌ 74261\r
+> CPT® code 74261 identifies computed tomographic colonography, diagnasti, including image postprocessing without contrast material. This description does not match the procedural documentation\r
+- ✅ 74263\r
+> CPT® code 74263 identifies computed tomographic colonography, screening. including image postprocessing. This description matches the procedural documentation ofthe purpose ofthe test fora screening.\r
+- ❌ 74262\r
+> CPT® code 74262 identifies computed tomography, abdamen, with contrast material, incluing non-contrast images if performed. This description does not match the procedural documentation\r
+\r
+## Question 19 of 80\r
+Complete the following question by referencing the coding exhibit.\r
+Which of the following HCPCS modifiers indicates the anatomical location of left hand, fifth digit?\r
+| Modifier | Description             |\r
+|----------|-------------------------|\r
+| -FA      | Left hand, thumb        |\r
+| -F2      | Left hand, third digit  |\r
+| -F4      | Left hand, fifth digit  |\r
+| -F9      | Right hand, fifth digit |\r
+- ❌ F2\r
+> HCPCS modifier F2 indicates the anatomical location of left hand, third digit.\r
+- ❌ F9\r
+> HCPCS modifier F9 indicates the anatomical location of right hand, fifth digit.\r
+- ❌ FA\r
+> HCPCS modifier FA indicates the anatomical location of left hand, thumb.\r
+- ✅ F4\r
+> HCPCS modifier F4 indicates the anatomical location of left hand, fifth digit.\r
+\r
+## Question 20 of 80\r
+A billing and coding specialist is coding an initial encounter with a provider. Which of the following ICD-10-CM codes should be used to report a right femur fracture?\r
+- ❌ S72.001 Fracture of unspecified part of neck of right femur\r
+> A 7th character is required to report the code to the highest level of specificity and "A" in ICD-10-CM Chapter 19 indicates an initial encounter for a closed fracture.\r
+- ❌ S72.002A Fracture of unspecified part of neck of left femur, initial encounter for closed fracture\r
+> This code reports an initial encounter for a closed left femur fracture, not a closed right femur fracture.\r
+- ✅ S72.001A Fracture of unspecified part of neck of right femur, initial encounter for closed fracture\r
+> This code reports an initial encounter for a closed right femur fracture, Per ICD-10-CM coding guidelines, if a fracture is not reported as open or closed the default code should be reported as dosed.\r
+- ❌ S72.001B Fracture of unspecified part of neck of right femur, initial encounter for open fracture type I or II\r
+> This code reports an initial encounter for an open right femur fracture. Per ICD-10-CM coding guidelines, if fracture is not reported as open or closed, the default code should be reported as closed.\r
+\r
+## Question 21 of 80\r
+Which of the following abbreviations describes the route in which a medication is introduced into the subdural space of the spinal cord?\r
+- ❌ IM\r
+> The abbreviation IM represents a medication that is introduced intramuscularly, or directly into a muscle.\r
+- ❌ SC\r
+> The abbreviation SC represents a medication that is introduced subcutaneously, or just under the skin.\r
+- ❌ INH\r
+> The abbreviation INH represents a medication that is introduced by administration of an inhaled solution.\r
+- ✅ IT\r
+> The abbreviation IT represents a medication that is introduced intrathecally, or into the subdural space of the spinal cord.\r
+\r
+## Question 22 of 80\r
+Which of the following CPT® modifiers indicates only the interpretation and report of a radiology service was provided?\r
+- ✅ 26 Professional component\r
+> CPT® modifier 26 indicates only the professional component of a radiology service was provided.\r
+- ❌ 25 Significant, separately identifiable evaluation and management service by the same physician or other qualified health care professional on the same day of the procedure or other service\r
+> CPT® modifier 25 indicates a significant, separately identifiable Evaluation and Management (E/M) service was performed by the same provider on the same day as a procedure or other service was performed.\r
+- ❌ 24 Unrelated evaluation and management service by the same physician or other qualified health care professional during a postoperative period\r
+> CPT® modifier 24 indicates an Evaluation and Management (E/M) service was performed by the same provider during a postoperative period that is unrelated to the recovery from the surgical procedure.\r
+- ❌ 22 Increased procedural services\r
+> CPT® modifier 22 indicates the service provided involved more work from the provider than is usually required for the service reported.\r
+\r
+## Question 23 of 80\r
+Which of the following Evaluation and Management (E/M) codes is used to report online communication with an established patient lasting 15 min?\r
+- ❌ 99442 Telephone evaluation and management service provided by a physician to an established patient: 11-20 minutes of medical discussion\r
+> E/M code 99442 describes telephonic services. This service does not meet the requirements of online digital face-to-face evaluation regulations for telehealth services. This code is for 11 to 20 min telephonic services.\r
+- ❌ 99421 Online digital evaluation and management service, for an established patient, for up to 7 days, cumulative time during the 7 days: 5-10 minutes\r
+> E/M code 99421 meets the requirements of online digital face-to-face evaluation for an established patient; however, the total time recorded exceeds the listed time of 5 to 10 min.\r
+- ✅ 99422 Online digital evaluation and management service, for an established patient, for up to 7 days cumulative time during the 7 days: 11-20 minutes\r
+> E/M code 99422 meets the requirements of online digital face-to-face evaluation for an established patient, and the total time recorded is within the listed time of 11 to 20 min.\r
+- ❌ 99423 Online digital evaluation and management service, for an established patient, for up to 7 days, cumulative time during the 7 days: 21 or more minutes\r
+> E/M code 99423 meets the requirements of online digital face-to-face evaluation for an established patient; however, the listed time of 21 min or more exceeds the total time recorded.\r
+\r
+## Question 24 of 80\r
+A provider orders a bedside commode without further details. The supply company has multiple types available, so their billing specialist queries the provider. The provider sends a new order for an extra wide, heavy-duty commode chair. Which of the following HCPCS codes should the specialist use?\r
+- ❌ E0163 Commode chair, mobile or stationary, with fixed arms\r
+> This code describes a commode chair with fixed arms but is not extra wide or heavy duty.\r
+- ❌ E0165 Commode chair with detachable arms\r
+> ✅ This code describes a commode chair with detachable arms but is not extra wide or heavy duty.\r
+- E0168 Extra wide/heave duty commode chairs\r
+> This code describes a commode chair that is extra wide and/or heavy duty. Therefore, this fits the requirement from the provider.\r
+- ❌ E0171 Commode with seat lift mechanism\r
+> This code describes a commode chair that comes with an integrated seat lift mechanism, which was not a requirement from the provider.\r
+\r
+## Question 25 of 80\r
+A patient is diagnosed with exudative otitis media. Which of the following is the anatomic location of this condition?\r
+- ✅ Middle ear\r
+> The condition of exudative otitis media is located the middle ear.\r
+- ❌ Inner ear\r
+> The condition of exudative otitis media is located in the middle ear; the inner ear would be otitis interna.\r
+- ❌ Outer ear\r
+> The condition of exudative otitis media is located in the middle ear; the outer ear would be otitis externa.\r
+- ❌ Eustachian tube\r
+> The condition of exudative otitis media is located in the middle ear; the eustachian tube is located in the inner ear.\r
+\r
+## Question 26 of 80\r
+A billing and coding specialist is processing a claim for a patient who has hypoglycemia. In the term hypoglycemia, the prefix _hypo-_ means which of\r
+the following?\r
+- ✅ Below\r
+> The prefixes hypo- and sub- mean below.\r
+- ❌ Above\r
+> The prefixes hyper- and epi- mean above.\r
+- ❌ Between\r
+> The prefix inter- means between.\r
+- ❌ Excessive\r
+> The prefixes hyper- and poly- mean excessive.\r
+\r
+## Question 27 of 80\r
+Which of the following is the Evaluation and Management (E/M) code used to report a worsening patient who was admitted yesterday, with straightforward medical decision-making?\r
+\r
+- ❌ 99234 Hospital inpatient or observation care including admission and discharge on the same date, which requires a medically appropriate history and/or examination and straightforward or low level of medical decision-making\r
+> E/M code 99234 describes hospital inpatient or observation care when the patient is admitted and discharged on the same date of service.\r
+- ❌ 99238 Hospital inpatient or observation discharge day management\r
+> E/M code 99238 describes hospital inpatient or observation discharge day management services.\r
+- ❌ 99221 Initial hospital inpatient or observation care, pet day. which requires a medically appropriate history and/or examination and straightforward or low level of medical decision-making\r
+> E/M code 99221 describes initial hospital inpatient or observation care with straightforward medical decision-making.\r
+- ✅ 99231 Subsequent hospital inpatient or observation care, per day. which requires a medically appropriate history and/or examination and straightforward or low level of medical decision-making\r
+> E/M code 99231 describes subsequent hospital inpatient or observation care with straightforward medical decision-making.\r
+\r
+## Question 28 of 80\r
+A billing and coding specialist is preparing a claim for a patient who has chronic tonsilitis. According to the suffix _-itis_, which of the following is occurring with the tonsils?\r
+- ❌ Abnormal condition\r
+> Abnormal condition is indicated by the suffix _-osis_.\r
+- ✅ Inflammamation\r
+> Inflammation is indicated by the suffix _-itis_.\r
+- ❌ Enlargement\r
+> Enlargement is indicated by the suffix _-megaly_.\r
+- ❌ Pain\r
+> Pain is indicated by the suffix _-algia_ or _-dynia_.\r
+\r
+## Question 29 of 80\r
+Complete the following question by referencing the coding exhibit.\r
+Which of the following Is the correct CPT® code for reporting a superficial repair using tissue adhesive of a 2 cm laceration of the scalp?\r
+### CPT® Code Set\r
+| Code  | Description                                                                                                                                               |\r
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| 12001 | Simple (single layer) repair of wounds of scalp, neck, axillae, external genitalla, trunk, and/or extremities (including hands and feet); 2.5 cm or lesss |\r
+| 12031 | Repair, intermediate (layered closure) wounds of scalp, axillae, trunk, and/or extremities (Including hands and feet); 2.5 cm or less                     |\r
+| 12051 | Repair, intermediate (layered closure) wounds of face, ears, eyelids, nose, lips, and/or mucous membranes; 2.5 cm or less                                 |\r
+| 13120 | Repair, complex (layered closure requiring additional corrections) scalp, arms, and/or legs; 1.1 cm to 2.5 cm                                             |\r
+- ✅ 12001\r
+> CPT® code 12001 identifes a simple repair of superficial wounds ofthe scalp measuring 25 cm or less. This description matches the procedural documentation of the site of closure asthe scalp and the size of 2 cm.\r
+- ❌ 12031\r
+> CPT® code 12031 identifies an intermediate repair of wounds of the scalp measuring 2.5 cm or les. This description does not match the procedural documentation.\r
+- ❌ 12051\r
+> CPT® code 12051 identifies an intermaciate repsir of wounds ofthe face meaturing 2.5 cm or less. This description does nat match the procedural documentation.\r
+- ❌ 13120\r
+> CPT® code 13120 identifies @ complex repair of wounds of the scalp measuring 1.1 cm to 25 cm. This description does not match the procedural documentation\r
+\r
+## Question 30 of 80\r
+Complete the following question by referencing the coding exhibit.\r
+A CRNA provides anesthesia services for a cholecystectomy procedure. Which of the following modifiers should be appended to the service code?\r
+| Modifier | Description                                                                            |\r
+|----------|----------------------------------------------------------------------------------------|\r
+| -23      | Unusual anesthesia                                                                     |\r
+| -AA      | Anesthesia Services performed personally by the anesthesiologist                       |\r
+| -QX      | Qualified non-physician anesthetist with medical direction by a physician              |\r
+| -QZ      | Certified registered nurse anesthetist (CRNA) without medical direction by a physician |\r
+- ❌ AA\r
+> HCPCS modifier AA indicates anesthesia services performed personally by an anesthesiologist.\r
+- ❌ 23\r
+> HCPCS modifier 23 indicates unusual anesthesia.\r
+- ❌ QX\r
+> HCPCS modifier QX indicates a CRNA service, with medical direction by a provider.\r
+- ✅ QZ\r
+> HCPCS modifier QZ indicates a CRNA service, without medical direction by a provider.\r
+\r
+## Question 31 of 80\r
+Which of the following ICD-10-CM codes should a billing and coding specialist use for an encounter for human immunodeficiency virus (HIV) testing?\r
+- ❌ Z11.3 Encounter for screening for infections with a predominantly sexual mode of transmission\r
+> The ICD-10-CM code Z11.3 identifies an encounter for screening for infections with a predominantly sexual mode of transmission. The Excludes2 note states Z11.4 is for HIV testing.\r
+- ✅ Z11.4 Encounter for screening for human immunodeficiency virus (HIV)\r
+> The ICD-10-CM code Z11.4 identifies an encounter for screening for HIV.\r
+- ❌ Z11.51 Encounter for screening for human papillomavirus (HPV)\r
+> The ICD-10-CM code Z11.51 identifies an encounter for screening for human papillomavirus.\r
+- ❌ Z71.7 Human immunodeficiency virus (HIV) counseling\r
+> The ICD-10-CM code Z71.7 identifies HIV counseling.\r
+\r
+## Question 32 of 80\r
+Which of the following types of ICD-10-CM codes require the use of 7th character extensions?\r
+- ✅ Traumatic fracture codes\r
+> Traumatic fracture codes require the use of 7th character extensions.\r
+- ❌ Personal history codes\r
+> Personal history codes do not require the use of 7th character extensions.\r
+- ❌ Pregnancy complication codes\r
+> Pregnancy complication codes do not require the use of 7th character extensions.\r
+- ❌ Dialysis status codes\r
+> Dialysis status codes do not require the use of 7th character extensions.\r
+\r
+## Question 33 of 80\r
+Complete the following question by referencing the coding exhibit.\r
+A child received a measles, mumps, rubella, and varicella (MMRV) vaccine with provider counseling. Which of the following CPT® codes should be reported for the vaccine and administration?\r
+### ICD-10-CM Code Set\r
+| Code  | Description                                                                                                                                                                       |\r
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| 90460 | Immunization administration through 18 years of age via any route of administration, with counseling by physician; first or only component of each vaccine or toxoid administered |\r
+| 90461 | each additional vaccine or toxoid administered                                                                                                                                    |\r
+| 90471 | Immunization administration (Includes percutaneous, intradermal, subcutaneous, or Intramuscular); one vaccine (single or combination vaccine/toxoid)                              |\r
+| 90472 | each additional vaccine (single or combination vaccine/toxoid)                                                                                                                    |\r
+| 90707 | Measles, mumps, and rubella virus vaccine (MMR), live, for subcutaneous use                                                                                                       |\r
+| 90710 | Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use                                                                                                 |\r
+| 90716 | Varicella virus vaccine (VAR), live, for subcutaneous use                                                                                                                         |\r
+- ❌ 90707, 90716, 90471, 90472 x 3\r
+> CPT® code 90707 indicates the measles, mumps, and rubella (MMR) vaccine and code 90716 identifies the varicella virus vaccine (VAR). Since a combination code (90710 MMRV) exists, it must be used when performed. Administration codes 90471 and 90472 report administration without counseling.\r
+- ❌ 90707, 90716, 90460, 90461 x 3\r
+> CPT® code 90707 indicates the measles, mumps, and rubella (MMR) vaccine and code 90716 identifies the varicella virus vaccine (VAR). Since a combination code (90710 MMRV) exists, it must be used when performed. Since there are four separate components in MMRY, code 90460 is used with code 90461 x 3 to report the administration and counseling.\r
+- ❌ 90710, 90460\r
+> Although MMRV is one vaccine, there are four separate components, and code 90460 is used with code 90461 x 3 to report the administration and counseling.\r
+- ✅ 90710, 90460, 90461 x 3\r
+> CPT® code 90710 indicates the measles, mumps, rubella, and varicella (MMRV) vaccine, which are used with an administration and counseling code for the injection service. Since there are multiple components to MMRV, code 90460 is reported for the first component and 90461 x 3 for the remaining components.\r
+\r
+## Question 34 of 80\r
+Which of the following ICD-10-CM codes indicates chronic cholecystitis with cholelithiasis without obstruction?\r
+- ❌ K80.00 Calculus of gallbladder with acute cholecystitis without obstruction\r
+> The ICD-10-CM code K80.00 identifies calculus of the gallbladder with acute cholecystitis, not chronic cholecystitis.\r
+- ✅ K80.10 Calculus of gallbladder with chronic cholecystitis without obstruction\r
+> The ICD-10-CM code K80.10 identifies calculus of the gallbladder with chronic cholecystitis without obstruction.\r
+- ❌ K80.20 Calculus of gallbladder without cholecystitis without obstruction\r
+> The ICD-10-CM code K80.20 identifies calculus of the gallbladder without cholecystitis, not with cholecystitis.\r
+- ❌ K80.31 Calculus of bile duct with cholangitis, unspecified, with obstruction\r
+>  The ICD-10-CM code K80.31 identifies calculus of the bile duct with cholangitis, unspecified with obstruction.\r
+\r
+## Question 35 of 80\r
+Complete the following question by referencing the coding exhibit.\r
+A billing and coding specialist is coding a patient's visit with a provider. After querying the provider, the diagnosis is confirmed to be type 1 diabetes mellitus with hyperglycemia. Which of the following codes should the specialist use for this condition?\r
+### ICD-10-CM Code Set\r
+| Code   | Description                                    |\r
+|--------|------------------------------------------------|\r
+| E10.65 | Type 1 diabetes mellitus with hyperglycemia    |\r
+| E10.9  | Type 1 diabetes mellitus without complications |\r
+| E11.65 | Type 2 diabetes mellitus with hyperglycemia    |\r
+| E11.9  | Type 2 diabetes mellitus without complications |\r
+| R73.9  | Hyperglycemia, unspecified                     |\r
+- ❌ E10.9, R73.9\r
+> Code E10.9 reports type 1 diabetes mellitus without complications and code R73.9 reports hyperglycemia with a category note that excludes it from being reported with diabetes codes (E08-E13).\r
+- ❌ E11.9\r
+> Code E11.9 reports type 2, or unspecified diabetes mellitus, without complications.\r
+- ✅ E10.65\r
+> E10.65 reports type 1 diabetes mellitus with hyperglycemia.\r
+- ❌ E11.65\r
+> Code E11.65 reports type 2, not type 1, diabetes mellitus with hyperglycemia.\r
+\r
+## Question 36 of 80\r
+Which of the following categories in the ICD-10-CM is used to report a routine prenatal visit with no complications?\r
+- ❌ Z00 Encounter for general examination without complaint, suspected or reported diagnosis\r
+> Category Z00 is used to report regular examination encounters without complications.\r
+- ✅ Z34 Encounter for supervision of normal pregnancy\r
+> Category Z34 is used to report encounters for supervision of a normal pregnancy.\r
+- ❌ O09 Supervision of high-risk pregnancy\r
+> Category O09 is used to report encounters for supervision of a high-risk pregnancy.\r
+- ❌ O80 Encounter for full-term uncomplicated delivery\r
+> Category 080 is used to report encounters for a full-term, uncomplicated delivery.\r
+\r
+## Question 37 of 80\r
+Complete the following question by referencing the coding exhibit.\r
+A billing and coding specialist is coding a claim for a surgery. After querying the provider, it is determined that the documentation supports an open-approach hysterectomy with colpo-urethrocystopexy. Which of the following CPT® codes should be reported?\r
+### CPT® Code Set\r
+| Code  | Description                                                                                                                                            |\r
+|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| 58150 | Total abdominal hysterectomy (corpus and cervix), with or without removal of tube(s), with or without removal of ovary(s)                              |\r
+| 58152 | Total abdominal hysterectomy (corpus and cervix), with or without removal of tube(s), with or without removal of ovary(s), with colpo-urethrocystopexy |\r
+| 58260 | Vaginal hysterectomy, for uterus 250 g or less                                                                                                         |\r
+| 58267 | Vaginal hysterectomy, for uterus 250 g or less, with removal of tube(s) and/or ovary(s)                                                                |\r
+- ✅ 58152\r
+> This code describes an abdominal hysterectomy with the colpo-urthracystopexy.\r
+- ❌ 58150\r
+> This code describes an abdominal hysterectomy without the colpo-urthrocystopexy.\r
+- ❌ 58260\r
+> This code describes a vaginal hysterectomy for a uterus of 250 g or less.\r
+- ❌ 58267\r
+> This code describes a vaginal hysterectomy with colpo-urethrocystopexy.\r
+\r
+## Question 38 of 80\r
+Complete the following question by referencing the coding exhibit.\r
+Which of the following CPT® modifiers indicates the same provider returns to the operating room for surgical treatment of a complication that resulted from the initial procedure?\r
+| Modifier | Description                                                                                                                                                                                            |\r
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r
+| -76      | Repeat procedure by the same physician or other qualified health care professional                                                                                                                     |\r
+| -77      | Repeat procedure by another physician or other qualified health care professional                                                                                                                      |\r
+| -78      | Unplanned return to the operating/procedure room by the same physician or other qualified health care professional following initial procedure for a related procedure during the postoperative period |\r
+| -79      | Unrelated procedure or service by the same physician or other qualified health care professional during the postoperative period                                                                       |\r
+- ❌ 76\r
+> CPT® modifier 76 indicates a repeated procedure by the same provider that performed the initial procedure.\r
+- ❌ 77\r
+> CPT® modifier 77 indicates a repeated procedure by a provider other than the provider who performed the initial procedure.\r
+- ✅ 78\r
+> CPT® modifier 78 indicates an unplanned return to the operating room by the same provider following the initial procedure for a related procedure during the postoperative period.\r
+- ❌ 79\r
+> CPT® modifier 79 indicates an unrelated procedure by the same provider during the postoperative period.\r
+\r
+## Question 39 of 80\r
+Complete the following question by referencing the coding exhibit.\r
+A patient presents to their provider's office with a sore throat, and the provider diagnoses acute and chronic tonsillitis. Which of the following ICD-10-CM codes should the billing and coding specialist use for this diagnosis?\r
+### ICD-10-CM Code Set\r
+| Code   | Description                    |\r
+|--------|--------------------------------|\r
+| J02.9  | Acute pharyngitis, unspecified |\r
+| J03.90 | Acute tonsillitis, unspecified |\r
+| J31.2  | Chronic pharyngitis            |\r
+| J35.01 | Chronic tonsillitis            |\r
+- ❌ J02.9, J31.2\r
+> The ICD-10-CM code J02.9 identifies acute pharyngitis, sore throat. The ICD-10-CM code J31.2 identifies chronic pharyngitis, sore throat. Since sore throat is a symptom of tonsilltis, the sore throat diagnoses are not reported.\r
+- ❌ J35.01, J31.2, J35.01, J03.90\r
+> The ICD-10-CM code J02.9 identifies chronic pharyngitis, which is a symptom of tonsilitis and is not separately reported with the chronic and acute tonsillitis codes.\r
+- ❌ J35.01, J03.90\r
+> The ICD-10-CM code J35.01 identifies chronic tonsilltis and J03.90 identifies acute tonsillitis. When both acute and chronic exist, the specialist should code acute first. Both codes are required for a complete diagnosis.\r
+- ✅ J03.90, J35.01\r
+> The ICD-10-CM code J03.90 identifies acute tonsillitis and J35.01 identifies chronic tonsillitis. When both acute and chronic exist, the specialist should code acute first. Both codes are required for a complete diagnosis.\r
+\r
+## Question 40 of 80\r
+Which of the following Evaluation and Management (E/M) codes is used to report services for a 40-year-old patient who returns to the office for an annual exam?\r
+- ❌ 99386 Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient: 40-64 years\r
+> E/M code 99386 describes comprehensive preventative services for a new patient between the ages of 40 and 64 years.\r
+- ✅ 99396 Periodic comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 40-64 years\r
+> E/M code 99396 describes comprehensive preventative services for an established patient between the ages of 40 and 64 years.\r
+- ❌ 99215 Office or other outpatient visit for an established patient which requires a medically appropriate history and/or examination and high medical decision-making\r
+> E/M code 99215 describes a comprehensive office visit for an established patient.\r
+- ❌ 99205 Office or other outpatient visit for a new patient which requires a medically appropriate history and/or examination and high medical decision-making\r
+> E/M code 99205 describes a comprehensive office visit for a new patient.\r
+\r
+## Question 41 of 80\r
+A minor patient, whose parents are married, is covered under both parents' group insurance plans and also has Medicaid benefits. Parent A has a birthdate of June 6, 1988 and parent B has a birthdate of October 23, 1987. Which of the following third-party payers should be billed as the primary?\r
+- ✅ Parent A's insurance\r
+> According to the birthday rule, which states the parent whose birthday comes first in the calendar year is the primary, parent A's insurance would be billed as the primary.\r
+- ❌ Parent B's insurance\r
+> According to the birthday rule, which states the parent whose birthday comes first in the calendar year is the primary, parent A's insurance would be billed as the primary.\r
+- ❌ Medicaid\r
+> Medicaid should not be billed as the primary because the minor patient has other insurance coverage. Medicaid is always the last resort payer.\r
+- ❌ Either parent A's or parent B's insurance\r
+> According to the birthday rule, which states the parent whose birthday comes first in the calendar year is the primary, parent A's insurance would be billed as the primary.\r
+\r
+## Question 42 of 80\r
+A billing and coding specialist is reviewing a patient's record. The specialist should recognize that which of the following should be signed by the patient if there is a concern that Medicare might not pay for the service?\r
+- ❌ Informed consent form\r
+> An informed consent form gives permission to treat the patient.\r
+- ❌ Patient referral authorization form\r
+> A patient referral authorization form is used for patients who have TRICARE and require authorization to receive care from a specialist.\r
+- ✅ Advanced Beneficiary Notice (ABN)\r
+> The ABN form informs the patient of services that might not be covered under Medicare.\r
+- ❌ Notice of Privacy Practices (NPP)\r
+> The NPP informs the patient on how their personal information will be used and protected.\r
+\r
+## Question 43 of 80\r
+Which of the following determines the primary payer when a patient is covered by more than one plan?\r
+- ❌ Utilization review\r
+> Utilization review does not determine coordination of benefits.\r
+- ❌ Prior authorization\r
+> Prior authorization does not determine coordination of benefits.\r
+- ❌ Explanation of benefits\r
+> Explanation of benefits does not determine coordination of benefits.\r
+- ✅ Coordination of benefits\r
+> The concept of coordination of benefits determines the primary payer when a patient is covered by more than one plan.\r
+\r
+## Question 44 of 80\r
+A billing and coding specialist is reviewing insurance eligibility for a 49-year-old patient who has end-stage renal disease and multiple third-party payers. The specialist should recognize that which of the following payers is the primary?\r
+- ❌ Workers' compensation\r
+> A patient who is under the age of 65 years old and has a qualifying disability or end-stage renal disease is eligible for primary coverage through Medicare even though they have not met the usual starting age of 65. Workers' compensation would not be appropriate for end-stage renal disease.\r
+- ✅ Medicare\r
+> A patient who is under the age of 65 years old and has a qualifying disability or end-stage renal disease is eligible for primary coverage through Medicare even though they have not met the usual starting age of 65.\r
+- ❌ Medicaid\r
+> A patient who is under the age of 65 years old and has a qualifying disability or end-stage renal disease is eligible for primary coverage through Medicare even though they have not met the usual starting age of 65. They are not eligible for coverage through Medicaid solely based on their diagnosis.\r
+- ❌ TRICARE\r
+> A patient who is under the age of 65 years old and has a qualifying disability or end-stage renal disease is eligible for primary coverage through Medicare even though they have not met the usual starting age of 65.They are not eligible for coverage through TRICARE solely due to their diagnosis, TRICARE is intended for members of the military and their family.\r
+\r
+## Question 45 of 80\r
+A billing and coding specialist is calculating a patient's financial responsibility for a procedure. The charge for the procedure is $1,400 and the provider is in the patient's insurance provider's network. The allowable amount for the procedure is $500 with no deductible required. If the insurance plan pays at 80/20, what is the patient's total coinsurance amount?\r
+- ✅ $100\r
+> For a patient who has an 80/20 insurance plan, the patient will pay a coinsurance of 20% of the allowable amount. This is calculated as follows: $500 x 20% (0.20) = $100. Therefore, the patient's coinsurance is $100 for an 80/20 plan.\r
+- ❌ $280\r
+> This amount is equal to 20% of the total charge, which is incorrect. The patient's copayment is 20% of the allowable charge in an 80/20 plan.\r
+- ❌ $400\r
+> This amount is equal to 80% of allowable charge, which is incorrect. The patient's copayment is 20% of the allowable charge in an 80/20 plan.\r
+- ❌ $500\r
+> This amount is equal to the total allowable amount for the procedure, which is incorrect. The patient's copayment is 20% of the allowable charge in an 80/20 plan.\r
+\r
+## Question 46 of 80\r
+A billing and coding specialist is reviewing a patient's insurance coverage and notices that the patient is covered by two group insurance plans: one through their own employer and one through their partner's employer. The specialist should recognize that which of the following is true regarding the client's primary insurance coverage?\r
+- ❌ Primary coverage is determined by the birthday rule.\r
+> The patient's own plan will be primary for coverage. The birthday rule is only used when determining coverage for dependent children.\r
+- ❌ Primary coverage is determined by the plan that has been in place the longest.\r
+> The insurance plan of the patient's partner will be the secondary insurance coverage, not the primary.\r
+- ✅ Primary coverage is provided through the patient's plan.\r
+> The patient's own plan is primary while the patient's partner's plan is secondary.\r
+- ❌ Primary coverage is provided through the plan with the lowest deductible\r
+> The patient's own plan is primary while the patient's partners plan is secondary. The amount of the deductible does not determine primary and secondary coverage for the patient.\r
+\r
+## Question 47 of 80\r
+A billing and coding specialist is preparing the registration for a patient who is covered under their spouse's insurance. Which of the following items is required to complete the registration?\r
+- ✅ Patient demographics\r
+> Patient demographics are required and obtained during the registration process.\r
+- ❌ Credit card\r
+> A credit card is not collected during registration. However, it may be used to pay the patient financial responsibility.\r
+- ❌ Spouse's social security card\r
+> The spouse's social security card is not used for patient registration.\r
+- ❌ Work history\r
+> Work history is not relevant information for registration. However, current employer information would be requested.\r
+\r
+## Question 48 of 80\r
+A patient fell and was injured while picking up a catering order during their break for an all-employee staff meeting. Which of the following third-party payers is responsible for this encounter?\r
+- ❌ Auto insurance\r
+> Auto insurance covers a motor-vehicle crash.\r
+- ✅ Workers' compensation\r
+> Workers' compensation covers an employee who is injured or becomes ill on the job.\r
+- ❌ Homeowners insurance\r
+> Homeowners insurance covers accidents on personal property.\r
+- ❌ Group health plan\r
+> The patient's group health plan will not cover expenses related to a work-related injury when workers' compensation is liable.\r
+\r
+## Question 49 of 80\r
+A billing and coding specialist is submitting a claim for a patient who experienced an injury from a fall during their lunch break away from the building. The specialist should recognize that which of the following is the correct primary payer for the claim?\r
+- ❌ Workers' compensation\r
+> Workers' compensation is used for submitting claims that involve injuries during the performance of work-related tasks.\r
+- ❌ Out-of-pocket patient payment\r
+> An out-of-pocket patient payment would not cover this claim.\r
+- ❌ Disability insurance\r
+> Disability insurance is reimbursement for income that has been lost due to temporary or permanent illness or injury. Disability insurance does not pay for health care services, but provides financial assistance for loss of income.\r
+- ✅ The patient's group health insurance\r
+> The patient's group health insurance would be the primary payer for a claim for an illness or injury of a patient.\r
+\r
+## Question 50 of 80\r
+A billing and coding specialist is preparing a claim for a 16-year-old patient. Which of the following should be contacted to verify the child's demographics?\r
+- ❌ The child's school\r
+> The child's school would not be legally required to release that information.\r
+- ✅ Policyholder\r
+> A policyholder is a person who has entered into a contract with an insurance plan and would be the appropriate contact for a patient who is a minor.\r
+- ❌ Third-party payer\r
+> A third party payer is an organization that offers the policy and provides benefit coverage, they would not verify patient demographic information.\r
+- ❌ Patient\r
+> A patient is the person who received health care services, and in this case is a minor. The policyholder is the appropriate contact to verify this patient's demographics.\r
+\r
+## Question 51 of 80\r
+A patient who has Medicare coverage requests a pain medication refill following hip replacement surgery. For which of the following parts of Medicare should the patient's eligibility be verified for the prescription?\r
+- ❌ Part A\r
+> Medicare Part A pays for inpatient services\r
+- ❌ Part B\r
+> Medicare Part B pays for professional and outpatient services.\r
+- ❌ Part C\r
+> Medicare Part C is a managed care plan.\r
+- ✅ Part D\r
+> Medicare Part D pays for prescription medications.\r
+\r
+## Question 52 of 80\r
+A patient is scheduled for a procedure with an allowed amount of $2,500, and the annual deductible of $700 has been met. The coinsurance agreement is 70/30. Which of the following is the patient's responsibility?\r
+- ❌ $2,500\r
+> This is the total allowed amount of the procedure. The patient's responsibility is 30% of this amount.\r
+- ❌ $1,450\r
+> This amount includes the deductible and the patient's 20% coinsurance. The annual deductible amount has already been met so it should not be included in the calculation.\r
+- ❌ $1,750\r
+> This amount is 70% of the allowed amount. The third-party payer will pay this amount since the deductible has been met.\r
+- ✅ $750\r
+> The patient's deductible has been met; therefore, $2,500 x 30% (0.30) = $750. The patient's responsibility is $750.\r
+\r
+## Question 53 of 80\r
+Which of the following parts of Medicare determines eligibility for dental services?\r
+- ❌ Part A\r
+> Medicare Part A covers inpatient hospital services.\r
+- ❌ Part B\r
+> Medicare Part B covers outpatient and professional services.\r
+- ✅ Part C\r
+> Medicare Part C, also known as the Medicare Advantage Plan, covers Part A, Part B, and additional services, such as vision and dental services.\r
+- ❌ Part D\r
+> Medicare Part D covers pharmacy benefits.\r
+\r
+## Question 54 of 80\r
+A patient completes their provider's office registration forms and provides a military ID with a TRICARE card. The billing and coding specialist should use which of the following to verify the patient's third-party payer eligibility?\r
+- ❌ Eletronic Data Interchange (EDI)\r
+> The EDI is an insurance eligibility process for Medicare beneficiaries.\r
+- ❌ The Prospective Payment System (PPS)\r
+> The PPS is the predetermined amount the provider will be reimbursed for services rendered.\r
+- ✅ The Defense Enrollment Reporting System (DEERS)\r
+> DEERS is the insurance eligibility reporting system for service members and their families.\r
+- ❌ Integrated Delivery System (IDS)\r
+> IDS is a network of providers and hospital organizations that provide medical services to patients.\r
+\r
+## Question 55 of 80\r
+A billing and coding specialist is speaking with a patient on the phone regarding the fixed amount due for an upcoming visit. Which of the following terms refers to a fixed payment due per visit?\r
+- ✅ Copayment\r
+> Copayment is a fixed amount the patient pays to receive services.\r
+- ❌ Premium\r
+> The patient's premium is the monthly payment made to receive coverage under the health care policy.\r
+- ❌ Dedictible\r
+> The patient's deductible is the annual amount paid before a third-party payer will provide reimbursement.\r
+- ❌ Coinsurance\r
+> Coinsurance is the percentage agreement between the third-party payer and the patient. For example, the third-party payer pays 80% while the patient is responsible for 20%.\r
+\r
+## Question 56 of 80\r
+Which of the following information is needed to accurately review, evaluate, and resolve denied claims?\r
+- ❌ An aging report breakdown of a patient's account\r
+> An aging report breakdown of a patient's account will only show patient balances or payer balances. It will not show denial reason codes.\r
+- ✅ A remittance advice with reason codes\r
+> The remittance advice from the third-party payer shows the allowed amount, adjustments, or reason for denial.\r
+- ❌ Registration notes\r
+> The registration notes may pertain to the patient, but they would not include any reason denial codes.\r
+- ❌ SOAP notes\r
+> SOAP notes are the provider's notes pertaining to the patient encounter.\r
+\r
+## Question 57 of 80\r
+After a claim is processed by a third-party payer, which of the following actions should a billing and coding specialist take to collect the remaining allowed amount?\r
+- ❌ Write off the remainining balance.\r
+> The ledger cannot be balanced without making all collection efforts.\r
+- ❌ Submit an adjustment for additional reimbursement.\r
+> An adjustment would not be submitted to collect patient financial responsibility.\r
+- ❌ Call the third-party payer to negotiate a higher rate of reimbursement.\r
+> It has already been determined that the balance falls under patient financial responsibility, so legally the provider must collect that debt from the client.\r
+- ✅ Prepare and send a patient statement.\r
+> As per the contract, providers are obligated to collect all patient financial responsibility from the client as their benefits dictate.\r
+\r
+## Question 58 of 80\r
+Which of the following unpaid claims listed on a current aging report should a billing and coding specialist review first?\r
+- ❌ 14 days outstanding\r
+> This unpaid claim should be reviewed; however, the specialist should review another unpaid claim first because this claim is stil within the normal processing time frame for insurance plans.\r
+- ❌ 21 days outstanding\r
+> This unpaid claim should be reviewed; however, the specialist should review another unpaid claim first because this claim is stil within the normal processing time frame for insurance plans.\r
+- ❌ 28 days outstanding\r
+> This unpaid claim should be reviewed; however, the specialist should review another unpaid claim first because this claim is stil within the normal processing time frame for insurance plans.\r
+- ✅ 35 days outstanding\r
+> This unpaid claim should be reviewed first. The provider needs to file claims with the third-party payer in a timely manner, so the specialist should focus first on unpaid claims that are 31 to 60 days old.\r
+\r
+## Question 59 of 80\r
+Which of the following is an example of a clinical data abstraction error?\r
+- ❌ Incorrect date of service was used.\r
+> Incorrect date of service is not an abstraction error.\r
+- ❌ Authorization was not obtained.\r
+> Failing to obtain prior authorization is not an abstraction error.\r
+- ✅ Referral request for a mammogram was billed as charges.\r
+> Billing as charges when a referral request is created in the patient chart is an example of an abstraction error.\r
+- ❌ Secondary insurance was billed as primary insurance.\r
+> Billing insurances in the wrong order is not an abstraction error.\r
+\r
+## Question 60 of 80\r
+A billing and coding specialist is reviewing a Medicare electronic remittance advice. The remittance advice indicates a payment of $80.00 for a wellness exam. The billed amount was $220.00 and the allowed amount was $80.00. Which of the following actions should the specialist take?\r
+- ❌ Resubmit the claim\r
+> Since the payer determined the allowed amount was $80.00 and reimbursed $80.00, the patient financial responsibility is $0.00. The remainder should be written off and there would be no need to resubmit.\r
+- ✅ Post the payment and write off the difference.\r
+> Since the payer determined the allowed amount was $80.00 and reimbursed $80.00, the patient financial responsibility is $0.00. The remainder should be written off.\r
+- ❌ Ask the patient to pay the difference\r
+> Since the payer determined the allowed amount was $80.00 and reimbursed $80.00, the patient financial responsibility is $0.00. The remainder should be written off.\r
+- ❌ Submit an appeal for the previously processed claim.\r
+> Since the payer determined the allowed amount was $80.00 and reimbursed $80.00, the patient financial responsibility is $0.00. The remainder should be written off and there would be no need to appeal.\r
+\r
+## Question 61 of 80\r
+Which of the following resources is used to understand Medicare coverage circumstances such as indications and coding guidance?\r
+- ✅ NCD articles\r
+> NCD articles explain the coverage circumstances of certain services, including indications and any limitations for the service and coding guidance.\r
+- ❌ NCCI edits\r
+> NCCI edits identify codes that are bundled into another service. They do not provide coverage circumstances such as indications and coding guidance.\r
+- ❌ Mutually exclusive edits (MUE)\r
+> Mutually exclusive edits identify issues such as code combinations that are restricted by CPT® guidelines or procedures that cannot be reasonably performed during the same encounter. They do not provide coverage circumstances such as indications and coding guidance.\r
+- ❌ Alternative payment model (APM)\r
+> APMs are a reimbursement model that incentivize quality care.\r
+\r
+## Question 62 of 80\r
+A billing and coding specialist is reviewing a remittance advice that has a remark code that indicates a claim is pended for review of medical records. Which of the following actions should the specialist take?\r
+- ✅ Send the requested medical records\r
+> The specialist should send the requested medical records to the third-party payer for processing.\r
+- ❌ Resubmit the claim to the third-party payer as a corrected claim.\r
+> A corrected claim would not resolve the issue because the claim has not been denied.\r
+- ❌ Notify the third-party payer to review the claim for payment.\r
+> Notifying the third-party payer will not result in a payment without submitting the requested medical records.\r
+- ❌ Advise the patient that they will be responsible for the charges not covered by the payer.\r
+> The patient should not be contacted and billed for a pended claim.\r
+\r
+## Question 63 of 80\r
+A billing and coding specialist is reviewing a claims denial for a surgical procedure. After reviewing the original claim, it is determined that services should have been paid. Which of the following scenarios eliminates the need for prior authorization?\r
+- ❌ The patient had already been admitted to the hospital\r
+> Admission to a hospital does not eliminate the need for prior authorization.\r
+- ✅ The patient required an emergency procedure\r
+> An emergency procedure eliminates the need for prior authorization.\r
+- ❌ The patient received an elective procedure.\r
+> Elective procedures require prior authorization.\r
+- ❌ The patient is a Medicare beneficiary.\r
+> Medicare beneficiaries still require prior authorization for certain procedures.\r
+\r
+## Question 64 of 80\r
+A billing and coding specialist receives a denial from a third-party payer due to missing information. Which of the following actions should the specialist take to receive reimbursement?\r
+- ❌ Request reimbursement from the patient.\r
+> This is a billing error, so it is not the patient's responsibility to make a payment.\r
+- ❌ Submit an adjustment.\r
+> There is no indication that this claim had any payments, so an adjustment would not be necessary.\r
+- ❌ Contact the third-party payer to provide the information\r
+> The specialist should not contact the third-party payer to provide the information. Instead, they should resubmit the claim with the completed information.\r
+- ✅ Resubmit the claim with the completed information\r
+> The specialist should resubmit the claim with the completed information.\r
+\r
+## Question 65 of 80\r
+A patient has Medicare and TRICARE insurance plans. Which of the following should be collected as patient financial responsibility after a procedure?\r
+- ❌ 20% of the total charge of the procedure\r
+> The patient is no longer financially responsible for their health care costs because of the dual coverage with Medicare and TRICARE.\r
+- ❌ 20% of the allowable amount for the procedure\r
+> The patient is no longer financially responsible for their health care costs because of the dual coverage with Medicare and TRICARE.\r
+- ✅ $0.00\r
+> The patient is no longer financially responsible for their health care costs because of the dual coverage with Medicare and TRICARE.\r
+- ❌ $1,000.00\r
+> The patient is no longer financially responsible for their health care costs because of the dual coverage with Medicare and TRICARE.\r
+\r
+## Question 66 of 80\r
+A billing and coding specialist has received numerous denials from a third-party payer for a preauthorized service. Which of the following actions should the specialist take to resolve the denied claim?\r
+- ✅ Request that the third-party payer review for reconsideration\r
+> The preauthorized services should be considered medically necessary if billed accurately; therefore, the claim would need to be reconsidered for payment.\r
+- ❌ Bill the patient for the denied services.\r
+> The payer should be contacted for reconsideration before billing the patient for preauthorized services.\r
+- ❌ Have the charges adjusted off the patient's account.\r
+> Adjusting charges from a patient's account without proof of appropriate steps to have the claim reexamined for payment is considered fraud.\r
+- ❌ Submit a new claim.\r
+> The specialist should avoid submitting a new claim because it will result in a denial for duplicate services.\r
+\r
+## Question 67 of 80\r
+A billing and coding specialist is reviewing a remittance advice (RA). The specialist should identify that which of the following provides the reason for a claim denial?\r
+- ❌ Patient statements\r
+> Patient statements are generated by the office after the third-party payer has adjudicated the claim. This would not be a place to find claim denial reasons.\r
+- ❌ Payer website\r
+> The payer website does not provide the reason for a claim denial.\r
+- ✅ Claim adjustment reason code (CARC)\r
+> A CARC identifies the reason for a claim denial.\r
+- ❌ Electronic health record (EHR) scrubbing tool\r
+> An EHR scrubbing tool does not provide the reason for a claim denial. Scrubbing tools are used on clean claims before being sent to a third-party payer.\r
+\r
+## Question 68 of 80\r
+A claim is denied with a reason code that the service was not medically necessary. Which of the following actions should a billing and coding specialist take next to process the appeal?\r
+- ❌ Record the denial with the reason code and make a note in the patient's account.\r
+> Although the specialist will need to record the denial with the reason code and make a note in the patient's account, the specialist should first research the denial.\r
+- ❌ Review the diagnosis entered on the claim against the diagnosis entered in the provider note.\r
+> Denied claims are reviewed prior to determination about whether to submit for an appeal.\r
+- ❌ Call the third-party payer and ask for its explanation of the adjudication.\r
+> This action is not needed because the denial with the reason code has already been received.\r
+- ✅ Send proof of valid diagnosis with a letter to the third-party payer.\r
+> Send supporting documentation for the diagnosis and procedure to the third-party payer.\r
+\r
+\r
+## Question 69 of 80\r
+Which of the following occurs when claims are submitted in batches using a clearinghouse?\r
+- ❌ All claims are submitted to the same carrier and software edits are conducted.\r
+> Claims are sorted by carrier type, software edits are conducted, and then the claim is sent electronically to the correct payers.\r
+- ✅ Claims are sorted by payer type and are examined for errors\r
+> After the clearinghouse receives a batch, it separates the claims by carrier and performs software edits for each claim.\r
+- ❌ The clearinghouse prints the claim forms and mails them to each carrier.\r
+> After the clearinghouse receives a batch, it separates the claims by carrier and performs software edits for each claim. Then, the clearinghouse will send on only electronic claims.\r
+- ❌ After the batched claims are submitted, they are reimbursed.\r
+> Claims need to be scrubbed for errors and must pass all edits before being sent to the correct third-party payers for consideration of payment.\r
+\r
+## Question 70 of 80\r
+The letters "PR" (patient responsibility) on a remittance advice are an example of which of the following universally accepted codes?\r
+- ❌ National Correct Coding Initiative (NCCI)\r
+> The NCCI initiative for Medicare speaks to the policy for correct coding.\r
+- ❌ Current Procedural Terminology (CPT®) codes\r
+> Current Procedural Terminology (CPT®) codes are used to describe services provided.\r
+- ✅ Claim Adjustment Reason Code (CARC)\r
+> The CARC list is managed by Medicare and used universally within insurance plans for coding denials listed on explanation of benefits (EOBs), The letters PR on a remittance advice indicates patient responsibility.\r
+- ❌ International Classification of Diseases (ICD) codes\r
+> ICD is the diagnosis indicated which explains the health of the patient during the session.\r
+\r
+## Question 71 of 80\r
+After running a report, a billing and coding specialist discovers several claims are being denied for coding errors. To prevent future errors, which of the following actions should the specialist take?\r
+- ❌ Educate the third-party payer on researching coding issues.\r
+> The third-party payer creates the rules that specialists abide by. The specialist should retrain staff, not the third-party payer, about the rules.\r
+- ❌ Implement external audit processes.\r
+> The specialist should implement internal, not external, audit processes to prevent future errors.\r
+- ✅ Retrain staff on proper documentation and coding guidelines.\r
+> The specialist should retrain the provider on proper documentation and coding guidelines to prevent future errors.\r
+- ❌ Write off the claims that were incorrectly submitted.\r
+> Incorrectly submitted claims should be fixed and resubmitted as corrected claims.\r
+\r
+## Question 72 of 80\r
+A billing and coding specialist is reviewing a partially paid claim that was submitted without modifier 22 for increased procedural services. Which of the following actions should the specialist take to obtain accurate reimbursement?\r
+- ❌ Resubmit the claim with copies of the medical record documentation.\r
+> Resubmitting the claim, even with copies of the medical record documentation, is incorrect because it would result in a duplicate claim submission denial.\r
+- ✅ Submit an appeal with copies of the medical record documentation.\r
+> Submitting an appeal with copies of the medical record documentation is the action required to receive correct reimbursement for increased procedural services.\r
+- ❌ Contact the patient for additional reimbursement.\r
+> Contacting the patient for additional reimbursement is incorrect because it is a billing error, which is not the patient's responsibility.\r
+- ❌ Post the payment and write off the difference\r
+> Posting the payment and writing off the difference is incorrect because it is a billing error, which must be adjusted with the third-party payer.\r
+\r
+## Question 73 of 80\r
+Which of the following information is required by third-party payers when processing a CMS-1500/837P claim?\r
+- ❌ Prior medical provider\r
+> This is not a required field on the CMS-1500/837P claim form.\r
+- ❌ Patient's email address\r
+> This is not a required field on the CMS-1500/837P claim form.\r
+- ✅ Place of service\r
+> This is a required field on the CMS-1500/837P claim form.\r
+- ❌ Patient deductible amount\r
+> This is not a required field on the CMS-1500/837P claim form.\r
+\r
+## Question 74 of 80\r
+Which of the following documents is used to review claim reimbursements and denials?\r
+- ❌ CMS-1500\r
+> This document is used to submit claims.\r
+- ✅ Remittance advice\r
+> A remittance advice is a document that explains the adjudication, including claim rejections and denials, of a claim by a third-party payer.\r
+- ❌ Authorization\r
+> This document is used to obtain and receive authorization for services.\r
+- ❌ Concurrent review\r
+> This document is used to determine if medical necessity is still current and if it is appropriate to keep a patient hospitalized.\r
+\r
+## Question 75 of 80\r
+Which of the following is a unique HIPAA-mandated number that is required to submit a claim for surgical procedures performed by a thoracic surgeon?\r
+- ✅ National provider identifier (NPI)\r
+> An NPI is required by HIPAA for all health care provider transactions.\r
+- ❌ Employer identification number (EIN)\r
+> An EIN is required by HIPAA for health care transactions that do not involve a provider.\r
+- ❌ Provider's Social Security number (SSN)\r
+> The provider's Social Security number is not required to be on a claim form.\r
+- ❌ Diagnosis related group (DRG)\r
+> A DRG is a grouping of ICD10 codes that are required by HIPAA to identify care provided in a hospital.\r
+\r
+## Question 76 of 80\r
+A billing and coding specialist is preparing a claim with two types of third-party payer coverage. Which of the following is a process that determines the order of third-party payers for the claim?\r
+- ✅ Coordination of benefits\r
+> Coordination of benefits is a process that ensures patient benefits are paid in the correct order when more than one third-party payer provides coverage.\r
+- ❌ Insurance claim cycle\r
+> The insurance claim cycle is a four-stage process that all claims go through regardless of how many payers there are.\r
+- ❌ Electronic data interchange\r
+> Electronic data interchange is the system through which computers transfer data in health care financial transactions.\r
+- ❌ Explanation of benefits\r
+> Explanation of benefits is a document that details claim adjudication and applies to all claims regardless of how many payers there are.\r
+\r
+## Question 77 of 80\r
+A billing and coding specialist is completing a claim form for a Medicare beneficiary for a wellness visit with their primary care provider who is a PAR provider. Which of the following information is required on the form?\r
+- ❌ Medicare identification number, date of birth, and date of injury\r
+> Since this is only a wellness visit, there would be no date of injury recorded.\r
+- ❌ Medicare identification number, date of birth, and date of discharge\r
+> Since the patient has not been admitted or discharged from a hospital, there would be no date of discharge.\r
+- ❌ Medicare identification number, date of birth, and referring physician's national provider identifier (NPI)\r
+> Since the patient is seeing their primary care provider, there would be no need for a referring provider.\r
+- ✅ Medicare identification number, date of birth, and accept assignment\r
+> These are all elements that are required for a Medicare claim for a wellness visit.\r
+\r
+## Question 78 of 80\r
+A billing and coding specialist is reviewing a remittance advice from a third-party payer that indicates $250 out of the $500 charge is a contractual adjustment. Which of the following actions should the specialist take?\r
+- ❌ Bill the patient for the difference.\r
+> It is not appropriate to balance bill the patient based on the contract with the payer.\r
+- ❌ Resubmit the claim for additional review\r
+> Resubmitting the claim for additional review is not necessary because both parties have agreed to the contractual agreement.\r
+- ❌ Change the cost for the services on future claims.\r
+> Changing the cost for the services does not change the contractual agreement.\r
+- ✅ Post the adjustment.\r
+> According to the contract with the third-party payer, the specialist should post the adjustment amount indicated on the remittance advice and enter the adjustment reason in the patient's account.\r
+\r
+## Question 79 of 80\r
+Which of the following information is required for third-party payers to process a CMS-1500/837P claim for an evaluation and management service performed using televisual devices?\r
+- ❌ Patient's account number\r
+> The patient account number is assigned by the provider and is not required by the third-party payer to process a claim.\r
+- ❌ Provider's phone number\r
+> The phone number is not required for claims processing.\r
+- ✅ Modifier(s)\r
+> Since this is an evaluation and management telehealth service, a modifier is required to process the claim.\r
+- ❌ Prior authorization number\r
+> No prior authorization is needed for evaluation and management telehealth services.\r
+\r
+## Question 80 of 80\r
+A billing and coding specialist is reviewing claims for submission. Which of the following is considered a charge capture error?\r
+- ❌ Preauthorization not obtained\r
+> Charge capture errors include incorrect code assignment. Preauthorization is not a charge capture error.\r
+- ❌ Patient demographics\r
+> Charge capture errors include incorrect code assignment. Patient demographics are not a charge capture error.\r
+- ❌ Data entry errors\r
+> Charge capture errors include incorrect code assignment. Data entry errors are not a charge capture error.\r
+- ✅ Incorrect code assignment\r
+> Charge capture errors include incorrect code assignment.`;function _n(){return{async:!1,breaks:!1,extensions:null,gfm:!0,hooks:null,pedantic:!1,renderer:null,silent:!1,tokenizer:null,walkTokens:null}}let he=_n();function Di(i){he=i}const _e={exec:()=>null};function A(i,e=""){let n=typeof i=="string"?i:i.source;const t={replace:(r,o)=>{let a=typeof o=="string"?o:o.source;return a=a.replace(W.caret,"$1"),n=n.replace(r,a),t},getRegex:()=>new RegExp(n,e)};return t}const W={codeRemoveIndent:/^(?: {1,4}| {0,3}\t)/gm,outputLinkReplace:/\\([\[\]])/g,indentCodeCompensation:/^(\s+)(?:```)/,beginningSpace:/^\s+/,endingHash:/#$/,startingSpaceChar:/^ /,endingSpaceChar:/ $/,nonSpaceChar:/[^ ]/,newLineCharGlobal:/\n/g,tabCharGlobal:/\t/g,multipleSpaceGlobal:/\s+/g,blankLine:/^[ \t]*$/,doubleBlankLine:/\n[ \t]*\n[ \t]*$/,blockquoteStart:/^ {0,3}>/,blockquoteSetextReplace:/\n {0,3}((?:=+|-+) *)(?=\n|$)/g,blockquoteSetextReplace2:/^ {0,3}>[ \t]?/gm,listReplaceTabs:/^\t+/,listReplaceNesting:/^ {1,4}(?=( {4})*[^ ])/g,listIsTask:/^\[[ xX]\] /,listReplaceTask:/^\[[ xX]\] +/,anyLine:/\n.*\n/,hrefBrackets:/^<(.*)>$/,tableDelimiter:/[:|]/,tableAlignChars:/^\||\| *$/g,tableRowBlankLine:/\n[ \t]*$/,tableAlignRight:/^ *-+: *$/,tableAlignCenter:/^ *:-+: *$/,tableAlignLeft:/^ *:-+ *$/,startATag:/^<a /i,endATag:/^<\/a>/i,startPreScriptTag:/^<(pre|code|kbd|script)(\s|>)/i,endPreScriptTag:/^<\/(pre|code|kbd|script)(\s|>)/i,startAngleBracket:/^</,endAngleBracket:/>$/,pedanticHrefTitle:/^([^'"]*[^\s])\s+(['"])(.*)\2/,unicodeAlphaNumeric:/[\p{L}\p{N}]/u,escapeTest:/[&<>"']/,escapeReplace:/[&<>"']/g,escapeTestNoEncode:/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/,escapeReplaceNoEncode:/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/g,unescapeTest:/&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/ig,caret:/(^|[^\[])\^/g,percentDecode:/%25/g,findPipe:/\|/g,splitPipe:/ \|/,slashPipe:/\\\|/g,carriageReturn:/\r\n|\r/g,spaceLine:/^ +$/gm,notSpaceStart:/^\S*/,endingNewline:/\n$/,listItemRegex:i=>new RegExp(`^( {0,3}${i})((?:[	 ][^\\n]*)?(?:\\n|$))`),nextBulletRegex:i=>new RegExp(`^ {0,${Math.min(3,i-1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ 	][^\\n]*)?(?:\\n|$))`),hrRegex:i=>new RegExp(`^ {0,${Math.min(3,i-1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`),fencesBeginRegex:i=>new RegExp(`^ {0,${Math.min(3,i-1)}}(?:\`\`\`|~~~)`),headingBeginRegex:i=>new RegExp(`^ {0,${Math.min(3,i-1)}}#`),htmlBeginRegex:i=>new RegExp(`^ {0,${Math.min(3,i-1)}}<(?:[a-z].*>|!--)`,"i")},Ar=/^(?:[ \t]*(?:\n|$))+/,kr=/^((?: {4}| {0,3}\t)[^\n]+(?:\n(?:[ \t]*(?:\n|$))*)?)+/,xr=/^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/,De=/^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/,Pr=/^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/,$i=/(?:[*+-]|\d{1,9}[.)])/,zi=A(/^(?!bull |blockCode|fences|blockquote|heading|html)((?:.|\n(?!\s*?\n|bull |blockCode|fences|blockquote|heading|html))+?)\n {0,3}(=+|-+) *(?:\n+|$)/).replace(/bull/g,$i).replace(/blockCode/g,/(?: {4}| {0,3}\t)/).replace(/fences/g,/ {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g,/ {0,3}>/).replace(/heading/g,/ {0,3}#{1,6}/).replace(/html/g,/ {0,3}<[^\n>]+>\n/).getRegex(),In=/^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/,Mr=/^[^\n]+/,Sn=/(?!\s*\])(?:\\.|[^\[\]\\])+/,_r=A(/^ {0,3}\[(label)\]: *(?:\n[ \t]*)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n[ \t]*)?| *\n[ \t]*)(title))? *(?:\n+|$)/).replace("label",Sn).replace("title",/(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/).getRegex(),Ir=A(/^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/).replace(/bull/g,$i).getRegex(),tn="address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|search|section|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul",En=/<!--(?:-?>|[\s\S]*?(?:-->|$))/,Sr=A("^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$))","i").replace("comment",En).replace("tag",tn).replace("attribute",/ +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/).getRegex(),Hi=A(In).replace("hr",De).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("|table","").replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",tn).getRegex(),Er=A(/^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/).replace("paragraph",Hi).getRegex(),qn={blockquote:Er,code:kr,def:_r,fences:xr,heading:Pr,hr:De,html:Sr,lheading:zi,list:Ir,newline:Ar,paragraph:Hi,table:_e,text:Mr},Yn=A("^ *([^\\n ].*)\\n {0,3}((?:\\| *)?:?-+:? *(?:\\| *:?-+:? *)*(?:\\| *)?)(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)").replace("hr",De).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("blockquote"," {0,3}>").replace("code","(?: {4}| {0,3}	)[^\\n]").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",tn).getRegex(),qr={...qn,table:Yn,paragraph:A(In).replace("hr",De).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("table",Yn).replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",tn).getRegex()},Rr={...qn,html:A(`^ *(?:comment *(?:\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)|<tag(?:"[^"]*"|'[^']*'|\\s[^'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))`).replace("comment",En).replace(/tag/g,"(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b").getRegex(),def:/^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,heading:/^(#{1,6})(.*)(?:\n+|$)/,fences:_e,lheading:/^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,paragraph:A(In).replace("hr",De).replace("heading",` *#{1,6} *[^
+]`).replace("lheading",zi).replace("|table","").replace("blockquote"," {0,3}>").replace("|fences","").replace("|list","").replace("|html","").replace("|tag","").getRegex()},Bi=/^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/,Qr=/^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/,Ni=/^( {2,}|\\)\n(?!\s*$)/,Wr=/^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/,rn=/[\p{P}\p{S}]/u,Rn=/[\s\p{P}\p{S}]/u,Oi=/[^\s\p{P}\p{S}]/u,Dr=A(/^((?![*_])punctSpace)/,"u").replace(/punctSpace/g,Rn).getRegex(),$r=/\[[^[\]]*?\]\((?:\\.|[^\\\(\)]|\((?:\\.|[^\\\(\)])*\))*\)|`[^`]*?`|<[^<>]*?>/g,zr=A(/^(?:\*+(?:((?!\*)punct)|[^\s*]))|^_+(?:((?!_)punct)|([^\s_]))/,"u").replace(/punct/g,rn).getRegex(),Hr=A("^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)punct(\\*+)(?=[\\s]|$)|notPunctSpace(\\*+)(?!\\*)(?=punctSpace|$)|(?!\\*)punctSpace(\\*+)(?=notPunctSpace)|[\\s](\\*+)(?!\\*)(?=punct)|(?!\\*)punct(\\*+)(?!\\*)(?=punct)|notPunctSpace(\\*+)(?=notPunctSpace)","gu").replace(/notPunctSpace/g,Oi).replace(/punctSpace/g,Rn).replace(/punct/g,rn).getRegex(),Br=A("^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)punct(_+)(?=[\\s]|$)|notPunctSpace(_+)(?!_)(?=punctSpace|$)|(?!_)punctSpace(_+)(?=notPunctSpace)|[\\s](_+)(?!_)(?=punct)|(?!_)punct(_+)(?!_)(?=punct)","gu").replace(/notPunctSpace/g,Oi).replace(/punctSpace/g,Rn).replace(/punct/g,rn).getRegex(),Nr=A(/\\(punct)/,"gu").replace(/punct/g,rn).getRegex(),Or=A(/^<(scheme:[^\s\x00-\x1f<>]*|email)>/).replace("scheme",/[a-zA-Z][a-zA-Z0-9+.-]{1,31}/).replace("email",/[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/).getRegex(),jr=A(En).replace("(?:-->|$)","-->").getRegex(),Lr=A("^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>").replace("comment",jr).replace("attribute",/\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/).getRegex(),Ze=/(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/,Fr=A(/^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/).replace("label",Ze).replace("href",/<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/).replace("title",/"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/).getRegex(),ji=A(/^!?\[(label)\]\[(ref)\]/).replace("label",Ze).replace("ref",Sn).getRegex(),Li=A(/^!?\[(ref)\](?:\[\])?/).replace("ref",Sn).getRegex(),Ur=A("reflink|nolink(?!\\()","g").replace("reflink",ji).replace("nolink",Li).getRegex(),Qn={_backpedal:_e,anyPunctuation:Nr,autolink:Or,blockSkip:$r,br:Ni,code:Qr,del:_e,emStrongLDelim:zr,emStrongRDelimAst:Hr,emStrongRDelimUnd:Br,escape:Bi,link:Fr,nolink:Li,punctuation:Dr,reflink:ji,reflinkSearch:Ur,tag:Lr,text:Wr,url:_e},Gr={...Qn,link:A(/^!?\[(label)\]\((.*?)\)/).replace("label",Ze).getRegex(),reflink:A(/^!?\[(label)\]\s*\[([^\]]*)\]/).replace("label",Ze).getRegex()},gn={...Qn,escape:A(Bi).replace("])","~|])").getRegex(),url:A(/^((?:ftp|https?):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/,"i").replace("email",/[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/).getRegex(),_backpedal:/(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,del:/^(~~?)(?=[^\s~])((?:\\.|[^\\])*?(?:\\.|[^\s~\\]))\1(?=[^~]|$)/,text:/^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/},Zr={...gn,br:A(Ni).replace("{2,}","*").getRegex(),text:A(gn.text).replace("\\b_","\\b_| {2,}\\n").replace(/\{2,\}/g,"*").getRegex()},He={normal:qn,gfm:qr,pedantic:Rr},ke={normal:Qn,gfm:gn,breaks:Zr,pedantic:Gr},Vr={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"},ei=i=>Vr[i];function U(i,e){if(e){if(W.escapeTest.test(i))return i.replace(W.escapeReplace,ei)}else if(W.escapeTestNoEncode.test(i))return i.replace(W.escapeReplaceNoEncode,ei);return i}function ni(i){try{i=encodeURI(i).replace(W.percentDecode,"%")}catch{return null}return i}function ii(i,e){var o;const n=i.replace(W.findPipe,(a,l,d)=>{let c=!1,s=l;for(;--s>=0&&d[s]==="\\";)c=!c;return c?"|":" |"}),t=n.split(W.splitPipe);let r=0;if(t[0].trim()||t.shift(),t.length>0&&!((o=t.at(-1))!=null&&o.trim())&&t.pop(),e)if(t.length>e)t.splice(e);else for(;t.length<e;)t.push("");for(;r<t.length;r++)t[r]=t[r].trim().replace(W.slashPipe,"|");return t}function xe(i,e,n){const t=i.length;if(t===0)return"";let r=0;for(;r<t;){const o=i.charAt(t-r-1);if(o===e&&!n)r++;else if(o!==e&&n)r++;else break}return i.slice(0,t-r)}function Jr(i,e){if(i.indexOf(e[1])===-1)return-1;let n=0;for(let t=0;t<i.length;t++)if(i[t]==="\\")t++;else if(i[t]===e[0])n++;else if(i[t]===e[1]&&(n--,n<0))return t;return-1}function ti(i,e,n,t,r){const o=e.href,a=e.title||null,l=i[1].replace(r.other.outputLinkReplace,"$1");if(i[0].charAt(0)!=="!"){t.state.inLink=!0;const d={type:"link",raw:n,href:o,title:a,text:l,tokens:t.inlineTokens(l)};return t.state.inLink=!1,d}return{type:"image",raw:n,href:o,title:a,text:l}}function Kr(i,e,n){const t=i.match(n.other.indentCodeCompensation);if(t===null)return e;const r=t[1];return e.split(`
+`).map(o=>{const a=o.match(n.other.beginningSpace);if(a===null)return o;const[l]=a;return l.length>=r.length?o.slice(r.length):o}).join(`
+`)}class Ve{constructor(e){k(this,"options");k(this,"rules");k(this,"lexer");this.options=e||he}space(e){const n=this.rules.block.newline.exec(e);if(n&&n[0].length>0)return{type:"space",raw:n[0]}}code(e){const n=this.rules.block.code.exec(e);if(n){const t=n[0].replace(this.rules.other.codeRemoveIndent,"");return{type:"code",raw:n[0],codeBlockStyle:"indented",text:this.options.pedantic?t:xe(t,`
+`)}}}fences(e){const n=this.rules.block.fences.exec(e);if(n){const t=n[0],r=Kr(t,n[3]||"",this.rules);return{type:"code",raw:t,lang:n[2]?n[2].trim().replace(this.rules.inline.anyPunctuation,"$1"):n[2],text:r}}}heading(e){const n=this.rules.block.heading.exec(e);if(n){let t=n[2].trim();if(this.rules.other.endingHash.test(t)){const r=xe(t,"#");(this.options.pedantic||!r||this.rules.other.endingSpaceChar.test(r))&&(t=r.trim())}return{type:"heading",raw:n[0],depth:n[1].length,text:t,tokens:this.lexer.inline(t)}}}hr(e){const n=this.rules.block.hr.exec(e);if(n)return{type:"hr",raw:xe(n[0],`
+`)}}blockquote(e){const n=this.rules.block.blockquote.exec(e);if(n){let t=xe(n[0],`
 `).split(`
-`),r="",o="";const a=[];for(;i.length>0;){let c=!1;const d=[];let l;for(l=0;l<i.length;l++)if(this.rules.other.blockquoteStart.test(i[l]))d.push(i[l]),c=!0;else if(!c)d.push(i[l]);else break;i=i.slice(l);const s=d.join(`
+`),r="",o="";const a=[];for(;t.length>0;){let l=!1;const d=[];let c;for(c=0;c<t.length;c++)if(this.rules.other.blockquoteStart.test(t[c]))d.push(t[c]),l=!0;else if(!l)d.push(t[c]);else break;t=t.slice(c);const s=d.join(`
 `),u=s.replace(this.rules.other.blockquoteSetextReplace,`
     $1`).replace(this.rules.other.blockquoteSetextReplace2,"");r=r?`${r}
 ${s}`:s,o=o?`${o}
-${u}`:u;const h=this.lexer.state.top;if(this.lexer.state.top=!0,this.lexer.blockTokens(u,a,!0),this.lexer.state.top=h,i.length===0)break;const p=a.at(-1);if((p==null?void 0:p.type)==="code")break;if((p==null?void 0:p.type)==="blockquote"){const f=p,m=f.raw+`
-`+i.join(`
+${u}`:u;const h=this.lexer.state.top;if(this.lexer.state.top=!0,this.lexer.blockTokens(u,a,!0),this.lexer.state.top=h,t.length===0)break;const p=a.at(-1);if((p==null?void 0:p.type)==="code")break;if((p==null?void 0:p.type)==="blockquote"){const f=p,m=f.raw+`
+`+t.join(`
 `),y=this.blockquote(m);a[a.length-1]=y,r=r.substring(0,r.length-f.raw.length)+y.raw,o=o.substring(0,o.length-f.text.length)+y.text;break}else if((p==null?void 0:p.type)==="list"){const f=p,m=f.raw+`
-`+i.join(`
-`),y=this.list(m);a[a.length-1]=y,r=r.substring(0,r.length-p.raw.length)+y.raw,o=o.substring(0,o.length-f.raw.length)+y.raw,i=m.substring(a.at(-1).raw.length).split(`
-`);continue}}return{type:"blockquote",raw:r,tokens:a,text:o}}}list(e){let n=this.rules.block.list.exec(e);if(n){let i=n[1].trim();const r=i.length>1,o={type:"list",raw:"",ordered:r,start:r?+i.slice(0,-1):"",loose:!1,items:[]};i=r?`\\d{1,9}\\${i.slice(-1)}`:`\\${i}`,this.options.pedantic&&(i=r?i:"[*+-]");const a=this.rules.other.listItemRegex(i);let c=!1;for(;e;){let l=!1,s="",u="";if(!(n=a.exec(e))||this.rules.block.hr.test(e))break;s=n[0],e=e.substring(s.length);let h=n[2].split(`
-`,1)[0].replace(this.rules.other.listReplaceTabs,P=>" ".repeat(3*P.length)),p=e.split(`
+`+t.join(`
+`),y=this.list(m);a[a.length-1]=y,r=r.substring(0,r.length-p.raw.length)+y.raw,o=o.substring(0,o.length-f.raw.length)+y.raw,t=m.substring(a.at(-1).raw.length).split(`
+`);continue}}return{type:"blockquote",raw:r,tokens:a,text:o}}}list(e){let n=this.rules.block.list.exec(e);if(n){let t=n[1].trim();const r=t.length>1,o={type:"list",raw:"",ordered:r,start:r?+t.slice(0,-1):"",loose:!1,items:[]};t=r?`\\d{1,9}\\${t.slice(-1)}`:`\\${t}`,this.options.pedantic&&(t=r?t:"[*+-]");const a=this.rules.other.listItemRegex(t);let l=!1;for(;e;){let c=!1,s="",u="";if(!(n=a.exec(e))||this.rules.block.hr.test(e))break;s=n[0],e=e.substring(s.length);let h=n[2].split(`
+`,1)[0].replace(this.rules.other.listReplaceTabs,M=>" ".repeat(3*M.length)),p=e.split(`
 `,1)[0],f=!h.trim(),m=0;if(this.options.pedantic?(m=2,u=h.trimStart()):f?m=n[1].length+1:(m=n[2].search(this.rules.other.nonSpaceChar),m=m>4?1:m,u=h.slice(m),m+=n[1].length),f&&this.rules.other.blankLine.test(p)&&(s+=p+`
-`,e=e.substring(p.length+1),l=!0),!l){const P=this.rules.other.nextBulletRegex(m),I=this.rules.other.hrRegex(m),B=this.rules.other.fencesBeginRegex(m),x=this.rules.other.headingBeginRegex(m),E=this.rules.other.htmlBeginRegex(m);for(;e;){const q=e.split(`
-`,1)[0];let w;if(p=q,this.options.pedantic?(p=p.replace(this.rules.other.listReplaceNesting,"  "),w=p):w=p.replace(this.rules.other.tabCharGlobal,"    "),B.test(p)||x.test(p)||E.test(p)||P.test(p)||I.test(p))break;if(w.search(this.rules.other.nonSpaceChar)>=m||!p.trim())u+=`
-`+w.slice(m);else{if(f||h.replace(this.rules.other.tabCharGlobal,"    ").search(this.rules.other.nonSpaceChar)>=4||B.test(h)||x.test(h)||I.test(h))break;u+=`
+`,e=e.substring(p.length+1),c=!0),!c){const M=this.rules.other.nextBulletRegex(m),I=this.rules.other.hrRegex(m),H=this.rules.other.fencesBeginRegex(m),x=this.rules.other.headingBeginRegex(m),E=this.rules.other.htmlBeginRegex(m);for(;e;){const q=e.split(`
+`,1)[0];let w;if(p=q,this.options.pedantic?(p=p.replace(this.rules.other.listReplaceNesting,"  "),w=p):w=p.replace(this.rules.other.tabCharGlobal,"    "),H.test(p)||x.test(p)||E.test(p)||M.test(p)||I.test(p))break;if(w.search(this.rules.other.nonSpaceChar)>=m||!p.trim())u+=`
+`+w.slice(m);else{if(f||h.replace(this.rules.other.tabCharGlobal,"    ").search(this.rules.other.nonSpaceChar)>=4||H.test(h)||x.test(h)||I.test(h))break;u+=`
 `+p}!f&&!p.trim()&&(f=!0),s+=q+`
-`,e=e.substring(q.length+1),h=w.slice(m)}}o.loose||(c?o.loose=!0:this.rules.other.doubleBlankLine.test(s)&&(c=!0));let y=null,v;this.options.gfm&&(y=this.rules.other.listIsTask.exec(u),y&&(v=y[0]!=="[ ] ",u=u.replace(this.rules.other.listReplaceTask,""))),o.items.push({type:"list_item",raw:s,task:!!y,checked:v,loose:!1,text:u,tokens:[]}),o.raw+=s}const d=o.items.at(-1);d&&(d.raw=d.raw.trimEnd(),d.text=d.text.trimEnd()),o.raw=o.raw.trimEnd();for(let l=0;l<o.items.length;l++)if(this.lexer.state.top=!1,o.items[l].tokens=this.lexer.blockTokens(o.items[l].text,[]),!o.loose){const s=o.items[l].tokens.filter(h=>h.type==="space"),u=s.length>0&&s.some(h=>this.rules.other.anyLine.test(h.raw));o.loose=u}if(o.loose)for(let l=0;l<o.items.length;l++)o.items[l].loose=!0;return o}}html(e){const n=this.rules.block.html.exec(e);if(n)return{type:"html",block:!0,raw:n[0],pre:n[1]==="pre"||n[1]==="script"||n[1]==="style",text:n[0]}}def(e){const n=this.rules.block.def.exec(e);if(n){const i=n[1].toLowerCase().replace(this.rules.other.multipleSpaceGlobal," "),r=n[2]?n[2].replace(this.rules.other.hrefBrackets,"$1").replace(this.rules.inline.anyPunctuation,"$1"):"",o=n[3]?n[3].substring(1,n[3].length-1).replace(this.rules.inline.anyPunctuation,"$1"):n[3];return{type:"def",tag:i,raw:n[0],href:r,title:o}}}table(e){var c;const n=this.rules.block.table.exec(e);if(!n||!this.rules.other.tableDelimiter.test(n[2]))return;const i=tt(n[1]),r=n[2].replace(this.rules.other.tableAlignChars,"").split("|"),o=(c=n[3])!=null&&c.trim()?n[3].replace(this.rules.other.tableRowBlankLine,"").split(`
-`):[],a={type:"table",raw:n[0],header:[],align:[],rows:[]};if(i.length===r.length){for(const d of r)this.rules.other.tableAlignRight.test(d)?a.align.push("right"):this.rules.other.tableAlignCenter.test(d)?a.align.push("center"):this.rules.other.tableAlignLeft.test(d)?a.align.push("left"):a.align.push(null);for(let d=0;d<i.length;d++)a.header.push({text:i[d],tokens:this.lexer.inline(i[d]),header:!0,align:a.align[d]});for(const d of o)a.rows.push(tt(d,a.header.length).map((l,s)=>({text:l,tokens:this.lexer.inline(l),header:!1,align:a.align[s]})));return a}}lheading(e){const n=this.rules.block.lheading.exec(e);if(n)return{type:"heading",raw:n[0],depth:n[2].charAt(0)==="="?1:2,text:n[1],tokens:this.lexer.inline(n[1])}}paragraph(e){const n=this.rules.block.paragraph.exec(e);if(n){const i=n[1].charAt(n[1].length-1)===`
-`?n[1].slice(0,-1):n[1];return{type:"paragraph",raw:n[0],text:i,tokens:this.lexer.inline(i)}}}text(e){const n=this.rules.block.text.exec(e);if(n)return{type:"text",raw:n[0],text:n[0],tokens:this.lexer.inline(n[0])}}escape(e){const n=this.rules.inline.escape.exec(e);if(n)return{type:"escape",raw:n[0],text:n[1]}}tag(e){const n=this.rules.inline.tag.exec(e);if(n)return!this.lexer.state.inLink&&this.rules.other.startATag.test(n[0])?this.lexer.state.inLink=!0:this.lexer.state.inLink&&this.rules.other.endATag.test(n[0])&&(this.lexer.state.inLink=!1),!this.lexer.state.inRawBlock&&this.rules.other.startPreScriptTag.test(n[0])?this.lexer.state.inRawBlock=!0:this.lexer.state.inRawBlock&&this.rules.other.endPreScriptTag.test(n[0])&&(this.lexer.state.inRawBlock=!1),{type:"html",raw:n[0],inLink:this.lexer.state.inLink,inRawBlock:this.lexer.state.inRawBlock,block:!1,text:n[0]}}link(e){const n=this.rules.inline.link.exec(e);if(n){const i=n[2].trim();if(!this.options.pedantic&&this.rules.other.startAngleBracket.test(i)){if(!this.rules.other.endAngleBracket.test(i))return;const a=xe(i.slice(0,-1),"\\");if((i.length-a.length)%2===0)return}else{const a=Vr(n[2],"()");if(a>-1){const d=(n[0].indexOf("!")===0?5:4)+n[1].length+a;n[2]=n[2].substring(0,a),n[0]=n[0].substring(0,d).trim(),n[3]=""}}let r=n[2],o="";if(this.options.pedantic){const a=this.rules.other.pedanticHrefTitle.exec(r);a&&(r=a[1],o=a[3])}else o=n[3]?n[3].slice(1,-1):"";return r=r.trim(),this.rules.other.startAngleBracket.test(r)&&(this.options.pedantic&&!this.rules.other.endAngleBracket.test(i)?r=r.slice(1):r=r.slice(1,-1)),it(n,{href:r&&r.replace(this.rules.inline.anyPunctuation,"$1"),title:o&&o.replace(this.rules.inline.anyPunctuation,"$1")},n[0],this.lexer,this.rules)}}reflink(e,n){let i;if((i=this.rules.inline.reflink.exec(e))||(i=this.rules.inline.nolink.exec(e))){const r=(i[2]||i[1]).replace(this.rules.other.multipleSpaceGlobal," "),o=n[r.toLowerCase()];if(!o){const a=i[0].charAt(0);return{type:"text",raw:a,text:a}}return it(i,o,i[0],this.lexer,this.rules)}}emStrong(e,n,i=""){let r=this.rules.inline.emStrongLDelim.exec(e);if(!r||r[3]&&i.match(this.rules.other.unicodeAlphaNumeric))return;if(!(r[1]||r[2]||"")||!i||this.rules.inline.punctuation.exec(i)){const a=[...r[0]].length-1;let c,d,l=a,s=0;const u=r[0][0]==="*"?this.rules.inline.emStrongRDelimAst:this.rules.inline.emStrongRDelimUnd;for(u.lastIndex=0,n=n.slice(-1*e.length+a);(r=u.exec(n))!=null;){if(c=r[1]||r[2]||r[3]||r[4]||r[5]||r[6],!c)continue;if(d=[...c].length,r[3]||r[4]){l+=d;continue}else if((r[5]||r[6])&&a%3&&!((a+d)%3)){s+=d;continue}if(l-=d,l>0)continue;d=Math.min(d,d+l+s);const h=[...r[0]][0].length,p=e.slice(0,a+r.index+h+d);if(Math.min(a,d)%2){const m=p.slice(1,-1);return{type:"em",raw:p,text:m,tokens:this.lexer.inlineTokens(m)}}const f=p.slice(2,-2);return{type:"strong",raw:p,text:f,tokens:this.lexer.inlineTokens(f)}}}}codespan(e){const n=this.rules.inline.code.exec(e);if(n){let i=n[2].replace(this.rules.other.newLineCharGlobal," ");const r=this.rules.other.nonSpaceChar.test(i),o=this.rules.other.startingSpaceChar.test(i)&&this.rules.other.endingSpaceChar.test(i);return r&&o&&(i=i.substring(1,i.length-1)),{type:"codespan",raw:n[0],text:i}}}br(e){const n=this.rules.inline.br.exec(e);if(n)return{type:"br",raw:n[0]}}del(e){const n=this.rules.inline.del.exec(e);if(n)return{type:"del",raw:n[0],text:n[2],tokens:this.lexer.inlineTokens(n[2])}}autolink(e){const n=this.rules.inline.autolink.exec(e);if(n){let i,r;return n[2]==="@"?(i=n[1],r="mailto:"+i):(i=n[1],r=i),{type:"link",raw:n[0],text:i,href:r,tokens:[{type:"text",raw:i,text:i}]}}}url(e){var i;let n;if(n=this.rules.inline.url.exec(e)){let r,o;if(n[2]==="@")r=n[0],o="mailto:"+r;else{let a;do a=n[0],n[0]=((i=this.rules.inline._backpedal.exec(n[0]))==null?void 0:i[0])??"";while(a!==n[0]);r=n[0],n[1]==="www."?o="http://"+n[0]:o=n[0]}return{type:"link",raw:n[0],text:r,href:o,tokens:[{type:"text",raw:r,text:r}]}}}inlineText(e){const n=this.rules.inline.text.exec(e);if(n){const i=this.lexer.state.inRawBlock;return{type:"text",raw:n[0],text:n[0],escaped:i}}}}class H{constructor(e){C(this,"tokens");C(this,"options");C(this,"state");C(this,"tokenizer");C(this,"inlineQueue");this.tokens=[],this.tokens.links=Object.create(null),this.options=e||he,this.options.tokenizer=this.options.tokenizer||new Ve,this.tokenizer=this.options.tokenizer,this.tokenizer.options=this.options,this.tokenizer.lexer=this,this.inlineQueue=[],this.state={inLink:!1,inRawBlock:!1,top:!0};const n={other:$,block:Be.normal,inline:Ce.normal};this.options.pedantic?(n.block=Be.pedantic,n.inline=Ce.pedantic):this.options.gfm&&(n.block=Be.gfm,this.options.breaks?n.inline=Ce.breaks:n.inline=Ce.gfm),this.tokenizer.rules=n}static get rules(){return{block:Be,inline:Ce}}static lex(e,n){return new H(n).lex(e)}static lexInline(e,n){return new H(n).inlineTokens(e)}lex(e){e=e.replace($.carriageReturn,`
-`),this.blockTokens(e,this.tokens);for(let n=0;n<this.inlineQueue.length;n++){const i=this.inlineQueue[n];this.inlineTokens(i.src,i.tokens)}return this.inlineQueue=[],this.tokens}blockTokens(e,n=[],i=!1){var r,o,a;for(this.options.pedantic&&(e=e.replace($.tabCharGlobal,"    ").replace($.spaceLine,""));e;){let c;if((o=(r=this.options.extensions)==null?void 0:r.block)!=null&&o.some(l=>(c=l.call({lexer:this},e,n))?(e=e.substring(c.raw.length),n.push(c),!0):!1))continue;if(c=this.tokenizer.space(e)){e=e.substring(c.raw.length);const l=n.at(-1);c.raw.length===1&&l!==void 0?l.raw+=`
-`:n.push(c);continue}if(c=this.tokenizer.code(e)){e=e.substring(c.raw.length);const l=n.at(-1);(l==null?void 0:l.type)==="paragraph"||(l==null?void 0:l.type)==="text"?(l.raw+=`
-`+c.raw,l.text+=`
-`+c.text,this.inlineQueue.at(-1).src=l.text):n.push(c);continue}if(c=this.tokenizer.fences(e)){e=e.substring(c.raw.length),n.push(c);continue}if(c=this.tokenizer.heading(e)){e=e.substring(c.raw.length),n.push(c);continue}if(c=this.tokenizer.hr(e)){e=e.substring(c.raw.length),n.push(c);continue}if(c=this.tokenizer.blockquote(e)){e=e.substring(c.raw.length),n.push(c);continue}if(c=this.tokenizer.list(e)){e=e.substring(c.raw.length),n.push(c);continue}if(c=this.tokenizer.html(e)){e=e.substring(c.raw.length),n.push(c);continue}if(c=this.tokenizer.def(e)){e=e.substring(c.raw.length);const l=n.at(-1);(l==null?void 0:l.type)==="paragraph"||(l==null?void 0:l.type)==="text"?(l.raw+=`
-`+c.raw,l.text+=`
-`+c.raw,this.inlineQueue.at(-1).src=l.text):this.tokens.links[c.tag]||(this.tokens.links[c.tag]={href:c.href,title:c.title});continue}if(c=this.tokenizer.table(e)){e=e.substring(c.raw.length),n.push(c);continue}if(c=this.tokenizer.lheading(e)){e=e.substring(c.raw.length),n.push(c);continue}let d=e;if((a=this.options.extensions)!=null&&a.startBlock){let l=1/0;const s=e.slice(1);let u;this.options.extensions.startBlock.forEach(h=>{u=h.call({lexer:this},s),typeof u=="number"&&u>=0&&(l=Math.min(l,u))}),l<1/0&&l>=0&&(d=e.substring(0,l+1))}if(this.state.top&&(c=this.tokenizer.paragraph(d))){const l=n.at(-1);i&&(l==null?void 0:l.type)==="paragraph"?(l.raw+=`
-`+c.raw,l.text+=`
-`+c.text,this.inlineQueue.pop(),this.inlineQueue.at(-1).src=l.text):n.push(c),i=d.length!==e.length,e=e.substring(c.raw.length);continue}if(c=this.tokenizer.text(e)){e=e.substring(c.raw.length);const l=n.at(-1);(l==null?void 0:l.type)==="text"?(l.raw+=`
-`+c.raw,l.text+=`
-`+c.text,this.inlineQueue.pop(),this.inlineQueue.at(-1).src=l.text):n.push(c);continue}if(e){const l="Infinite loop on byte: "+e.charCodeAt(0);if(this.options.silent){console.error(l);break}else throw new Error(l)}}return this.state.top=!0,n}inline(e,n=[]){return this.inlineQueue.push({src:e,tokens:n}),n}inlineTokens(e,n=[]){var c,d,l;let i=e,r=null;if(this.tokens.links){const s=Object.keys(this.tokens.links);if(s.length>0)for(;(r=this.tokenizer.rules.inline.reflinkSearch.exec(i))!=null;)s.includes(r[0].slice(r[0].lastIndexOf("[")+1,-1))&&(i=i.slice(0,r.index)+"["+"a".repeat(r[0].length-2)+"]"+i.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex))}for(;(r=this.tokenizer.rules.inline.blockSkip.exec(i))!=null;)i=i.slice(0,r.index)+"["+"a".repeat(r[0].length-2)+"]"+i.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);for(;(r=this.tokenizer.rules.inline.anyPunctuation.exec(i))!=null;)i=i.slice(0,r.index)+"++"+i.slice(this.tokenizer.rules.inline.anyPunctuation.lastIndex);let o=!1,a="";for(;e;){o||(a=""),o=!1;let s;if((d=(c=this.options.extensions)==null?void 0:c.inline)!=null&&d.some(h=>(s=h.call({lexer:this},e,n))?(e=e.substring(s.raw.length),n.push(s),!0):!1))continue;if(s=this.tokenizer.escape(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.tag(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.link(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.reflink(e,this.tokens.links)){e=e.substring(s.raw.length);const h=n.at(-1);s.type==="text"&&(h==null?void 0:h.type)==="text"?(h.raw+=s.raw,h.text+=s.text):n.push(s);continue}if(s=this.tokenizer.emStrong(e,i,a)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.codespan(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.br(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.del(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.autolink(e)){e=e.substring(s.raw.length),n.push(s);continue}if(!this.state.inLink&&(s=this.tokenizer.url(e))){e=e.substring(s.raw.length),n.push(s);continue}let u=e;if((l=this.options.extensions)!=null&&l.startInline){let h=1/0;const p=e.slice(1);let f;this.options.extensions.startInline.forEach(m=>{f=m.call({lexer:this},p),typeof f=="number"&&f>=0&&(h=Math.min(h,f))}),h<1/0&&h>=0&&(u=e.substring(0,h+1))}if(s=this.tokenizer.inlineText(u)){e=e.substring(s.raw.length),s.raw.slice(-1)!=="_"&&(a=s.raw.slice(-1)),o=!0;const h=n.at(-1);(h==null?void 0:h.type)==="text"?(h.raw+=s.raw,h.text+=s.text):n.push(s);continue}if(e){const h="Infinite loop on byte: "+e.charCodeAt(0);if(this.options.silent){console.error(h);break}else throw new Error(h)}}return n}}class Ke{constructor(e){C(this,"options");C(this,"parser");this.options=e||he}space(e){return""}code({text:e,lang:n,escaped:i}){var a;const r=(a=(n||"").match($.notSpaceStart))==null?void 0:a[0],o=e.replace($.endingNewline,"")+`
-`;return r?'<pre><code class="language-'+U(r)+'">'+(i?o:U(o,!0))+`</code></pre>
-`:"<pre><code>"+(i?o:U(o,!0))+`</code></pre>
+`,e=e.substring(q.length+1),h=w.slice(m)}}o.loose||(l?o.loose=!0:this.rules.other.doubleBlankLine.test(s)&&(l=!0));let y=null,v;this.options.gfm&&(y=this.rules.other.listIsTask.exec(u),y&&(v=y[0]!=="[ ] ",u=u.replace(this.rules.other.listReplaceTask,""))),o.items.push({type:"list_item",raw:s,task:!!y,checked:v,loose:!1,text:u,tokens:[]}),o.raw+=s}const d=o.items.at(-1);d&&(d.raw=d.raw.trimEnd(),d.text=d.text.trimEnd()),o.raw=o.raw.trimEnd();for(let c=0;c<o.items.length;c++)if(this.lexer.state.top=!1,o.items[c].tokens=this.lexer.blockTokens(o.items[c].text,[]),!o.loose){const s=o.items[c].tokens.filter(h=>h.type==="space"),u=s.length>0&&s.some(h=>this.rules.other.anyLine.test(h.raw));o.loose=u}if(o.loose)for(let c=0;c<o.items.length;c++)o.items[c].loose=!0;return o}}html(e){const n=this.rules.block.html.exec(e);if(n)return{type:"html",block:!0,raw:n[0],pre:n[1]==="pre"||n[1]==="script"||n[1]==="style",text:n[0]}}def(e){const n=this.rules.block.def.exec(e);if(n){const t=n[1].toLowerCase().replace(this.rules.other.multipleSpaceGlobal," "),r=n[2]?n[2].replace(this.rules.other.hrefBrackets,"$1").replace(this.rules.inline.anyPunctuation,"$1"):"",o=n[3]?n[3].substring(1,n[3].length-1).replace(this.rules.inline.anyPunctuation,"$1"):n[3];return{type:"def",tag:t,raw:n[0],href:r,title:o}}}table(e){var l;const n=this.rules.block.table.exec(e);if(!n||!this.rules.other.tableDelimiter.test(n[2]))return;const t=ii(n[1]),r=n[2].replace(this.rules.other.tableAlignChars,"").split("|"),o=(l=n[3])!=null&&l.trim()?n[3].replace(this.rules.other.tableRowBlankLine,"").split(`
+`):[],a={type:"table",raw:n[0],header:[],align:[],rows:[]};if(t.length===r.length){for(const d of r)this.rules.other.tableAlignRight.test(d)?a.align.push("right"):this.rules.other.tableAlignCenter.test(d)?a.align.push("center"):this.rules.other.tableAlignLeft.test(d)?a.align.push("left"):a.align.push(null);for(let d=0;d<t.length;d++)a.header.push({text:t[d],tokens:this.lexer.inline(t[d]),header:!0,align:a.align[d]});for(const d of o)a.rows.push(ii(d,a.header.length).map((c,s)=>({text:c,tokens:this.lexer.inline(c),header:!1,align:a.align[s]})));return a}}lheading(e){const n=this.rules.block.lheading.exec(e);if(n)return{type:"heading",raw:n[0],depth:n[2].charAt(0)==="="?1:2,text:n[1],tokens:this.lexer.inline(n[1])}}paragraph(e){const n=this.rules.block.paragraph.exec(e);if(n){const t=n[1].charAt(n[1].length-1)===`
+`?n[1].slice(0,-1):n[1];return{type:"paragraph",raw:n[0],text:t,tokens:this.lexer.inline(t)}}}text(e){const n=this.rules.block.text.exec(e);if(n)return{type:"text",raw:n[0],text:n[0],tokens:this.lexer.inline(n[0])}}escape(e){const n=this.rules.inline.escape.exec(e);if(n)return{type:"escape",raw:n[0],text:n[1]}}tag(e){const n=this.rules.inline.tag.exec(e);if(n)return!this.lexer.state.inLink&&this.rules.other.startATag.test(n[0])?this.lexer.state.inLink=!0:this.lexer.state.inLink&&this.rules.other.endATag.test(n[0])&&(this.lexer.state.inLink=!1),!this.lexer.state.inRawBlock&&this.rules.other.startPreScriptTag.test(n[0])?this.lexer.state.inRawBlock=!0:this.lexer.state.inRawBlock&&this.rules.other.endPreScriptTag.test(n[0])&&(this.lexer.state.inRawBlock=!1),{type:"html",raw:n[0],inLink:this.lexer.state.inLink,inRawBlock:this.lexer.state.inRawBlock,block:!1,text:n[0]}}link(e){const n=this.rules.inline.link.exec(e);if(n){const t=n[2].trim();if(!this.options.pedantic&&this.rules.other.startAngleBracket.test(t)){if(!this.rules.other.endAngleBracket.test(t))return;const a=xe(t.slice(0,-1),"\\");if((t.length-a.length)%2===0)return}else{const a=Jr(n[2],"()");if(a>-1){const d=(n[0].indexOf("!")===0?5:4)+n[1].length+a;n[2]=n[2].substring(0,a),n[0]=n[0].substring(0,d).trim(),n[3]=""}}let r=n[2],o="";if(this.options.pedantic){const a=this.rules.other.pedanticHrefTitle.exec(r);a&&(r=a[1],o=a[3])}else o=n[3]?n[3].slice(1,-1):"";return r=r.trim(),this.rules.other.startAngleBracket.test(r)&&(this.options.pedantic&&!this.rules.other.endAngleBracket.test(t)?r=r.slice(1):r=r.slice(1,-1)),ti(n,{href:r&&r.replace(this.rules.inline.anyPunctuation,"$1"),title:o&&o.replace(this.rules.inline.anyPunctuation,"$1")},n[0],this.lexer,this.rules)}}reflink(e,n){let t;if((t=this.rules.inline.reflink.exec(e))||(t=this.rules.inline.nolink.exec(e))){const r=(t[2]||t[1]).replace(this.rules.other.multipleSpaceGlobal," "),o=n[r.toLowerCase()];if(!o){const a=t[0].charAt(0);return{type:"text",raw:a,text:a}}return ti(t,o,t[0],this.lexer,this.rules)}}emStrong(e,n,t=""){let r=this.rules.inline.emStrongLDelim.exec(e);if(!r||r[3]&&t.match(this.rules.other.unicodeAlphaNumeric))return;if(!(r[1]||r[2]||"")||!t||this.rules.inline.punctuation.exec(t)){const a=[...r[0]].length-1;let l,d,c=a,s=0;const u=r[0][0]==="*"?this.rules.inline.emStrongRDelimAst:this.rules.inline.emStrongRDelimUnd;for(u.lastIndex=0,n=n.slice(-1*e.length+a);(r=u.exec(n))!=null;){if(l=r[1]||r[2]||r[3]||r[4]||r[5]||r[6],!l)continue;if(d=[...l].length,r[3]||r[4]){c+=d;continue}else if((r[5]||r[6])&&a%3&&!((a+d)%3)){s+=d;continue}if(c-=d,c>0)continue;d=Math.min(d,d+c+s);const h=[...r[0]][0].length,p=e.slice(0,a+r.index+h+d);if(Math.min(a,d)%2){const m=p.slice(1,-1);return{type:"em",raw:p,text:m,tokens:this.lexer.inlineTokens(m)}}const f=p.slice(2,-2);return{type:"strong",raw:p,text:f,tokens:this.lexer.inlineTokens(f)}}}}codespan(e){const n=this.rules.inline.code.exec(e);if(n){let t=n[2].replace(this.rules.other.newLineCharGlobal," ");const r=this.rules.other.nonSpaceChar.test(t),o=this.rules.other.startingSpaceChar.test(t)&&this.rules.other.endingSpaceChar.test(t);return r&&o&&(t=t.substring(1,t.length-1)),{type:"codespan",raw:n[0],text:t}}}br(e){const n=this.rules.inline.br.exec(e);if(n)return{type:"br",raw:n[0]}}del(e){const n=this.rules.inline.del.exec(e);if(n)return{type:"del",raw:n[0],text:n[2],tokens:this.lexer.inlineTokens(n[2])}}autolink(e){const n=this.rules.inline.autolink.exec(e);if(n){let t,r;return n[2]==="@"?(t=n[1],r="mailto:"+t):(t=n[1],r=t),{type:"link",raw:n[0],text:t,href:r,tokens:[{type:"text",raw:t,text:t}]}}}url(e){var t;let n;if(n=this.rules.inline.url.exec(e)){let r,o;if(n[2]==="@")r=n[0],o="mailto:"+r;else{let a;do a=n[0],n[0]=((t=this.rules.inline._backpedal.exec(n[0]))==null?void 0:t[0])??"";while(a!==n[0]);r=n[0],n[1]==="www."?o="http://"+n[0]:o=n[0]}return{type:"link",raw:n[0],text:r,href:o,tokens:[{type:"text",raw:r,text:r}]}}}inlineText(e){const n=this.rules.inline.text.exec(e);if(n){const t=this.lexer.state.inRawBlock;return{type:"text",raw:n[0],text:n[0],escaped:t}}}}class O{constructor(e){k(this,"tokens");k(this,"options");k(this,"state");k(this,"tokenizer");k(this,"inlineQueue");this.tokens=[],this.tokens.links=Object.create(null),this.options=e||he,this.options.tokenizer=this.options.tokenizer||new Ve,this.tokenizer=this.options.tokenizer,this.tokenizer.options=this.options,this.tokenizer.lexer=this,this.inlineQueue=[],this.state={inLink:!1,inRawBlock:!1,top:!0};const n={other:W,block:He.normal,inline:ke.normal};this.options.pedantic?(n.block=He.pedantic,n.inline=ke.pedantic):this.options.gfm&&(n.block=He.gfm,this.options.breaks?n.inline=ke.breaks:n.inline=ke.gfm),this.tokenizer.rules=n}static get rules(){return{block:He,inline:ke}}static lex(e,n){return new O(n).lex(e)}static lexInline(e,n){return new O(n).inlineTokens(e)}lex(e){e=e.replace(W.carriageReturn,`
+`),this.blockTokens(e,this.tokens);for(let n=0;n<this.inlineQueue.length;n++){const t=this.inlineQueue[n];this.inlineTokens(t.src,t.tokens)}return this.inlineQueue=[],this.tokens}blockTokens(e,n=[],t=!1){var r,o,a;for(this.options.pedantic&&(e=e.replace(W.tabCharGlobal,"    ").replace(W.spaceLine,""));e;){let l;if((o=(r=this.options.extensions)==null?void 0:r.block)!=null&&o.some(c=>(l=c.call({lexer:this},e,n))?(e=e.substring(l.raw.length),n.push(l),!0):!1))continue;if(l=this.tokenizer.space(e)){e=e.substring(l.raw.length);const c=n.at(-1);l.raw.length===1&&c!==void 0?c.raw+=`
+`:n.push(l);continue}if(l=this.tokenizer.code(e)){e=e.substring(l.raw.length);const c=n.at(-1);(c==null?void 0:c.type)==="paragraph"||(c==null?void 0:c.type)==="text"?(c.raw+=`
+`+l.raw,c.text+=`
+`+l.text,this.inlineQueue.at(-1).src=c.text):n.push(l);continue}if(l=this.tokenizer.fences(e)){e=e.substring(l.raw.length),n.push(l);continue}if(l=this.tokenizer.heading(e)){e=e.substring(l.raw.length),n.push(l);continue}if(l=this.tokenizer.hr(e)){e=e.substring(l.raw.length),n.push(l);continue}if(l=this.tokenizer.blockquote(e)){e=e.substring(l.raw.length),n.push(l);continue}if(l=this.tokenizer.list(e)){e=e.substring(l.raw.length),n.push(l);continue}if(l=this.tokenizer.html(e)){e=e.substring(l.raw.length),n.push(l);continue}if(l=this.tokenizer.def(e)){e=e.substring(l.raw.length);const c=n.at(-1);(c==null?void 0:c.type)==="paragraph"||(c==null?void 0:c.type)==="text"?(c.raw+=`
+`+l.raw,c.text+=`
+`+l.raw,this.inlineQueue.at(-1).src=c.text):this.tokens.links[l.tag]||(this.tokens.links[l.tag]={href:l.href,title:l.title});continue}if(l=this.tokenizer.table(e)){e=e.substring(l.raw.length),n.push(l);continue}if(l=this.tokenizer.lheading(e)){e=e.substring(l.raw.length),n.push(l);continue}let d=e;if((a=this.options.extensions)!=null&&a.startBlock){let c=1/0;const s=e.slice(1);let u;this.options.extensions.startBlock.forEach(h=>{u=h.call({lexer:this},s),typeof u=="number"&&u>=0&&(c=Math.min(c,u))}),c<1/0&&c>=0&&(d=e.substring(0,c+1))}if(this.state.top&&(l=this.tokenizer.paragraph(d))){const c=n.at(-1);t&&(c==null?void 0:c.type)==="paragraph"?(c.raw+=`
+`+l.raw,c.text+=`
+`+l.text,this.inlineQueue.pop(),this.inlineQueue.at(-1).src=c.text):n.push(l),t=d.length!==e.length,e=e.substring(l.raw.length);continue}if(l=this.tokenizer.text(e)){e=e.substring(l.raw.length);const c=n.at(-1);(c==null?void 0:c.type)==="text"?(c.raw+=`
+`+l.raw,c.text+=`
+`+l.text,this.inlineQueue.pop(),this.inlineQueue.at(-1).src=c.text):n.push(l);continue}if(e){const c="Infinite loop on byte: "+e.charCodeAt(0);if(this.options.silent){console.error(c);break}else throw new Error(c)}}return this.state.top=!0,n}inline(e,n=[]){return this.inlineQueue.push({src:e,tokens:n}),n}inlineTokens(e,n=[]){var l,d,c;let t=e,r=null;if(this.tokens.links){const s=Object.keys(this.tokens.links);if(s.length>0)for(;(r=this.tokenizer.rules.inline.reflinkSearch.exec(t))!=null;)s.includes(r[0].slice(r[0].lastIndexOf("[")+1,-1))&&(t=t.slice(0,r.index)+"["+"a".repeat(r[0].length-2)+"]"+t.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex))}for(;(r=this.tokenizer.rules.inline.blockSkip.exec(t))!=null;)t=t.slice(0,r.index)+"["+"a".repeat(r[0].length-2)+"]"+t.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);for(;(r=this.tokenizer.rules.inline.anyPunctuation.exec(t))!=null;)t=t.slice(0,r.index)+"++"+t.slice(this.tokenizer.rules.inline.anyPunctuation.lastIndex);let o=!1,a="";for(;e;){o||(a=""),o=!1;let s;if((d=(l=this.options.extensions)==null?void 0:l.inline)!=null&&d.some(h=>(s=h.call({lexer:this},e,n))?(e=e.substring(s.raw.length),n.push(s),!0):!1))continue;if(s=this.tokenizer.escape(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.tag(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.link(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.reflink(e,this.tokens.links)){e=e.substring(s.raw.length);const h=n.at(-1);s.type==="text"&&(h==null?void 0:h.type)==="text"?(h.raw+=s.raw,h.text+=s.text):n.push(s);continue}if(s=this.tokenizer.emStrong(e,t,a)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.codespan(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.br(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.del(e)){e=e.substring(s.raw.length),n.push(s);continue}if(s=this.tokenizer.autolink(e)){e=e.substring(s.raw.length),n.push(s);continue}if(!this.state.inLink&&(s=this.tokenizer.url(e))){e=e.substring(s.raw.length),n.push(s);continue}let u=e;if((c=this.options.extensions)!=null&&c.startInline){let h=1/0;const p=e.slice(1);let f;this.options.extensions.startInline.forEach(m=>{f=m.call({lexer:this},p),typeof f=="number"&&f>=0&&(h=Math.min(h,f))}),h<1/0&&h>=0&&(u=e.substring(0,h+1))}if(s=this.tokenizer.inlineText(u)){e=e.substring(s.raw.length),s.raw.slice(-1)!=="_"&&(a=s.raw.slice(-1)),o=!0;const h=n.at(-1);(h==null?void 0:h.type)==="text"?(h.raw+=s.raw,h.text+=s.text):n.push(s);continue}if(e){const h="Infinite loop on byte: "+e.charCodeAt(0);if(this.options.silent){console.error(h);break}else throw new Error(h)}}return n}}class Je{constructor(e){k(this,"options");k(this,"parser");this.options=e||he}space(e){return""}code({text:e,lang:n,escaped:t}){var a;const r=(a=(n||"").match(W.notSpaceStart))==null?void 0:a[0],o=e.replace(W.endingNewline,"")+`
+`;return r?'<pre><code class="language-'+U(r)+'">'+(t?o:U(o,!0))+`</code></pre>
+`:"<pre><code>"+(t?o:U(o,!0))+`</code></pre>
 `}blockquote({tokens:e}){return`<blockquote>
 ${this.parser.parse(e)}</blockquote>
 `}html({text:e}){return e}heading({tokens:e,depth:n}){return`<h${n}>${this.parser.parseInline(e)}</h${n}>
 `}hr(e){return`<hr>
-`}list(e){const n=e.ordered,i=e.start;let r="";for(let c=0;c<e.items.length;c++){const d=e.items[c];r+=this.listitem(d)}const o=n?"ol":"ul",a=n&&i!==1?' start="'+i+'"':"";return"<"+o+a+`>
+`}list(e){const n=e.ordered,t=e.start;let r="";for(let l=0;l<e.items.length;l++){const d=e.items[l];r+=this.listitem(d)}const o=n?"ol":"ul",a=n&&t!==1?' start="'+t+'"':"";return"<"+o+a+`>
 `+r+"</"+o+`>
-`}listitem(e){var i;let n="";if(e.task){const r=this.checkbox({checked:!!e.checked});e.loose?((i=e.tokens[0])==null?void 0:i.type)==="paragraph"?(e.tokens[0].text=r+" "+e.tokens[0].text,e.tokens[0].tokens&&e.tokens[0].tokens.length>0&&e.tokens[0].tokens[0].type==="text"&&(e.tokens[0].tokens[0].text=r+" "+U(e.tokens[0].tokens[0].text),e.tokens[0].tokens[0].escaped=!0)):e.tokens.unshift({type:"text",raw:r+" ",text:r+" ",escaped:!0}):n+=r+" "}return n+=this.parser.parse(e.tokens,!!e.loose),`<li>${n}</li>
+`}listitem(e){var t;let n="";if(e.task){const r=this.checkbox({checked:!!e.checked});e.loose?((t=e.tokens[0])==null?void 0:t.type)==="paragraph"?(e.tokens[0].text=r+" "+e.tokens[0].text,e.tokens[0].tokens&&e.tokens[0].tokens.length>0&&e.tokens[0].tokens[0].type==="text"&&(e.tokens[0].tokens[0].text=r+" "+U(e.tokens[0].tokens[0].text),e.tokens[0].tokens[0].escaped=!0)):e.tokens.unshift({type:"text",raw:r+" ",text:r+" ",escaped:!0}):n+=r+" "}return n+=this.parser.parse(e.tokens,!!e.loose),`<li>${n}</li>
 `}checkbox({checked:e}){return"<input "+(e?'checked="" ':"")+'disabled="" type="checkbox">'}paragraph({tokens:e}){return`<p>${this.parser.parseInline(e)}</p>
-`}table(e){let n="",i="";for(let o=0;o<e.header.length;o++)i+=this.tablecell(e.header[o]);n+=this.tablerow({text:i});let r="";for(let o=0;o<e.rows.length;o++){const a=e.rows[o];i="";for(let c=0;c<a.length;c++)i+=this.tablecell(a[c]);r+=this.tablerow({text:i})}return r&&(r=`<tbody>${r}</tbody>`),`<table>
+`}table(e){let n="",t="";for(let o=0;o<e.header.length;o++)t+=this.tablecell(e.header[o]);n+=this.tablerow({text:t});let r="";for(let o=0;o<e.rows.length;o++){const a=e.rows[o];t="";for(let l=0;l<a.length;l++)t+=this.tablecell(a[l]);r+=this.tablerow({text:t})}return r&&(r=`<tbody>${r}</tbody>`),`<table>
 <thead>
 `+n+`</thead>
 `+r+`</table>
 `}tablerow({text:e}){return`<tr>
 ${e}</tr>
-`}tablecell(e){const n=this.parser.parseInline(e.tokens),i=e.header?"th":"td";return(e.align?`<${i} align="${e.align}">`:`<${i}>`)+n+`</${i}>
-`}strong({tokens:e}){return`<strong>${this.parser.parseInline(e)}</strong>`}em({tokens:e}){return`<em>${this.parser.parseInline(e)}</em>`}codespan({text:e}){return`<code>${U(e,!0)}</code>`}br(e){return"<br>"}del({tokens:e}){return`<del>${this.parser.parseInline(e)}</del>`}link({href:e,title:n,tokens:i}){const r=this.parser.parseInline(i),o=nt(e);if(o===null)return r;e=o;let a='<a href="'+e+'"';return n&&(a+=' title="'+U(n)+'"'),a+=">"+r+"</a>",a}image({href:e,title:n,text:i}){const r=nt(e);if(r===null)return U(i);e=r;let o=`<img src="${e}" alt="${i}"`;return n&&(o+=` title="${U(n)}"`),o+=">",o}text(e){return"tokens"in e&&e.tokens?this.parser.parseInline(e.tokens):"escaped"in e&&e.escaped?e.text:U(e.text)}}class $n{strong({text:e}){return e}em({text:e}){return e}codespan({text:e}){return e}del({text:e}){return e}html({text:e}){return e}text({text:e}){return e}link({text:e}){return""+e}image({text:e}){return""+e}br(){return""}}class L{constructor(e){C(this,"options");C(this,"renderer");C(this,"textRenderer");this.options=e||he,this.options.renderer=this.options.renderer||new Ke,this.renderer=this.options.renderer,this.renderer.options=this.options,this.renderer.parser=this,this.textRenderer=new $n}static parse(e,n){return new L(n).parse(e)}static parseInline(e,n){return new L(n).parseInline(e)}parse(e,n=!0){var r,o;let i="";for(let a=0;a<e.length;a++){const c=e[a];if((o=(r=this.options.extensions)==null?void 0:r.renderers)!=null&&o[c.type]){const l=c,s=this.options.extensions.renderers[l.type].call({parser:this},l);if(s!==!1||!["space","hr","heading","code","table","blockquote","list","html","paragraph","text"].includes(l.type)){i+=s||"";continue}}const d=c;switch(d.type){case"space":{i+=this.renderer.space(d);continue}case"hr":{i+=this.renderer.hr(d);continue}case"heading":{i+=this.renderer.heading(d);continue}case"code":{i+=this.renderer.code(d);continue}case"table":{i+=this.renderer.table(d);continue}case"blockquote":{i+=this.renderer.blockquote(d);continue}case"list":{i+=this.renderer.list(d);continue}case"html":{i+=this.renderer.html(d);continue}case"paragraph":{i+=this.renderer.paragraph(d);continue}case"text":{let l=d,s=this.renderer.text(l);for(;a+1<e.length&&e[a+1].type==="text";)l=e[++a],s+=`
-`+this.renderer.text(l);n?i+=this.renderer.paragraph({type:"paragraph",raw:s,text:s,tokens:[{type:"text",raw:s,text:s,escaped:!0}]}):i+=s;continue}default:{const l='Token with "'+d.type+'" type was not found.';if(this.options.silent)return console.error(l),"";throw new Error(l)}}}return i}parseInline(e,n=this.renderer){var r,o;let i="";for(let a=0;a<e.length;a++){const c=e[a];if((o=(r=this.options.extensions)==null?void 0:r.renderers)!=null&&o[c.type]){const l=this.options.extensions.renderers[c.type].call({parser:this},c);if(l!==!1||!["escape","html","link","image","strong","em","codespan","br","del","text"].includes(c.type)){i+=l||"";continue}}const d=c;switch(d.type){case"escape":{i+=n.text(d);break}case"html":{i+=n.html(d);break}case"link":{i+=n.link(d);break}case"image":{i+=n.image(d);break}case"strong":{i+=n.strong(d);break}case"em":{i+=n.em(d);break}case"codespan":{i+=n.codespan(d);break}case"br":{i+=n.br(d);break}case"del":{i+=n.del(d);break}case"text":{i+=n.text(d);break}default:{const l='Token with "'+d.type+'" type was not found.';if(this.options.silent)return console.error(l),"";throw new Error(l)}}}return i}}class Ie{constructor(e){C(this,"options");C(this,"block");this.options=e||he}preprocess(e){return e}postprocess(e){return e}processAllTokens(e){return e}provideLexer(){return this.block?H.lex:H.lexInline}provideParser(){return this.block?L.parse:L.parseInline}}C(Ie,"passThroughHooks",new Set(["preprocess","postprocess","processAllTokens"]));class Xr{constructor(...e){C(this,"defaults",Mn());C(this,"options",this.setOptions);C(this,"parse",this.parseMarkdown(!0));C(this,"parseInline",this.parseMarkdown(!1));C(this,"Parser",L);C(this,"Renderer",Ke);C(this,"TextRenderer",$n);C(this,"Lexer",H);C(this,"Tokenizer",Ve);C(this,"Hooks",Ie);this.use(...e)}walkTokens(e,n){var r,o;let i=[];for(const a of e)switch(i=i.concat(n.call(this,a)),a.type){case"table":{const c=a;for(const d of c.header)i=i.concat(this.walkTokens(d.tokens,n));for(const d of c.rows)for(const l of d)i=i.concat(this.walkTokens(l.tokens,n));break}case"list":{const c=a;i=i.concat(this.walkTokens(c.items,n));break}default:{const c=a;(o=(r=this.defaults.extensions)==null?void 0:r.childTokens)!=null&&o[c.type]?this.defaults.extensions.childTokens[c.type].forEach(d=>{const l=c[d].flat(1/0);i=i.concat(this.walkTokens(l,n))}):c.tokens&&(i=i.concat(this.walkTokens(c.tokens,n)))}}return i}use(...e){const n=this.defaults.extensions||{renderers:{},childTokens:{}};return e.forEach(i=>{const r={...i};if(r.async=this.defaults.async||r.async||!1,i.extensions&&(i.extensions.forEach(o=>{if(!o.name)throw new Error("extension name required");if("renderer"in o){const a=n.renderers[o.name];a?n.renderers[o.name]=function(...c){let d=o.renderer.apply(this,c);return d===!1&&(d=a.apply(this,c)),d}:n.renderers[o.name]=o.renderer}if("tokenizer"in o){if(!o.level||o.level!=="block"&&o.level!=="inline")throw new Error("extension level must be 'block' or 'inline'");const a=n[o.level];a?a.unshift(o.tokenizer):n[o.level]=[o.tokenizer],o.start&&(o.level==="block"?n.startBlock?n.startBlock.push(o.start):n.startBlock=[o.start]:o.level==="inline"&&(n.startInline?n.startInline.push(o.start):n.startInline=[o.start]))}"childTokens"in o&&o.childTokens&&(n.childTokens[o.name]=o.childTokens)}),r.extensions=n),i.renderer){const o=this.defaults.renderer||new Ke(this.defaults);for(const a in i.renderer){if(!(a in o))throw new Error(`renderer '${a}' does not exist`);if(["options","parser"].includes(a))continue;const c=a,d=i.renderer[c],l=o[c];o[c]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=l.apply(o,s)),u||""}}r.renderer=o}if(i.tokenizer){const o=this.defaults.tokenizer||new Ve(this.defaults);for(const a in i.tokenizer){if(!(a in o))throw new Error(`tokenizer '${a}' does not exist`);if(["options","rules","lexer"].includes(a))continue;const c=a,d=i.tokenizer[c],l=o[c];o[c]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=l.apply(o,s)),u}}r.tokenizer=o}if(i.hooks){const o=this.defaults.hooks||new Ie;for(const a in i.hooks){if(!(a in o))throw new Error(`hook '${a}' does not exist`);if(["options","block"].includes(a))continue;const c=a,d=i.hooks[c],l=o[c];Ie.passThroughHooks.has(a)?o[c]=s=>{if(this.defaults.async)return Promise.resolve(d.call(o,s)).then(h=>l.call(o,h));const u=d.call(o,s);return l.call(o,u)}:o[c]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=l.apply(o,s)),u}}r.hooks=o}if(i.walkTokens){const o=this.defaults.walkTokens,a=i.walkTokens;r.walkTokens=function(c){let d=[];return d.push(a.call(this,c)),o&&(d=d.concat(o.call(this,c))),d}}this.defaults={...this.defaults,...r}}),this}setOptions(e){return this.defaults={...this.defaults,...e},this}lexer(e,n){return H.lex(e,n??this.defaults)}parser(e,n){return L.parse(e,n??this.defaults)}parseMarkdown(e){return(i,r)=>{const o={...r},a={...this.defaults,...o},c=this.onError(!!a.silent,!!a.async);if(this.defaults.async===!0&&o.async===!1)return c(new Error("marked(): The async option was set to true by an extension. Remove async: false from the parse options object to return a Promise."));if(typeof i>"u"||i===null)return c(new Error("marked(): input parameter is undefined or null"));if(typeof i!="string")return c(new Error("marked(): input parameter is of type "+Object.prototype.toString.call(i)+", string expected"));a.hooks&&(a.hooks.options=a,a.hooks.block=e);const d=a.hooks?a.hooks.provideLexer():e?H.lex:H.lexInline,l=a.hooks?a.hooks.provideParser():e?L.parse:L.parseInline;if(a.async)return Promise.resolve(a.hooks?a.hooks.preprocess(i):i).then(s=>d(s,a)).then(s=>a.hooks?a.hooks.processAllTokens(s):s).then(s=>a.walkTokens?Promise.all(this.walkTokens(s,a.walkTokens)).then(()=>s):s).then(s=>l(s,a)).then(s=>a.hooks?a.hooks.postprocess(s):s).catch(c);try{a.hooks&&(i=a.hooks.preprocess(i));let s=d(i,a);a.hooks&&(s=a.hooks.processAllTokens(s)),a.walkTokens&&this.walkTokens(s,a.walkTokens);let u=l(s,a);return a.hooks&&(u=a.hooks.postprocess(u)),u}catch(s){return c(s)}}}onError(e,n){return i=>{if(i.message+=`
-Please report this to https://github.com/markedjs/marked.`,e){const r="<p>An error occurred:</p><pre>"+U(i.message+"",!0)+"</pre>";return n?Promise.resolve(r):r}if(n)return Promise.reject(i);throw i}}}const se=new Xr;function k(t,e){return se.parse(t,e)}k.options=k.setOptions=function(t){return se.setOptions(t),k.defaults=se.defaults,Wt(k.defaults),k};k.getDefaults=Mn;k.defaults=he;k.use=function(...t){return se.use(...t),k.defaults=se.defaults,Wt(k.defaults),k};k.walkTokens=function(t,e){return se.walkTokens(t,e)};k.parseInline=se.parseInline;k.Parser=L;k.parser=L.parse;k.Renderer=Ke;k.TextRenderer=$n;k.Lexer=H;k.lexer=H.lex;k.Tokenizer=Ve;k.Hooks=Ie;k.parse=k;k.options;k.setOptions;k.use;k.walkTokens;k.parseInline;L.parse;H.lex;var Yr=de('<div class="svelte-1fic553"><!></div>'),Jr=de('<fieldset class="fancy"><legend> </legend> <!></fieldset>'),eo=de('<h2 style="font-size: 1.5rem; font-weight: medium; margin: 0">Final Score</h2> <div style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 1rem" class="score svelte-1fic553"> </div> <table style="margin: auto"><tbody><tr><th>Correct</th><td> </td></tr><tr><th>Incorrect</th><td> </td></tr></tbody></table>',1),no=de('<article><nav class="svelte-1fic553"><button type="button" class="svelte-1fic553">Previous</button> <div class="timer svelte-1fic553">Timer <time class="svelte-1fic553"> </time></div> <button type="button" class="svelte-1fic553">Next</button></nav> <!></article>');function to(t,e){en(e,!1);let n=Ne(e,"num_questions",12,5),i=G(),r=G(0),o=G([]),a,c=G(),d=G("00:00:00"),l=G(!1);function s(){g(r)<=g(i).length&&Nn(r)}function u(x){return k(x,{async:!1}).split(/^<h2>.+<\/h2>\n/gm).filter(Boolean)}Qt(()=>{M(i,[...u(wr),...u(kr)]),$t(g(i)),M(i,g(i).slice(0,n())),n(g(i).length),M(o,new Array(n()).fill(void 0)),a=new Date,M(c,setInterval(()=>{M(d,yr(a))},1e3))});function h(x){lt(o,g(o)[g(r)]=x)}yt(()=>(g(l),g(o),g(c)),()=>{M(l,g(o).every(x=>typeof x=="boolean")),g(l)&&clearInterval(g(c))}),bt(),Rt();var p=no(),f=S(p),m=S(f),y=Q(m,2),v=Q(S(y)),P=S(v),I=Q(y,2),B=Q(f,2);qt(B,()=>g(r)<n(),x=>{var E=Jr(),q=S(E),w=S(q),N=Q(q,2);or(N,1,()=>g(i),ir,(X,on,De)=>{var Te=Yr(),an=S(Te),sn=cn(()=>typeof g(o)[g(r)]=="boolean");vr(an,{get src(){return g(on)},onSubmit:h,get answered(){return g(sn)}}),Y(()=>Gn(Te,"hidden",g(r)!==De)),re(X,Te)}),Y(()=>{E.disabled=typeof g(o)[g(r)]=="boolean",fe(w,`Question: ${g(r)+1} of ${n()??""}`)}),re(x,E)},x=>{var E=eo(),q=Q(Si(E),2);const w=cn(()=>g(o).filter(Boolean).length/n()*100<70);Y(()=>Gn(q,"failed",g(w)));var N=S(q);Y(()=>fe(N,`${(g(o).filter(Boolean).length/n()*100).toFixed(2)??""}%`));var X=Q(q,2),on=S(X),De=S(on),Te=Q(S(De)),an=S(Te);Y(()=>fe(an,`${g(o).filter(Boolean).length??""} out of ${n()??""}`));var sn=Q(De),Ft=Q(S(sn)),Ut=S(Ft);Y(()=>fe(Ut,`${g(o).filter(Gt=>!Gt).length??""} out of ${n()??""}`)),re(x,E)}),Y(()=>{m.disabled=g(r)===0,fe(P,g(d)),I.disabled=g(r)===n()||typeof g(o)[g(r)]!="boolean"}),Ge("click",m,()=>Nn(r,-1)),Ge("click",I,s),re(t,p),nn()}var io=de('<fieldset class="fancy flex flex-col items-center justify-center gap-2"><label for="numquestions">How many questions?</label> <input type="number" id="numquestions" min="1" class="pl-2 py-1 rounded border border-neutral-300 dark:border-neutral-600"> <button class="mt-4">Start</button></fieldset>'),ro=de('<main><header class="mb-6 grid grid-cols-[1fr,max-content,1fr] gap-4 justify-center items-center text-center"><div></div> <h1 class="mb-2 text-3xl font-bold">NHA Practice Test</h1> <label class="cursor-pointer text-lg inline-grid justify-self-end justify-center items-center text-center border p-2 rounded-full size-9 hover:bg-neutral-200 dark:hover:bg-neutral-700 leading-none"><input type="checkbox" class="hidden"> <small class="text-xs text-center block sr-only">Theme</small></label></header> <!></main>');function oo(t,e){en(e,!1);let n=G(227),i=G(!1),r=G(!1);yt(()=>g(r),()=>{document.documentElement.classList.toggle("dark",g(r))}),bt();var o=ro(),a=S(o),c=Q(S(a),4),d=S(c),l=Q(d),s=Q(a,2);qt(s,()=>!g(i),u=>{var h=io(),p=Q(S(h),2),f=Q(p,2);hr(p,()=>g(n),m=>M(n,m)),Ge("click",f,()=>M(i,!0)),re(u,h)},u=>{to(u,{get num_questions(){return g(n)}})}),Y(()=>fe(l,` ${(g(r)?"🌙":"☀️")??""} `)),ur(d,()=>g(r),u=>M(r,u)),re(t,o),nn()}nr(oo,{target:document.getElementById("app")});
+`}tablecell(e){const n=this.parser.parseInline(e.tokens),t=e.header?"th":"td";return(e.align?`<${t} align="${e.align}">`:`<${t}>`)+n+`</${t}>
+`}strong({tokens:e}){return`<strong>${this.parser.parseInline(e)}</strong>`}em({tokens:e}){return`<em>${this.parser.parseInline(e)}</em>`}codespan({text:e}){return`<code>${U(e,!0)}</code>`}br(e){return"<br>"}del({tokens:e}){return`<del>${this.parser.parseInline(e)}</del>`}link({href:e,title:n,tokens:t}){const r=this.parser.parseInline(t),o=ni(e);if(o===null)return r;e=o;let a='<a href="'+e+'"';return n&&(a+=' title="'+U(n)+'"'),a+=">"+r+"</a>",a}image({href:e,title:n,text:t}){const r=ni(e);if(r===null)return U(t);e=r;let o=`<img src="${e}" alt="${t}"`;return n&&(o+=` title="${U(n)}"`),o+=">",o}text(e){return"tokens"in e&&e.tokens?this.parser.parseInline(e.tokens):"escaped"in e&&e.escaped?e.text:U(e.text)}}class Wn{strong({text:e}){return e}em({text:e}){return e}codespan({text:e}){return e}del({text:e}){return e}html({text:e}){return e}text({text:e}){return e}link({text:e}){return""+e}image({text:e}){return""+e}br(){return""}}class j{constructor(e){k(this,"options");k(this,"renderer");k(this,"textRenderer");this.options=e||he,this.options.renderer=this.options.renderer||new Je,this.renderer=this.options.renderer,this.renderer.options=this.options,this.renderer.parser=this,this.textRenderer=new Wn}static parse(e,n){return new j(n).parse(e)}static parseInline(e,n){return new j(n).parseInline(e)}parse(e,n=!0){var r,o;let t="";for(let a=0;a<e.length;a++){const l=e[a];if((o=(r=this.options.extensions)==null?void 0:r.renderers)!=null&&o[l.type]){const c=l,s=this.options.extensions.renderers[c.type].call({parser:this},c);if(s!==!1||!["space","hr","heading","code","table","blockquote","list","html","paragraph","text"].includes(c.type)){t+=s||"";continue}}const d=l;switch(d.type){case"space":{t+=this.renderer.space(d);continue}case"hr":{t+=this.renderer.hr(d);continue}case"heading":{t+=this.renderer.heading(d);continue}case"code":{t+=this.renderer.code(d);continue}case"table":{t+=this.renderer.table(d);continue}case"blockquote":{t+=this.renderer.blockquote(d);continue}case"list":{t+=this.renderer.list(d);continue}case"html":{t+=this.renderer.html(d);continue}case"paragraph":{t+=this.renderer.paragraph(d);continue}case"text":{let c=d,s=this.renderer.text(c);for(;a+1<e.length&&e[a+1].type==="text";)c=e[++a],s+=`
+`+this.renderer.text(c);n?t+=this.renderer.paragraph({type:"paragraph",raw:s,text:s,tokens:[{type:"text",raw:s,text:s,escaped:!0}]}):t+=s;continue}default:{const c='Token with "'+d.type+'" type was not found.';if(this.options.silent)return console.error(c),"";throw new Error(c)}}}return t}parseInline(e,n=this.renderer){var r,o;let t="";for(let a=0;a<e.length;a++){const l=e[a];if((o=(r=this.options.extensions)==null?void 0:r.renderers)!=null&&o[l.type]){const c=this.options.extensions.renderers[l.type].call({parser:this},l);if(c!==!1||!["escape","html","link","image","strong","em","codespan","br","del","text"].includes(l.type)){t+=c||"";continue}}const d=l;switch(d.type){case"escape":{t+=n.text(d);break}case"html":{t+=n.html(d);break}case"link":{t+=n.link(d);break}case"image":{t+=n.image(d);break}case"strong":{t+=n.strong(d);break}case"em":{t+=n.em(d);break}case"codespan":{t+=n.codespan(d);break}case"br":{t+=n.br(d);break}case"del":{t+=n.del(d);break}case"text":{t+=n.text(d);break}default:{const c='Token with "'+d.type+'" type was not found.';if(this.options.silent)return console.error(c),"";throw new Error(c)}}}return t}}class Ie{constructor(e){k(this,"options");k(this,"block");this.options=e||he}preprocess(e){return e}postprocess(e){return e}processAllTokens(e){return e}provideLexer(){return this.block?O.lex:O.lexInline}provideParser(){return this.block?j.parse:j.parseInline}}k(Ie,"passThroughHooks",new Set(["preprocess","postprocess","processAllTokens"]));class Xr{constructor(...e){k(this,"defaults",_n());k(this,"options",this.setOptions);k(this,"parse",this.parseMarkdown(!0));k(this,"parseInline",this.parseMarkdown(!1));k(this,"Parser",j);k(this,"Renderer",Je);k(this,"TextRenderer",Wn);k(this,"Lexer",O);k(this,"Tokenizer",Ve);k(this,"Hooks",Ie);this.use(...e)}walkTokens(e,n){var r,o;let t=[];for(const a of e)switch(t=t.concat(n.call(this,a)),a.type){case"table":{const l=a;for(const d of l.header)t=t.concat(this.walkTokens(d.tokens,n));for(const d of l.rows)for(const c of d)t=t.concat(this.walkTokens(c.tokens,n));break}case"list":{const l=a;t=t.concat(this.walkTokens(l.items,n));break}default:{const l=a;(o=(r=this.defaults.extensions)==null?void 0:r.childTokens)!=null&&o[l.type]?this.defaults.extensions.childTokens[l.type].forEach(d=>{const c=l[d].flat(1/0);t=t.concat(this.walkTokens(c,n))}):l.tokens&&(t=t.concat(this.walkTokens(l.tokens,n)))}}return t}use(...e){const n=this.defaults.extensions||{renderers:{},childTokens:{}};return e.forEach(t=>{const r={...t};if(r.async=this.defaults.async||r.async||!1,t.extensions&&(t.extensions.forEach(o=>{if(!o.name)throw new Error("extension name required");if("renderer"in o){const a=n.renderers[o.name];a?n.renderers[o.name]=function(...l){let d=o.renderer.apply(this,l);return d===!1&&(d=a.apply(this,l)),d}:n.renderers[o.name]=o.renderer}if("tokenizer"in o){if(!o.level||o.level!=="block"&&o.level!=="inline")throw new Error("extension level must be 'block' or 'inline'");const a=n[o.level];a?a.unshift(o.tokenizer):n[o.level]=[o.tokenizer],o.start&&(o.level==="block"?n.startBlock?n.startBlock.push(o.start):n.startBlock=[o.start]:o.level==="inline"&&(n.startInline?n.startInline.push(o.start):n.startInline=[o.start]))}"childTokens"in o&&o.childTokens&&(n.childTokens[o.name]=o.childTokens)}),r.extensions=n),t.renderer){const o=this.defaults.renderer||new Je(this.defaults);for(const a in t.renderer){if(!(a in o))throw new Error(`renderer '${a}' does not exist`);if(["options","parser"].includes(a))continue;const l=a,d=t.renderer[l],c=o[l];o[l]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=c.apply(o,s)),u||""}}r.renderer=o}if(t.tokenizer){const o=this.defaults.tokenizer||new Ve(this.defaults);for(const a in t.tokenizer){if(!(a in o))throw new Error(`tokenizer '${a}' does not exist`);if(["options","rules","lexer"].includes(a))continue;const l=a,d=t.tokenizer[l],c=o[l];o[l]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=c.apply(o,s)),u}}r.tokenizer=o}if(t.hooks){const o=this.defaults.hooks||new Ie;for(const a in t.hooks){if(!(a in o))throw new Error(`hook '${a}' does not exist`);if(["options","block"].includes(a))continue;const l=a,d=t.hooks[l],c=o[l];Ie.passThroughHooks.has(a)?o[l]=s=>{if(this.defaults.async)return Promise.resolve(d.call(o,s)).then(h=>c.call(o,h));const u=d.call(o,s);return c.call(o,u)}:o[l]=(...s)=>{let u=d.apply(o,s);return u===!1&&(u=c.apply(o,s)),u}}r.hooks=o}if(t.walkTokens){const o=this.defaults.walkTokens,a=t.walkTokens;r.walkTokens=function(l){let d=[];return d.push(a.call(this,l)),o&&(d=d.concat(o.call(this,l))),d}}this.defaults={...this.defaults,...r}}),this}setOptions(e){return this.defaults={...this.defaults,...e},this}lexer(e,n){return O.lex(e,n??this.defaults)}parser(e,n){return j.parse(e,n??this.defaults)}parseMarkdown(e){return(t,r)=>{const o={...r},a={...this.defaults,...o},l=this.onError(!!a.silent,!!a.async);if(this.defaults.async===!0&&o.async===!1)return l(new Error("marked(): The async option was set to true by an extension. Remove async: false from the parse options object to return a Promise."));if(typeof t>"u"||t===null)return l(new Error("marked(): input parameter is undefined or null"));if(typeof t!="string")return l(new Error("marked(): input parameter is of type "+Object.prototype.toString.call(t)+", string expected"));a.hooks&&(a.hooks.options=a,a.hooks.block=e);const d=a.hooks?a.hooks.provideLexer():e?O.lex:O.lexInline,c=a.hooks?a.hooks.provideParser():e?j.parse:j.parseInline;if(a.async)return Promise.resolve(a.hooks?a.hooks.preprocess(t):t).then(s=>d(s,a)).then(s=>a.hooks?a.hooks.processAllTokens(s):s).then(s=>a.walkTokens?Promise.all(this.walkTokens(s,a.walkTokens)).then(()=>s):s).then(s=>c(s,a)).then(s=>a.hooks?a.hooks.postprocess(s):s).catch(l);try{a.hooks&&(t=a.hooks.preprocess(t));let s=d(t,a);a.hooks&&(s=a.hooks.processAllTokens(s)),a.walkTokens&&this.walkTokens(s,a.walkTokens);let u=c(s,a);return a.hooks&&(u=a.hooks.postprocess(u)),u}catch(s){return l(s)}}}onError(e,n){return t=>{if(t.message+=`
+Please report this to https://github.com/markedjs/marked.`,e){const r="<p>An error occurred:</p><pre>"+U(t.message+"",!0)+"</pre>";return n?Promise.resolve(r):r}if(n)return Promise.reject(t);throw t}}}const se=new Xr;function T(i,e){return se.parse(i,e)}T.options=T.setOptions=function(i){return se.setOptions(i),T.defaults=se.defaults,Di(T.defaults),T};T.getDefaults=_n;T.defaults=he;T.use=function(...i){return se.use(...i),T.defaults=se.defaults,Di(T.defaults),T};T.walkTokens=function(i,e){return se.walkTokens(i,e)};T.parseInline=se.parseInline;T.Parser=j;T.parser=j.parse;T.Renderer=Je;T.TextRenderer=Wn;T.Lexer=O;T.lexer=O.lex;T.Tokenizer=Ve;T.Hooks=Ie;T.parse=T;T.options;T.setOptions;T.use;T.walkTokens;T.parseInline;j.parse;O.lex;var Yr=de('<div class="svelte-1fic553"><!></div>'),eo=de('<fieldset class="fancy"><legend> </legend> <!></fieldset>'),no=de('<h2 style="font-size: 1.5rem; font-weight: medium; margin: 0">Final Score</h2> <div style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 1rem" class="score svelte-1fic553"> </div> <table style="margin: auto"><tbody><tr><th>Correct</th><td> </td></tr><tr><th>Incorrect</th><td> </td></tr></tbody></table>',1),io=de('<article><nav class="svelte-1fic553"><button type="button" class="svelte-1fic553">Previous</button> <div class="timer svelte-1fic553">Timer <time class="svelte-1fic553"> </time></div> <button type="button" class="svelte-1fic553">Next</button></nav> <!></article>');function to(i,e){en(e,!1);let n=Be(e,"num_questions",12,5),t=G(),r=G(0),o=G([]),a,l=G(),d=G("00:00:00"),c=G(!1);function s(){g(r)<=g(t).length&&Bn(r)}function u(x){return T(x,{async:!1}).split(/^<h2>.+<\/h2>\n/gm).filter(Boolean)}Qi(()=>{_(t,[...u(wr),...u(Tr),...u(Cr)]),Wi(g(t)),_(t,g(t).slice(0,n())),n(g(t).length),_(o,new Array(n()).fill(void 0)),a=new Date,_(l,setInterval(()=>{_(d,yr(a))},1e3))});function h(x){ci(o,g(o)[g(r)]=x)}yi(()=>(g(c),g(o),g(l)),()=>{_(c,g(o).every(x=>typeof x=="boolean")),g(c)&&clearInterval(g(l))}),bi(),Ri();var p=io(),f=S(p),m=S(f),y=Q(m,2),v=Q(S(y)),M=S(v),I=Q(y,2),H=Q(f,2);qi(H,()=>g(r)<n(),x=>{var E=eo(),q=S(E),w=S(q),B=Q(q,2);or(B,1,()=>g(t),tr,(K,on,$e)=>{var Ae=Yr(),an=S(Ae),sn=ln(()=>typeof g(o)[g(r)]=="boolean");vr(an,{get src(){return g(on)},onSubmit:h,get answered(){return g(sn)}}),X(()=>Gn(Ae,"hidden",g(r)!==$e)),re(K,Ae)}),X(()=>{E.disabled=typeof g(o)[g(r)]=="boolean",fe(w,`Question: ${g(r)+1} of ${n()??""}`)}),re(x,E)},x=>{var E=no(),q=Q(St(E),2);const w=ln(()=>g(o).filter(Boolean).length/n()*100<70);X(()=>Gn(q,"failed",g(w)));var B=S(q);X(()=>fe(B,`${(g(o).filter(Boolean).length/n()*100).toFixed(2)??""}%`));var K=Q(q,2),on=S(K),$e=S(on),Ae=Q(S($e)),an=S(Ae);X(()=>fe(an,`${g(o).filter(Boolean).length??""} out of ${n()??""}`));var sn=Q($e),Fi=Q(S(sn)),Ui=S(Fi);X(()=>fe(Ui,`${g(o).filter(Gi=>!Gi).length??""} out of ${n()??""}`)),re(x,E)}),X(()=>{m.disabled=g(r)===0,fe(M,g(d)),I.disabled=g(r)===n()||typeof g(o)[g(r)]!="boolean"}),Ge("click",m,()=>Bn(r,-1)),Ge("click",I,s),re(i,p),nn()}var ro=de('<fieldset class="fancy flex flex-col items-center justify-center gap-2"><label for="numquestions">How many questions?</label> <input type="number" id="numquestions" min="1" class="pl-2 py-1 rounded border border-neutral-300 dark:border-neutral-600"> <button class="mt-4">Start</button></fieldset>'),oo=de('<main><header class="mb-6 grid grid-cols-[1fr,max-content,1fr] gap-4 justify-center items-center text-center"><div></div> <h1 class="mb-2 text-3xl font-bold">NHA Practice Test</h1> <label class="cursor-pointer text-lg inline-grid justify-self-end justify-center items-center text-center border p-2 rounded-full size-9 hover:bg-neutral-200 dark:hover:bg-neutral-700 leading-none"><input type="checkbox" class="hidden"> <small class="text-xs text-center block sr-only">Theme</small></label></header> <!></main>');function ao(i,e){en(e,!1);let n=G(307),t=G(!1),r=G(!1);yi(()=>g(r),()=>{document.documentElement.classList.toggle("dark",g(r))}),bi();var o=oo(),a=S(o),l=Q(S(a),4),d=S(l),c=Q(d),s=Q(a,2);qi(s,()=>!g(t),u=>{var h=ro(),p=Q(S(h),2),f=Q(p,2);hr(p,()=>g(n),m=>_(n,m)),Ge("click",f,()=>_(t,!0)),re(u,h)},u=>{to(u,{get num_questions(){return g(n)}})}),X(()=>fe(c,` ${(g(r)?"🌙":"☀️")??""} `)),ur(d,()=>g(r),u=>_(r,u)),re(i,o),nn()}nr(ao,{target:document.getElementById("app")});
